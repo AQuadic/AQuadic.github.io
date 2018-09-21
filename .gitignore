@@ -1,0 +1,5 @@
+# Remove IDE Based Folder
+.idea/
+.idea
+'.idea'
+*.ml
