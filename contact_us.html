@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tiny Programmers</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,500,700|Titillium+Web:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist2/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script><script src="https://smtpjs.com/v3/smtp.js">
 </script>
 </head>
-<body class="is-boxed">
+<body class="is-boxed has-animations " style="padding-top: 0;" >
     <div class="body-wrap boxed-container">
-    <!--  <header class="site-header">
+        <header class="site-header">
             <div class="container">
                 
                 <nav class="navbar navbar-expand-lg navbar-light " style="      padding-left: 0px;
-  padding-top: 1.85%;"><div class="site-header-inner">
+ "><div class="site-header-inner">
                     <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="#">
-                                <img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
                                 <img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
                             </a>
                         </h1>
@@ -34,7 +34,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto" style="    padding-left: 1vw;">
       <li class="nav-item active">
-        <a class="nav-link white" href="#">Home <span class="sr-only"></span></a>
+        <a class="nav-link white" href="./">Home <span class="sr-only"></span></a>
       </li>
       
       <li class="nav-item dropdown">
@@ -62,42 +62,48 @@
 </nav>
             </div>
 
-        </header> -->
+        </header>
 
         <main>
-            <section class="hero">
+            <section class="hero" style="padding-top: 0;">
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
 	
-	                        <h1 class="hero-title mt-0 is-revealing">Contact Us</h1>
 	                        
 							<div class="hero-form field field-grouped is-revealing">
 
-	                           						<form>
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+	                           						<form  id="contactForm" style="
+    width: 80%;">
+  <div class="form-group row" style="margin-bottom:0;">
+    <label for="inputEmail3" class="col-sm-2 col-form-label" style="color: #4285f4;">Name</label>
     <div class="col-sm-12">
  <div class="control control-expanded">
-	                                <input class="input" type="text" name="Name" placeholder="Your Name">
+	                                <input class="input" type="text" id="name" required="required"  name="Name" placeholder="Your Name &hellip;">
 	                            </div>    </div>
   </div>
-  <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+  <div class="form-group row"  style="margin-bottom:0;">
+    <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: #4285f4;">Email</label>
     <div class="col-sm-12">
  <div class="control control-expanded">
-                            <input class="input" type="text" name="email" placeholder="Your best email&hellip;">
+                            <input class="input" type="text" id="email" required="required"  name="email" placeholder="Your Email &hellip;">
 	                            </div>    </div>
   </div>
-  
+   <div class="form-group row"  style="margin-bottom:0;">
+    <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: #4285f4;">Phone</label>
+    <div class="col-sm-12">
+ <div class="control control-expanded">
+                            <input class="input" type="number" id="phone" required="required"  name="email" placeholder="Your Phone &hellip;">
+	                            </div>    </div>
+  </div>
   <div class="form-group">
-    <p>Message</p> 
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What do you want to let us know?"></textarea>
+    <p style="color: #4285f4;">Message</p> 
+    <textarea class="form-control" id="message" required="required" rows="3" placeholder="What do you want to let us know?"></textarea>
   </div>
   <div class="form-group row">
     <div class="col-sm-12">
       <div class="control">
-	                                <a class="button button-primary button-block" href="#">Send Message </a>
+	                                <button class="button button-primary button-block" type="submit" >Send Message</button>
 	                            </div>
     </div>
   </div>
@@ -106,7 +112,9 @@
 	                        </div>
 						</div>
 						<div class="hero-illustration">
-							<img src="src/images/undraw_contact_us_15o2.svg">
+								                        <h3 class="hero-title mt-0 is-revealing" style="text-align: center; color: #4285f4;">Contact Us</h3>
+
+							<img src="src/images/undraw_contact_us_15o2 (1).svg" style="    padding-top: 20%;">
 													</div>
 						</div>
 
@@ -142,7 +150,7 @@
 			</div>
             <div class="container">
                 <div class="site-footer-inner has-top-divider">
-                    <div class="footer-copyright">&copy; 2019 Tiny Programmers, all rights reserved</div>
+                    <div class="footer-copyright" style="color: white;">&copy; 2019 Tiny Programmers, all rights reserved</div>
 					<ul class="footer-social-links list-reset">
 						<li>
 							<a href="#">
@@ -174,7 +182,10 @@
         </footer>
     </div>
 
-    <script src="dist2/js/main.min.js"></script><script src="https://smtpjs.com/v3/smtp.js">
+    <script src="dist2/js/main.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
 </script><script src="dist/js/database.js"></script>
 
 </body>
