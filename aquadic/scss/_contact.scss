@@ -382,20 +382,20 @@
 
 
 /*=========== comingsoon css ============*/
-.saasland_container{
+.AQuadic_container{
     height: 100vh;
     width: 100%;
     min-height: 600px;
     background: #fbfbfd;
     display: flex;
     flex-wrap: wrap;  
-    .saasland_bg{
+    .AQuadic_bg{
         position: absolute;
         width: 100%;
         height: 100%;
         right: 0;
     }
-    .saasland_col_content{
+    .AQuadic_col_content{
         position: relative;
         width: 40%;
         .container_wrap{
@@ -410,13 +410,13 @@
             overflow: hidden;
             min-height: 600px;
         }
-        .saasland_log{
+        .AQuadic_log{
             left: 21%;
             position: absolute;
             width: 70%;
             top: 100px;
         }
-        .saasland_content{
+        .AQuadic_content{
             display: block;
             position: absolute;
             left: 21%;
@@ -442,7 +442,7 @@
                 text-transform: capitalize;
             }
         }
-        .saasland_bottom{
+        .AQuadic_bottom{
             bottom: 25px;
             left: 21%;
             position: absolute;
@@ -455,7 +455,7 @@
         }
     }
 } 
-.saasland_col_screen{
+.AQuadic_col_screen{
     background-image: -moz-linear-gradient( -120deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
     background-image: -webkit-linear-gradient( -120deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
     background-image: -ms-linear-gradient( -120deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
@@ -485,7 +485,7 @@
             }
         }
     }
-    .saasland_social{
+    .AQuadic_social{
         bottom: 25px;
         left: 70px;
         position: absolute;
