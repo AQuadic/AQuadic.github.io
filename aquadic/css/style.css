@@ -53,6 +53,18 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+.circle.small {
+  border: 8px solid #f84342;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  z-index: 86;
+}
+
+.circle.filled {
+  background-color: #666666;
+}
+
 
 .navbar-brand img{
   max-width: 9rem;
