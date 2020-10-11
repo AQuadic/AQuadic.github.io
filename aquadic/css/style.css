@@ -18855,7 +18855,7 @@ a .h_head:hover {
 }
 
 .event_counter_area {
-  background: #fdfaf6;
+  background: #fdfaf6c4c4;
   padding: 75px 0px;
 }
 
@@ -19086,7 +19086,7 @@ a .h_head:hover {
 
 /*============== event_features_area css ============*/
 .event_features_area {
-  background: #fdfaf6;
+  background: #fdfaf6c4c4;
   padding-top: 100px;
 }
 
@@ -19177,7 +19177,7 @@ a .h_head:hover {
 }
 
 .event_schedule_area {
-  background: #fdfaf6;
+  background: #fdfaf6c4;
 }
 
 .event_schedule_inner {
@@ -19227,20 +19227,23 @@ a .h_head:hover {
   margin: 0 auto;
 }
 .event_tab_content .media {
+  min-height: 15rem;
   border-radius: 6px;
   background-color: white;
   box-shadow: 0px 30px 60px 0px rgba(92, 10, 20, 0.08);
-  padding: 40px;
+  padding: 9px;
+  padding-top: 25px;
+  padding-right: 23px;
   margin-top: 20px;
   transform: translateY(10px);
   transition: all 0.3s linear;
 }
 .event_tab_content .media .media-left {
-  margin-right: 70px;
+  margin-right: 15px;
 }
 .event_tab_content .media .media-left img {
-  border-radius: 50%;
-  margin-bottom: 12px;
+  width: 290px;
+
 }
 .event_tab_content .media .media-left a {
   display: block;
@@ -19255,7 +19258,8 @@ a .h_head:hover {
 }
 .event_tab_content .media .media-body {
   border-left: 1px solid #f1ece5;
-  padding-left: 70px;
+  padding-left: 39px;
+  padding-top: 15px;
 }
 .event_tab_content .media .media-body .h_head {
   font-weight: 500;
@@ -19346,7 +19350,7 @@ a .h_head:hover {
 
 /*============ event_fact_area  css =================*/
 .event_fact_area {
-  background: #fdfaf6;
+  background: #fdfaf6c4c4;
 }
 .event_fact_area .seo_fact_info:before {
   background: url("../img/home-event/dot.png") no-repeat center center;
@@ -19997,7 +20001,7 @@ a .h_head:hover {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background: #f5f7fb;
+  background: #fdfaf6c4c4;
   z-index: 1;
 }
 
