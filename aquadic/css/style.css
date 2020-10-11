@@ -18855,7 +18855,7 @@ a .h_head:hover {
 }
 
 .event_counter_area {
-  background: #fdfaf6c4c4;
+  background: #fdfaf6c4;
   padding: 75px 0px;
 }
 
@@ -19086,7 +19086,7 @@ a .h_head:hover {
 
 /*============== event_features_area css ============*/
 .event_features_area {
-  background: #fdfaf6c4c4;
+  background: #fdfaf6c4;
   padding-top: 100px;
 }
 
@@ -19350,7 +19350,7 @@ a .h_head:hover {
 
 /*============ event_fact_area  css =================*/
 .event_fact_area {
-  background: #fdfaf6c4c4;
+  background: #fdfaf6c4;
 }
 .event_fact_area .seo_fact_info:before {
   background: url("../img/home-event/dot.png") no-repeat center center;
@@ -20001,7 +20001,7 @@ a .h_head:hover {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background: #fdfaf6c4c4;
+  background: #fdfaf6c4;
   z-index: 1;
 }
 
