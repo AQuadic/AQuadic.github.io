@@ -7,9 +7,9 @@
         </g>
         <path id="Path_22" data-name="Path 22" d="M-174.189-441.786v85.647a6.117,6.117,0,0,1-6.118,6.118h0a6.118,6.118,0,0,1-6.118-6.118v-73.412a6.116,6.116,0,0,0-6.118-6.118h-97.883a6.117,6.117,0,0,0-6.118,6.118v97.882a6.118,6.118,0,0,0,6.118,6.118h73.412a6.116,6.116,0,0,1,6.118,6.118h0a6.117,6.117,0,0,1-6.118,6.118h-85.647a6.118,6.118,0,0,1-6.118-6.118V-441.786a6.117,6.117,0,0,1,6.118-6.118h122.353A6.116,6.116,0,0,1-174.189-441.786Z" transform="translate(345.409 484.707)" fill="#2e1f26"/>
         <g id="Group_76" data-name="Group 76" transform="translate(138.51 138.687)">
-          <rect id="Rectangle_35" data-name="Rectangle 35" width="13.1" height="13.1" rx="4.5" fill="#5f2e32"/>
-          <rect id="Rectangle_34" data-name="Rectangle 34" width="17.466" height="17.466" rx="4.5" transform="translate(4.325 4.325)" fill="#903e3e"/>
-          <rect id="Rectangle_14" data-name="Rectangle 14" width="23" height="23" rx="4.5" transform="translate(8.479 10.582)" fill="#f15f57"/>
+          <rect id="Rectangle_35" data-name="Rectangle 35" width="13.1" height="13.1" rx="2" fill="#eaa09c" opacity="0.5"/>
+          <rect id="Rectangle_34" data-name="Rectangle 34" width="17.466" height="17.466" rx="3" transform="translate(4.325 4.325)" fill="#eaa09c"/>
+          <rect id="Rectangle_14" data-name="Rectangle 14" width="23" height="23" rx="4" transform="translate(8.479 10.582)" fill="#f15f57"/>
         </g>
       </g>
     </g>

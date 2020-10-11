@@ -1,20 +1,6 @@
 @charset "UTF-8";
 /*----------------------------------------------------
-@File: Default Styles
-@Author: Md. Shahadat Hussain
-@URL: https://themeforest.net/user/droitthemes
 
-This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: 
-@Author: Md. Shahadat Hussain
-@Developed By: Rony
-@Developer URL: https://themeforest.net/user/droitthemes
-
-@Default Styles
 
 Table of Content:
 01/ variables
@@ -239,7 +225,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .bg_color {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
 }
 
 .dk_bg_one {
@@ -609,7 +595,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .app_btn:hover {
   color: #4069eb;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   box-shadow: none;
 }
 
@@ -2771,7 +2757,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 /*=============== prototype_banner_area css ==============*/
 .prototype_banner_area {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   padding-top: 220px;
   position: relative;
   z-index: 0;
@@ -3699,7 +3685,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .seo_home_area {
-  background: #f7fdfc;
+  background: #fdfaf6c4;
   position: relative;
   margin-bottom: 135px;
 }
@@ -4515,7 +4501,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============== features_area css ==============*/
 .features_area {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   overflow: hidden;
 }
 
@@ -4599,7 +4585,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-right: 70px;
 }
 .p_feature_item .prototype_content .prototype_logo {
-  background-color: #fbfbfd;
+  background-color: #fdfaf6c4;
   box-shadow: 0px 2px 3px 0px rgba(12, 0, 46, 0.04);
   display: inline-block;
   padding: 7px 16px;
@@ -4917,7 +4903,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   z-index: -2;
   height: 161%;
   width: 149%;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   bottom: -290px;
   right: -47%;
   -webkit-transform: rotate(-36deg);
@@ -5465,7 +5451,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .startup_tab .nav-item .nav-link {
   border: 0px;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   padding: 32px 0px;
   border-radius: 4px;
   border: 2px solid transparent;
@@ -5827,7 +5813,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*====================================================*/
 /*=========== service_area css ============*/
 .service_area {
-  background: #f4f6fa;
+  background: #fdfaf6c4;
 }
 
 .service_item {
@@ -6034,7 +6020,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 /*================ prototype_service_area css =============*/
 .prototype_service_area {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   padding-bottom: 130px;
   padding-top: 20px;
 }
@@ -7137,7 +7123,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*================= pricing_area css ==============*/
 .pricing_area {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
 }
 
 .price_tab {
@@ -7375,7 +7361,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============= design_tab_area css ============*/
 .design_tab_area {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
 }
 
 .design_tab {
@@ -7535,7 +7521,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .payment_price_item {
   text-align: center;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   padding: 50px 40px 55px;
   border: 1px solid #f1f3f8;
   border-radius: 4px;
@@ -7943,7 +7929,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .about_btn {
   font: 500 14px "Poppins", sans-serif;
   padding: 17px 28px;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
   border-radius: 3px;
   color: #5e2ced;
@@ -8032,7 +8018,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #5e2ced;
   line-height: 100px;
   font-size: 22px;
-  background-color: #fbfbfd;
+  background-color: #fdfaf6c4;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.14);
   display: inline-block;
   position: absolute;
@@ -8828,7 +8814,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*=============== app_testimonial_area css =============*/
 .app_testimonial_area {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   padding-top: 200px;
   padding-bottom: 140px;
   overflow: hidden;
@@ -9655,7 +9641,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   width: 50px;
   height: 50px;
   border: 1px solid #d9e1ea;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   border-radius: 25px;
   font-size: 20px;
   line-height: 50px;
@@ -9974,7 +9960,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #677294;
   font-size: 16px;
   border-radius: 50%;
-  background-color: #fbfbfd;
+  background-color: #fdfaf6c4;
   margin: 0px 3px;
 }
 .job_listing .pagination .nav-links .page-numbers i {
@@ -10790,7 +10776,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*==================== sign_in_area css ==================*/
 .sign_info {
   border: 20px solid #fff;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   padding: 80px 50px;
   box-shadow: 0px 50px 100px 0px rgba(12, 0, 46, 0.05);
 }
@@ -10906,7 +10892,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 100vh;
   width: 100%;
   min-height: 600px;
-  background: #fbfbfd;
+  background: #fdfaf6c4;
   display: flex;
   flex-wrap: wrap;
 }
@@ -12489,7 +12475,7 @@ p span {
   left: 20px;
   top: 20px;
   border-radius: 4px;
-  background-color: #fbfbfd;
+  background-color: #fdfaf6c4;
   box-shadow: 0px 14px 30px 0px rgba(68, 28, 183, 0.25);
   text-align: center;
   color: #5e2ced;
@@ -21703,7 +21689,7 @@ a .h_head:hover {
 
 /*================ footer area two css ==============*/
 .footer_area_two {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
 }
 .footer_area_two .footer_top_two {
   border-bottom: 1px solid #e9ecf3;
@@ -22295,7 +22281,7 @@ a .h_head:hover {
 
 /*============ new_footer_area css ===========*/
 .new_footer_area {
-  background: #fbfbfd;
+  background: #fdfaf6c4;
 }
 .new_footer_area .footer_bottom {
   padding-top: 5px;
