@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-  <url>
-    <loc>https://aquadic.com/</loc>
-    <lastmod>2020-10-14T13:21:30+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://aquadic.com/about.html</loc>
-    <lastmod>2020-10-14T13:21:29+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://aquadic.com/career.html</loc>
-    <lastmod>2020-10-14T13:21:29+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://aquadic.com/contact.html</loc>
-    <lastmod>2020-10-14T13:21:29+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://aquadic.com/index.html</loc>
-    <lastmod>2020-10-14T13:21:30+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-</urlset>
-</div>
+<?xml-stylesheet type="text/xsl" href="https://www.denvervipbonds.com/wp-sitemap-index.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+        <loc>https://aquadic.com/</loc>
+        <lastmod>2020-10-14T13:21:30+00:00</lastmod>
+        <priority>1.00</priority>
+	</sitemap>
+	<sitemap>
+        <loc>https://aquadic.com/about.html</loc>
+        <lastmod>2020-10-14T13:21:29+00:00</lastmod>
+        <priority>0.80</priority>
+	</sitemap>
+	<sitemap>
+        <loc>https://aquadic.com/career.html</loc>
+        <lastmod>2020-10-14T13:21:29+00:00</lastmod>
+        <priority>0.80</priority>
+	</sitemap>
+	<sitemap>
+        <loc>https://aquadic.com/contact.html</loc>
+        <lastmod>2020-10-14T13:21:29+00:00</lastmod>
+        <priority>0.80</priority>
+	</sitemap>
+	<sitemap>
+        <loc>https://aquadic.com/index.html</loc>
+        <lastmod>2020-10-14T13:21:30+00:00</lastmod>
+        <priority>0.64</priority>
+	</sitemap>
+</sitemapindex>
