@@ -85,7 +85,7 @@ function submitForm(e){
               `;
 
         Email.send({
-          SecureToken: "1be8555b-668e-456c-a28f-d0cb86343527",
+          SecureToken: "0b0d1e7c-2560-4bf0-9f39-e46755d96786",
           To: "hello@aquadic.com",
           From: "aquadic@mail.ru",
           Subject: "Aquadic.com New - Request",
