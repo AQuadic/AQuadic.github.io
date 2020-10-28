@@ -1,6 +1,6 @@
 (function ($) {
   "use strict";
-
+  
   jQuery.validator.addMethod(
     "answercheck",
     function (value, element) {
@@ -54,8 +54,18 @@
           minlength: "thats all? really?",
         },
       },
-      submitHandler: function (form) {
-        let name = document.getElementById("name").value;
+      submitHandler: function () {
+      },
+    });
+  });
+})(jQuery);
+// Listen for form submit
+const contactForm=$("#contactForm");
+document.getElementById('contactForm').addEventListener('submit', submitForm);
+function submitForm(e){
+
+  e.preventDefault();
+  let name = document.getElementById("name").value;
         let email = document.getElementById("email").value;
         let subject = document.getElementById("subject").value;
         let message = document.getElementById("message").value;
@@ -75,26 +85,25 @@
               `;
 
         Email.send({
-          SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
+          SecureToken: "ccae59b5-6dc0-41ca-9d2c-14841c8f9f50",
           To: "hello@aquadic.com",
           From: "aquadic@mail.ru",
           Subject: "Aquadic.com New - Request",
           Body: output,
         })
-          .then(() => {
+          .then((e) => {
+            console.log(e);
             $("#contactForm :input").attr("disabled", "disabled");
             $("#contactForm").fadeTo("slow", 1, function () {
               $(this).find(":input").attr("disabled", "disabled");
               $(this).find("label").css("cursor", "default");
               $("#success").fadeIn();
             });
+            document.getElementById('contactForm').reset();
           })
           .catch(() => {
             $("#contactForm").fadeTo("slow", 1, function () {
               $("#error").fadeIn();
             });
           });
-      },
-    });
-  });
-})(jQuery);
+}
