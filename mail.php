@@ -3,7 +3,6 @@
     $name = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
-    $phone= $_POST["phone"];
     $subject= $_POST["subject"];
     
 
