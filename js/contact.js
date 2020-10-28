@@ -1,6 +1,9 @@
 
     
-;(function($) {
+function getInputVal(id){
+    return document.getElementById(id).value;
+}
+; (function ($) {
     "use strict";
 
     
@@ -53,25 +56,51 @@
                     minlength: "thats all? really?"
                 }
             },
-            submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    type:"POST",
-                    data: $(form).serialize(),
-                    url:"contact_process.php",
-                    success: function() {
-                        $('#contactForm :input').attr('disabled', 'disabled');
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn()
-                        })
-                    },
-                    error: function() {
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $('#error').fadeIn()
-                        })
-                    }
+            submitHandler: function (form) {
+                
+                let name = getInputVal('name');
+                let email = getInputVal('email');
+                let subject = getInputVal('subject');
+                let message = getInputVal('message');
+
+                let output= `
+                <p>You have a new request</p>
+                <h3>Contact Details</h3>
+                <ul>  
+                  <li>Name: ${name} </li>
+                  <li>Email: ${email}</li>
+                  <li>subject: ${subject}</li>
+                </ul>
+                <h3>Message</h3>
+                <p>${message}</p>
+                <h5>Thanks</h5>
+              `;
+
+              Email.send({
+                SecureToken : "d2698094-8a78-4583-8461-2893dc9d9b26",
+                To : 'hello@aquadic.com',
+                From : "website@aquadic.com",
+                Subject : "Aquadic website - Request",
+                Body : output
+            }).then(
+              message => console.log(message)
+            );            
+
+                $('#contactForm :input').attr('disabled', 'disabled');
+                $('#contactForm').fadeTo( "slow", 1, function() {
+                    $(this).find(':input').attr('disabled', 'disabled');
+                    $(this).find('label').css('cursor','default');
+                    $('#success').fadeIn()
                 })
+  document.getElementById('contactForm').reset();
+
+
+             
+                $('#contactForm').fadeTo( "slow", 1, function() {
+                    $('#error').fadeIn()
+                })
+
+
             }
         })
     })
