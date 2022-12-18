@@ -15,7 +15,7 @@ function Positions() {
                 <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
             </div>
             </div>
-           <button>Learn More</button>
+           <button className='btn-page'>Learn More</button>
 
         </div>
         </Container>

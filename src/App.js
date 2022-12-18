@@ -14,6 +14,8 @@ import Footer from './component/Footer';
 import Animation1 from './component/Animation1';
 import Positions from './component/Positions';
 import Forminfo from './component/Forminfo';
+import Projects from './component/Projects';
+import Job from './component/Job';
 
 function App() {
   AOS.init();
@@ -26,6 +28,8 @@ function App() {
     <Animation1/>
   <Imageheder/>
     <Join/>
+    <Job/>
+    <Projects/>
 <Advantages/>
      <Routes>
        <Route path='/'  element={<Clients   />}/>
