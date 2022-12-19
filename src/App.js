@@ -24,7 +24,7 @@ function App() {
     AOS.init();
     return (
         <div className="App">
-            <img className='chat' src='./images/Group 4.svg' alt=''/>
+            <img className='chat' src='%PUBLIC_URL%/images/icons/chat.svg' alt=''/>
 
             <BrowserRouter>
                 <Nav/>
@@ -40,7 +40,7 @@ function App() {
                 <Imageheder/>
                 <Join/>
                 <Job/>
-               
+
                 <Advantages/>
                 <Routes>
                     <Route path='/' element={<Clients/>}/>
@@ -48,11 +48,11 @@ function App() {
                     <Route path='/three' element={<Odometer/>}/>
                 </Routes>
             </BrowserRouter>
-          
+
             <Positions/>
-           
+
             <Forminfo/>
-           
+
             <Footer/>
         </div>
     );

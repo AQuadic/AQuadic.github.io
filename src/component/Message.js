@@ -5,7 +5,7 @@ function Message() {
   return (
     <section className="forminfo message">
     <Container>
-      <img className='imageback' src="%PUBLIC_URL%/images/Group 31.svg" alt="" />
+      <img className='imageback' src="%PUBLIC_URL%/images/patterns/pattern_1.svg" alt="" />
       <Card>
         <Card.Body>
           <h2 className=" mb-4">Get In Touch</h2>
@@ -65,15 +65,15 @@ function Message() {
             </h4>
             <ul>
                 <li>
-                    <img src="%PUBLIC_URL%/images/phone.svg" alt='' />
+                    <img src="%PUBLIC_URL%/images/icons/phone.svg" alt='' />
                     <h5 className='und'>(+20) 110 178 2890</h5>
                 </li>
                 <li>
-                    <img src="%PUBLIC_URL%/images/masseg.svg" alt='' />
+                    <img src="%PUBLIC_URL%/images/icons/mail.svg" alt='' />
                     <h5 className='und'>hello@aquadic.com</h5>
                 </li>
                 <li>
-                    <img src="%PUBLIC_URL%/images/phone.svg" alt='' />
+                    <img src="%PUBLIC_URL%/images/icons/phone.svg" alt='' />
                     <h5>418 El Geish Road,Louran, Alexandria, Egypt</h5>
                 </li>
             </ul>

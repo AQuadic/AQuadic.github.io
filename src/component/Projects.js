@@ -10,19 +10,19 @@ function Projects() {
                     <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up" data-aos-delay="0">
                         <h3>Oread</h3>
                         <p>Reading</p>
-                        <img src='%PUBLIC_URL%/images/image 39.svg' alt='Oread'/>
+                        <img src='%PUBLIC_URL%/images/projects/oread.svg' alt='Oread'/>
                     </div>
 
                     <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up" data-aos-delay="50">
                         <h3>MS Player</h3>
                         <p>Media</p>
-                        <img src='%PUBLIC_URL%/images/image 40.svg' alt='MS Player'/>
+                        <img src='%PUBLIC_URL%/images/projects/msplayer.svg' alt='MS Player'/>
                     </div>
 
                     <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up" data-aos-delay="100">
                         <h3>Optimalimo</h3>
                         <p>Transportation, Booking</p>
-                        <img src='%PUBLIC_URL%/images/image 41.svg' alt='Optimalimo'/>
+                        <img src='%PUBLIC_URL%/images/projects/optimalimo.svg' alt='Optimalimo'/>
                     </div>
 
                     <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up" data-aos-delay="150">

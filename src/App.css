@@ -693,7 +693,7 @@ a.nav-link {
   position: absolute;
   width: 80px;
   height: 80px;
-  background-image: url('../public/images/Group\ 31.svg');
+  background-image: url('../public/images/patterns/pattern_1.svg');
   top: 0;
   left: 0;
 }
@@ -1051,7 +1051,7 @@ margin: 88px auto;
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url('../public/images/Vector 5.svg');
+  background-image: url('../public/images/patterns/card_header_left.svg');
   height: 60%;
   background-repeat: no-repeat;
 }
@@ -1259,7 +1259,7 @@ margin-bottom: 88px;
   height: 100%;
   top: 0;
   right: 0;
-  background-image: url('../public/images/Group\ 32.svg');
+  background-image: url('../public/images/patterns/pattern_2.svg');
   
 }
 .services .all-services .part h3{
@@ -1299,7 +1299,7 @@ line-height: 30px;
   height: 100%;
   top: 0;
   right: -160px;
-  background-image: url('../public/images/Group\ 34.svg');
+  background-image: url('../public/images/patterns/pattern_4.svg');
   
 }
 @media(max-width:768px){
