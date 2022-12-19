@@ -59,12 +59,12 @@ function Testimonials() {
         ],
         nextArrow: (
             <div>
-                <img src="%PUBLIC_URL%/images/icons/arrow_right.svg" alt=""/>
+                <img src="./images/icons/arrow_right.svg" alt=""/>
             </div>
         ),
         prevArrow: (
             <div>
-                <img src="%PUBLIC_URL%/images/icons/arrow_left.svg" alt=""/>
+                <img src="./images/icons/arrow_left.svg" alt=""/>
             </div>
         ),
     };
@@ -76,7 +76,7 @@ function Testimonials() {
                     <div className="card-tes">
 
                         <div className="card-info">
-                            <img src="%PUBLIC_URL%/images/testimonials/user.svg" alt=""/>
+                            <img src="./images/testimonials/user.svg" alt=""/>
                             <div className="info-user">
                                 <h3>Ahmed Muhammed</h3>
                                 <h4>CEO Company</h4>
@@ -92,7 +92,7 @@ function Testimonials() {
                     <div className="card-tes">
 
                         <div className="card-info">
-                            <img src="%PUBLIC_URL%/images/testimonials/user.svg" alt=""/>
+                            <img src="./images/testimonials/user.svg" alt=""/>
                             <div className="info-user">
                                 <h3>Ahmed Muhammed</h3>
                                 <h4>CEO Company</h4>
@@ -108,7 +108,7 @@ function Testimonials() {
                     <div className="card-tes">
 
                         <div className="card-info">
-                            <img src="%PUBLIC_URL%/images/testimonials/user.svg" alt=""/>
+                            <img src="./images/testimonials/user.svg" alt=""/>
                             <div className="info-user">
                                 <h3>Ahmed Muhammed</h3>
                                 <h4>CEO Company</h4>
@@ -124,7 +124,7 @@ function Testimonials() {
                     <div className="card-tes">
 
                         <div className="card-info">
-                            <img src="%PUBLIC_URL%/images/testimonials/user.svg" alt=""/>
+                            <img src="./images/testimonials/user.svg" alt=""/>
                             <div className="info-user">
                                 <h3>Ahmed Muhammed</h3>
                                 <h4>CEO Company</h4>
@@ -140,7 +140,7 @@ function Testimonials() {
                     <div className="card-tes">
 
                         <div className="card-info">
-                            <img src="%PUBLIC_URL%/images/testimonials/user.svg" alt=""/>
+                            <img src="./images/testimonials/user.svg" alt=""/>
                             <div className="info-user">
                                 <h3>Ahmed Muhammed</h3>
                                 <h4>CEO Company</h4>

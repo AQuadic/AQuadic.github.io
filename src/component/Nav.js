@@ -9,7 +9,7 @@ function Nav() {
     <nav className="navbar navbar-expand-lg navbar-light ">
         
     <Link className="navbar-brand" to="/">
-      <img src='%PUBLIC_URL%/images/logo_vertical.svg' alt='navbar-brand'/>
+      <img src='./images/logo_vertical.svg' alt='navbar-brand'/>
     </Link>
     <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="toggler-icon top-bar"></span>
@@ -45,7 +45,7 @@ function Nav() {
       </ul>
      
     </div>
-    <button className='lang ' > <img src='%PUBLIC_URL%/images/icons/lang.svg' alt=''/> English</button>
+    <button className='lang ' > <img src='./images/icons/lang.svg' alt=''/> English</button>
   </nav>
   </Container>
   )

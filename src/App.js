@@ -24,7 +24,7 @@ function App() {
     AOS.init();
     return (
         <div className="App">
-            <img className='chat' src='%PUBLIC_URL%/images/icons/chat.svg' alt=''/>
+            <img className='chat' src='./images/icons/chat.svg' alt=''/>
 
             <BrowserRouter>
                 <Nav/>

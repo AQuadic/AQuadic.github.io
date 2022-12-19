@@ -10,7 +10,7 @@ function Technologies() {
                 <div className='alltechnologie'>
                     {
                         imgnum.map((num) => {
-                            const sr = `%PUBLIC_URL%/images/technologies/${num}.svg`;
+                            const sr = `./images/technologies/${num}.svg`;
                             return (
                                 <img key={num} src={sr} alt='technologie' data-aos="fade-up" data-aos-delay={num * 6}/>
                             )

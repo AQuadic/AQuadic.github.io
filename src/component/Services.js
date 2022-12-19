@@ -8,7 +8,7 @@ function Services() {
                 <h2>Our Services</h2>
                 <div className=" row all-services">
                     <div className="  col-lg-5 part ">
-                        <img src="%PUBLIC_URL%/images/services/web.svg" alt=""/>
+                        <img src="./images/services/web.svg" alt=""/>
                         <h3>Web & Desktop <br/> Development</h3>
                         <p>
                             We design and create web that help reach business goals, amaze
@@ -18,7 +18,7 @@ function Services() {
                         </p>
                     </div>
                     <div className=" col-lg-5 part nocomplete">
-                        <img src="%PUBLIC_URL%/images/services/mobile.svg" alt=""/>
+                        <img src="./images/services/mobile.svg" alt=""/>
                         <h3>Mobile Development</h3>
                         <p>
                             Great design not only looks good, but It’s also a key point of innovation for modern
@@ -27,7 +27,7 @@ function Services() {
                         </p>
                     </div>
                     <div className=" col-lg-5 part nocomplete">
-                        <img src="%PUBLIC_URL%/images/services/ui_ux.svg" alt=""/>
+                        <img src="./images/services/ui_ux.svg" alt=""/>
                         <h3>Product design <br/> and UX/UI</h3>
                         <p>
                             Great design not only looks good, but It’s also a key point of innovation for modern
@@ -37,7 +37,7 @@ function Services() {
 
                     </div>
                     <div className=" col-lg-5 part nocomplete">
-                        <img src="%PUBLIC_URL%/images/services/custom.svg" alt=""/>
+                        <img src="./images/services/custom.svg" alt=""/>
                         <h3>Custom Software<br/>Solutions </h3>
                         <p>
                             Great design not only looks good, but It’s also a key point of innovation for modern
@@ -47,7 +47,7 @@ function Services() {
 
                     </div>
                     <div className="  col-lg-5 part ">
-                        <img src="%PUBLIC_URL%/images/services/ecommerce.svg" alt=""/>
+                        <img src="./images/services/ecommerce.svg" alt=""/>
                         <h3>E-commerce Solutions</h3>
                         <p>
                             You’ll get to select from an entire range of E-commerce packages, software, and shopping
@@ -56,7 +56,7 @@ function Services() {
                         </p>
                     </div>
                     <div className=" col-lg-5 part nocomplete">
-                        <img src="%PUBLIC_URL%/images/services/outsource.svg" alt=""/>
+                        <img src="./images/services/outsource.svg" alt=""/>
                         <h3>Support and<br/>Outsourcing Teams </h3>
                         <p>
                             Lower costs, faster time-to-market ratio, and better business results are among the biggest
