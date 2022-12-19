@@ -6,7 +6,7 @@ function Forminfo() {
   return (
     <section className="forminfo">
       <Container>
-        <img className="imageback" src="./images/Group 31.svg" alt="" />
+        <img className="imageback" src="%PUBLIC_URL%/images/Group 31.svg" alt="" />
         <Card>
           <Card.Body>
             <h2 className=" mb-2">Can’t see a position that interests you?</h2>

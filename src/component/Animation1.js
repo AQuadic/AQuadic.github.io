@@ -6,12 +6,12 @@ function Animation1() {
     <div className='animation1'>
         <Container>
            
-        <div className='line one'> <img src='./images/image 5.svg'/></div>
-        <div className='line two'> <img src='./images/image 5.svg'/></div>
+        <div className='line one'> <img src='%PUBLIC_URL%/images/image 5.svg'/></div>
+        <div className='line two'> <img src='%PUBLIC_URL%/images/image 5.svg'/></div>
 
-        <div className='line three'> <img src='./images/image 5.svg'/></div>
+        <div className='line three'> <img src='%PUBLIC_URL%/images/image 5.svg'/></div>
 
-        <div className='line four'> <img src='./images/image 5.svg'/></div>
+        <div className='line four'> <img src='%PUBLIC_URL%/images/image 5.svg'/></div>
        
         </Container>
     </div>

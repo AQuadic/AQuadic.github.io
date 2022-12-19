@@ -57,12 +57,12 @@ function Testimonials() {
     ],
     nextArrow: (
       <div>
-        <img src="./images/Vector (2).svg" alt="" />
+        <img src="%PUBLIC_URL%/images/Vector (2).svg" alt="" />
       </div>
     ),
     prevArrow: (
       <div>
-        <img src="./images/Vector (3).svg" alt="" />
+        <img src="%PUBLIC_URL%/images/Vector (3).svg" alt="" />
       </div>
     ),
   };
@@ -74,7 +74,7 @@ function Testimonials() {
           <div className="card-tes">
             
             <div className="card-info">
-              <img src="./images/Ellipse 35.svg" alt="" />
+              <img src="%PUBLIC_URL%/images/Ellipse 35.svg" alt="" />
               <div className="info-user">
                 <h3>Ahmed Muhammed</h3>
                 <h4>CEO Company</h4>
@@ -90,7 +90,7 @@ function Testimonials() {
           <div className="card-tes">
             
             <div className="card-info">
-              <img src="./images/Ellipse 35.svg" alt="" />
+              <img src="%PUBLIC_URL%/images/Ellipse 35.svg" alt="" />
               <div className="info-user">
                 <h3>Ahmed Muhammed</h3>
                 <h4>CEO Company</h4>
@@ -106,7 +106,7 @@ function Testimonials() {
           <div className="card-tes">
             
             <div className="card-info">
-              <img src="./images/Ellipse 35.svg" alt="" />
+              <img src="%PUBLIC_URL%/images/Ellipse 35.svg" alt="" />
               <div className="info-user">
                 <h3>Ahmed Muhammed</h3>
                 <h4>CEO Company</h4>
@@ -122,7 +122,7 @@ function Testimonials() {
           <div className="card-tes">
             
             <div className="card-info">
-              <img src="./images/Ellipse 35.svg" alt="" />
+              <img src="%PUBLIC_URL%/images/Ellipse 35.svg" alt="" />
               <div className="info-user">
                 <h3>Ahmed Muhammed</h3>
                 <h4>CEO Company</h4>
@@ -138,7 +138,7 @@ function Testimonials() {
           <div className="card-tes">
             
             <div className="card-info">
-              <img src="./images/Ellipse 35.svg" alt="" />
+              <img src="%PUBLIC_URL%/images/Ellipse 35.svg" alt="" />
               <div className="info-user">
                 <h3>Ahmed Muhammed</h3>
                 <h4>CEO Company</h4>

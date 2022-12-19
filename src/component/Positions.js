@@ -12,7 +12,7 @@ function Positions() {
                         <div>
                             <p>Full Time</p>
                             <span>|</span>
-                            <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='%PUBLIC_URL%/images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' >Learn More</button>
@@ -24,7 +24,7 @@ function Positions() {
                         <div>
                             <p>Remotely</p>
                             <span>|</span>
-                            <p><img src='./images/map (1) 1.svg' alt=''/> 🌍.</p>
+                            <p><img src='%PUBLIC_URL%/images/map (1) 1.svg' alt=''/> 🌍.</p>
                         </div>
                     </div>
                     <button className='btn-page' >Learn More</button>
@@ -36,7 +36,7 @@ function Positions() {
                         <div>
                             <p>Full Time</p>
                             <span>|</span>
-                            <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='%PUBLIC_URL%/images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' >Learn More</button>
@@ -48,7 +48,7 @@ function Positions() {
                         <div>
                             <p>Part Time</p>
                             <span>|</span>
-                            <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='%PUBLIC_URL%/images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' >Learn More</button>
@@ -60,7 +60,7 @@ function Positions() {
                         <div>
                             <p>Full Time</p>
                             <span>|</span>
-                            <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='%PUBLIC_URL%/images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' >Learn More</button>

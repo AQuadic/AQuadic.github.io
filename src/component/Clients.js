@@ -20,11 +20,11 @@ function Clients() {
         <div data-aos="fade-up"  data-aos-delay="500" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='https://hakammotors.ae/hakam-logo.svg?v09-09-2022' alt='clients'/></div>
         <div data-aos="fade-up"  data-aos-delay="550" className='col-lg-2 col-md-3 col-sm-4 col-6'><img src='https://www.marvelousemotion.com/logo.svg?v20.05.2022' alt='clients'/></div>
         <div data-aos="fade-up"  data-aos-delay="600" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='https://www.aimzegypt.com/playerkit/assets/img/new_logo.png' alt='clients'/></div>
-        <div data-aos="fade-up"  data-aos-delay="650" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='./images/olahub-zain.webp' alt='clients'/></div>
-        <div data-aos="fade-up"  data-aos-delay="700" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='./images/mal3abak-logo.webp' alt='clients'/></div>
-        <div data-aos="fade-up"  data-aos-delay="750" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='./images/medlevant-hapage.webp' alt='clients'/></div>
-        <div data-aos="fade-up"  data-aos-delay="800" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='./images/arabart.webp' alt='clients'/></div>
-        <div data-aos="fade-up"  data-aos-delay="850" className='col-lg-2 col-md-3 col-sm-4 col-6'><img src='./images/vertie-logo.webp' alt='clients'/></div>
+        <div data-aos="fade-up"  data-aos-delay="650" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='%PUBLIC_URL%/images/olahub-zain.webp' alt='clients'/></div>
+        <div data-aos="fade-up"  data-aos-delay="700" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='%PUBLIC_URL%/images/mal3abak-logo.webp' alt='clients'/></div>
+        <div data-aos="fade-up"  data-aos-delay="750" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='%PUBLIC_URL%/images/medlevant-hapage.webp' alt='clients'/></div>
+        <div data-aos="fade-up"  data-aos-delay="800" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='%PUBLIC_URL%/images/arabart.webp' alt='clients'/></div>
+        <div data-aos="fade-up"  data-aos-delay="850" className='col-lg-2 col-md-3 col-sm-4 col-6'><img src='%PUBLIC_URL%/images/vertie-logo.webp' alt='clients'/></div>
     </div>
     </Container>
   )

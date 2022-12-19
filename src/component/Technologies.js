@@ -10,7 +10,7 @@ function Technologies() {
             <div className='alltechnologie' >
 {
     imgnum.map((num)=>{
-    const sr =`./images/image ${num}.svg`;
+    const sr =`%PUBLIC_URL%/images/image ${num}.svg`;
    
    
     return(

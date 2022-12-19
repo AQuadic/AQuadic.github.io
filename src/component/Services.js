@@ -8,7 +8,7 @@ function Services() {
         <h2>Our Services</h2>
         <div className=" row all-services">
           <div className="  col-lg-5 part ">
-            <img src="./images/Rectangle 71.svg" alt="" />
+            <img src="%PUBLIC_URL%/images/Rectangle 71.svg" alt="" />
             <h3>Web & Desktop <br/> Development</h3>
             <p>
               We design and create web that help reach business goals, amaze
@@ -18,14 +18,14 @@ function Services() {
             </p>
           </div>
           <div className=" col-lg-5 part nocomplete">
-            <img src="./images/Rectangle 72.svg" alt="" />
+            <img src="%PUBLIC_URL%/images/Rectangle 72.svg" alt="" />
             <h3>Mobile Development</h3>
             <p>
             Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important.
             </p>
           </div>
           <div className=" col-lg-5 part nocomplete">
-            <img src="./images/Rectangle 73.svg" alt="" />
+            <img src="%PUBLIC_URL%/images/Rectangle 73.svg" alt="" />
            <h3>Product design <br/> and UX/UI</h3>
            <p>
             Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important.
@@ -33,7 +33,7 @@ function Services() {
             
           </div>
           <div className=" col-lg-5 part nocomplete">
-            <img src="./images/Rectangle 75.svg" alt="" />
+            <img src="%PUBLIC_URL%/images/Rectangle 75.svg" alt="" />
            <h3>Custom Software<br/>Solutions  </h3>
            <p>
             Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important.
@@ -41,14 +41,14 @@ function Services() {
             
           </div>
           <div className="  col-lg-5 part ">
-            <img src="./images/Rectangle 76.svg" alt="" />
+            <img src="%PUBLIC_URL%/images/Rectangle 76.svg" alt="" />
             <h3>E-commerce Solutions</h3>
             <p>
             You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment.
             </p>
           </div>
           <div className=" col-lg-5 part nocomplete">
-            <img src="./images/Rectangle 77.svg" alt="" />
+            <img src="%PUBLIC_URL%/images/Rectangle 77.svg" alt="" />
            <h3>Support and<br/>Outsourcing Teams  </h3>
            <p>
            Lower costs, faster time-to-market ratio, and better business results are among the biggest advantages of using our software outsourcing services. Think of our teams as part of your organization. Furthermore, we always select the team members according to your industry.            </p>
