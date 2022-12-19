@@ -1215,3 +1215,99 @@ border: none;
 }
 /*end Message*/
 
+
+/* start services */
+.services{
+
+}
+.services h2{
+  font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+margin-bottom: 88px;
+}
+.services .all-services {
+  gap: 25px;
+}
+.services .all-services .part{
+  position: relative;
+  padding: 26px;  
+  border: 2px solid #D8D8D8;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  transition: 0.5s;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.services .all-services .part:hover{
+  border: 2px solid #F15F57;
+}
+.services .all-services .part img{
+  position: absolute;
+  content: "";
+ 
+  top: 60px;
+  right: 0;
+
+}
+.services .all-services .part::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-image: url('../public/images/Group\ 32.svg');
+  
+}
+.services .all-services .part h3{
+  font-size: 24px;
+line-height: 31px;
+margin-top: 100px;
+transition: 1s;
+}
+.services .all-services .part p{
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.services .all-services .nocomplete{
+  height: 294px;
+}
+.services .all-services .nocomplete p{
+ display: none;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 21px;
+ 
+ color: #444444;
+ max-width: 55%;
+}
+.services .all-services .nocomplete:hover p {
+  display: block;
+  margin-top: 50px;
+}
+.services .all-services .nocomplete:hover h3{
+  display: none;
+}
+.services .all-services .nocomplete::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -160px;
+  background-image: url('../public/images/Group\ 34.svg');
+  
+}
+@media(max-width:768px){
+  .services .all-services .part img{
+   
+   z-index: -1;
+    opacity: 0.2;
+  
+  }
+}
+/*end services*/

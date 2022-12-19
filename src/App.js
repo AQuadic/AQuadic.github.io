@@ -18,6 +18,7 @@ import Technologies from './component/Technologies';
 import About from './component/About';
 import Testimonials from './component/Testimonials';
 import Message from './component/Message';
+import Services from './component/Services';
 
 function App() {
     AOS.init();
@@ -30,6 +31,7 @@ function App() {
                 <Animation1/>
                 <About/>
                 <Odometer/>
+                <Services/>
                 <Projects/>
                 <Technologies/>
                 <Clients/>
