@@ -8,7 +8,7 @@ function Footer() {
             <h3>© AQuadic Software, 2019-2022.</h3>
             <div >
                 <div className='icon-soch faceboock' > <img src='./images/facebook (6) 1.svg' alt=''/>
-                <img src='./images/Vector (1).svg' alt=''/>
+                <img src='./images/facebook (7) 1.svg' alt=''/>
                 </div>
                 <div className='icon-soch linkedin' > <img src='./images/linkedin (1) 1.svg' alt=''/> 
                 <img src='./images/linkedin 1.svg' alt=''/> 

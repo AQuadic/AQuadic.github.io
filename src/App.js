@@ -14,6 +14,10 @@ import Positions from './component/Positions';
 import Forminfo from './component/Forminfo';
 import Projects from './component/Projects';
 import Job from './component/Job';
+import Technologies from './component/Technologies';
+import About from './component/About';
+import Testimonials from './component/Testimonials';
+import Message from './component/Message';
 
 function App() {
     AOS.init();
@@ -24,10 +28,17 @@ function App() {
             <BrowserRouter>
                 <Nav/>
                 <Animation1/>
+                <About/>
+                <Odometer/>
+                <Projects/>
+                <Technologies/>
+                <Clients/>
+                <Testimonials/>
+                <Message/>
                 <Imageheder/>
                 <Join/>
                 <Job/>
-                <Projects/>
+               
                 <Advantages/>
                 <Routes>
                     <Route path='/' element={<Clients/>}/>
@@ -35,11 +46,11 @@ function App() {
                     <Route path='/three' element={<Odometer/>}/>
                 </Routes>
             </BrowserRouter>
-
+          
             <Positions/>
-            <Odometer/>
+           
             <Forminfo/>
-            <Clients/>
+           
             <Footer/>
         </div>
     );

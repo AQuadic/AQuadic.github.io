@@ -5,7 +5,7 @@ function Clients() {
   return (
     <Container className='clients'>
       <h2 data-aos="fade-up" data-aos-delay="0">Our Clients Are Our Partners</h2>
-      <p>At Enozom we believe in partnership. Over the years we have developed many long-term relationships with our great clients from UK, USA, Germany, Egypt and KSA, building reliable solutions in both web and mobile app development.</p>
+     
     <div className='row'>
         <div data-aos="fade-up"  data-aos-delay="0" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='https://reaya-eg.com/img/logo-v.svg' alt='clients'/></div>
         <div data-aos="fade-up"  data-aos-delay="50" className='col-lg-2 col-md-3 col-sm-4  col-6'><img src='http://www.evastmedia.net/assets/img/logo.png' alt='clients'/></div>

@@ -10,7 +10,7 @@ function Odometer() {
 
 
   window.onscroll=()=>{
-const y = window.innerWidth>992? -13:-20;
+const y = window.innerWidth>992? 22:0;
 
 
 

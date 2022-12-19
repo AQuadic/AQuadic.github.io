@@ -15,7 +15,7 @@ function Positions() {
                             <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page'>Learn More</button>
+                    <button className='btn-page' >Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -27,7 +27,7 @@ function Positions() {
                             <p><img src='./images/map (1) 1.svg' alt=''/> 🌍.</p>
                         </div>
                     </div>
-                    <button className='btn-page'>Learn More</button>
+                    <button className='btn-page' >Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -39,7 +39,7 @@ function Positions() {
                             <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page'>Learn More</button>
+                    <button className='btn-page' >Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -51,7 +51,7 @@ function Positions() {
                             <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page'>Learn More</button>
+                    <button className='btn-page' >Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -63,7 +63,7 @@ function Positions() {
                             <p><img src='./images/map (1) 1.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page'>Learn More</button>
+                    <button className='btn-page' >Learn More</button>
                 </div>
             </Container>
         </div>
