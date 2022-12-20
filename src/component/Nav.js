@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button, Container, Form, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap'
 
 import { Link, NavLink } from 'react-router-dom';
 function Nav() {
  
+ const [lang,setlang]=useState("English");
+ const [langs,setlangs]=useState("EN");
+
+
   return (
   <Container className='con'>
     <nav className="navbar navbar-expand-lg navbar-light ">
@@ -45,7 +49,16 @@ function Nav() {
       </ul>
      
     </div>
-    <button className='lang ' > <img src='./images/icons/lang.svg' alt=''/> English</button>
+    <button className='lang ' onClick={()=>{
+      if(lang==="English" || langs==="EN"){
+        setlang("Arabic");
+        setlangs("AR");
+      }else{
+        setlang("English");
+        setlangs("EN");
+      }
+      
+    }}> <img src='./images/icons/lang.svg' alt=''/>{window.innerWidth>992?lang:langs } </button>
   </nav>
   </Container>
   )

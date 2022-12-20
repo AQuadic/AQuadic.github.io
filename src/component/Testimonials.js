@@ -5,7 +5,15 @@ import Slider from "react-slick";
 function Testimonials() {
     var settings = {
         className: "center",
-
+        prevArrow: 
+            <div>
+                <img src="./images/icons/arrow_left.svg" alt=""/>
+            </div>,
+             nextArrow: 
+                <div>
+                    <img src="./images/icons/arrow_right.svg" alt=""/>
+                </div>
+            ,
         dots: false,
         infinite: false,
         speed: 500,
@@ -57,16 +65,8 @@ function Testimonials() {
             },
 
         ],
-        nextArrow: (
-            <div>
-                <img src="./images/icons/arrow_right.svg" alt=""/>
-            </div>
-        ),
-        prevArrow: (
-            <div>
-                <img src="./images/icons/arrow_left.svg" alt=""/>
-            </div>
-        ),
+       
+        
     };
     return (
         <div className="testimonials">

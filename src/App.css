@@ -119,6 +119,7 @@ li {
 }
 nav.navbar {
   padding: 60px 0px;
+  position: relative;
 }
 a.nav-link {
   font-weight: 500;
@@ -138,14 +139,15 @@ a.nav-link {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  width: 180px;
+  width: 124px;
   height: 50px;
   color: #f15f57;
-  border: 2px solid #f15f57;
+  border: none;
   font-weight: 600;
   font-size: 22px;
   line-height: 31px;
   background-color: white;
+  padding: 0;
 }
 
 @media (min-width: 992px) {
@@ -158,6 +160,18 @@ a.nav-link {
   .logo {
     width: 140px;
   }
+  .lang {
+    position: absolute;
+    right: 50px;
+    background: transparent;
+    gap: 2px;
+    width: 50px;
+    font-size: 18px;
+    top: 60px;
+}
+.lang img{
+  width: 22px;
+}
 }
 /*end navbar*/
 .allcounter {
@@ -262,6 +276,7 @@ a.nav-link {
   transition: 2s;
 }
 .counter .num .allnum .numup span {
+  text-align: center;
 }
 .counter .num h3 {
   margin: 0;
@@ -1142,13 +1157,16 @@ a.nav-link {
   font-size: 16px;
   line-height: 21px;
   color: #2e1f26;
-  margin: 98px auto;
+  margin: 97px auto 30px;
   height: 105px;
   overflow: hidden;
+  min-height: 105px;
 }
 .testimonials .container .slick-slider .slick-track .card-tes p:hover {
   white-space: normal;
   overflow: visible;
+  min-height: 105px;
+  height: 100%;
 }
 .testimonials .container .slick-slider .slick-arrow {
   width: 60px;
