@@ -162,16 +162,23 @@ a.nav-link {
   }
   .lang {
     position: absolute;
-    right: 50px;
+    right: -50px;
     background: transparent;
     gap: 2px;
     width: 50px;
     font-size: 18px;
-    top: 60px;
+    top: 62px;
 }
 .lang img{
   width: 22px;
 }
+}
+@media (max-width: 640px) {
+
+  .lang { 
+      right: 50px;
+}
+
 }
 /*end navbar*/
 .allcounter {
@@ -180,7 +187,7 @@ a.nav-link {
   padding: 68px 0px;
   position: relative;
   overflow: hidden;
-  max-width: 2000px;
+ 
   margin: auto;
   max-height: 505px;
 }
@@ -547,10 +554,10 @@ a.nav-link {
   align-items: center;
 
   border-top: 1px solid #b9b9b9;
-  padding: 40px 0px;
+  padding: 26px 0px;
 }
 .footer .container h3 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   margin: 0;
 }
@@ -560,14 +567,14 @@ a.nav-link {
   flex-grow: 0.2;
 }
 .footer .container div .icon-soch {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #d0d0d0;
-  max-width: 60px;
+  max-width: 40px;
   transition: 0.8s;
 }
 .footer .container div .icon-soch img:last-of-type,
@@ -584,7 +591,7 @@ a.nav-link {
 }
 
 .footer .container div .icon-soch img {
-  width: 60%;
+  width: 50%;
 }
 .footer .container p {
   font-size: 16px;
@@ -810,8 +817,8 @@ a.nav-link {
   font-size: 16px;
 }
 .forminfo .card .card-body form .btn-send {
-  width: 255px;
-  height: 75px;
+  width: 200px;
+  height: 56px;
   margin-top: 44px;
   margin: 44px 12px 0px;
 }
@@ -921,7 +928,7 @@ a.nav-link {
 }
 .projects .container .all-project .project h3 {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 42px;
 }
 .projects .container .all-project .project p {
@@ -1004,9 +1011,10 @@ a.nav-link {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 70px;
 }
 .technologies .container .alltechnologie img {
+  width: 10%;
 }
 .technologies .container h2 {
   font-size: 36px;
@@ -1036,6 +1044,7 @@ a.nav-link {
   position: relative;
   width: 100%;
   height: 566px;
+  gap: 70px;
 }
 .about .container img {
 }
@@ -1429,3 +1438,118 @@ a.nav-link {
   }
 }
 /*end services*/
+/*start hosting*/
+.hosting{
+
+}
+.hosting h2:first-of-type{
+  max-width: 900px;
+}
+.hosting .container {
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  margin-top: 68px;
+  min-height: 900px;
+}
+.hosting .container .part_host {
+  border-bottom: 1px solid #E7E7E7;
+  padding-bottom: 36px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hosting .container .part_host .about_host {
+  display: flex;
+  align-items: flex-start;
+  gap: 26px;
+}
+.hosting .container .part_host .about_host img{
+  
+}
+.hosting .container .part_host .about_host .info_host{
+  max-width: 550px;
+}
+.hosting .container .part_host .about_host .info_host h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.hosting .container .part_host .about_host .info_host ul{
+  
+}
+.hosting .container .part_host .about_host .info_host ul li{
+  
+}
+.hosting .container .part_host button {
+  width: 200px;
+  height: 56px;
+}
+@media (max-width: 992px) {
+  .hosting .container .part_host .about_host {
+    margin-bottom: 12px;
+    gap: 0px;
+    flex-direction: column;
+}
+}
+@media (max-width: 500px) {
+  .hosting .container .part_host button {
+    width: 160px;
+    height: 46px;
+    font-size: 18px;
+}
+.hosting .container .part_host .about_host .info_host h2 {
+ 
+  font-size: 20px;
+  
+}
+}
+/*end hosting*/
+/*start Time_Model*/
+.time{
+
+}
+
+.time h2:first-of-type{
+  max-width: 900px;
+}
+.time .container{
+margin: 50px auto 150px; 
+gap: 20px;
+
+}
+.time .container .part_time{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.12);
+padding: 66px 17px 66px;
+flex-grow: 1;
+}
+.time .container .part_time h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+.time .container .part_time img{
+
+}
+.time .container .part_time p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+/*end Time_Model*/
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.16rem rgb(46 31 38 / 60%);
+}

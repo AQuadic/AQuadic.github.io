@@ -12,6 +12,8 @@ import Job from './component/Job';
 import Home from './Home';
 import Career from './component/Career';
 import Job_details from './component/Job_details';
+import Hosting from './component/Hosting';
+import Time_Model from './component/Time_Model';
 
 
 
@@ -19,13 +21,14 @@ import Job_details from './component/Job_details';
 
 
 function App() {
+    // <img className='chat' src='./images/icons/chat.svg' alt=''/>
     AOS.init();
     return (
         <div className="App">
             
 
             <BrowserRouter>
-            <img className='chat' src='./images/icons/chat.svg' alt=''/>
+           
                 <Nav/>
               
                
@@ -35,6 +38,10 @@ function App() {
                     <Route path='/' element={<Home/>}/>
                     <Route path='/career' element={<Career/>}/>
                     <Route path='/job' element={<Job_details/>}/>
+                    <Route path='/hosting' element={<Hosting/>}/>
+                    <Route path='/time_model' element={<Time_Model/>}/>
+
+
                    
                     <Route path='/three' element={<Odometer/>}/>
                 </Routes>
