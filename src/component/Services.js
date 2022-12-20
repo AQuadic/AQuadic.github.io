@@ -6,9 +6,9 @@ function Services() {
         <div className="services">
             <Container>
                 <h2>Our Services</h2>
-                <div className=" row all-services">
-                    <div className="  col-lg-5 part ">
-                        <img src="./images/services/web.svg" alt=""/>
+                <div className="  all-services">
+                    <div className=" one   part ">
+                        <img src="./images/services/web.png" alt=""/>
                         <h3>Web & Desktop <br/> Development</h3>
                         <p>
                             We design and create web that help reach business goals, amaze
@@ -17,8 +17,8 @@ function Services() {
                             with further app development, both technology and business-wise.
                         </p>
                     </div>
-                    <div className=" col-lg-5 part nocomplete">
-                        <img src="./images/services/mobile.svg" alt=""/>
+                    <div className=" two part nocomplete">
+                        <img src="./images/services/mobile.png" alt=""/>
                         <h3>Mobile Development</h3>
                         <p>
                             Great design not only looks good, but It’s also a key point of innovation for modern
@@ -26,8 +26,8 @@ function Services() {
                             advantages. This is why we treat product design and UX/UI as equally important.
                         </p>
                     </div>
-                    <div className=" col-lg-5 part nocomplete">
-                        <img src="./images/services/ui_ux.svg" alt=""/>
+                    <div className=" three  part nocomplete">
+                        <img src="./images/services/ui_ux.png" alt=""/>
                         <h3>Product design <br/> and UX/UI</h3>
                         <p>
                             Great design not only looks good, but It’s also a key point of innovation for modern
@@ -36,8 +36,8 @@ function Services() {
                         </p>
 
                     </div>
-                    <div className=" col-lg-5 part nocomplete">
-                        <img src="./images/services/custom.svg" alt=""/>
+                    <div className=" four part nocomplete">
+                        <img src="./images/services/custom.png" alt=""/>
                         <h3>Custom Software<br/>Solutions </h3>
                         <p>
                             Great design not only looks good, but It’s also a key point of innovation for modern
@@ -46,8 +46,8 @@ function Services() {
                         </p>
 
                     </div>
-                    <div className="  col-lg-5 part ">
-                        <img src="./images/services/ecommerce.svg" alt=""/>
+                    <div className=" five  part ">
+                        <img src="./images/services/ecommerce.png" alt=""/>
                         <h3>E-commerce Solutions</h3>
                         <p>
                             You’ll get to select from an entire range of E-commerce packages, software, and shopping
@@ -55,8 +55,8 @@ function Services() {
                             the best value for your investment.
                         </p>
                     </div>
-                    <div className=" col-lg-5 part nocomplete">
-                        <img src="./images/services/outsource.svg" alt=""/>
+                    <div className="sex   part nocomplete">
+                        <img src="./images/services/outsource.png" alt=""/>
                         <h3>Support and<br/>Outsourcing Teams </h3>
                         <p>
                             Lower costs, faster time-to-market ratio, and better business results are among the biggest

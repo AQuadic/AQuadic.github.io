@@ -1,7 +1,9 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 function Positions() {
+    const navigate = useNavigate()
     return (
         <div className='positions'>
             <Container>
@@ -9,13 +11,13 @@ function Positions() {
                 <div className='job'>
                     <div className='about-job'>
                         <h3>Junior Mobile Developer - Flutter</h3>
-                        <div>
+                        <div className='.job_info'>
                             <p>Full Time</p>
                             <span>|</span>
                             <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page' >Learn More</button>
+                    <button className='btn-page' onClick={()=>{navigate("/job")}}  >Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -27,7 +29,7 @@ function Positions() {
                             <p><img src='./images/icons/map_off.svg' alt=''/> 🌍.</p>
                         </div>
                     </div>
-                    <button className='btn-page' >Learn More</button>
+                    <button className='btn-page' onClick={()=>{navigate("/job")}} >Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -39,7 +41,7 @@ function Positions() {
                             <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page' >Learn More</button>
+                    <button className='btn-page'  onClick={()=>{navigate("/job")}}>Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -51,7 +53,7 @@ function Positions() {
                             <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page' >Learn More</button>
+                    <button className='btn-page' onClick={()=>{navigate("/job")}} >Learn More</button>
                 </div>
 
                 <div className='job'>
@@ -63,7 +65,7 @@ function Positions() {
                             <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
-                    <button className='btn-page' >Learn More</button>
+                    <button className='btn-page'  onClick={()=>{navigate("/job")}}>Learn More</button>
                 </div>
             </Container>
         </div>
