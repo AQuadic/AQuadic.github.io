@@ -9,17 +9,17 @@ function Footer() {
             <Container>
                 <h3>© AQuadic Software, 2019-2022.</h3>
                 <div>
-                    <a className='icon-soch faceboock' href='https://www.facebook.com/aquadicsoftware'>
+                    <a className='icon-soch faceboock' href='https://www.facebook.com/aquadicsoftware' target="_blank">
                         <img src='./images/icons/facebook_off.svg' alt=''/>
                         <img src='./images/icons/facebook_on.svg' alt=''/>
                     </a>
 
-                    <a className='icon-soch linkedin' href='https://www.linkedin.com/company/aquadic'>
+                    <a className='icon-soch linkedin' href='https://www.linkedin.com/company/aquadic' target="_blank">
                         <img src='./images/icons/linkedin_off.svg' alt=''/>
                         <img src='./images/icons/linkedin_on.svg' alt=''/>
                     </a>
 
-                    <a className='icon-soch behance' href='https://www.behance.net/aquadic'>
+                    <a className='icon-soch behance' href='https://www.behance.net/aquadic' target="_blank">
                         <img src='./images/icons/behance_off.svg' alt=''/>
                         <img src='./images/icons/behance_on.svg' alt=''/>
                     </a>

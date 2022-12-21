@@ -65,21 +65,21 @@ function Message() {
             </h4>
             <ul>
                 <li>
-                  <a href='tel:+201101782890'>
+                  <a href='tel:+201101782890' >
                   <img src="./images/icons/phone.svg" alt='' />
                     <h5 className='und'>(+20) 110 178 2890</h5>
                   </a>
                     
                 </li>
                 <li>
-                  <a href='mailto:hello@aquadic.com'>
+                  <a href='mailto:hello@aquadic.com' >
                   <img src="./images/icons/mail.svg" alt='' />
                     <h5 className='und'>hello@aquadic.com</h5>
                   </a>
                     
                 </li>
                 <li>
-                  <a href='https://g.page/aquadic'>
+                  <a href='https://g.page/aquadic'  target="_blank">
                     <img src="./images/icons/map_off.svg" alt='' />
                     <h5>418 El Geish Road,Louran, Alexandria, Egypt</h5></a>
                     
