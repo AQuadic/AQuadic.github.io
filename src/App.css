@@ -597,7 +597,7 @@ a.nav-link {
   justify-content: center;
   align-items: center;
   background: #d0d0d0;
-  max-width: 40px;
+ 
   transition: 0.8s;
 }
 .footer .container div .icon-soch img:last-of-type,
@@ -633,8 +633,8 @@ a.nav-link {
     flex-direction: column;
   }
   .footer .container div .icon-soch {
-    width: 50px;
-    height: 50px;
+    width: 36px;
+    height: 36px;
   }
   .footer .container p {
     font-size: 14px;
