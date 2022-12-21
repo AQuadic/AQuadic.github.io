@@ -28,7 +28,7 @@ function Nav() {
           Company
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="#">Team</Link></li>
+            <li><Link className="dropdown-item" to="/team">Team</Link></li>
             <li><Link className="dropdown-item" to="/career">Career</Link></li>
             <li><Link className="dropdown-item" to="/hosting">Hosting Sites</Link></li>
             <li><Link className="dropdown-item" to="/time_model">Pricing Models</Link></li>

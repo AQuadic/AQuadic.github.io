@@ -14,6 +14,8 @@ import Career from './component/Career';
 import Job_details from './component/Job_details';
 import Hosting from './component/Hosting';
 import Time_Model from './component/Time_Model';
+import Team from './component/Team';
+import Persone from './component/Persone';
 
 
 
@@ -40,6 +42,10 @@ function App() {
                     <Route path='/job' element={<Job_details/>}/>
                     <Route path='/hosting' element={<Hosting/>}/>
                     <Route path='/time_model' element={<Time_Model/>}/>
+                    <Route path='/team' element={<Team/>}/>
+                    <Route path='/person' element={<Persone/>}/>
+
+
 
 
                    
