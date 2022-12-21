@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { Button, Container, Form, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap'
 
 import { Link, NavLink } from 'react-router-dom';
@@ -6,12 +6,21 @@ function Nav() {
  
  const [lang,setlang]=useState("English");
  const [langs,setlangs]=useState("EN");
+const ref = useRef();
+window.onscroll=function(){
+  if(window.scrollY>90){
+    ref.current.classList.add("fixed-top")
+  }
+  else{
+    ref.current.classList.remove("fixed-top")
+  }
+}
 
 
   return (
     <section className='con '>
   
-    <nav className="navbar fixed-top navbar-expand-lg navbar-light ">
+    <nav className="navbar  navbar-expand-lg navbar-light " ref={ref} >
         <Container>
     <Link className="navbar-brand" to="/">
       <img src='./images/logo_vertical.svg' className='logo' alt='navbar-brand'/>
@@ -38,14 +47,14 @@ function Nav() {
         </li>
       
         <li className="nav-item" data-aos="fade-left"  data-aos-delay="50">
-          <NavLink className="nav-link" to="/Linkbout"  >About Us</NavLink>
+          <a className="nav-link" href="#about"  >About Us</a>
         </li>
         <li className="nav-item" data-aos="fade-right"  data-aos-delay="100">
-          <NavLink className="nav-link" to="/services" >Services</NavLink>
+          <a className="nav-link" href="#services" >Services</a>
         </li>
      
         <li className="nav-item" data-aos="fade-left"  data-aos-delay="150">
-          <NavLink className="nav-link " to="/contact" >Contact Us</NavLink>
+          <a className="nav-link " href="#contact" >Contact Us</a>
         </li>
       </ul>
      

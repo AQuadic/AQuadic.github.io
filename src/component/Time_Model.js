@@ -37,31 +37,50 @@ function Time_Model() {
           <h2>Time Model</h2>
           <img src="./images/Time_Model/time_model2.svg" />
           <p>
-          AQuadic Time model is the perfect choice if your tasks are not continuous, you don’t want to hire a full-time employee to work for just a week each month. AQuadic offers you a dedicated employee to work for your project and you just have to pay for the Hours Worked Hourly Rate.
+          AQuadic Time model is the perfect choice if your tasks are not continuous, you don’t want to hire a full-time employee to work for just a week each month. AQuadic offers you a dedicated employee to work for your project and you just have to pay for the Hours Worked Hourly Rate.<br/> 
 Here are some benefits you can gain from AQyadic Time & Material Model:
-High degree of flexibility in changing or modifying the project’s requirements or even the project’s scope as a whole.
-No need to pay a pre-prepared bill full of wages; instead, the customer just pays only for time worked.
-The possibility of assigning up to 2 resources in parallel for the same task.
-Easy communication via extended communication channels during the working hours.
-Access to issue tracking tool.
-Access to Project Management tool.
-Periodical Timesheet and Work Progress Reports.
+<ul>
+  <li>High degree of flexibility in changing or modifying the project’s requirements or even the project’s scope as a whole.</li>
+  <li>No need to pay a pre-prepared bill full of wages; instead, the customer just pays only for time worked.</li>
+  <li>The possibility of assigning up to 2 resources in parallel for the same task.</li>
+  <li>Easy communication via extended communication channels during the working hours.</li>
+
+  <li>Access to issue tracking tool.</li>
+  <li>Access to Project Management tool.</li>
+  <li>Periodical Timesheet and Work Progress Reports.</li>
+</ul>
+
+
+
+
+
+
           </p>
         </div>
         <div className="col-lg-3 col part_time">
           <h2>Off-shore Dedicated Teams Model</h2>
           <img src="./images/Time_Model/team_model.svg" />
           <p>
-          Assigning the task of building your own virtual team using one of AQuadic professional teams that will be dedicated only for your projects (either to develop new solutions or to make changes to an existing one) in a specified time period helps you to avoid a headache and risks of forming a Development Unit on your site and getting trapped in the infinite loop of employees’ turnover and increasing operation costs which would affect directly the cost, quality and time taken to have your project done.
+          Assigning the task of building your own virtual team using one of AQuadic professional teams that will be dedicated only for your projects (either to develop new solutions or to make changes to an existing one) in a specified time period helps you to avoid a headache and risks of forming a Development Unit on your site and getting trapped in the infinite loop of employees’ turnover and increasing operation costs which would affect directly the cost, quality and time taken to have your project done.<br/>
 Here are some benefits you can gain from AQuadic offshore dedicated teams:
-Minimizing the cost of your projects
-Preventing the risk of fast employees turnover
-Stand-by backup resources
-Professional project management
-Easy communication via extended communication channels during the working hours
-Access to issue tracking tool
-Access to project management tool
-Weekly timesheet and work progress reports
+<ul>
+  <li>Minimizing the cost of your projects</li>
+  <li>Preventing the risk of fast employees turnover</li>
+  <li>Stand-by backup resources</li>
+  <li>Professional project management</li>
+  <li>Easy communication via extended communication channels during the working hours</li>
+  <li>Access to issue tracking tool</li>
+<li>Access to project management tool</li>
+<li>Weekly timesheet and work progress reports</li>
+</ul>
+
+
+
+
+
+
+
+
           </p>
         </div>
       </Container>

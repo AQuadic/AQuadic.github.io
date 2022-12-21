@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap";
 
 function Services() {
     return (
-        <div className="services">
+        <div className="services" id="services">
             <Container>
                 <h2>Our Services</h2>
                 <div className="  all-services">

@@ -1105,7 +1105,7 @@ a.nav-link {
 /*end technologies*/
 /*start about*/
 .about {
-  margin-bottom: 120px;
+  padding-top: 120px;
 }
 .about .container {
   display: flex;
@@ -1374,7 +1374,8 @@ a.nav-link {
 
 /* start services */
 .services {
-  margin: 120px 0px 186px;
+  margin: 0px 0px 186px;
+  padding-top: 120px;
 }
 .services h2 {
   font-weight: 700;
@@ -1533,6 +1534,7 @@ a.nav-link {
   gap: 26px;
 }
 .hosting .container .part_host .about_host img {
+  width: 136px;
 }
 .hosting .container .part_host .about_host .info_host {
   max-width: 550px;
@@ -1595,6 +1597,7 @@ a.nav-link {
   font-size: 24px;
   line-height: 31px;
   text-align: center;
+  height: 62px;
 }
 .time .container .part_time img {
 }
@@ -1602,6 +1605,9 @@ a.nav-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
+}
+.time .container .part_time p li{
+  list-style: disc;
 }
 /*end Time_Model*/
 .form-control:focus {

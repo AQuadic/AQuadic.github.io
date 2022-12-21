@@ -3,7 +3,7 @@ import { Button, Card, Container, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 function Message() {
   return (
-    <section className="forminfo message">
+    <section className="forminfo message" id='contact'>
     <Container>
       <img className='imageback' src="./images/patterns/pattern_1.svg" alt="" />
       <Card>

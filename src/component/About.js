@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap'
 
 function About() {
     return (
-        <div className='about'>
+        <div className='about' id='about'>
             <Container>
                 <img src='./images/header/about_us.png' alt=''/>
                 <div className='about-about'>
