@@ -11,10 +11,12 @@ import Message from './component/Message';
 import Services from './component/Services';
 import Odometer from './component/Odometer';
 import Clients from './component/Clients';
+import Business from './component/Business';
 function Home() {
   return (
     <>
-      <Animation1/>
+    <Business/>
+      
                 <About/>
                 <Odometer/>
                 <Services/>

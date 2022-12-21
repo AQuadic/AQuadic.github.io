@@ -1,11 +1,19 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 function Projects() {
     return (
         <div className='projects'>
             <Container>
+                <div className='head'>
                 <h2>Our Latest Creative Projects</h2>
+                <Link to="/more">
+                    <p>See All Protfolio</p>
+                    <img src='./images/icons/see_all.svg' alt=''/>
+                </Link>
+                </div>
+                
                 <div className='all-project row'>
                     <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up" data-aos-delay="0">
                         <h3>Oread</h3>

@@ -65,16 +65,24 @@ function Message() {
             </h4>
             <ul>
                 <li>
-                    <img src="./images/icons/phone.svg" alt='' />
+                  <a href='tel:+201101782890'>
+                  <img src="./images/icons/phone.svg" alt='' />
                     <h5 className='und'>(+20) 110 178 2890</h5>
+                  </a>
+                    
                 </li>
                 <li>
-                    <img src="./images/icons/mail.svg" alt='' />
+                  <a href='mailto:hello@aquadic.com'>
+                  <img src="./images/icons/mail.svg" alt='' />
                     <h5 className='und'>hello@aquadic.com</h5>
+                  </a>
+                    
                 </li>
                 <li>
-                    <img src="./images/icons/phone.svg" alt='' />
-                    <h5>418 El Geish Road,Louran, Alexandria, Egypt</h5>
+                  <a href='https://g.page/aquadic'>
+                    <img src="./images/icons/map_off.svg" alt='' />
+                    <h5>418 El Geish Road,Louran, Alexandria, Egypt</h5></a>
+                    
                 </li>
             </ul>
           </div>
