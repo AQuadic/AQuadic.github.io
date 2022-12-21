@@ -578,7 +578,7 @@ a.nav-link {
 }
 .footer .container div {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   flex-grow: 0.2;
 }
 .footer .container div .icon-soch {

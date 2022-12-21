@@ -23,6 +23,14 @@ function Footer() {
                         <img src='./images/icons/behance_off.svg' alt=''/>
                         <img src='./images/icons/behance_on.svg' alt=''/>
                     </a>
+                    <a className='icon-soch ' href='https://instagram.com/aquadicsoftware' target="_blank">
+                        <img src='./images/icons/instagram_off.svg' alt=''/>
+                        <img src='./images/icons/instagram_on.svg' alt=''/>
+                    </a>
+                    <a className='icon-soch ' href='https://twitter.com/AquadicSoftware' target="_blank">
+                        <img src='./images/icons/twitter_off.svg' alt=''/>
+                        <img src='./images/icons/twitter_on.svg' alt=''/>
+                    </a>
                 </div>
                 <p>All rights reserved.</p>
             </Container>
