@@ -382,7 +382,7 @@ a.nav-link {
 .join p {
   max-width: 920px;
   margin: auto;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 31px;
 
   color: #444444;
@@ -399,7 +399,7 @@ a.nav-link {
 /*start image page*/
 .imageheader {
   position: relative;
-  max-width: 1440px;
+  
   margin: auto;
 }
 .imageheader img:last-of-type {
@@ -928,7 +928,11 @@ a.nav-link {
 .projects {
   margin-top: 160px;
 }
+
 .projects .container {
+}
+.projects .pops{
+  
 }
 .projects .container .head {
   display: flex;
@@ -970,6 +974,7 @@ a.nav-link {
   flex-grow: 1;
   height: 236px;
   overflow: hidden;
+  cursor: pointer;
 }
 .projects .container .all-project .project h3 ,.persone_info .all-project .project h3{
   font-weight: 500;
