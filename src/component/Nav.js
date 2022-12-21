@@ -9,9 +9,9 @@ function Nav() {
 
 
   return (
-    <section className='con'>
+    <section className='con '>
   
-    <nav className="navbar navbar-expand-lg navbar-light ">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light ">
         <Container>
     <Link className="navbar-brand" to="/">
       <img src='./images/logo_vertical.svg' className='logo' alt='navbar-brand'/>
