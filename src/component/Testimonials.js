@@ -1,7 +1,7 @@
 import React from "react";
 import {Container} from "react-bootstrap";
 import Slider from "react-slick";
-
+import ReactReadMoreReadLess from "react-read-more-read-less";
 function Testimonials() {
     var settings = {
         className: "center",
@@ -70,6 +70,7 @@ function Testimonials() {
     };
     return (
         <div className="testimonials">
+            
             <Container>
                 <h2> Testimonials</h2>
                 <Slider {...settings}>
@@ -84,12 +85,19 @@ function Testimonials() {
                             </div>
                         </div>
                         <p>
+                            <ReactReadMoreReadLess
+                              charLimit={196}
+                              readMoreText={"See More "}
+                              readLessText={"Read less ▲"}
+                            >
                             I worked with AQuadic company on our mobile application project and honestly he is
                             very talented in his field of work. He is an expert mobile developer using flutter and knows
                             his way around firebase very well. He accepts challenges easily and quickly shows that he is
                             up to the task. Very agile, he copes with changes in project scope quite well. He has a Very
                             quick turnaround time and is Happy to share his experience and knowledge with his customers.
                             With him on my team, I’m assured that the project will be completed successfully.
+                            </ReactReadMoreReadLess>
+                           
                         </p>
                     </div>
 
@@ -102,8 +110,15 @@ function Testimonials() {
                             </div>
                         </div>
                         <p>
-                            AQuadic provided a great service for the app development. Very
+                        <ReactReadMoreReadLess
+                              charLimit={200}
+                              readMoreText={"See More "}
+                              readLessText={"Read less ▲"}
+                            >
+ AQuadic provided a great service for the app development. Very
                             responsive and providing great feedback. 100% recommend him, very professional!
+                            </ReactReadMoreReadLess>
+                           
                         </p>
                     </div>
 
@@ -118,7 +133,14 @@ function Testimonials() {
                             </div>
                         </div>
                         <p>
-                            Nice work, will always work with him
+                        <ReactReadMoreReadLess
+                              charLimit={200}
+                              readMoreText={"See More "}
+                              readLessText={"Read less ▲"}
+                            >
+ Nice work, will always work with him
+                            </ReactReadMoreReadLess>
+                           
                         </p>
                     </div>
 
@@ -131,10 +153,15 @@ function Testimonials() {
                             </div>
                         </div>
                         <p>
-                            He completed our work 3 days early!! This is the third time we have worked with AQuadic,
+                        <ReactReadMoreReadLess
+                              charLimit={190}
+                              readMoreText={"See More "}
+                              readLessText={"Read less ▲"}
+                            > He completed our work 3 days early!! This is the third time we have worked with AQuadic,
                             but it's definitely not the last. He is an excellent communicator and really is an essential
                             part of taking your job to the next level. It was a pleasure to work with him! He never
-                            missed a beat. Thank so so much.
+                            missed a beat. Thank so so much.</ReactReadMoreReadLess>
+                           
                         </p>
                     </div>
 
@@ -147,10 +174,15 @@ function Testimonials() {
                             </div>
                         </div>
                         <p>
-                            I was impressed that AQuadic understood my problem immediately and that's why I agreed to
+                        <ReactReadMoreReadLess
+                              charLimit={200}
+                              readMoreText={"See More "}
+                              readLessText={"Read less ▲"}
+                            > I was impressed that AQuadic understood my problem immediately and that's why I agreed to
                             work with him. He also agreed to help me with some little tasks during the app development
                             in flutter. His skills and communications are THE BEST. I am very satisfied and looking
-                            forward to work with him in the future.
+                            forward to work with him in the future.</ReactReadMoreReadLess>
+                           
                         </p>
                     </div>
                 </Slider>

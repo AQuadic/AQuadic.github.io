@@ -20,7 +20,7 @@ window.onscroll=function(){
   return (
     <section className='con '>
   
-    <nav className="navbar  navbar-expand-lg navbar-light " ref={ref} >
+    <nav className="navbar  navbar-expand-lg navbar-light fixed-top " ref={ref} >
         <Container>
     <Link className="navbar-brand" to="/">
       <img src='./images/logo_vertical.svg' className='logo' alt='navbar-brand'/>

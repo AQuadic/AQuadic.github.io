@@ -19,7 +19,8 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="0"
-          
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
           >
             <h3>Oread</h3>
             <p>Reading</p>
@@ -30,6 +31,8 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="50"
+             data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
           >
             <h3>MS Player</h3>
             <p>Media</p>
@@ -40,6 +43,8 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="100"
+             data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
           >
             <h3>Optimalimo</h3>
             <p>Transportation, Booking</p>
@@ -50,6 +55,8 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="150"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
           >
             <h3>Lokta</h3>
             <p>Ecommerce</p>
@@ -60,6 +67,8 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="200"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
           >
             <h3>Hakam Motors</h3>
             <p>Ecommerce</p>
@@ -70,6 +79,8 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="250"
+             data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
           >
             <h3>Marvelous Emotion</h3>
             <p>Ecommerce</p>
@@ -83,7 +94,8 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="300"
-          >
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"          >
             <h3>Bookly</h3>
             <p>Booking</p>
             <img src="https://i.ibb.co/hWMj9J1/bookly.png" alt="" />
@@ -93,23 +105,25 @@ function Projects() {
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="350"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
           >
             <h3>TrackCo</h3>
             <p>Transportations</p>
             <img src="https://i.ibb.co/CsD0t34/tracko.png" alt="" />
           </div>
 
-          <button
+          <div
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="400"
             data-bs-toggle="modal"
             data-bs-target="#exampleModalLong"
           >
-            <h3>Quraan</h3>
+            <h3 >Quraan</h3>
             <p>Religion, Books</p>
             <img src="https://i.ibb.co/kgRBNb1/quraan.png" alt="" />
-          </button>
+          </div>
         </div>
       </Container>
       <div
@@ -123,22 +137,42 @@ function Projects() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h5>
               <button
                 type="button"
                 className="close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
-                <span aria-hidden="true">&times;</span>
+                <img
+                  aria-hidden="true"
+                  src="./images/icons/model_x.svg"
+                  alt=""
+                />
               </button>
             </div>
             <div className="modal-body">
-                body
+              <div className="modal_img">
+                <img src="./images/projects/oread.svg" alt="" />
+                <img className="back_img" src="./images/projects/oread.svg" alt="" />
+
+              </div>
+              <div className="modal_title">
+                <h2>Optima limo</h2>
+                <p>
+                  Optima Limo is specialized in car rental with driver service
+                  We Are Dynamic, Professional company that is very attentive to
+                  privacy, courtesy, reliability and transparency. We offer
+                  “passenger Transportation services”. From individual to
+                  delegations for companies, professionals and private citizens,
+                  with high-Quality professional services and vehicles{" "}
+                  
+                </p>
+                <div className="modal_app">
+                  <img src="./images/apps/app_store.svg" alt="" />
+                  <img src="./images/apps/google_play.svg" alt="" />
+                </div>
+              </div>
             </div>
-            
           </div>
         </div>
       </div>

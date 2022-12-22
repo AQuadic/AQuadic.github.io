@@ -8,7 +8,10 @@ function Team() {
     <div className="team">
       <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
         <img src="./images/Team/team.svg" alt="hosting" />
-        <h2>Our Peaple</h2>
+       <div className="about_img_team">
+       <h2>Our Peaple</h2>
+       <p>This is our team, a lot of smiling happy people who work hard to empower your Project.</p>
+       </div>
       </div>
       <Container>
         <div className="part  part1">
