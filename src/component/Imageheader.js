@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Imageheder() {
+function Imageheader() {
     return (
         <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
             <img src='./images/career.svg' alt='careers'/>
@@ -9,4 +9,4 @@ function Imageheder() {
     )
 }
 
-export default Imageheder
+export default Imageheader

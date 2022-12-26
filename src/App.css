@@ -1765,21 +1765,21 @@ color: #FFFFFF;
   background-color: #f48d87;
 }
 .team .container .part .about_team .person .person_img:hover.bink::after {
-  background-image: url("../public/images/Team/bink_hover.svg");
+  background-image: url("public/images/team/bink_hover.svg");
   opacity: 1;
 }
 .team .container .part .about_team .person .person_img.blue::before ,.persone_info .container .person .person_img::before {
   background-color: #578bf1;
 }
 .team .container .part .about_team .person .person_img:hover.blue::after {
-  background-image: url("../public/images/Team/blue_hover.svg");
+  background-image: url("public/images/team/blue_hover.svg");
   opacity: 1;
 }
 .team .container .part .about_team .person .person_img.orange::before {
   background: #f1a157;
 }
 .team .container .part .about_team .person .person_img:hover.orange::after {
-  background-image: url("../public/images/Team/orange_hover.svg");
+  background-image: url("public/images/team/orange_hover.svg");
   opacity: 1;
 }
 .team .container .part .about_team .person .person_img img ,.persone_info .container .person .person_img img{
