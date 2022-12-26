@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ar": "اوريد للكتب",
+      "en": "ORead Books"
+    },
+    "description": {
+      "ar": "اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب",
+      "en": "ORead Books ORead Books ORead Books ORead Books ORead Books ORead Books ORead Books ORead Books"
+    },
+    "links" : {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null
+    },
+    "main_image": "https://aquadic.github.io/images/projects/oread.svg",
+    "background_image": "https://aquadic.github.io/images/projects/oread.svg",
+    "images_desktop": null,
+    "images_mobile": [
+      "https://aquadic.github.io/images/projects/oread.svg",
+      "https://aquadic.github.io/images/projects/oread.svg",
+      "https://aquadic.github.io/images/projects/oread.svg",
+      "https://aquadic.github.io/images/projects/oread.svg",
+      "https://aquadic.github.io/images/projects/oread.svg"
+    ],
+    "client_id": 1,
+    "country_id": 1
+  }
+]
