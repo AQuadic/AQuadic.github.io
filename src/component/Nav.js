@@ -6,6 +6,7 @@ function Nav() {
  
  const [lang,setlang]=useState("English");
  const [langs,setlangs]=useState("EN");
+
 const ref = useRef();
 window.onscroll=function(){
   if(window.scrollY>90){
@@ -63,9 +64,11 @@ window.onscroll=function(){
       if(lang==="English" || langs==="EN"){
         setlang("Arabic");
         setlangs("AR");
+        window.document.dir="rtl"
       }else{
         setlang("English");
         setlangs("EN");
+        window.document.dir="ltr"
       }
       
     }}> <img src='./images/icons/lang.svg' alt=''/>{window.innerWidth>992?lang:langs } </button>

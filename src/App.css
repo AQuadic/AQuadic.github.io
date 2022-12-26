@@ -153,12 +153,14 @@ a.nav-link {
   color: #f15f57;
   border: none;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 31px;
   background-color: white;
   padding: 0;
 }
-
+.logo {
+    width: 132px;
+}
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
@@ -166,8 +168,12 @@ a.nav-link {
   }
 }
 @media (max-width: 992px) {
-  .logo {
-    width: 132px;
+  
+  html[dir=rtl] .lang{
+    left:-32px;
+  }
+  html[dir=ltr] .lang{
+    right: -32px;
   }
   .lang {
     position: absolute;
@@ -178,7 +184,7 @@ a.nav-link {
     font-size: 16px;
     top: 0%;
 
-    right: -32px;
+    
   }
   .lang img {
     width: 20px;
@@ -192,7 +198,10 @@ a.nav-link {
 }
 
 @media (max-width: 600px) {
-  .lang {
+  html[dir=rtl] .lang{
+    left:60px;
+  }
+  html[dir=ltr] .lang{
     right: 60px;
   }
 }
@@ -209,7 +218,7 @@ a.nav-link {
 }
 .allcounter h2 {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
   color: #ffffff;
 }
@@ -275,7 +284,7 @@ a.nav-link {
   justify-content: space-around;
   gap: 60px;
   align-items: center;
-  padding: 70px 0px;
+
 }
 .counter .num {
   display: flex;
@@ -286,10 +295,10 @@ a.nav-link {
 .counter .num .allnum {
   display: flex;
   justify-content: center;
-  height: 212px;
+  height: 154px;
   overflow: hidden;
   margin: 0;
-  font-size: 128px;
+  font-size: 96px;
   color: #ea433a;
   font-weight: 700;
 }
@@ -303,17 +312,17 @@ a.nav-link {
 }
 .counter .num h3 {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: white;
 }
 
 @media (max-width: 992px) {
-  .counter .num .allnum {
-    height: 180px;
-    font-size: 120px;
-  }
+ .counter .num .allnum {
+    height: 136px;
+    font-size: 86px;
+}
 }
 @media (max-width: 768px) {
   .counter {
@@ -376,7 +385,7 @@ a.nav-link {
 }
 .join h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 18px;
 }
 .join p {
@@ -490,7 +499,7 @@ a.nav-link {
 }
 .advantages h2 {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 42px;
 
   color: #2e1f26;
@@ -541,13 +550,13 @@ a.nav-link {
 .advantages .allcard .cardd h3 {
   color: #2e1f26;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 31px;
   padding: 36px 0px 16px;
 }
 .advantages .allcard .cardd p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25px;
   color: #444444;
 }
@@ -574,9 +583,10 @@ a.nav-link {
   padding: 26px 0px;
 }
 .footer .container h3 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   margin: 0;
+  color: #444444;
 }
 .footer .container div {
   display: flex;
@@ -611,13 +621,11 @@ a.nav-link {
   width: 50%;
 }
 .footer .container p {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
 }
 @media (max-width: 992px) {
-  .footer .container h3 {
-    font-size: 16px;
-  }
+  
 }
 @media (max-width: 768px) {
   .footer .container {
@@ -630,9 +638,7 @@ a.nav-link {
     width: 36px;
     height: 36px;
   }
-  .footer .container p {
-    font-size: 14px;
-  }
+ 
 }
 /*end footer*/
 /*start animation 1*/
@@ -651,9 +657,14 @@ a.nav-link {
   justify-content: center;
   position: absolute;
   top: 50%;
+ 
+}
+html[dir=ltr] .animation1 .container{
   right: 270px;
 }
-
+html[dir=rtl] .animation1 .container {
+  left: -156px;
+}
 .animation1 .container .line {
   height: 90px;
   background-color: rgb(58 57 57 / 24%);
@@ -680,7 +691,13 @@ a.nav-link {
     z-index: -2;
     opacity: 0.4;
     top: 50%;
+   
+  }
+  html[dir=ltr] .animation1 .container{
     right: 200px;
+  }
+  html[dir=rtl] .animation1 .container {
+    left: 200;
   }
 }
 /*end animation 1*/
@@ -695,7 +712,7 @@ a.nav-link {
   color: #2e1f26;
 }
 .positions h2 {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 42px;
   margin-bottom: 36px;
 }
@@ -745,7 +762,7 @@ a.nav-link {
   background: #f15f57;
   border-radius: 20px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   color: #ffffff;
   outline: none;
   border: none;
@@ -845,7 +862,7 @@ a.nav-link {
   font-size: 16px;
 }
 .forminfo .card .card-body form .btn-send {
-  width: 200px;
+  width: 180px;
   height: 56px;
   margin-top: 44px;
   margin: 44px 12px 0px;
@@ -946,15 +963,18 @@ a.nav-link {
   display: flex;
   gap: 10px;
 }
+html[dir=rtl] .projects .container .head a img {
+  transform: rotate(180deg);
+}
 .projects .container .head a p {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
   color: #ea433a;
 }
 .projects .container h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
   text-align: center;
 
@@ -979,12 +999,12 @@ a.nav-link {
 }
 .projects .container .all-project .project h3 ,.persone_info .all-project .project h3{
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 42px;
 }
 .projects .container .all-project .project p ,.persone_info .all-project .project p{
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
   transition: 0.5s;
 }
@@ -1015,12 +1035,8 @@ a.nav-link {
   }
 }
 @media (max-width: 575px) {
-  .projects .container .all-project .project h3 ,.persone_info .all-project .project h3{
-    font-size: 24px;
-  }
-  .projects .container .all-project .project p ,.persone_info .all-project .project p{
-    font-size: 16px;
-  }
+  
+  
   .projects .container .all-project ,.persone_info .all-project {
     row-gap: 30px;
   }
@@ -1031,14 +1047,12 @@ a.nav-link {
     margin-bottom: 30px;
   }
   .projects .container h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
   .projects .container .head a img {
     width: 6px;
   }
-  .projects .container .head a p {
-    font-size: 18px;
-  }
+ 
 }
 /*end project*/
 /*start job*/
@@ -1086,10 +1100,10 @@ a.nav-link {
   width: 10%;
 }
 .technologies .container h2 {
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 @media (max-width: 768px) {
   .technologies .container .alltechnologie img {
@@ -1121,18 +1135,18 @@ a.nav-link {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 28px;
+  gap: 24px;
   flex-direction: column;
   max-width: 490px;
 }
 .about .container .about-about h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
 }
 .about .container .about-about h4 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 31px;
   color: #2e1f26;
 }
@@ -1171,7 +1185,7 @@ a.nav-link {
 }
 .testimonials .container h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
   text-align: center;
   margin: 88px auto;
@@ -1265,11 +1279,25 @@ span.react-read-more-read-less.react-read-more-read-less-more {
 .slick-arrow:before {
   content: "";
 }
+[dir='rtl'] .slick-arrow:before {
+  content: "";
+}
 .slick-prev {
   left: -70px;
 }
 .slick-next {
   right: -70px;
+}
+[dir='rtl'] .slick-prev {
+  right: auto;
+  left: -70px;
+}
+[dir='rtl'] .slick-next {
+  right: -70px;
+  left: auto;
+}
+html[dir=rtl] .slick-arrow img {
+  transform: translate(-50%, -50%),rotate(180deg);
 }
 @media (max-width: 992px) {
   .testimonials .container .slick-slider .slick-track .card-tes {
@@ -1349,6 +1377,12 @@ span.react-read-more-read-less.react-read-more-read-less-more {
   background: #ffffff;
   border-radius: 20px;
 }
+.message .card .card-body form input::placeholder{
+  font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #444444;
+}
 .und {
   text-decoration-line: underline;
 }
@@ -1380,10 +1414,10 @@ span.react-read-more-read-less.react-read-more-read-less-more {
 }
 .services h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
   text-align: center;
-  margin-bottom: 88px;
+  margin-bottom: 60px;
 }
 .services .all-services {
   gap: 25px;
@@ -1426,12 +1460,20 @@ span.react-read-more-read-less.react-read-more-read-less-more {
 .services .all-services .part:hover {
   border: 2px solid #f15f57;
 }
+
 .services .all-services .part img {
   position: absolute;
   content: "";
 
   top: 60px;
+ 
+}
+html[dir=ltr] .services .all-services .part img{
   right: 0;
+}
+html[dir=rtl] .services .all-services .part img{
+  left: 0;
+  transform: rotateY(180deg);
 }
 .services .all-services .part::before {
   position: absolute;
@@ -1604,7 +1646,7 @@ span.react-read-more-read-less.react-read-more-read-less-more {
 }
 .time .container .part_time p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
 }
 .time .container .part_time p li{
@@ -1631,7 +1673,7 @@ span.react-read-more-read-less.react-read-more-read-less-more {
 }
 .business .about-business h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 52px;
   margin-bottom: 16px;
 }
@@ -1640,7 +1682,7 @@ span.react-read-more-read-less.react-read-more-read-less-more {
 }
 .business .about-business p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
 }
 /*end business*/
@@ -1654,6 +1696,7 @@ span.react-read-more-read-less.react-read-more-read-less-more {
 .team .imageheader .about_img_team h2 {
   position: relative;
   line-height: 26px;
+  max-width: 100%;
 }
 .team .imageheader .about_img_team p{
   font-weight: 400;
@@ -1678,7 +1721,7 @@ color: #FFFFFF;
 }
 .team .container .part .des_team h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
   margin-bottom: 16px;
 }
@@ -1745,13 +1788,13 @@ color: #FFFFFF;
 }
 .team .container .part .about_team .person .person_name h3 ,.persone_info .container .person .person_name h3{
   font-weight: 500;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 42px;
 
 }
 .team .container .part .about_team .person .person_name p ,.persone_info .container .person .person_name p{
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 31px;
 }
 @media(max-width:450px){
@@ -1825,7 +1868,7 @@ margin-top: 100px;
 .persone_info .container h4{
   max-width: 690px;
   font-weight: 400;
-font-size: 32px;
+font-size: 24px;
 line-height: 42px;
 }
 .persone_info .all-project{
@@ -1903,7 +1946,7 @@ line-height: 42px;
   position: absolute;
   width: 118%;
   top: -86px;
-  left: -330px;
+  left: -200px;
   height: 110%;
   object-fit: cover;
   z-index: -2;
@@ -1932,8 +1975,6 @@ line-height: 47px;
   height: 3px;
   background-color: #2E1F26;
   top: 100%;
-  left: 0;
-
 }
 .modal-body .modal_title p{
   font-weight: 500;
@@ -2015,3 +2056,4 @@ margin: 44px auto;
 }
 }
 /*end model */
+/*star box */

@@ -2,6 +2,8 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 
 function Job() {
+console.log()
+window.scrollTo(250, 250);
   return (
     <div className='job'>
         <Container>

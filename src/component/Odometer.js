@@ -12,7 +12,7 @@ useEffect(()=>{
     
     window.onscroll=()=>{
       if(window.location.pathname==="/"){
-        const y = window.innerWidth>992? 22:0;
+        const y = window.innerWidth>992? 10:6;
       
         if(window.scrollY >= (refall.current.offsetTop - window.outerHeight+350)){
           ref.current.style.transform=`translateY(-${ref.current.clientHeight-y}px)`;

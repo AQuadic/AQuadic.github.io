@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 function Positions() {
     const navigate = useNavigate()
+
     return (
         <div className='positions'>
             <Container>

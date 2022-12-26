@@ -2,7 +2,7 @@ import React from 'react'
 import {Container} from 'react-bootstrap'
 
 function Technologies() {
-    const imgnum = ['android', 'angularjs', 'apple', 'aws', 'go', 'java', 'nodejs', 'python', 'reactjs', 'technology_1'];
+    const imgnum = ['js', 'reactjs','angularjs', 'nodejs','go', 'python', 'java', 'apple','android',   'technology_1', 'aws'];
     return (
         <div className='technologies'>
             <Container>
