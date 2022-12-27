@@ -62,7 +62,8 @@ function Services() {
                             Lower costs, faster time-to-market ratio, and better business results are among the biggest
                             advantages of using our software outsourcing services. Think of our teams as part of your
                             organization. Furthermore, we always select the team members according to your
-                            industry. </p>
+                            industry.
+                        </p>
                     </div>
                 </div>
             </Container>

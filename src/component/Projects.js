@@ -1,6 +1,6 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import {Container} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Projects() {
   return (
@@ -171,13 +171,9 @@ function Projects() {
                 <a href="#">  <img src="./images/apps/app_store.svg" alt="" /></a>
                   <a href="#"><img src="./images/apps/google_play.svg" alt="" /></a>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default Projects;
