@@ -8,10 +8,10 @@ function Projects() {
       <Container>
         <div className="head">
           <h2>Our Latest Creative Projects</h2>
-          <Link to="/more">
+          <a onClick={()=>{console.log("hi")}}>
             <p>See All Protfolio</p>
             <img src="./images/icons/see_all.svg" alt="" />
-          </Link>
+          </a >
         </div>
 
         <div className="all-project row">
@@ -168,8 +168,8 @@ function Projects() {
                   
                 </p>
                 <div className="modal_app">
-                  <img src="./images/apps/app_store.svg" alt="" />
-                  <img src="./images/apps/google_play.svg" alt="" />
+                <a href="#">  <img src="./images/apps/app_store.svg" alt="" /></a>
+                  <a href="#"><img src="./images/apps/google_play.svg" alt="" /></a>
                 </div>
               </div>
             </div>

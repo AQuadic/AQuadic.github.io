@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { Button, Card, Container, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+
+import Modal from 'react-bootstrap/Modal';
+
+
+
 function Message() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <section className="forminfo message" id='contact'>
     <Container>
@@ -54,13 +64,13 @@ function Message() {
         <Form.Control as="textarea" rows={4} placeholder="Leave Your Message..." />
       </Form.Group>
                
-            <Button className=" col-12 col-sm-12 btn-log btn-page btn-send" type="submit">
+            <Button className=" col-12 col-sm-12 btn-log btn-page btn-send" type="submit" onClick={handleShow}>
               Send Message
             </Button>
            
           </Form>
           <div className='contact'>
-            <h4>
+            <h4   >
             Contact Info
             </h4>
             <ul>
@@ -89,6 +99,17 @@ function Message() {
         </Card.Body>
       </Card>
     </Container>
+ <div>
+      <Modal show={show} onHide={handleClose} className="model-send"   centered>
+        <Modal.Header closeButton className='model-img'>
+    
+        </Modal.Header >
+        <Modal.Body className='model-bo'><h2>Thank you !</h2>
+        <p>Thanks for contacting us, <br/>we will reply to you as soon as possible</p>
+        </Modal.Body>
+       
+      </Modal>
+      </div>
   </section>
   )
 }

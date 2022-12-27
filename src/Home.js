@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Animation1 from './component/Animation1';
-
 import Projects from './component/Projects';
 
 import Technologies from './component/Technologies';

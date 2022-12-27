@@ -44,12 +44,6 @@ function App() {
                     <Route path='/time_model' element={<Time_Model/>}/>
                     <Route path='/team' element={<Team/>}/>
                     <Route path='/person' element={<Persone/>}/>
-
-
-
-
-                   
-                    <Route path='/three' element={<Odometer/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>
