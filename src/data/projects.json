@@ -9,6 +9,7 @@
       "ar": "اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب اوريد للكتب",
       "en": "ORead Books ORead Books ORead Books ORead Books ORead Books ORead Books ORead Books ORead Books"
     },
+    "category":"books",
     "links" : {
       "website": null,
       "play_store": null,
@@ -20,12 +21,14 @@
     "images_desktop": null,
     "images_mobile": [
       "https://aquadic.github.io/images/projects/oread.svg",
-      "https://aquadic.github.io/images/projects/oread.svg",
+      "https://aquadic.github.io/images/projects/oread.svg",  
       "https://aquadic.github.io/images/projects/oread.svg",
       "https://aquadic.github.io/images/projects/oread.svg",
       "https://aquadic.github.io/images/projects/oread.svg"
     ],
     "client_id": 1,
-    "country_id": 1
+    "country_id": 1,
+    "type":"appplication"
   }
+  
 ]

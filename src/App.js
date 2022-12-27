@@ -16,8 +16,9 @@ import Hosting from './component/Hosting';
 import Time_Model from './component/Time_Model';
 import Team from './component/Team';
 import Persone from './component/Persone';
+import Portfolio from './component/Portfolio';
 
-
+import data from './data/projects.json'
 
 
 
@@ -25,6 +26,7 @@ import Persone from './component/Persone';
 function App() {
     // <img className='chat' src='./images/icons/chat.svg' alt=''/>
     AOS.init();
+
     return (
         <div className="App">
             
@@ -44,6 +46,7 @@ function App() {
                     <Route path='/time_model' element={<Time_Model/>}/>
                     <Route path='/team' element={<Team/>}/>
                     <Route path='/person' element={<Persone/>}/>
+                    <Route path='/portfolio' element={<Portfolio data={data}/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>

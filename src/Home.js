@@ -10,7 +10,9 @@ import Services from './component/Services';
 import Odometer from './component/Odometer';
 import Clients from './component/Clients';
 import Business from './component/Business';
+import data from './data/projects.json'
 function Home() {
+
   return (
     <>
     <Business/>
@@ -18,7 +20,7 @@ function Home() {
                 <About/>
                 <Odometer/>
                 <Services/>
-                <Projects/>
+                <Projects all_data={data}/>
                 <Technologies/>
                 <Clients/>
                 <Testimonials/>

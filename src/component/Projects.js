@@ -1,20 +1,59 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {Container} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
-function Projects() {
+function Projects(props) {
+  const checklang =window.document.dir;
+ 
+useEffect(()=>{
+
+  setlang(checklang === "ltr" ? "en" :"ar")
+}
+,[checklang])
+  
+  const all_data = props.all_data;
+  console.log(all_data)
+const [currentProject ,setcurrentProject]=useState(all_data[0])
+
+
+const [lang ,setlang]=useState("")
+
+const [imageProject ,setimageProject]=useState("")
+
+console.log(currentProject)
+console.log(all_data[0].name[lang])
   return (
     <div className="projects">
       <Container>
         <div className="head">
           <h2>Our Latest Creative Projects</h2>
-          <a onClick={()=>{console.log("hi")}}>
+          <Link to="/portfolio">
             <p>See All Protfolio</p>
             <img src="./images/icons/see_all.svg" alt="" />
-          </a >
+          </ Link>
         </div>
 
         <div className="all-project row">
+          {
+            all_data.map((data)=>{return(
+              
+               <div
+               key={data.id}
+            className="project col-lg-3 col-md-5 col-sm-5 col-12"
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalLong"
+          onClick={()=>setcurrentProject(data)}
+          
+          >
+            <h3>{data.name[lang]}</h3>
+            <p>{data.category}</p>
+            <img src={data.main_image} alt="Oread" />
+          </div>
+             
+            )})
+          }
           <div
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
@@ -134,7 +173,7 @@ function Projects() {
         aria-labelledby="exampleModalLongTitle"
         aria-hidden="true"
       >
-        <div className="modal-dialog" role="document">
+        <div className="modal-dialog modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-header">
               <button
@@ -152,19 +191,14 @@ function Projects() {
             </div>
             <div className="modal-body">
               <div className="modal_img">
-                <img src="./images/projects/oread.svg" alt="" />
-                <img className="back_img" src="./images/projects/oread.svg" alt="" />
+                <img src={currentProject.main_image} alt="" />
+                <img className="back_img" src={currentProject.background_image} alt="" />
 
               </div>
               <div className="modal_title">
-                <h2>Optima limo</h2>
+                <h2>{currentProject.name[lang]}</h2>
                 <p>
-                  Optima Limo is specialized in car rental with driver service
-                  We Are Dynamic, Professional company that is very attentive to
-                  privacy, courtesy, reliability and transparency. We offer
-                  “passenger Transportation services”. From individual to
-                  delegations for companies, professionals and private citizens,
-                  with high-Quality professional services and vehicles{" "}
+                 {currentProject.description[lang]}
                   
                 </p>
                 <div className="modal_app">
@@ -172,6 +206,10 @@ function Projects() {
                   <a href="#"><img src="./images/apps/google_play.svg" alt="" /></a>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
     );
 }
