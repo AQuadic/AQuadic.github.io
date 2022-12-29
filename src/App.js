@@ -19,6 +19,8 @@ import Persone from './component/Persone';
 import Portfolio from './component/Portfolio';
 
 import data from './data/projects.json'
+import Target_Project from './component/Target_Project';
+import Jop_About from './component/Job_About';
 
 
 
@@ -47,6 +49,10 @@ function App() {
                     <Route path='/team' element={<Team/>}/>
                     <Route path='/person' element={<Persone/>}/>
                     <Route path='/portfolio' element={<Portfolio data={data}/>}/>
+                    <Route path='/target-project' element={<Target_Project data={data} />}/>
+                    <Route path='/job_about' element={<Jop_About />}/>
+
+
                 </Routes>
                 <Footer/>
             </BrowserRouter>

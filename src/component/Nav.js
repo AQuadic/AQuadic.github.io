@@ -7,7 +7,7 @@ function Nav() {
   const [lang, setlang] = useState("English");
   const [langs, setlangs] = useState("EN");
  
-  console.log("hh");
+
   const ref = useRef();
   window.onscroll = function () {
     if (window.scrollY > 90) {
@@ -20,7 +20,7 @@ function Nav() {
   return (
     <section className="con ">
       <nav
-        className="navbar  navbar-expand-lg navbar-light fixed-top "
+        className="navbar  navbar-expand-lg navbar-light "
         ref={ref}
       >
         <Container>

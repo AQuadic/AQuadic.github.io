@@ -4,12 +4,19 @@
 body {
   position: relative;
 }
+@font-face {
+  font-family: Agency FB;
+src: url('../public/font/AgencyFB-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,700&display=swap");
 * {
   margin: 0;
   font-family: "DM Sans";
 }
+
 h1,
 h2,
 h3,
@@ -888,14 +895,17 @@ a.nav-link {
   text-align: center;
   margin-bottom: 62px;
 }
-.projects .container .head a {
+.projects .container .head a ,.projects .modal-body .modal_title .view,.jop-about .view{
   display: flex;
   gap: 10px;
 }
-html[dir="rtl"] .projects .container .head a img {
+html[dir="rtl"] .projects .container .head a img ,.projects .modal-body .modal_title .view img,.jop-about .view img{
   transform: rotate(180deg);
 }
-.projects .container .head a p {
+html[dir="ltr"] .projects .container .head a img ,.projects .modal-body .modal_title .view img,.jop-about .view img{
+  transform: rotate(0deg);
+}
+.projects .container .head a p,.projects .modal-body .modal_title .view p ,.jop-about .view p{
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -1205,17 +1215,17 @@ span.react-read-more-read-less.react-read-more-read-less-more {
   font-size: 14px;
   padding: 2px 5px;
 }
-.testimonials .container .slick-slider .slick-arrow {
+.slick-slider .slick-arrow {
   width: 60px;
   height: 60px;
   background-color: #2e1f26;
   border-radius: 50%;
   z-index: 50;
 }
-.testimonials .container .slick-slider .slick-arrow.slick-disabled {
+.slick-slider .slick-arrow.slick-disabled {
   opacity: 0.8;
 }
-.testimonials .container .slick-slider .slick-arrow img {
+.slick-slider .slick-arrow img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1258,7 +1268,7 @@ html[dir="rtl"] .slick-arrow img {
   }
 }
 @media (max-width: 480px) {
-  .testimonials .container .slick-slider .slick-arrow {
+   .slick-slider .slick-arrow {
     visibility: hidden;
   }
   .testimonials .container .slick-slider .slick-track .card-tes .card-info img {
@@ -1401,6 +1411,7 @@ html[dir="rtl"] .slick-arrow img {
   transition: 0.5s;
   flex-grow: 1;
   overflow: hidden;
+  cursor: pointer;
 }
 .services .all-services .part:hover {
   border: 2px solid #f15f57;
@@ -1897,6 +1908,15 @@ html[dir="rtl"] .services .all-services .part img {
   flex: 1;
   background-color: white;
 }
+.projects .modal-body .modal_title .view{
+  margin-bottom: 30px;
+
+}
+.projects .modal-body .modal_title .view p{
+  margin: 0;
+
+}
+
 .projects .modal-body .modal_title h2 {
   position: relative;
   font-weight: 700;
@@ -1915,7 +1935,7 @@ html[dir="rtl"] .services .all-services .part img {
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
-  margin: 44px auto;
+  margin: 44px auto 8px;
 }
 .projects .modal-body .modal_title .modal_app {
   display: flex;
@@ -2055,3 +2075,520 @@ html[dir="rtl"] .services .all-services .part img {
   }
 }
 /*end portfolio*/
+/*start target-project*/
+.target-project{
+
+}
+
+/* pharm */ .pharm .row {
+  align-items: center;
+  justify-content:space-between;
+} .pharm .about-pharm .title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+} .pharm .about-pharm .title h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #0056A3;
+  font-family: 'Agency FB';
+  line-height: 77px;
+} .pharm .about-pharm .text {
+  
+  font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+color: #2E1F26;
+  margin: 0px auto 25px;
+} .pharm .about-pharm .tryit {
+
+  margin-bottom: 16px;
+  font-size: 20px;
+ 
+  color: #2E1F26;
+} .pharm .about-pharm .go-app
+ {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-start;
+
+  padding: 0;
+  margin: 16px 0px 24px 0px;
+} .pharm .about-pharm .go-app img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+ .pharm .about-pharm .go-app{
+    gap: 10px;
+  }
+}
+@media (max-width: 772px) {
+ .pharm .row {
+    text-align: center;
+    justify-content: center;
+  }
+ .pharm .about-pharm .go-app,
+ .pharm .about-pharm .title {
+    justify-content: center;
+  }
+}
+@media (max-width: 560px) {
+ .pharm .about-pharm .text {
+   
+    font-size: 20px;
+   
+} .pharm .about-pharm .title h1 {
+  font-size: 54px;
+ 
+}
+}
+/* end pharm */
+/* over  */
+.over {
+  background: rgba(46, 31, 38, 0.05);
+  padding: 60px 0px;
+  
+ margin-top: 100px;
+}
+.over-about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.over-about h3{
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+color: #2E1F26;
+margin-bottom: 22px;
+}
+.over-about .part{
+
+}
+.over-about .part1{
+  
+}
+.over-about .part2{
+  
+}
+.over .one , .over .to {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px;
+  flex-wrap: wrap;
+} 
+.over .page {
+  width: 270px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.over h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+.over h4 {
+  font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+}
+.over p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  
+  color: #2E1F26;
+}
+.over .g-img {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.over .f-img  {
+  
+ gap: 12px; 
+ }
+.over .f-img img {
+ width: 24px;
+ 
+}
+
+@media (max-width: 768px) {
+  .over{
+    text-align: center;
+  }
+  .over .page {
+    align-items: center;
+    justify-content: center;
+}
+  .over .one , .over .to {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px 40px;
+    flex-wrap: wrap;
+  }  
+  .over p {
+    margin-bottom: 45px;
+  }
+  .over .to{
+    gap: 40px;
+  }
+}
+/* end over */
+.target-project  .look{
+  text-align: center;
+  margin: 100px auto;
+}
+.target-project .look h2{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 8px;
+}
+.target-project .look .h3-look{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0px auto 60px;
+  max-width: 334px;
+}
+.testimonials2{
+  margin-top: 100px;
+}
+.testimonials2 h2{
+  font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+margin-bottom: 40px;
+}
+.testimonials2 .btn-testimonials2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ gap: 120px;
+ margin-bottom: 70px;
+}
+.testimonials2 .btn-testimonials2 button {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #A0A0A0;
+  background: transparent;
+  border: navajowhite;
+  transition: 0.5s;
+}
+.testimonials2 .btn-testimonials2 button.open{
+  color: #EA433A;
+  text-decoration: underline;
+}
+.testimonials2 .slick-slide img {
+  display: block;
+  margin: auto;
+}
+/*end target-project*/
+/*start jop-about*/
+.jop-about{
+
+}
+.jop-about .view{
+margin-bottom: 20px;
+}
+.jop-about .our_creative{
+  background: rgba(46, 31, 38, 0.1);
+  padding: 40px 0px;
+  margin: 80px auto 100px ;
+}
+.jop-about .our_creative .header-our{
+  font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+margin-bottom: 50px;
+}
+.plan h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 44px;
+  margin-top: 60px;
+}
+.parts-plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 90px 40px;
+}
+.parts-plan .part-plan{
+  position: relative;
+}
+.parts-plan::after {
+  position: absolute;
+  content: "";
+ height: 160px;
+    width: 150px;
+ top: 32%;
+ left: 50%;
+  background-image: url('../public/images/icons/triangle3.svg');
+  background-repeat: no-repeat;
+  transform: translate(-50%,-50%);
+      z-index: -3;
+
+}
+html[dir=rtl] .parts-plan::after{
+  transform: translate(-50%,-50%) rotateY(180deg);
+
+}
+.parts-plan .part-plan h3{
+  font-weight: 700;
+font-size: 96px;
+line-height: 125px;
+}
+.parts-plan .part-plan .plan-about{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.parts-plan .part-plan .plan-about h4{
+ font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+}
+.parts-plan .part-plan .plan-about .plan-span{
+  
+
+}
+.parts-plan .part-plan .plan-about .plan-span span{ 
+  display: block;
+  height: 1px;
+  width: 290px;
+  margin-bottom: 4px;
+  background-color: #D8D8D8;;
+}
+.parts-plan .part-plan .plan-about ul {
+  padding: 0;
+}
+.parts-plan .part-plan .plan-about ul li{
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #2E1F26;
+list-style: inside;
+}
+
+
+.jop-tech{
+margin-bottom: 200px;
+}
+.jop-tech .all-part{
+  display: flex;
+  justify-content: space-between;
+
+}
+.jop-tech h2{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.jop-tech .part1{
+
+}
+.jop-tech .part1 .tech{
+display: flex;
+flex-direction: column;
+margin-bottom: 14px;
+}
+.jop-tech .part1 .tech h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 16px;
+}
+.jop-tech .part1 .tech ul{
+display: flex;
+gap: 24px;
+align-items: center;
+padding: 0;
+}
+.jop-tech .part1 .tech ul li{
+width: 72px;
+height: 72px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #F5F5F5;
+border-radius: 5px;
+transition: 0.5s;
+}
+.jop-tech .part1 .tech ul li:hover{
+  background: #F15F57;
+}
+.jop-tech .part1 .tech ul li img{
+  translate: 0.5s;
+}
+.jop-tech .part1 .tech ul li .ti-1{
+
+}
+.jop-tech .part1 .tech ul li:hover .ti-1,.jop-tech .part1 .tech ul li .ti-2{
+display: none;
+}
+
+.jop-tech .part1 .tech ul li:hover .ti-2{
+display: block;
+}
+.jop-tech .part2 {
+  padding: 46px 36px;
+  background: #F5F5F5;
+  box-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 26px;
+ width: 654px;
+
+}
+.jop-tech .part2::before ,.jop-tech .part2::after{
+  position: absolute;
+  content: "";
+  width: 118px;
+  height: 178px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+html[dir=rtl] .jop-tech .part2::before ,html[dir=rtl] .jop-tech .part2::after{
+  transform: rotate(180deg);
+}
+.jop-tech .part2::before{
+ 
+  background-image: url('../public/images/icons/triangle1.svg');
+  top: calc(100% - 70px);
+  left: calc(100% - 140px);
+ 
+}
+.jop-tech .part2::after{
+ 
+  background-image: url('../public/images/icons/triangle2.svg');
+  top: calc(100% - 179px);
+  left: calc(100% - 38px);
+ 
+}
+html[dir=rtl] .jop-tech .part2::after {
+ 
+  left: calc(00% - 80px);
+}
+html[dir=rtl] .jop-tech .part2::before {
+  left: calc(0% + 40px);
+}
+.jop-tech .part2 img{
+width: 60px;
+height: 60px;
+}
+.jop-tech .part2 .about-tech {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 14px;
+}
+.jop-tech .part2 .about-tech h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.jop-tech .part2 .about-tech p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2E1F26;
+  max-width: 450px;
+}
+@media(max-width:992px){
+  .jop-tech .all-part {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+}
+  .jop-tech .part2 {
+   
+    flex-grow: 1;
+}
+}
+@media(max-width:768px){
+  .jop-about .pharm .row {
+flex-direction: column-reverse;
+  }
+  .jop-about .pharm .row .img-pharm {
+    width: 52%;
+}
+
+ .parts-plan::after {
+  transform: translate(-50%,-50%) rotate(90deg);
+  top: 52%;
+  left: 50%;
+}
+html[dir=rtl] .parts-plan::after{
+  transform: translate(-50%,-50%) rotateY(0deg) rotate(90deg);
+
+}
+.jop-about .view{
+ align-items: center;
+ justify-content: center;
+  }
+}
+@media(max-width:440px){
+  .jop-tech .part2 {
+    padding: 26px 16px;
+   
+}
+.jop-tech .part2 .about-tech p {
+ 
+  font-size: 14px;
+ 
+}
+.jop-tech .part2 .about-tech {
+ 
+  gap: 18px;
+ 
+}
+.jop-tech .part2 img {
+  width: 50px;
+  height: 50px;
+}
+.jop-tech h2 {
+ 
+  font-size: 30px;
+ 
+}
+.jop-tech .part1 .tech ul li {
+  width: 64px;
+  height: 64px;
+ 
+}
+.jop-tech .part1 .tech h3 {
+ 
+  font-size: 20px;
+  
+}
+.jop-about .our_creative .header-our {
+  
+  font-size: 26px;
+  
+}
+}
+/*end jop-about*/

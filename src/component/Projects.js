@@ -201,6 +201,16 @@ console.log(all_data[0].name[lang])
                  {currentProject.description[lang]}
                   
                 </p>
+                <div  data-bs-dismiss="modal" className=" close view">
+                <Link  to="target-project" className=" view"   
+               
+               
+                >
+            <p >View Details</p>
+            <img src="./images/icons/see_all.svg" alt="" />
+          </ Link>
+                </div>
+               
                 <div className="modal_app">
                 <a href="#">  <img src="./images/apps/app_store.svg" alt="" /></a>
                   <a href="#"><img src="./images/apps/google_play.svg" alt="" /></a>
