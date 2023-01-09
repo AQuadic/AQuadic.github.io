@@ -2600,8 +2600,9 @@ html[dir=rtl] .parts-plan::after{
   right: 0;
   bottom: 0;
   background: white;
-  width: 100%;
+  width: 70%;
   height: 460px;
+  margin: 0 auto;
 }
 .bg .dotWrapper {
   position: absolute;
