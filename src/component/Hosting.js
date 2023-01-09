@@ -51,7 +51,7 @@ function Hosting() {
                             </ul>
                         </div>
                     </div>
-                    <button className="btn-page">Visit Site</button>
+                    <a href="#"><button className="btn-page">Visit Site</button></a>
                 </div>
 
                 <div className="part_host">

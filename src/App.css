@@ -3,6 +3,7 @@
 }
 body {
   position: relative;
+  padding-top: 4.5rem;
 }
 @font-face {
   font-family: Agency FB;

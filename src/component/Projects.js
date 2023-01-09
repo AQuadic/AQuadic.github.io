@@ -1,22 +1,23 @@
 import React, { useEffect, useState } from "react";
 import {Container} from "react-bootstrap";
+import { useSelector } from "react-redux";
 import {Link} from "react-router-dom";
 
 function Projects(props) {
   const checklang =window.document.dir;
- 
+  const qi = useSelector((state)=>state.dir.value)
 useEffect(()=>{
 
-  setlang(checklang === "ltr" ? "en" :"ar")
+  setlang(qi.toLowerCase())
 }
-,[checklang])
+,[qi])
   
   const all_data = props.all_data;
   console.log(all_data)
 const [currentProject ,setcurrentProject]=useState(all_data[0])
 
 
-const [lang ,setlang]=useState("")
+const [lang ,setlang]=useState()
 
 const [imageProject ,setimageProject]=useState("")
 

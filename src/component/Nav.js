@@ -1,26 +1,22 @@
 import React, { useRef, useState ,useEffect } from "react";
 import { Container } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
 
 import { Link } from "react-router-dom";
+import { counteraction } from "../data/data";
 
 function Nav() {
   const [lang, setlang] = useState("English");
   const [langs, setlangs] = useState("EN");
- 
 
   const ref = useRef();
-  window.onscroll = function () {
-    if (window.scrollY > 90) {
-      ref.current.classList.add("fixed-top");
-    } else {
-      ref.current.classList.remove("fixed-top");
-    }
-  };
- 
+  const qi = useSelector((state)=>state.dir.value)
+  const dispatch = useDispatch();
+  const { c_dir } = counteraction;
   return (
     <section className="con ">
       <nav
-        className="navbar  navbar-expand-lg navbar-light "
+        className="navbar  navbar-expand-lg navbar-light fixed-top"
         ref={ref}
       >
         <Container>
@@ -54,7 +50,7 @@ function Nav() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Company
+                  {qi}
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
@@ -114,15 +110,19 @@ function Nav() {
           <button
             className="lang "
             onClick={() => {
+           
               if (lang === "English" || langs === "EN") {
                 setlang("Arabic");
                 setlangs("AR");
                 window.document.dir = "rtl";
+                dispatch(c_dir('AR'));
               } else {
                 setlang("English");
                 setlangs("EN");
                 window.document.dir = "ltr";
+                dispatch(c_dir("EN"));
               }
+            
             }}
           >
             <img src="./images/icons/lang.svg" alt="" />

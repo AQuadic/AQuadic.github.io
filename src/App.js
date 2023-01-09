@@ -21,6 +21,9 @@ import Portfolio from './component/Portfolio';
 import data from './data/projects.json'
 import Target_Project from './component/Target_Project';
 import Jop_About from './component/Job_About';
+import ScrollToTop from './component/ScrollToTop';
+import { Provider, useSelector } from 'react-redux';
+import store from './data/dataSlice';
 
 
 
@@ -30,11 +33,14 @@ function App() {
     AOS.init();
 
     return (
+        <Provider store={store}>
+
+      
         <div className="App">
             
 
             <BrowserRouter>
-           
+           <ScrollToTop/>
                 <Nav/>
               
                
@@ -60,6 +66,7 @@ function App() {
             
             
         </div>
+        </Provider>
     );
 }
 
