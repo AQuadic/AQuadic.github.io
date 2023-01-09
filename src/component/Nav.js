@@ -50,7 +50,7 @@ function Nav() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  {qi}
+                  Company
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
