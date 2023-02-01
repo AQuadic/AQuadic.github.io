@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
 import {Container} from "react-bootstrap";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {Link} from "react-router-dom";
-
+import {counteraction} from "../data/data";
 function Projects(props) {
+const {targetProjecr} = counteraction;
+const dispatch = useDispatch();
   const checklang =window.document.dir;
   const qi = useSelector((state)=>state.dir.value)
+  const project = useSelector((state)=>state.dir.project)
+  console.log(project)
 useEffect(()=>{
 
   setlang(qi.toLowerCase())
@@ -45,7 +49,7 @@ console.log(all_data[0].name[lang])
             data-aos-delay="0"
             data-bs-toggle="modal"
             data-bs-target="#exampleModalLong"
-          onClick={()=>setcurrentProject(data)}
+          onClick={()=>{setcurrentProject(data);dispatch(targetProjecr(data))}}
           
           >
             <h3>{data.name[lang]}</h3>
@@ -204,11 +208,11 @@ console.log(all_data[0].name[lang])
                   
                 </p>
                 <div  data-bs-dismiss="modal" className=" close view">
-                <Link  to="portfolio/target-project" className=" view"
-               
+                <Link  to={`portfolio/${currentProject.id}`} className=" view"
+              
                
                 >
-            <p >View Details</p>
+            <p >{currentProject.id}</p>
             <img src="./images/icons/see_all.svg" alt="" />
           </ Link>
                 </div>

@@ -2698,6 +2698,7 @@ html[dir="rtl"] .services .all-services .part img {
 .testimonials2 .slick-slide img {
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 /*end target-project*/

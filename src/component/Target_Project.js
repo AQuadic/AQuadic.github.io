@@ -1,8 +1,10 @@
-import React, {useRef} from 'react'
-import {Container} from 'react-bootstrap'
+import React, {useRef ,useEffect,useState} from 'react';
+import {Container} from 'react-bootstrap';
 import Slider from "react-slick";
-
+import { useParams } from "react-router-dom";
+import { useSelector } from 'react-redux';
 function Target_Project(props) {
+ 
     const data = props.data;
     var settings = {
         className: "center",
@@ -60,8 +62,18 @@ function Target_Project(props) {
     };
     const btn1 = useRef()
     const btn2 = useRef()
+const  {id}=useParams()
+console.log(id)
+console.log(data)
+const project = useSelector((state)=>state.dir.project)
+const [dataa, setdataa] = useState(project)
+useEffect(()=>{
+    console.log(project)
+    project.length === 0?console.log(project):console.log("nooooooo")
 
-    return (
+},[])
+    return (    
+        project ? 
         <div className='target-project'>
             <Container>
                 {/* pharm */}
@@ -72,12 +84,10 @@ function Target_Project(props) {
                             <div className="title">
 
                                 <img src="/images/pharmacy/logo.svg" alt="logo icon"/>
-                                <h1>Pharmacy</h1>
+                                <h1>{project.name.ar}</h1>
                             </div>
                             <p className="text">
-                                Pharmacy app for helping the clients and patients to get their
-                                staff without get out of the house, all that with delivery and
-                                shipping to their houses
+                            {project.description.ar}
                             </p>
                             <p className="tryit">
                                 try it now
@@ -108,7 +118,7 @@ function Target_Project(props) {
                             </ul>
 
                         </div>
-                        <img src="/images/pharmacy/pharmacy.png" className="img-pharm col-lg-5 col-md-6 col-sm-9"
+                        <img src={project.main_image} className="img-pharm col-lg-5 col-md-6 col-sm-9"
                              data-aos="zoom-in" alt="Group"/>
                     </div>
 
@@ -130,24 +140,16 @@ function Target_Project(props) {
 
                     </div>
                     <Slider {...settings}>
-                        <div>
-                            <img src="/images/pharmacy/shap.svg" alt="logo icon"/>
+                        {
+                            project.images_mobile.map((img_url)=>{
+                                return (
+                                <div key={img_url}>
+                            <img src={img_url} alt="logo icon"/>
                         </div>
-                        <div>
-                            <img src="/images/pharmacy/shap.svg" alt="logo icon"/>
-                        </div>
-                        <div>
-                            <img src="/images/pharmacy/shap.svg" alt="logo icon"/>
-                        </div>
-                        <div>
-                            <img src="/images/pharmacy/shap.svg" alt="logo icon"/>
-                        </div>
-                        <div>
-                            <img src="/images/pharmacy/shap.svg" alt="logo icon"/>
-                        </div>
-                        <div>
-                            <img src="/images/pharmacy/shap.svg" alt="logo icon"/>
-                        </div>
+                                )
+                            })
+                        }
+                       
                     </Slider>
                 </div>
             </Container>
@@ -256,6 +258,11 @@ function Target_Project(props) {
                 </div>
             </Container>
         </div>
+        :
+        
+        <div>no data her </div>
+       
+        
     )
 }
 

@@ -23,6 +23,7 @@ import Home_lay from './component/Home_lay';
 
 
 function App() {
+    
     // <img className='chat' src='./images/icons/chat.svg' alt=''/>
     AOS.init();
 
@@ -48,7 +49,7 @@ function App() {
                             <Route path='person' element={<Persone/>}/>
                             <Route path='portfolio' element={<Po_ta/>}>
                                 <Route index element={<Portfolio data={data}/>}/>
-                                <Route path='target-project' element={<Target_Project data={data}/>}/>
+                                <Route path=':id' element={<Target_Project data={data}/>}/>
                             </Route>
                             <Route path='job_about' element={<Jop_About/>}/>
                         </Route>
