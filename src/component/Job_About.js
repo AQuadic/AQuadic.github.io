@@ -98,7 +98,7 @@ function Jop_About() {
                                                 staff without get out of the house, all that with delivery and
                                                 shipping to their houses
                                             </p>
-                                            <Link to="/target-project" className='view'>
+                                            <Link to="/portfolio/target-project" className='view'>
                                                 <p>View Details</p>
                                                 <img src='/images/icons/arrow.svg' alt=''/>
                                             </Link>
@@ -125,7 +125,7 @@ function Jop_About() {
                                                 staff without get out of the house, all that with delivery and
                                                 shipping to their houses
                                             </p>
-                                            <Link to="/target-project" className='view'>
+                                            <Link to="/portfolio/target-project" className='view'>
                                                 <p>View Details</p>
                                                 <img src='/images/icons/arrow.svg' alt=''/>
                                             </Link>
@@ -152,7 +152,7 @@ function Jop_About() {
                                                 staff without get out of the house, all that with delivery and
                                                 shipping to their houses
                                             </p>
-                                            <Link to="/target-project" className='view'>
+                                            <Link to="/portfolio/target-project" className='view'>
                                                 <p>View Details</p>
                                                 <img src='/images/icons/arrow.svg' alt=''/>
                                             </Link>
@@ -179,7 +179,7 @@ function Jop_About() {
                                                 staff without get out of the house, all that with delivery and
                                                 shipping to their houses
                                             </p>
-                                            <Link to="/target-project" className='view'>
+                                            <Link to="/portfolio/target-project" className='view'>
                                                 <p>View Details</p>
                                                 <img src='/images/icons/arrow.svg' alt=''/>
                                             </Link>
