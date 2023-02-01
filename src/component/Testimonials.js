@@ -8,11 +8,11 @@ function Testimonials() {
         className: "center",
         prevArrow:
             <div>
-                <img src="./images/icons/arrow_left.svg" alt=""/>
+                <img src="/images/icons/arrow_left.svg" alt=""/>
             </div>,
         nextArrow:
             <div>
-                <img src="./images/icons/arrow_right.svg" alt=""/>
+                <img src="/images/icons/arrow_right.svg" alt=""/>
             </div>
         ,
         dots: false,
@@ -108,7 +108,7 @@ function Testimonials() {
 
                     <div className="card-tes">
                         <div className="card-info">
-                            <img src="./images/testimonials/user.svg" alt=""/>
+                            <img src="/images/testimonials/user.svg" alt=""/>
                             <div className="info-user">
                                 <h3>Bader</h3>
                                 <h4>CEO | Coifast</h4>

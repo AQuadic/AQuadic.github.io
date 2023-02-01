@@ -62,23 +62,23 @@ function Clients() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="650" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='./images/partners/olahub-zain.webp' alt='olahub'/>
+                    <img src='/images/partners/olahub-zain.webp' alt='olahub'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="700" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='./images/partners/mal3abak-logo.webp' alt='mal3abak'/>
+                    <img src='/images/partners/mal3abak-logo.webp' alt='mal3abak'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="750" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='./images/partners/medlevant-hapage.webp' alt='medlevant'/>
+                    <img src='/images/partners/medlevant-hapage.webp' alt='medlevant'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="800" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='./images/partners/arabart.webp' alt='arabart'/>
+                    <img src='/images/partners/arabart.webp' alt='arabart'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="850" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='./images/partners/vertie-logo.webp' alt='vertie'/>
+                    <img src='/images/partners/vertie-logo.webp' alt='vertie'/>
                 </div>
 
             </div>

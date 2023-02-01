@@ -6,7 +6,7 @@ function Time_Model() {
     return (
         <div className="time">
             <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
-                <img src="./images/Time_Model/Time_model.svg" alt="hosting"/>
+                <img src="/images/Time_Model/Time_model.svg" alt="hosting"/>
                 <h2>
                     Top Product Pricing Strategies & Competitive Pricing Methods
                 </h2>
@@ -14,7 +14,7 @@ function Time_Model() {
             <Container className="row">
                 <div className="col-lg-3 col part_time">
                     <h2>Fixed Price Model</h2>
-                    <img src="./images/Time_Model/price_model.svg"/>
+                    <img src="/images/Time_Model/price_model.svg"/>
                     <p>
                         Fixed Price model is suitable for projects with well-defined
                         requirements and schedules. When your need is clearly specified in
@@ -35,7 +35,7 @@ function Time_Model() {
                 </div>
                 <div className="col-lg-3 col part_time">
                     <h2>Time Model</h2>
-                    <img src="./images/Time_Model/time_model2.svg"/>
+                    <img src="/images/Time_Model/time_model2.svg"/>
                     <p>
                         AQuadic Time model is the perfect choice if your tasks are not continuous, you don’t want to
                         hire a full-time employee to work for just a week each month. AQuadic offers you a dedicated
@@ -62,7 +62,7 @@ function Time_Model() {
                 </div>
                 <div className="col-lg-3 col part_time">
                     <h2>Off-shore Dedicated Teams Model</h2>
-                    <img src="./images/Time_Model/team_model.svg"/>
+                    <img src="/images/Time_Model/team_model.svg"/>
                     <p>
                         Assigning the task of building your own virtual team using one of AQuadic professional teams
                         that will be dedicated only for your projects (either to develop new solutions or to make

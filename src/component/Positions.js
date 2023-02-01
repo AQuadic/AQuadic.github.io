@@ -15,7 +15,7 @@ function Positions() {
                         <div className='job_info'>
                             <p>Full Time</p>
                             <span>|</span>
-                            <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='/images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' onClick={() => {
@@ -30,7 +30,7 @@ function Positions() {
                         <div className='job_info'>
                             <p>Remotely</p>
                             <span>|</span>
-                            <p><img src='./images/icons/map_off.svg' alt=''/> 🌍.</p>
+                            <p><img src='/images/icons/map_off.svg' alt=''/> 🌍.</p>
                         </div>
                     </div>
                     <button className='btn-page' onClick={() => {
@@ -45,7 +45,7 @@ function Positions() {
                         <div className='job_info'>
                             <p>Full Time</p>
                             <span>|</span>
-                            <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='/images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' onClick={() => {
@@ -60,7 +60,7 @@ function Positions() {
                         <div className='job_info'>
                             <p>Part Time</p>
                             <span>|</span>
-                            <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='/images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' onClick={() => {
@@ -75,7 +75,7 @@ function Positions() {
                         <div className='job_info'>
                             <p>Full Time</p>
                             <span>|</span>
-                            <p><img src='./images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
+                            <p><img src='/images/icons/map_off.svg' alt=''/> Alexandria, Egypt.</p>
                         </div>
                     </div>
                     <button className='btn-page' onClick={() => {

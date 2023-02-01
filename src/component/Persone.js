@@ -8,7 +8,7 @@ function Persone() {
                 <div className="about">
                     <div className="person ">
                         <div className="person_img bink">
-                            <img src="./images/team/person_img.svg" alt="person_img"/>
+                            <img src="/images/team/person_img.svg" alt="person_img"/>
                         </div>
                         <div className="person_name">
                             <h3>Person Name</h3>
@@ -30,13 +30,13 @@ function Persone() {
                     <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up" data-aos-delay="0">
                         <h3>Oread</h3>
                         <p>Reading</p>
-                        <img src='./images/projects/oread.svg' alt='Oread'/>
+                        <img src='/images/projects/oread.svg' alt='Oread'/>
                     </div>
 
                     <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up" data-aos-delay="50">
                         <h3>MS Player</h3>
                         <p>Media</p>
-                        <img src='./images/projects/msplayer.svg' alt='MS Player'/>
+                        <img src='/images/projects/msplayer.svg' alt='MS Player'/>
                     </div>
 
 

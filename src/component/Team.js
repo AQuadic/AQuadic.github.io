@@ -8,7 +8,7 @@ function Team() {
     return (
         <div className="team">
             <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
-                <img src="./images/team/team.svg" alt="hosting"/>
+                <img src="/images/team/team.svg" alt="hosting"/>
                 <div className="about_img_team">
                     <h2>Our Peaple</h2>
                     <p>This is our team, a lot of smiling happy people who work hard to empower your Project.</p>
@@ -26,7 +26,7 @@ function Team() {
                     <div className="about_team ">
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img bink">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -35,7 +35,7 @@ function Team() {
                         </div>
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img blue">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -44,7 +44,7 @@ function Team() {
                         </div>
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img orange">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -61,7 +61,7 @@ function Team() {
                     <div className="about_team ">
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img bink">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -70,7 +70,7 @@ function Team() {
                         </div>
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img blue">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -79,7 +79,7 @@ function Team() {
                         </div>
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img orange">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -88,7 +88,7 @@ function Team() {
                         </div>
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img bink">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -97,7 +97,7 @@ function Team() {
                         </div>
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img blue">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>
@@ -106,7 +106,7 @@ function Team() {
                         </div>
                         <div className="person " onClick={() => navigate('/person')}>
                             <div className="person_img orange">
-                                <img src="./images/team/person_img.svg" alt="person_img"/>
+                                <img src="/images/team/person_img.svg" alt="person_img"/>
                             </div>
                             <div className="person_name">
                                 <h3>Person Name</h3>

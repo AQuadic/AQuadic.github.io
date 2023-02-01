@@ -5,7 +5,7 @@ function Hosting() {
     return (
         <div className="hosting">
             <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
-                <img src="./images/hosting/hosting.svg" alt="hosting"/>
+                <img src="/images/hosting/hosting.svg" alt="hosting"/>
                 <h2>
                     Best Web Hosting for Small Businesses Find the right service for your
                     business
@@ -51,12 +51,14 @@ function Hosting() {
                             </ul>
                         </div>
                     </div>
-                    <a href="#"><button className="btn-page">Visit Site</button></a>
+                    <a href="#">
+                        <button className="btn-page">Visit Site</button>
+                    </a>
                 </div>
 
                 <div className="part_host">
                     <div className="about_host">
-                        <img src="./images/hosting/godaddy.svg" alt=""/>
+                        <img src="/images/hosting/godaddy.svg" alt=""/>
                         <div className="info_host">
                             <h2>
                                 GoDaddy -Complete hosting solutions for any website and business

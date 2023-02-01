@@ -3,9 +3,9 @@ import {Button, Card, Container, Form} from "react-bootstrap";
 
 function Forminfo() {
     return (
-        <section className="forminfo" >
+        <section className="forminfo">
             <Container>
-                <img className="imageback" src="./images/patterns/pattern_1.svg" alt=""/>
+                <img className="imageback" src="/images/patterns/pattern_1.svg" alt=""/>
                 <Card>
                     <Card.Body>
                         <h2 className=" mb-2">Can’t see a position that interests you?</h2>
