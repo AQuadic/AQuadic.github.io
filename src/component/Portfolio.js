@@ -2,7 +2,7 @@ import React, {useRef, useState} from 'react'
 import {Container} from 'react-bootstrap';
 
 function Portfolio(props) {
-    const [nedd, setneed] = useState("appplication");
+    const [nedd, setneed, lang] = useState("appplication");
 
     const data = props.data;
     const filterData = data.filter((data) => data.type === nedd)
@@ -12,7 +12,7 @@ function Portfolio(props) {
 
     return (
         <div className='portfolio'>
-            <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
+            <div className='imageheader' data-aos="zoom-in-up" data-aos-delay="50">
                 <img src='/images/projects/portfolio.svg' alt='careers'/>
                 <h2>Portfolio</h2>
             </div>
@@ -30,15 +30,12 @@ function Portfolio(props) {
                         e.target.classList.add("open")
                     }}>Websites
                     </button>
-
                 </div>
+
                 <div className='all-portfolio row'>
-
                     {
-
                         filterData.map((data) => {
                             return (
-
                                 <div
                                     key={data.id}
                                     className="project col-lg-3 col-md-5 col-sm-5 col-12"
@@ -46,19 +43,14 @@ function Portfolio(props) {
                                     data-aos-delay="0"
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModalLong"
-
-
                                 >
-                                    <h3>{data.name.en}</h3>
-                                    <p>{data.category.name.en}</p>
-                                    <img src={data.main_image} alt="Oread"/>
+                                    <h3>{data.name[lang]}</h3>
+                                    <p>{data.category.name[lang]}</p>
+                                    <img src={data.main_image} alt={data.name[lang]}/>
                                 </div>
-
                             )
                         })
                     }
-
-
                 </div>
             </Container>
         </div>

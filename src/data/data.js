@@ -2,7 +2,7 @@ import {createSlice} from "@reduxjs/toolkit";
 
 const init = {
     value: "EN",
-project :[],
+    project: [],
 };
 const counterslice = createSlice({
     name: "dir",
@@ -11,11 +11,9 @@ const counterslice = createSlice({
         c_dir: (state, actions) => {
             state.value = actions.payload;
         },
-        targetProjecr:(state ,actions)=>{
-state.project= actions.payload
+        targetProject: (state, actions) => {
+            state.project = actions.payload
         }
-
-
     },
 });
 

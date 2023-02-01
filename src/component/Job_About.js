@@ -208,11 +208,11 @@ function Jop_About() {
                                         <li><img className='ti-1' src='/images/technologies/xd1.svg' alt=''/>
                                             <img className='ti-2' src='/images/technologies/xd2.svg' alt=''/>
                                         </li>
-                                        <li><img className='ti-1' src='./images/technologies/photoshop1.svg' alt=''/>
-                                            <img className='ti-2' src='./images/technologies/photoshop2.svg' alt=''/>
+                                        <li><img className='ti-1' src='/images/technologies/photoshop1.svg' alt=''/>
+                                            <img className='ti-2' src='/images/technologies/photoshop2.svg' alt=''/>
                                         </li>
-                                        <li><img className='ti-1' src='./images/technologies/ai1.svg' alt=''/>
-                                            <img className='ti-2' src='./images/technologies/ai2.svg' alt=''/>
+                                        <li><img className='ti-1' src='/images/technologies/ai1.svg' alt=''/>
+                                            <img className='ti-2' src='/images/technologies/ai2.svg' alt=''/>
                                         </li>
                                     </ul>
                                 </div>
@@ -222,14 +222,14 @@ function Jop_About() {
                                 <div className='tech-img'>
                                     <ul>
 
-                                        <li><img className='ti-1' src='./images/technologies/html1.svg' alt=''/>
-                                            <img className='ti-2' src='./images/technologies/html2.svg' alt=''/>
+                                        <li><img className='ti-1' src='/images/technologies/html1.svg' alt=''/>
+                                            <img className='ti-2' src='/images/technologies/html2.svg' alt=''/>
                                         </li>
-                                        <li><img className='ti-1' src='./images/technologies/css1.svg' alt=''/>
-                                            <img className='ti-2' src='./images/technologies/css2.svg' alt=''/>
+                                        <li><img className='ti-1' src='/images/technologies/css1.svg' alt=''/>
+                                            <img className='ti-2' src='/images/technologies/css2.svg' alt=''/>
                                         </li>
-                                        <li><img className='ti-1' src='./images/technologies/bootstrap1.svg' alt=''/>
-                                            <img className='ti-2' src='./images/technologies/bootstrap2.svg' alt=''/>
+                                        <li><img className='ti-1' src='/images/technologies/bootstrap1.svg' alt=''/>
+                                            <img className='ti-2' src='/images/technologies/bootstrap2.svg' alt=''/>
                                         </li>
                                     </ul>
                                 </div>
@@ -237,7 +237,7 @@ function Jop_About() {
 
                         </div>
                         <div className='part2'>
-                            <img src='./images/technologies/xd1.svg' alt=''/>
+                            <img src='/images/technologies/xd1.svg' alt=''/>
                             <div className='about-tech'>
                                 <h3>Adobe xd</h3>
                                 <p>Adobe XD is a powerful and easy-to-use vector-based experience design platform that

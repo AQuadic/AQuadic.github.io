@@ -8,8 +8,8 @@ import {HashLink} from 'react-router-hash-link';
 import {Link} from "react-router-dom";
 
 function Nav() {
-    const [lang, setlang] = useState("English");
-    const [langs, setlangs] = useState("EN");
+    const [lang, setLang] = useState("English");
+    const [langs, setLangs] = useState("EN");
 
     const ref = useRef();
     const qi = useSelector((state) => state.dir.value)
@@ -117,13 +117,13 @@ function Nav() {
                         onClick={() => {
 
                             if (lang === "English" || langs === "EN") {
-                                setlang("Arabic");
-                                setlangs("AR");
+                                setLang("Arabic");
+                                setLangs("AR");
                                 window.document.dir = "rtl";
                                 dispatch(c_dir('AR'));
                             } else {
-                                setlang("English");
-                                setlangs("EN");
+                                setLang("English");
+                                setLangs("EN");
                                 window.document.dir = "ltr";
                                 dispatch(c_dir("EN"));
                             }
