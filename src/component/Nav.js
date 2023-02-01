@@ -24,7 +24,7 @@ function Nav() {
         <Container>
           <Link className="navbar-brand" to="/">
             <img
-              src="./images/logo_vertical.svg"
+              src="/images/logo_vertical.svg"
               className="logo"
               alt="navbar-brand"
             />

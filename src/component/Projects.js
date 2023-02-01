@@ -204,7 +204,7 @@ console.log(all_data[0].name[lang])
                   
                 </p>
                 <div  data-bs-dismiss="modal" className=" close view">
-                <Link  to="portfolio/target-project" className=" view"   
+                <Link  to="portfolio/target-project" className=" view"
                
                
                 >
