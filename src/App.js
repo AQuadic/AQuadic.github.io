@@ -24,6 +24,7 @@ import Jop_About from './component/Job_About';
 import ScrollToTop from './component/ScrollToTop';
 import { Provider, useSelector } from 'react-redux';
 import store from './data/dataSlice';
+import Po_ta from './component/Po_ta';
 
 
 
@@ -47,22 +48,25 @@ function App() {
 
                 
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='/career' element={<Career/>}/>
-                    <Route path='/job' element={<Job_details/>}/>
-                    <Route path='/hosting' element={<Hosting/>}/>
-                    <Route path='/time_model' element={<Time_Model/>}/>
-                    <Route path='/team' element={<Team/>}/>
-                    <Route path='/person' element={<Persone/>}/>
-                    <Route path='/portfolio' element={<Portfolio data={data}/>}/>
-                    <Route path='/target-project' element={<Target_Project data={data} />}/>
-                    <Route path='/job_about' element={<Jop_About />}/>
-
+                    <Route path='/' >
+                    <Route index element={<Home />} />
+                    <Route path='career' element={<Career/>}/>
+                    <Route path='job' element={<Job_details/>}/>
+                    <Route path='hosting' element={<Hosting/>}/>
+                    <Route path='time_model' element={<Time_Model/>}/>
+                    <Route path='team' element={<Team/>}/>
+                    <Route path='person' element={<Persone/>}/>
+                    <Route path='portfolio/' element={<Po_ta/>}>
+                    <Route index element={<Portfolio data={data}/>} />
+                    <Route path='target-project' element={<Target_Project data={data} />}/>
+                    </Route>
+                    <Route path='job_about' element={<Jop_About />}/>
+                    </Route>
 
                 </Routes>
                 <Footer/>
             </BrowserRouter>
-
+            
             
             
         </div>

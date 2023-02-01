@@ -7,11 +7,11 @@ function Target_Project(props) {
       className: "center",
       prevArrow:
           <div>
-              <img src="./images/icons/arrow_left.svg" alt=""/>
+              <img src="../images/icons/arrow_left.svg" alt=""/>
           </div>,
       nextArrow:
           <div>
-              <img src="./images/icons/arrow_right.svg" alt=""/>
+              <img src="../images/icons/arrow_right.svg" alt=""/>
           </div>
       ,
       dots: true,
@@ -70,7 +70,7 @@ function Target_Project(props) {
           <div className="about-pharm col-lg-6 col-md-6">
             <div className="title">
            
-              <img src="./images/pharmacy/logo.svg" alt="logo icon" />
+              <img src="../images/pharmacy/logo.svg" alt="logo icon" />
               <h1>Pharmacy</h1>
             </div>
             <p className="text">
@@ -85,13 +85,13 @@ function Target_Project(props) {
             <ul className="go-app">
               <li>
                 <a href="#">
-                  <img src="./images/apps/app_store.svg" alt="Layer 2" />
+                  <img src="../images/apps/app_store.svg" alt="Layer 2" />
                 </a>
               </li>
               <li>
                 <a href="#">
                   <img
-                  src="./images/apps/google_play.svg"
+                  src="../images/apps/google_play.svg"
                     alt="the_App_Store"
                   />
                 </a>
@@ -99,7 +99,7 @@ function Target_Project(props) {
               <li>
                 <a href="#">
                   <img
-                    src="./images/apps/microsoft.svg"
+                    src="../images/apps/microsoft.svg"
                     alt="microsoft"
                   />
                 </a>
@@ -107,7 +107,7 @@ function Target_Project(props) {
             </ul>
            
           </div>
-          <img src="./images/pharmacy/pharmacy.png" className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in" alt="Group"/>
+          <img src="../images/pharmacy/pharmacy.png" className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in" alt="Group"/>
         </div>
       
         </div>
@@ -121,22 +121,22 @@ function Target_Project(props) {
         </div>
         <Slider {...settings}>
           <div>
-           <img src="./images/pharmacy/shap.svg" alt="logo icon" />
+           <img src="../images/pharmacy/shap.svg" alt="logo icon" />
           </div>
           <div>
-           <img src="./images/pharmacy/shap.svg" alt="logo icon" />
+           <img src="../images/pharmacy/shap.svg" alt="logo icon" />
           </div>
           <div>
-            <img src="./images/pharmacy/shap.svg" alt="logo icon" />
+            <img src="../images/pharmacy/shap.svg" alt="logo icon" />
           </div>
           <div>
-           <img src="./images/pharmacy/shap.svg" alt="logo icon" />
+           <img src="../images/pharmacy/shap.svg" alt="logo icon" />
           </div>
           <div>
-           <img src="./images/pharmacy/shap.svg" alt="logo icon" />
+           <img src="../images/pharmacy/shap.svg" alt="logo icon" />
           </div>
           <div>
-            <img src="./images/pharmacy/shap.svg" alt="logo icon" />
+            <img src="../images/pharmacy/shap.svg" alt="logo icon" />
           </div>
         </Slider>
       </div>
@@ -152,12 +152,12 @@ function Target_Project(props) {
            <h3>Scope</h3>
           <div className="one ">
             <div className="one1 page ">
-              <img src='./images/overview/phone.svg' alt='phone'/>
+              <img src='../images/overview/phone.svg' alt='phone'/>
               <h4>Mobile</h4>
               <p>our platform is mobile cuz user of the project</p>
             </div>
             <div className="one2 page">
-            <img src='./images/overview/wep.svg' alt='phone'/>
+            <img src='../images/overview/wep.svg' alt='phone'/>
               <h4>Admin Back Office</h4>
               <p>
               our platform is mobile cuz user of the project
@@ -171,16 +171,16 @@ function Target_Project(props) {
               <h3>Technology</h3>
               <div className='about-part page'>
                <div className='g-img'>
-               <img  src='./images/overview/phone.svg' alt=''/>
-               <img  src='./images/overview/wep.svg' alt=''/>
+               <img  src='../images/overview/phone.svg' alt=''/>
+               <img  src='../images/overview/wep.svg' alt=''/>
                </div>
               <h4>web, IOS, Andriod</h4>
               <div className='g-img f-img' >
-              <img src='./images/technologies/next.svg' alt='TECH'/>
-              <img src='./images/technologies/angularjs.svg' alt='TECH'/>
-              <img src='./images/technologies/js.svg' alt='TECH'/>
-              <img src='./images/technologies/ios.svg' alt='TECH'/>
-              <img src='./images/technologies/android2.svg' alt='TECH'/>
+              <img src='../images/technologies/next.svg' alt='TECH'/>
+              <img src='../images/technologies/angularjs.svg' alt='TECH'/>
+              <img src='../images/technologies/js.svg' alt='TECH'/>
+              <img src='../images/technologies/ios.svg' alt='TECH'/>
+              <img src='../images/technologies/android2.svg' alt='TECH'/>
 
              </div>
               </div>
@@ -190,7 +190,7 @@ function Target_Project(props) {
               <h3>Team</h3>
               <div className='about-part page'>
                <div className='g-img'>
-               <img  src='./images/overview/team.svg' alt=''/>
+               <img  src='../images/overview/team.svg' alt=''/>
               
                </div>
               <h4>6 members</h4>
@@ -202,7 +202,7 @@ function Target_Project(props) {
               <h3>Duration</h3>
               <div className='about-part page'>
                <div className='g-img'>
-               <img  src='./images/overview/time.svg' alt=''/>
+               <img  src='../images/overview/time.svg' alt=''/>
               
                </div>
               <h4>3 months</h4>

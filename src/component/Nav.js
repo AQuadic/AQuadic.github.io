@@ -2,9 +2,11 @@ import React, { useRef, useState ,useEffect } from "react";
 import { Container } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 
-import { Link } from "react-router-dom";
-import { counteraction } from "../data/data";
+//import { Link } from "react-router-dom";
 
+import { counteraction } from "../data/data";
+import { HashLink } from 'react-router-hash-link';
+import { Link } from "react-router-dom";
 function Nav() {
   const [lang, setlang] = useState("English");
   const [langs, setlangs] = useState("EN");
@@ -82,18 +84,20 @@ function Nav() {
               </li>
 
               <li className="nav-item" data-aos="fade-left" data-aos-delay="50">
-                <a className="nav-link" href="#about">
-                  About Us
-                </a>
+               
+                <HashLink  className="nav-link" smooth to="/#about">
+                About Us
+</HashLink>
               </li>
               <li
                 className="nav-item"
                 data-aos="fade-right"
                 data-aos-delay="100"
               >
-                <a className="nav-link" href="#services">
-                  Services
-                </a>
+                <HashLink  className="nav-link" smooth to="/#serves">
+                Serves
+</HashLink>
+               
               </li>
 
               <li
@@ -101,9 +105,10 @@ function Nav() {
                 data-aos="fade-left"
                 data-aos-delay="150"
               >
-                <a className="nav-link " href="#contact">
-                  Contact Us
-                </a>
+                 <HashLink  className="nav-link" smooth to="/#contact">
+                 Contact Us
+</HashLink>
+                
               </li>
             </ul>
           </div>

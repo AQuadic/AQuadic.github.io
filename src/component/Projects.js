@@ -55,7 +55,7 @@ console.log(all_data[0].name[lang])
              
             )})
           }
-          <div
+          {/* <div
             className="project col-lg-3 col-md-5 col-sm-5 col-12"
             data-aos="fade-up"
             data-aos-delay="0"
@@ -164,7 +164,8 @@ console.log(all_data[0].name[lang])
             <p>Religion, Books</p>
             <img src="https://i.ibb.co/kgRBNb1/quraan.png" alt="" />
           </div>
-        </div>
+        </div> */}
+         </div>
       </Container>
       <div
         className="modal fade"
@@ -203,7 +204,7 @@ console.log(all_data[0].name[lang])
                   
                 </p>
                 <div  data-bs-dismiss="modal" className=" close view">
-                <Link  to="target-project" className=" view"   
+                <Link  to="portfolio/target-project" className=" view"   
                
                
                 >
@@ -213,8 +214,14 @@ console.log(all_data[0].name[lang])
                 </div>
                
                 <div className="modal_app">
-                <a href="#">  <img src="./images/apps/app_store.svg" alt="" /></a>
-                  <a href="#"><img src="./images/apps/google_play.svg" alt="" /></a>
+                {
+                    currentProject.links.app_store ?    <a href="#">  <img src="./images/apps/app_store.svg" alt="" /></a>:null
+                  }
+               
+                {
+                    currentProject.links.play_store ?   <a href="#"><img src="./images/apps/google_play.svg" alt="" /></a> :null
+                  }
+               
                 </div>
             </div>
         </div>
