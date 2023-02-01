@@ -2231,7 +2231,7 @@ html[dir="rtl"] .services .all-services .part img {
 }
 
 .projects .modal-body .modal_title {
-    padding: 196px 70px;
+    padding: 196px 30px 196px 70px;
     flex: 1;
     background-color: white;
 }
@@ -2272,6 +2272,7 @@ html[dir="rtl"] .services .all-services .part img {
 .projects .modal-body .modal_title .modal_app {
     display: flex;
     gap: 28px;
+    flex-wrap: wrap;
 }
 
 .projects .modal-body .modal_title .modal_app img {
@@ -2329,15 +2330,17 @@ html[dir="rtl"] .services .all-services .part img {
     .projects .modal-body .modal_title {
         padding: 8px 20px;
     }
-
+    .projects .modal-body .modal_title .modal_app a {
+        max-width: 47%;
+    }
     .projects .modal-body .modal_title .modal_app {
         width: 100%;
-        gap: 0;
+        gap: 20px 0px;
         justify-content: space-between;
     }
 
     .projects .modal-body .modal_title .modal_app img {
-        width: 48%;
+        width: 100%;
     }
 
     .projects .modal-body .modal_img img {
