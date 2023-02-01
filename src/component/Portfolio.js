@@ -39,7 +39,7 @@ filterData.map((data)=>{return(
       
       >
         <h3>{data.name.en}</h3>
-        <p>{data.category}</p>
+        <p>{data.category.name.en}</p>
         <img src={data.main_image} alt="Oread" />
       </div>
          

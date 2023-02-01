@@ -231,7 +231,7 @@ data.map((data)=>{
 
     <div className="project col-lg-3 col-md-5 col-sm-5 col-12 aos-init" data-aos="fade-up" data-aos-delay="50" data-bs-toggle="modal" data-bs-target="#exampleModalLong" key={data.id}>
         <h3>{data.name.en}</h3>
-        <p>{data.category}</p>
+        <p>{data.category.name.en}</p>
         <img src={data.main_image} alt="MS Player"/>
 
         </div>

@@ -1,0 +1,125 @@
+{
+  "home": {
+    "heading": {
+      "part1": "We help",
+      "red": "Business",
+      "part2": "in their\ndesign & development journey.",
+      "description": "Design and digital product development company. We create beautiful and functional web platforms, apps, and custom software solutions."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Software solution company established to help startups with technology and passion to start their journey in the market."
+    },
+    "numbers": {
+      "title": "AQuadic In Numbers",
+      "projects": "PROJECTS",
+      "clients": "CLIENTS",
+      "countries": "COUNTRIES"
+    },
+    "clients": {
+      "title": "Our Clients Are Our Partners"
+    },
+    "testimonials": {
+      "title": "Testimonials"
+    }
+  },
+  "portfolio": {
+    "title": "Our Latest Creative Projects",
+    "see_all": "See All Portfolio",
+    "view_details": "View Details"
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "services": {
+    "title": "Our Services",
+    "web": {
+      "title": "Web & Desktop\nDevelopment",
+      "description": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+    },
+    "ux": {
+      "title": "Product design\nand UX/UI",
+      "description": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+    },
+    "custom": {
+      "title": "Custom Software\nSolutions",
+      "description": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+    },
+    "ecommerce": {
+      "title": "E-commerce Solutions",
+      "description": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+    },
+    "outsourcing": {
+      "title": "Support and\nOutsourcing Teams",
+      "description": "Lower costs, faster time-to-market ratio, and better business results are among the biggest advantages of using our software outsourcing services. Think of our teams as part of your organization. Furthermore, we always select the team members according to your industry."
+    }
+  },
+  "team": {
+    "title": "Our People",
+    "description": "This is our team, a lot of smiling happy people who work hard to empower your Project.",
+    "worked_on": "Projects that have been worked on",
+    "leadership": {
+      "title": "Our leadership team",
+      "description": "With over 100 years of combined experience, we've got a well-seasoned team at the helm."
+    },
+    "creative": {
+      "title": "Our Creative team",
+      "description": "These are the people that make the magic happen."
+    }
+  },
+  "career": {
+    "title": "Advance Your Career with AQuadic",
+    "join": {
+      "title": "Join Our Team",
+      "description": "We believe that people are the key to success and we feel proud every time when someone new is joining.We are driven by our mission to provide an informative and interactive environment to our employees that bring out the best in them."
+    },
+    "advantages": {
+      "title": "Benefits & Advantages",
+      "environment": {
+        "title": "Relaxed Environment",
+        "description": "Have a relaxed working environment, cool offices, and an open-minded community"
+      },
+      "opportunities": {
+        "title": "Learning opportunities",
+        "description": "Continuously learn, help others and improve personally and professionally"
+      },
+      "technologies": {
+        "title": "Latest Technologies",
+        "description": "Collaborate on challenging projects Working with the latest technologies"
+      }
+    },
+    "positions": {
+      "title": "Open Positions",
+      "learn_more": "Learn More",
+      "cant_see_position": {
+        "title": "Can’t see a position that interests you?",
+        "description": "Please send your CV and write the name of the position you are interested in. We’ll get in touch with you once we open a suitable role."
+      }
+    },
+    "job": {
+      "description": "Job Description",
+      "requirements": "Requirements"
+    }
+  },
+  "contact_us": {
+    "title": "Get In Touch",
+    "subtitle": "Contact Info",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "subject": "Subject",
+    "position": "Position",
+    "cv": "Upload your CV",
+    "message": "Leave your message...",
+    "send_message": "Send Message",
+    "send_application": "Send Application"
+  },
+  "footer": {
+    "rights_reserved": "All rights reserved.",
+    "aquadic": "AQuadic Software"
+  }
+}

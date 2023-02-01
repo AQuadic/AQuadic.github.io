@@ -49,7 +49,7 @@ console.log(all_data[0].name[lang])
           
           >
             <h3>{data.name[lang]}</h3>
-            <p>{data.category}</p>
+            <p>{data.category.name.en}</p>
             <img src={data.main_image} alt="Oread" />
           </div>
              
