@@ -8,7 +8,7 @@ function Services() {
         window.scrollTo(250, 250)
     }   
     return (
-        <div className="services" id="serves">
+        <div className="services" id="services">
             <Container>
                 <h2>Our Services</h2>
                 <div className="  all-services" onClick={()=>{navigate('/job_about')}}>

@@ -94,8 +94,8 @@ function Nav() {
                 data-aos="fade-right"
                 data-aos-delay="100"
               >
-                <HashLink  className="nav-link" smooth to="/#serves">
-                Serves
+                <HashLink  className="nav-link" smooth to="/#services">
+                Services
 </HashLink>
                
               </li>

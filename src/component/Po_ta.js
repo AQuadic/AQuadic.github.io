@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 function Po_ta() {
   return (
     <div>
-        
+        <Outlet/>
     </div>
   )
 }

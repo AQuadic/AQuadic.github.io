@@ -25,6 +25,7 @@ import ScrollToTop from './component/ScrollToTop';
 import { Provider, useSelector } from 'react-redux';
 import store from './data/dataSlice';
 import Po_ta from './component/Po_ta';
+import Home_lay from './component/Home_lay';
 
 
 
@@ -42,13 +43,13 @@ function App() {
 
             <BrowserRouter>
            <ScrollToTop/>
-                <Nav/>
+               
               
                
 
                 
                 <Routes>
-                    <Route path='/' >
+                    <Route path='/' element={<Home_lay/>}>
                     <Route index element={<Home />} />
                     <Route path='career' element={<Career/>}/>
                     <Route path='job' element={<Job_details/>}/>
@@ -56,7 +57,7 @@ function App() {
                     <Route path='time_model' element={<Time_Model/>}/>
                     <Route path='team' element={<Team/>}/>
                     <Route path='person' element={<Persone/>}/>
-                    <Route path='portfolio/' element={<Po_ta/>}>
+                    <Route path='portfolio' element={<Po_ta/>}>
                     <Route index element={<Portfolio data={data}/>} />
                     <Route path='target-project' element={<Target_Project data={data} />}/>
                     </Route>
@@ -64,7 +65,7 @@ function App() {
                     </Route>
 
                 </Routes>
-                <Footer/>
+                
             </BrowserRouter>
             
             
