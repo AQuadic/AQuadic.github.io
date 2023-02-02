@@ -1,14 +1,17 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
+import { useTranslation } from 'react-i18next';
 
 function Job() {
+    const { t, i18n } = useTranslation();
+
     console.log()
     window.scrollTo(250, 250);
     return (
         <div className='job'>
             <Container>
                 <div className='part1'>
-                    <h2>Job Description</h2>
+                    <h2>{t("career.job.description")}</h2>
                     <ul>
                         <li>Build mobile applications following industry best practices.</li>
                         <li>Build multi-platform apps for iOS and Android using Google’s Flutter development
@@ -31,7 +34,7 @@ function Job() {
                 </div>
 
                 <div className='part2'>
-                    <h2>Requirements</h2>
+                    <h2>{t("career.job.requirements")}</h2>
                     <ul>
                         <li>Bachelor’s degree in Computer Science, Engineering, or a related discipline.</li>
                         <li>+1 year Experience as flutter developer.</li>

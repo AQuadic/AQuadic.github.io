@@ -1,28 +1,31 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
+import { useTranslation } from 'react-i18next';
 
 function Advantages() {
+    const { t, i18n } = useTranslation();
+
     return (
         <Container>
             <section className='advantages'>
-                <h2>Benefits & Advantages</h2>
+                <h2>{t("career.advantages.title")}</h2>
                 <div className='allcard row'>
                     <div className='cardd col-lg-3 col-md-5 col-12  ' data-aos="fade-right" data-aos-delay="00">
                         <img src='/images/benefits/environment.svg' alt=''/>
-                        <h3>Relaxed Environment</h3>
-                        <p>Have a relaxed working environment, cool offices, and an open-minded community</p>
+                        <h3>{t("career.advantages.environment.title")}</h3>
+                        <p>{t("career.advantages.environment.description")}</p>
                     </div>
 
                     <div className='cardd col-lg-3 col-md-5 col-12  ' data-aos="fade-up" data-aos-delay="100">
                         <img src='/images/benefits/opportunities.svg' alt=''/>
-                        <h3>Learning opportunities</h3>
-                        <p>Continuously learn, help others and improve personally and professionally</p>
+                        <h3>{t("career.advantages.opportunities.title")}</h3>
+                        <p>{t("career.advantages.opportunities.description")}</p>
                     </div>
 
                     <div className='cardd col-lg-3 col-md-5 col-12  ' data-aos="fade-left" data-aos-delay="00">
                         <img src='/images/benefits/technologies.svg' alt=''/>
-                        <h3>Latest Technologies</h3>
-                        <p>Collaborate on challenging projects Working with the latest technologies</p>
+                        <h3>{t("career.advantages.technologies.title")}</h3>
+                        <p>{t("career.advantages.technologies.description")}</p>
                     </div>
                 </div>
             </section>

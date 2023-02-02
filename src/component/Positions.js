@@ -1,14 +1,17 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
 function Positions() {
+    const { t, i18n } = useTranslation();
+
     const navigate = useNavigate()
 
     return (
         <div className='positions'>
             <Container>
-                <h2>Open Positions</h2>
+                <h2>{t("career.positions.title")}</h2>
                 <div className='job'>
                     <div className='about-job'>
                         <h3>Junior Mobile Developer - Flutter</h3>
@@ -20,7 +23,7 @@ function Positions() {
                     </div>
                     <button className='btn-page' onClick={() => {
                         navigate("/job")
-                    }}>Learn More
+                    }}>{t("career.positions.learn_more")}
                     </button>
                 </div>
 
@@ -35,7 +38,7 @@ function Positions() {
                     </div>
                     <button className='btn-page' onClick={() => {
                         navigate("/job")
-                    }}>Learn More
+                    }}>{t("career.positions.learn_more")}
                     </button>
                 </div>
 
@@ -50,7 +53,7 @@ function Positions() {
                     </div>
                     <button className='btn-page' onClick={() => {
                         navigate("/job")
-                    }}>Learn More
+                    }}>{t("career.positions.learn_more")}
                     </button>
                 </div>
 
@@ -65,7 +68,7 @@ function Positions() {
                     </div>
                     <button className='btn-page' onClick={() => {
                         navigate("/job")
-                    }}>Learn More
+                    }}>{t("career.positions.learn_more")}
                     </button>
                 </div>
 
@@ -80,7 +83,7 @@ function Positions() {
                     </div>
                     <button className='btn-page' onClick={() => {
                         navigate("/job")
-                    }}>Learn More
+                    }}>{t("career.positions.learn_more")}
                     </button>
                 </div>
             </Container>
