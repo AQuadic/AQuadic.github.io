@@ -1,7 +1,10 @@
 import React, {useRef, useState} from 'react'
 import {Container} from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 function Portfolio(props) {
+    const { t, i18n } = useTranslation();
+
     const [nedd, setneed, lang] = useState("appplication");
 
     const data = props.data;
@@ -44,9 +47,9 @@ function Portfolio(props) {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModalLong"
                                 >
-                                    <h3>{data.name[lang]}</h3>
-                                    <p>{data.category.name[lang]}</p>
-                                    <img src={data.main_image} alt={data.name[lang]}/>
+                                    <h3>{data.name[i18n.language]}</h3>
+                                    <p>{data.category.name[i18n.language]}</p>
+                                    <img src={data.main_image} alt={data.name[i18n.language]}/>
                                 </div>
                             )
                         })

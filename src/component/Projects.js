@@ -53,9 +53,9 @@ function Projects(props) {
                                       
                                     }}
                                 >
-                                    <h3>{data.name[lang]}</h3>
-                                    <p>{data.category.name[lang]}</p>
-                                    <img src={data.main_image} alt={data.name[lang]}/>
+                                    <h3>{data.name[i18n.language]}</h3>
+                                    <p>{data.category.name[i18n.language]}</p>
+                                    <img src={data.main_image} alt={data.name[i18n.language]}/>
                                 </div>
                             )
                         })
@@ -84,15 +84,15 @@ function Projects(props) {
                             </button>
                         </div>
 
-                        <div className="modal-body">
+                        <div className="modal-body" style={{ background: currentProject.primary_color+38,}}>
                             <div className="modal_img">
-                                <img src={currentProject.main_image} alt={currentProject.name[lang]}/>
+                                <img src={currentProject.main_image} alt={currentProject.name[i18n.language]}/>
                                 <img className="back_img" src={currentProject.background_image} alt="bk_image"/>
                             </div>
 
                             <div className="modal_title">
-                                <h2>{currentProject.name[lang]}</h2>
-                                <p>{currentProject.description[lang]}</p>
+                                <h2>{currentProject.name[i18n.language]}</h2>
+                                <p>{currentProject.description[i18n.language]}</p>
 
                                 <div data-bs-dismiss="modal" className="close view">
                                     <Link to={`portfolio/${currentProject.id}`} className="view">
