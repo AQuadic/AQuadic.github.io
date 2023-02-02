@@ -1,4 +1,15 @@
 {
+  "nav": {
+    "company": "الشركة",
+    "about_us": "عن أكوادك",
+    "services": "خدماتنا",
+    "contact_us": "تواصل معنا",
+    "team": "فريقنا",
+    "career": "الوظائف",
+    "hosting_sites": "خوادم مقترحة",
+    "pricing_models": "خطط الأسعار",
+    "payment_methods": "طرق الدفع"
+  },
   "home": {
     "heading": {
       "part1": "نحن نساعد",

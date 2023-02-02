@@ -1,4 +1,15 @@
 {
+  "nav": {
+    "company": "Company",
+    "about_us": "About us",
+    "services": "Services",
+    "contact_us": "Contact us",
+    "team": "Team",
+    "career": "Career",
+    "hosting_sites": "Hosting sites",
+    "pricing_models": "Pricing models",
+    "payment_methods": "Payment methods"
+  },
   "home": {
     "heading": {
       "part1": "We help",
