@@ -4001,3 +4001,8 @@ html[dir=rtl] .jop-tech .part2::before {
         transform: translate(0, 0);
     }
 }
+img.img-pharm {
+    max-width: 500px;
+    max-height: 577px;
+    object-fit: contain;
+}

@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import {counteraction} from "../data/data";
 
 function Projects(props) {
-    const {targetProject} = counteraction;
+  
     const dispatch = useDispatch();
     const checkLang = window.document.dir;
     const qi = useSelector((state) => state.dir.value)
@@ -48,7 +48,7 @@ function Projects(props) {
                                     data-bs-target="#exampleModalLong"
                                     onClick={() => {
                                         setCurrentProject(data);
-                                        dispatch(targetProject(data))
+                                      
                                     }}
                                 >
                                     <h3>{data.name[lang]}</h3>
@@ -94,7 +94,7 @@ function Projects(props) {
 
                                 <div data-bs-dismiss="modal" className="close view">
                                     <Link to={`portfolio/${currentProject.id}`} className="view">
-                                        <p>View Details => {currentProject.id}</p>
+                                        <p>View Details  </p>
                                         <img src="/images/icons/see_all.svg" alt=""/>
                                     </ Link>
                                 </div>

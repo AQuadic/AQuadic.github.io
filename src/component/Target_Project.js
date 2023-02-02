@@ -66,16 +66,26 @@ function Target_Project(props) {
     const {id} = useParams()
     console.log(id)
     console.log(data)
-    const project = useSelector((state) => state.dir.project)
-    const [dataa, setdataa] = useState(project)
-
+  
+    const [dataa, setdataa] = useState();
+    const [params, setparams] = useState(id ? id :0)
+    const gettarget=() =>{
+        if(params !== 0 ){
+         
+           const get = data.filter(item => item.id === +id);
+           
+           setdataa(get)
+        }
+    
+    }
     useEffect(() => {
-        console.log(project)
-        project.length === 0 ? console.log(project) : console.log("nooooooo")
+        gettarget()
+    
+      
 
     }, [])
     return (
-        project ?
+        dataa ?
             <div className='target-project'>
                 <Container>
                     {/* pharm */}
@@ -86,10 +96,10 @@ function Target_Project(props) {
                                 <div className="title">
 
                                     <img src="/images/pharmacy/logo.svg" alt="logo icon"/>
-                                    <h1>{project.name.ar}</h1>
+                                    <h1>{dataa[0].name.ar}</h1>
                                 </div>
                                 <p className="text">
-                                    {project.description.ar}
+                                    {dataa[0].description.ar}
                                 </p>
                                 <p className="tryit">
                                     try it now
@@ -97,8 +107,8 @@ function Target_Project(props) {
 
                                 <ul className="go-app">
                                     {
-                                        Object.keys(project.links).map(function (key) {
-                                            const link = project.links[key];
+                                        Object.keys(dataa[0].links).map(function (key) {
+                                            const link = dataa[0].links[key];
                                             const img = `/images/apps/${key}.svg`;
                                             return (
                                                 link ? <li><a href={link}><img src={img} alt={key}/></a></li> : null
@@ -108,7 +118,7 @@ function Target_Project(props) {
                                 </ul>
 
                             </div>
-                            <img src={project.main_image} className="img-pharm col-lg-5 col-md-6 col-sm-9"
+                            <img src={dataa[0].main_image} className="img-pharm col-lg-5 col-md-6 col-sm-9"
                                  data-aos="zoom-in" alt="Group"/>
                         </div>
 
@@ -131,7 +141,7 @@ function Target_Project(props) {
                         </div>
                         <Slider {...settings}>
                             {
-                                project.images_mobile.map((img_url) => {
+                                dataa[0].images_mobile.map((img_url) => {
                                     return (
                                         <div key={img_url}>
                                             <img src={img_url} alt="logo icon"/>
