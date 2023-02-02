@@ -37,7 +37,13 @@
   "portfolio": {
     "title": "Our Latest Creative Projects",
     "see_all": "See All Portfolio",
-    "view_details": "View Details"
+    "view_details": "View Details",
+    "applications": "Applications",
+    "websites": "Websites",
+    "screens": "Screens",
+    "try_it_now": "Try it now",
+    "mobile": "Mobile",
+    "desktop": "Desktop"
   },
   "technologies": {
     "title": "Technologies"

@@ -37,7 +37,13 @@
   "portfolio": {
     "title": "أحدث مشاريعنا الإبداعية",
     "see_all": "تصفح جميع المشاريع",
-    "view_details": "عرض التفاصيل"
+    "view_details": "عرض التفاصيل",
+    "applications": "التطبيقات",
+    "websites": "المواقع",
+    "screens": "لقطات",
+    "try_it_now": "جرب الان",
+    "mobile": "الهاتف",
+    "desktop": "الحاسوب"
   },
   "technologies": {
     "title": "التقنيات"

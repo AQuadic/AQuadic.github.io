@@ -96,7 +96,7 @@ function Target_Project(props) {
                                 </div>
 
                                 <p className="text">{dataa[0].description[i18n.language]}</p>
-                                <p className="tryit">try it now</p>
+                                <p className="tryit">{t('portfolio.try_it_now')}</p>
 
                                 <ul className="go-app">
                                     {
@@ -117,17 +117,17 @@ function Target_Project(props) {
                     </div>
 
                     <div className='testimonials2'>
-                        <h2> Screens</h2>
+                        <h2>{t('portfolio.screens')}</h2>
                         <div className='btn-testimonials2'>
                             <button ref={btn1} className='open' onClick={(e) => {
                                 btn2.current.classList.remove("open");
                                 e.target.classList.add("open")
-                            }}>Mobile
+                            }}>{t('portfolio.mobile')}
                             </button>
                             <button ref={btn2} onClick={(e) => {
                                 btn1.current.classList.remove("open");
                                 e.target.classList.add("open")
-                            }}>Desktop
+                            }}>{t('portfolio.desktop')}
                             </button>
                         </div>
 
