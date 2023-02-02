@@ -197,8 +197,8 @@
     ],
     "primary_color": "#FFBE00",
     "logo": "https://freshfarm.ae/logo.svg",
-    "main_image": "https://freshfarm.ae/images/screen1.svg",
-    "background_image": "https://freshfarm.ae/images/screen1.svg",
+    "main_image": "https://aquadic.github.io/images/projects/freshfarm.png",
+    "background_image": "https://aquadic.github.io/images/projects/freshfarm.png",
     "images_desktop": null,
     "images_mobile": [
       "https://freshfarm.ae/images/img_home.png",
@@ -260,8 +260,8 @@
     ],
     "primary_color": "#FCD368",
     "logo": "https://aquadic.github.io/find-help/image/logo.svg",
-    "main_image": "https://aquadic.github.io/find-help/image/iPhone13.png",
-    "background_image": "https://aquadic.github.io/find-help/image/iPhone13.png",
+    "main_image": "https://aquadic.github.io/images/projects/findhelp.png",
+    "background_image": "https://aquadic.github.io/images/projects/findhelp.png",
     "images_desktop": null,
     "images_mobile": [
       "https://aquadic.github.io/find-help/image/iPhone13app.png",
