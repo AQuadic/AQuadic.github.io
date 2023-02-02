@@ -1,11 +1,14 @@
 import React, {useState} from 'react'
 import {Button, Card, Container, Form} from "react-bootstrap";
 
+import { useTranslation } from 'react-i18next';
 
 import Modal from 'react-bootstrap/Modal';
 
 
 function Message() {
+    const { t, i18n } = useTranslation();
+
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -16,7 +19,7 @@ function Message() {
                 <img className='imageback' src="/images/patterns/pattern_1.svg" alt=""/>
                 <Card>
                     <Card.Body>
-                        <h2 className=" mb-4">Get In Touch</h2>
+                        <h2 className=" mb-4">{t("contact_us.title")}</h2>
 
                         <Form className="row">
                             <Form.Group className="col-12  col-sm-6">
@@ -26,7 +29,7 @@ function Message() {
                                     id="fristname"
                                     type="text"
                                     required
-                                    placeholder="First Name"
+                                    placeholder={t("contact_us.first_name")}
                                 />
                             </Form.Group>
                             <Form.Group className="col-12 col-sm-6">
@@ -35,7 +38,7 @@ function Message() {
                                     id="lastname"
                                     type="text"
                                     required
-                                    placeholder="Last Name"
+                                    placeholder={t("contact_us.last_name")}
                                 />
                             </Form.Group>
                             <Form.Group className="col-12 col-sm-6">
@@ -44,7 +47,7 @@ function Message() {
                                     id="email"
                                     type="email"
                                     required
-                                    placeholder="Email"
+                                    placeholder={t("contact_us.email")}
                                 />
                             </Form.Group>
                             <Form.Group className="col-12 col-sm-6">
@@ -54,23 +57,23 @@ function Message() {
                                     id="Position"
                                     type="text"
                                     required
-                                    placeholder="Subject"
+                                    placeholder={t("contact_us.subject")}
                                 />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
 
-                                <Form.Control as="textarea" rows={4} placeholder="Leave Your Message..."/>
+                                <Form.Control as="textarea" rows={4} placeholder={t("contact_us.message")}/>
                             </Form.Group>
 
                             <Button className=" col-12 col-sm-12 btn-log btn-page btn-send" type="submit"
                                     onClick={handleShow}>
-                                Send Message
+                                {t("contact_us.send_message")}
                             </Button>
 
                         </Form>
                         <div className='contact'>
                             <h4>
-                                Contact Info
+                               {t("contact_us.subtitle")}
                             </h4>
                             <ul>
                                 <li>

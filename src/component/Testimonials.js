@@ -2,8 +2,11 @@ import React from "react";
 import {Container} from "react-bootstrap";
 import Slider from "react-slick";
 import ReactReadMoreReadLess from "react-read-more-read-less";
+import { useTranslation } from 'react-i18next';
 
 function Testimonials() {
+    const { t, i18n } = useTranslation();
+
     var settings = {
         className: "center",
         prevArrow:
@@ -73,7 +76,7 @@ function Testimonials() {
         <div className="testimonials">
 
             <Container>
-                <h2> Testimonials</h2>
+                <h2> {t("home.testimonials.title")}</h2>
                 <Slider {...settings}>
                     <div className="card-tes">
                         <div className="card-info">

@@ -1,7 +1,8 @@
 import React, {useEffect, useRef} from "react";
 import {Container} from "react-bootstrap";
-
+import { useTranslation } from 'react-i18next';
 function Odometer() {
+    const { t, i18n } = useTranslation();
 
     const ref = useRef();
     const ref2 = useRef();
@@ -39,7 +40,7 @@ function Odometer() {
         <div className="allcounter" ref={refall}>
 
             <Container>
-                <h2>AQuadic In Numbers</h2>
+                <h2>{t("home.numbers.title")}</h2>
 
                 <div className="counter">
                     <div className="num1 num">
@@ -51,7 +52,7 @@ function Odometer() {
                                 <span>1</span>
                             </div>
                         </div>
-                        <h3>Project</h3>
+                        <h3>{t("home.numbers.projects")}</h3>
                     </div>
                     <div className="num2 num">
                         <div className="allnum">
@@ -63,7 +64,7 @@ function Odometer() {
 
                         </div>
 
-                        <h3>CLIENTS</h3>
+                        <h3>{t("home.numbers.clients")}</h3>
                     </div>
                     <div className="num3 num">
                         <div className="allnum">
@@ -73,7 +74,7 @@ function Odometer() {
                                 <span>6</span>
                             </div>
                         </div>
-                        <h3>COUNTRIES</h3>
+                        <h3>{t("home.numbers.countries")}</h3>
                     </div>
                 </div>
             </Container>

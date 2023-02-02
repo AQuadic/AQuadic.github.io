@@ -2,25 +2,27 @@ import React from "react";
 import {Container} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
 import Message from "./Message";
+import { useTranslation } from 'react-i18next';
 
 function Team() {
+    const { t, i18n } = useTranslation();
+
     const navigate = useNavigate()
     return (
         <div className="team">
             <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
                 <img src="/images/team/team.svg" alt="hosting"/>
                 <div className="about_img_team">
-                    <h2>Our Peaple</h2>
-                    <p>This is our team, a lot of smiling happy people who work hard to empower your Project.</p>
+                    <h2>{t("team.title")}</h2>
+                    <p>{t("team.description")}</p>
                 </div>
             </div>
             <Container>
                 <div className="part  part1">
                     <div className="des_team">
-                        <h2>Our leadership team</h2>
+                        <h2>{t("team.leadership.title")}</h2>
                         <p>
-                            With over 100 years of combined experience, we've got a
-                            well-seasoned team at the helm.
+                        {t("team.leadership.description")}
                         </p>
                     </div>
                     <div className="about_team ">
@@ -55,8 +57,8 @@ function Team() {
                 </div>
                 <div className="part  part2">
                     <div className="des_team">
-                        <h2>Our Creative team</h2>
-                        <p>These are the people that make the magic happen.</p>
+                        <h2>{t("team.creative.title")}</h2>
+                        <p>{t("team.creative.description")}</p>
                     </div>
                     <div className="about_team ">
                         <div className="person " onClick={() => navigate('/person')}>

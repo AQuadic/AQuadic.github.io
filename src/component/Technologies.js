@@ -1,12 +1,15 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
+import { useTranslation } from 'react-i18next';
 
 function Technologies() {
+    const { t, i18n } = useTranslation();
+
     const imgnum = ['js', 'reactjs', 'angularjs', 'nodejs', 'go', 'python', 'java', 'apple', 'android', 'technology_1', 'aws'];
     return (
         <div className='technologies'>
             <Container>
-                <h2>Technologies</h2>
+                <h2>{t("technologies.title")}</h2>
                 <div className='alltechnologie'>
                     {
                         imgnum.map((num) => {

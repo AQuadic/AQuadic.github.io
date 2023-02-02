@@ -6,10 +6,22 @@ import {useDispatch, useSelector} from "react-redux";
 import {counteraction} from "../data/data";
 import {HashLink} from 'react-router-hash-link';
 import {Link} from "react-router-dom";
-
+import { useTranslation } from 'react-i18next';
 function Nav() {
-    const [lang, setLang] = useState("English");
-    const [langs, setLangs] = useState("EN");
+    const { t, i18n } = useTranslation();
+    const [langg ,setlangg]=useState("en");
+ 
+    const langEn =()=>{
+      i18n.changeLanguage(langg)
+     console.log(langg)
+      langg ==="en"?setlangg("ar"): setlangg("en")
+    
+    }
+    const lang = i18n.language === "ar" ? "English" :"Arabic";
+    const langs = i18n.language === "ar" ? "EN":"Ar";
+
+   // const [lang, setLang] = useState("English");
+   // const [langs, setLangs] = useState("EN");
 
     const ref = useRef();
     const qi = useSelector((state) => state.dir.value)
@@ -52,7 +64,7 @@ function Nav() {
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
-                                    Company
+                                 {t("home.heading.part1")}
                                 </Link>
                                 <ul className="dropdown-menu">
                                     <li>
@@ -115,18 +127,8 @@ function Nav() {
                     <button
                         className="lang "
                         onClick={() => {
-
-                            if (lang === "English" || langs === "EN") {
-                                setLang("Arabic");
-                                setLangs("AR");
-                                window.document.dir = "rtl";
-                                dispatch(c_dir('AR'));
-                            } else {
-                                setLang("English");
-                                setLangs("EN");
-                                window.document.dir = "ltr";
-                                dispatch(c_dir("EN"));
-                            }
+                            langEn()
+                           
 
                         }}
                     >

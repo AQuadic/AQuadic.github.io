@@ -20,10 +20,19 @@ import {Provider} from 'react-redux';
 import store from './data/dataSlice';
 import Po_ta from './component/Po_ta';
 import Home_lay from './component/Home_lay';
-
+import { useEffect } from 'react';
+import { useTranslation } from "react-i18next";
 
 function App() {
-    
+   
+ const { t, i18n } = useTranslation();
+    useEffect(()=>{
+        i18n.language === "ar"?window.document.dir='rtl':window.document.dir='ltr'
+       },[i18n.language])
+       console.log(window.document.dir)
+        const filter = (id)=>{
+          console.log(id)
+        }
     // <img className='chat' src='./images/icons/chat.svg' alt=''/>
     AOS.init();
 

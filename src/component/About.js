@@ -1,17 +1,16 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
-
+import { useTranslation } from 'react-i18next';
 function About() {
+    const { t, i18n } = useTranslation();
     return (
         <div className='about' id='about'>
             <Container>
                 <img src='/images/header/about_us.png' alt=''/>
                 <div className='about-about'>
-                    <h2>About Us</h2>
+                    <h2>{t("home.about.title")}</h2>
                     <h4>
-                        Aquadic is a design and digital product development company. We create beautiful and functional
-                        web platforms, apps, and custom software solutions. we build projects for companies in different
-                        locations, and we always open to any business relationship.
+                    {t("home.about.description")}
                     </h4>
                 </div>
             </Container>

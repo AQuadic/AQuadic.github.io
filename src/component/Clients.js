@@ -1,10 +1,12 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
+import { useTranslation } from 'react-i18next';
 
 function Clients() {
+    const { t, i18n } = useTranslation();
     return (
         <Container className='clients'>
-            <h2 data-aos="fade-up" data-aos-delay="0">Our Clients Are Our Partners</h2>
+            <h2 data-aos="fade-up" data-aos-delay="0">{t("home.clients.title")}</h2>
 
             <div className='row'>
                 <div data-aos="fade-up" data-aos-delay="0" className='col-lg-2 col-md-3 col-sm-4 col-6'>

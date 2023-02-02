@@ -1,13 +1,16 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+    const { t, i18n } = useTranslation();
+
     const navigate = useNavigate()
     return (
         <div className='footer'>
             <Container>
-                <h3>© AQuadic Software, 2019-2022.</h3>
+                <h3>© {t("footer.aquadic")}, 2019-2022.</h3>
                 <div>
                     <a className='icon-soch faceboock' href='https://www.facebook.com/aquadicsoftware' target="_blank"
                        aria-label="a.link_social">
@@ -37,7 +40,7 @@ function Footer() {
                         <img src='/images/icons/twitter_on.svg' alt=''/>
                     </a>
                 </div>
-                <p>All rights reserved.</p>
+                <p>{t("footer.rights_reserved")}</p>
             </Container>
         </div>
     )

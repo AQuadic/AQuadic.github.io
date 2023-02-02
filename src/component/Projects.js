@@ -3,8 +3,10 @@ import {Container} from "react-bootstrap";
 import {useDispatch, useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 import {counteraction} from "../data/data";
+import { useTranslation } from 'react-i18next';
 
 function Projects(props) {
+    const { t, i18n } = useTranslation();
   
     const dispatch = useDispatch();
     const checkLang = window.document.dir;
@@ -28,9 +30,9 @@ function Projects(props) {
         <div className="projects">
             <Container>
                 <div className="head">
-                    <h2>Our Latest Creative Projects</h2>
+                    <h2>{t("portfolio.title")}</h2>
                     <Link to="/portfolio">
-                        <p>See All Portfolio</p>
+                        <p>{t("portfolio.see_all")}</p>
                         <img src="/images/icons/see_all.svg" alt=""/>
                     </ Link>
                 </div>
@@ -94,7 +96,7 @@ function Projects(props) {
 
                                 <div data-bs-dismiss="modal" className="close view">
                                     <Link to={`portfolio/${currentProject.id}`} className="view">
-                                        <p>View Details  </p>
+                                        <p>{t("portfolio.view_details")} </p>
                                         <img src="/images/icons/see_all.svg" alt=""/>
                                     </ Link>
                                 </div>

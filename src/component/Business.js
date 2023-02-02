@@ -1,15 +1,16 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
 
-
+import { useTranslation } from 'react-i18next';
 function Business() {
+ const { t, i18n } = useTranslation();
+
     return (
         <section className='business'>
             <Container>
                 <div className='about-business'>
-                    <h1>We help <span>Business</span> in their<br/>design & development journey.</h1>
-                    <p>Design and digital product development company. We create beautiful and functional web platforms,
-                        apps and custom software solutions.</p>
+                    <h1>{t("home.heading.part1")} <span>{t("home.heading.red")}</span> {t("home.heading.part2")}</h1>
+                    <p>{t("home.heading.description")} </p>
                 </div>
             </Container>
 
