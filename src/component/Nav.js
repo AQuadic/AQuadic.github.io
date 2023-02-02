@@ -17,8 +17,8 @@ function Nav() {
       langg ==="en"?setlangg("ar"): setlangg("en")
     
     }
-    const lang = i18n.language === "ar" ? "English" :"Arabic";
-    const langs = i18n.language === "ar" ? "EN":"Ar";
+    const lang = i18n.language === "ar" ? "English" :"العربية";
+    const langs = i18n.language === "ar" ? "EN":"ع";
 
    // const [lang, setLang] = useState("English");
    // const [langs, setLangs] = useState("EN");

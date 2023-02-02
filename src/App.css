@@ -1033,11 +1033,11 @@ a.nav-link {
     gap: 10px;
 }
 
-html[dir="rtl"] .projects .container .head a img, .projects .modal-body .modal_title .view img, .jop-about .view img {
+html[dir="rtl"] .projects .container .head a img,html[dir="rtl"] .projects .modal-body .modal_title .view img,html[dir="rtl"] .jop-about .view img {
     transform: rotate(180deg);
 }
 
-html[dir="ltr"] .projects .container .head a img, .projects .modal-body .modal_title .view img, .jop-about .view img {
+html[dir="ltr"] .projects .container .head a img, html[dir="ltr"].projects .modal-body .modal_title .view img, html[dir="ltr"].jop-about .view img {
     transform: rotate(0deg);
 }
 
@@ -2195,9 +2195,9 @@ html[dir="rtl"] .services .all-services .part img {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(199, 143, 53, 0.6);
+    background: rgba(199, 143, 53);
     z-index: -1;
-    opacity: 60%;
+    opacity: 40%;
 }
 
 .projects .modal-body {

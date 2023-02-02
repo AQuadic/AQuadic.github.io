@@ -1,21 +1,21 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
 import { useTranslation } from 'react-i18next';
-
+import tech from '../data/technologies.json'
 function Technologies() {
     const { t, i18n } = useTranslation();
 
-    const imgnum = ['js', 'reactjs', 'angularjs', 'nodejs', 'go', 'python', 'java', 'apple', 'android', 'technology_1', 'aws'];
+ 
     return (
         <div className='technologies'>
             <Container>
                 <h2>{t("technologies.title")}</h2>
                 <div className='alltechnologie'>
                     {
-                        imgnum.map((num) => {
-                            const sr = `/images/technologies/${num}.svg`;
+                        tech.map((item) => {
+                            
                             return (
-                                <img key={num} src={sr} alt='technologie' data-aos="fade-up" data-aos-delay="0"/>
+                                <img key={item.id} src={item.logo} alt={item.name} data-aos="fade-up" data-aos-delay="0"/>
                             )
                         })
                     }

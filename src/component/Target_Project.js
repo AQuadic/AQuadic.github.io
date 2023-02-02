@@ -3,8 +3,10 @@ import {Container} from 'react-bootstrap';
 import Slider from "react-slick";
 import {useParams} from "react-router-dom";
 import {useSelector} from 'react-redux';
+import { useTranslation } from 'react-i18next';
 
 function Target_Project(props) {
+    const { t, i18n } = useTranslation();
 
     const data = props.data;
     var settings = {
@@ -68,6 +70,8 @@ function Target_Project(props) {
     console.log(data)
   
     const [dataa, setdataa] = useState();
+    console.log(dataa)
+
     const [params, setparams] = useState(id ? id :0)
     const gettarget=() =>{
         if(params !== 0 ){
@@ -96,10 +100,10 @@ function Target_Project(props) {
                                 <div className="title">
 
                                     <img src="/images/pharmacy/logo.svg" alt="logo icon"/>
-                                    <h1>{dataa[0].name.ar}</h1>
+                                    <h1>{dataa[0].name[i18n.language]}</h1>
                                 </div>
                                 <p className="text">
-                                    {dataa[0].description.ar}
+                                    {dataa[0].description[i18n.language]}
                                 </p>
                                 <p className="tryit">
                                     try it now
@@ -139,8 +143,11 @@ function Target_Project(props) {
                             </button>
 
                         </div>
+                       {
+                        dataa[0].images_mobile ?
+                       
                         <Slider {...settings}>
-                            {
+                            {  
                                 dataa[0].images_mobile.map((img_url) => {
                                     return (
                                         <div key={img_url}>
@@ -150,7 +157,8 @@ function Target_Project(props) {
                                 })
                             }
 
-                        </Slider>
+                        </Slider> :null
+                        }
                     </div>
                 </Container>
 
