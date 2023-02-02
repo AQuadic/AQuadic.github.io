@@ -384,5 +384,72 @@
     "client_id": 5,
     "country_id": 3,
     "type": "appplication"
+  },
+  {
+    "id": 8,
+    "name": {
+      "ar": "معمولات السالكين",
+      "en": "Mamulaat"
+    },
+    "description": {
+      "en": "This app contains daily mamulaat that are very beneficial for every muslim especially for people who are related to any Khanqah or Sheikh.\n\nHere is the list of mamulaat that are included in this app\n\nRecitation:\n- Fazail of reciting different surahs after obligatory Salahs\n- Sura Yaseen\n- Sura Fatah\n- Sura Waqia\n- Sura Mulk\n- Sura Kahf\n\nDurrod o Salam and Manzil:\n- 40 Durood o Salam\n- Manzil Jadeed (For protection from Sehr and Jinnat)\n- Durood Tanjeena\n\nSupplications (Duas)\n- Munajaat e Maqbool (7 Manzils with Khutbah)\n- Khatm e Khwajgaan\n- Supplications after Salah\n- Morning & Evening supplications\n- Supplications for every step of ablution (wudu)\nSeeking Allah’s Protection:\n- Munjiyaat\n- Ayaat e Mastoor (for protection from enemies)\n- Dua e Ans\n- Dua e Hadsaat (for protection from all sort of accidents)\n\nZikr & Muraqbaat:\nThis section includes islahi Zikr and muraqibaat for cleansing and purification of Nafs, Qalb and Aqal.\n- Initial Islahi zikr\n- Zikr on lataif (sensing points)\n- Muraqbaat\n\nShajrah:\n- Shajira Iqbalia Shabbiria versified (in persian)\n- Shajira Ashrafia Shabbiria versified (in persian)\n- Shajrah Sadaat Kaka Khel versified(in pashto)\n\n\nSermons (Khutbahs):\n- Friday sermon 1\n- Friday sermon 2\n- Nikah sermon\n\n\nMiscellaneous Mamulaat:\n- Mamulaat e Mubtahi (for mashaikh)\n- Optional Salah (nafl)\n- Mujadidi and Ashrafi Sulook in Khanqah Rahmkaria Imdadia\n\nThis app has been developed under supervision of great saint of this era, Arif Billah Hazrat Syed Shabbir Ahmed Kaka Khel Sahib (Damat Barkatuhum).\n\nHadhrat Shaykh Shabbir is a renowned Sufi Shaykh who ardently follows the Qur'an & Sunnah and is known for guiding others away from bid'ah and innovations and onto the true path of Tasawwuf, which can only come through total submission to commands of the Beloved, Allah Azza WA Jal",
+      "ar": "يحتوي هذا التطبيق على مامولات يومية مفيدة جدًا لكل مسلم خاصة للأشخاص المرتبطين بأي خانقاه أو شيخ.\n\nفيما يلي قائمة mamulaat المضمنة في هذا التطبيق\n\nالتلاوة:\n- فضل تلاوة السور المختلفة بعد الصلوات الواجبة\n- سورة ياسين\n- سورة الفتح\n- سورة واقية\n- سورة الملك\n- سورة الكهف\n\nدرد وسلام ومنزل:\n- 40 درود السلام\n- منزل جديد (للحماية من سحر وجنات)\n- درود طنجينا\n\nادعية\n- مناجاة مقبول (7 منازل مع خطبة).\n- خاتم خواجان\n- أدعية بعد الصلاة\n- ادعية الصباح والمساء\n- الدعاء لكل خطوة من خطوات الوضوء.\nطلب حفظ الله:\n- منجيات\n- آيات مستور (للحماية من الأعداء)\n- دعاء أنس\n- دعاء الحدسات (للحماية من جميع أنواع الحوادث)\n\nالذكر والمرقبات:\nويشمل هذا القسم إصلاح الذكر والمراقبات لتطهير النفس وقلب وعقل.\n- الأولي الاصلاح الذكر\n- ذكر على اللطيف (نقاط الاستشعار)\n- المرقبات\n\nالشجرة:\n- Shajira Iqbalia Shabbiria Versified (باللغة الفارسية)\n- Shajira Ashrafia Shabbiria Versified (باللغة الفارسية)\n- Shajrah Sadaat Kaka Khel مؤلف (بالباشتو)\n\n\nالخطب:\n- خطبة الجمعة 1\n- خطبة الجمعة 2\n- خطبة نكاح\n\n\nمعمولات متنوعة:\n- Mamulaat e Mubtahi (للمشايخ)\n- صلاح اختياري (نافل)\n- مجددي وأشرفي سلوق في خانقاه رحمكريا الإمدادية\n\nتم تطوير هذا التطبيق تحت إشراف القديس العظيم لهذا العصر ، عارف بالله حضرة سيد شبير أحمد كاكا خيل صاحب (دمات بركاتهم).\n\nحضرة الشيخ شبير هو شيخ صوفي مشهور يتبع القرآن والسنة بحماس ويشتهر بإرشاد الآخرين بعيدًا عن البدع والابتكارات إلى طريق التصوف الحقيقي ، والذي لا يمكن أن يأتي إلا من خلال الخضوع التام لأوامر الحبيب. الله عز وجل"
+    },
+    "category": {
+      "id": 1,
+      "name": {
+        "ar": "كتب / قراءة",
+        "en": "Books / Reading"
+      }
+    },
+    "links": {
+      "website": "https://tazkia.org",
+      "play_store": "https://play.google.com/store/apps/details?id=com.tazkia.mamulaat",
+      "app_store": "https://apps.apple.com/us/app/mamulaat/id1483535627",
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Android",
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+      },
+      {
+        "id": 2,
+        "name": "IOS",
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+      },
+      {
+        "id": 9,
+        "name": "Flutter",
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+      },
+      {
+        "id": 13,
+        "name": "Firebase",
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+      }
+    ],
+    "primary_color": "#ECF6F6",
+    "logo": "https://play-lh.googleusercontent.com/Jb6np_mCe6pDixMzg2_r9GFXacc6wQP26jIIZnZlaTKeyHo3_1jh6VOSsNPpYidWyA=w240-h480-rw",
+    "main_image": "https://aquadic.github.io/images/projects/mamulaat.svg",
+    "background_image": "https://aquadic.github.io/images/projects/mamulaat.svg",
+    "images_desktop": null,
+    "images_mobile": [
+      "https://play-lh.googleusercontent.com/1e4pkWMKJscx4tcTMUEvSKelqdK6KsvHcv5fpL7G2G0cuITO48-fdZBHjZXoQ3XixrI=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/DoxqG88dG61amlBj08JY4iYiXJoS7xOENZUtMpegZvu3j7KXmaG-pIdhdXswj1snCdnE=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/Jxup5c8uSAG7Xz4Zl4eN1e__XqeNBzGHr-sGmALY9xhNyRqOZm6_fiRih4DfibscXD0=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/FxoLJCGVx0RmBkusTTlOOrOkdNCHqz09Z-Y3KYIu9_SNgNGqxSLhZFyO3jXVyFTSlw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/FeeZRYN0f1N5zQLEd1TJo2IsOsZRV0zGv85UxGvrWNc5vf-6QbHnfSouedkZBpgUQB-c=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/ygpm9w_ZQTe4dEvR6-wnJ-oCmU96G6nU_rhN2s-_gLe4810dqrORZd0HXd77LnPX1ykz=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/s9T3Tlo35DnmR3eLn5cBlBIu9BNtZB3qHRvqKirivAtbuGXs5egvtvXX1oly6o9CLJw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/157aJbSKkBX8kUYY9_T5V3KX9ya5WGis5x6KC3OpThkmw2LBtJFEcA4S0nRdSOZ88Z8=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/IbK1IVo2TTgZBmg3i27TPfsVYbaq4y8qVykoCrkapNylNeRSTLEEFo1Tbz3ep0zMLw=w2560-h1440-rw"
+    ],
+    "client_id": 1,
+    "country_id": 1,
+    "type": "appplication"
   }
 ]
