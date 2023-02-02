@@ -92,7 +92,7 @@ function Target_Project(props) {
                             <div className="about-pharm col-lg-6 col-md-6">
                                 <div className="title">
                                     <img src={dataa[0].logo} alt="logo icon" height="150px" width="150px"/>
-                                    <h1 style="">{dataa[0].name[i18n.language]}</h1>
+                                    <h1>{dataa[0].name[i18n.language]}</h1>
                                 </div>
 
                                 <p className="text">{dataa[0].description[i18n.language]}</p>
