@@ -24,6 +24,20 @@
       "presentation": null,
       "behance": null
     },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Android",
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+      },
+      {
+        "id": 2,
+        "name": "IOS",
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+      }
+    ],
+    "primary_color": "#F0602B",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
     "main_image": "https://aquadic.github.io/images/projects/oread.svg",
     "background_image": "https://aquadic.github.io/images/projects/oread.svg",
     "images_desktop": null,
@@ -63,6 +77,20 @@
       "presentation": null,
       "behance": null
     },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Android",
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+      },
+      {
+        "id": 2,
+        "name": "IOS",
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+      }
+    ],
+    "primary_color": "#000000",
+    "logo": "https://sg-res.9appsdownloading.com/sg/res/jpg/c4/a0/18a180cb6ab3627b3942f3734dd2-944.jpg?x-oss-process=style/mq200",
     "main_image": "https://aquadic.github.io/images/projects/msplayer.svg",
     "background_image": "https://aquadic.github.io/images/projects/msplayer.svg",
     "images_desktop": null,
@@ -95,13 +123,27 @@
       }
     },
     "links": {
-      "website": null,
+      "website": "https://optimalimos.com",
       "play_store": null,
       "app_store": null,
       "ms_store": null,
       "presentation": null,
       "behance": null
     },
+    "technologies": [
+      {
+        "id": 3,
+        "name": "AngularJS",
+        "logo": "https://aquadic.github.io/images/technologies/angularjs.svg"
+      },
+      {
+        "id": 4,
+        "name": "JS",
+        "logo": "https://aquadic.github.io/images/technologies/js.svg"
+      }
+    ],
+    "primary_color": "#392713",
+    "logo": "https://optimalimos.com/wp-content/uploads/2019/03/optima.png",
     "main_image": "https://aquadic.github.io/images/projects/optimalimo.svg",
     "background_image": "https://aquadic.github.io/images/projects/optimalimo.svg",
     "images_desktop": null,
@@ -141,6 +183,20 @@
       "presentation": null,
       "behance": null
     },
+    "technologies": [
+      {
+        "id": 5,
+        "name": "Laravel",
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+      },
+      {
+        "id": 6,
+        "name": "Whatsapp",
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+      }
+    ],
+    "primary_color": "#FFBE00",
+    "logo": "https://freshfarm.ae/logo.svg",
     "main_image": "https://freshfarm.ae/images/screen1.svg",
     "background_image": "https://freshfarm.ae/images/screen1.svg",
     "images_desktop": null,
@@ -180,6 +236,30 @@
       "presentation": null,
       "behance": null
     },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Android",
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+      },
+      {
+        "id": 2,
+        "name": "IOS",
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+      },
+      {
+        "id": 5,
+        "name": "Laravel",
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+      },
+      {
+        "id": 6,
+        "name": "Whatsapp",
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+      }
+    ],
+    "primary_color": "#FCD368",
+    "logo": "https://aquadic.github.io/find-help/image/logo.svg",
     "main_image": "https://aquadic.github.io/find-help/image/iPhone13.png",
     "background_image": "https://aquadic.github.io/find-help/image/iPhone13.png",
     "images_desktop": null,
@@ -192,5 +272,56 @@
     "client_id": 5,
     "country_id": 3,
     "type": "appplication"
+  },
+  {
+    "id": 6,
+    "name": {
+      "ar": "كلاودا",
+      "en": "Cloudwa"
+    },
+    "description": {
+      "ar": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+      "en": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+    },
+    "category": {
+      "id": 5,
+      "name": {
+        "ar": "خدمات",
+        "en": "Services"
+      }
+    },
+    "links": {
+      "website": "https://whatsapp.aq-apps.xyz",
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": "Laravel",
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+      },
+      {
+        "id": 6,
+        "name": "Whatsapp",
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+      }
+    ],
+    "primary_color": "#7313FC",
+    "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+    "main_image": "https://aquadic.github.io/images/projects/cloudwa.png",
+    "background_image": "https://aquadic.github.io/images/projects/cloudwa.png",
+    "images_desktop": [
+      "https://aquadic.github.io/images/projects/cloudwa.png",
+      "https://aquadic.github.io/images/projects/cloudwa2.png",
+      "https://aquadic.github.io/images/projects/cloudwa3.png"
+    ],
+    "images_mobile": null,
+    "client_id": 5,
+    "country_id": 3,
+    "type": "websites"
   }
 ]

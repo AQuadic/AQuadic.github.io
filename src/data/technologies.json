@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Android",
+    "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+  },
+  {
+    "id": 2,
+    "name": "IOS",
+    "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+  },
+  {
+    "id": 3,
+    "name": "AngularJS",
+    "logo": "https://aquadic.github.io/images/technologies/angularjs.svg"
+  },
+  {
+    "id": 4,
+    "name": "JS",
+    "logo": "https://aquadic.github.io/images/technologies/js.svg"
+  },
+  {
+    "id": 5,
+    "name": "Laravel",
+    "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+  },
+  {
+    "id": 6,
+    "name": "Whatsapp",
+    "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+  },
+  {
+    "id": 7,
+    "name": "React",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+  },
+  {
+    "id": 8,
+    "name": "NodeJs",
+    "logo": "https://aquadic.github.io/images/technologies/nodejs.svg"
+  },
+  {
+    "id": 9,
+    "name": "Flutter",
+    "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+  },
+  {
+    "id": 10,
+    "name": "Adobe XD",
+    "logo": "https://aquadic.github.io/images/technologies/xd2.svg"
+  },
+  {
+    "id": 11,
+    "name": "Figma",
+    "logo": "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&h=670&q=75&fit=max&auto=format"
+  },
+  {
+    "id": 12,
+    "name": "AWS",
+    "logo": "https://aquadic.github.io/images/technologies/aws.svg"
+  }
+]
