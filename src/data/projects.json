@@ -312,12 +312,12 @@
     ],
     "primary_color": "#7313FC",
     "logo": "https://whatsapp.aq-apps.xyz/icon.png",
-    "main_image": "https://aquadic.github.io/images/cloudwa.png",
-    "background_image": "https://aquadic.github.io/images/cloudwa.png",
+    "main_image": "https://aquadic.github.io/images/projects/cloudwa.png",
+    "background_image": "https://aquadic.github.io/images/projects/cloudwa.png",
     "images_desktop": [
-      "https://aquadic.github.io/images/cloudwa.png",
-      "https://aquadic.github.io/images/cloudwa2.png",
-      "https://aquadic.github.io/images/cloudwa3.png"
+      "https://aquadic.github.io/images/projects/cloudwa.png",
+      "https://aquadic.github.io/images/projects/cloudwa2.png",
+      "https://aquadic.github.io/images/projects/cloudwa3.png"
     ],
     "images_mobile": null,
     "client_id": 5,
