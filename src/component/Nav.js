@@ -50,7 +50,7 @@ function Nav() {
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
-                                 {t("home.heading.part1")}
+                                    {t('nav.company')}
                                 </Link>
 
                                 <ul className="dropdown-menu">
