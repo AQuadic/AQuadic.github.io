@@ -1,8 +1,19 @@
 {
+  "nav": {
+    "company": "الشركة",
+    "about_us": "عن أكوادك",
+    "services": "خدماتنا",
+    "contact_us": "تواصل معنا",
+    "team": "فريقنا",
+    "career": "الوظائف",
+    "hosting_sites": "خوادم مقترحة",
+    "pricing_models": "خطط الأسعار",
+    "payment_methods": "طرق الدفع"
+  },
   "home": {
     "heading": {
       "part1": "نحن نساعد",
-      "red": "Business",
+      "red": "الشركات",
       "part2": "في رحلة التصميم والتطوير الخاصة بهم.",
       "description": "شركة تصميم وتطوير المنتجات الرقمية. نقوم بإنشاء منصات ويب وتطبيقات وحلول برمجية مخصصة ورائعة."
     },
@@ -26,7 +37,13 @@
   "portfolio": {
     "title": "أحدث مشاريعنا الإبداعية",
     "see_all": "تصفح جميع المشاريع",
-    "view_details": "عرض التفاصيل"
+    "view_details": "عرض التفاصيل",
+    "applications": "التطبيقات",
+    "websites": "المواقع",
+    "screens": "لقطات",
+    "try_it_now": "جرب الان",
+    "mobile": "الهاتف",
+    "desktop": "الحاسوب"
   },
   "technologies": {
     "title": "التقنيات"

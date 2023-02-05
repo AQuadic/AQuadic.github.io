@@ -1,9 +1,9 @@
 import React, {useRef, useState} from 'react'
 import {Container} from 'react-bootstrap';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 
 function Portfolio(props) {
-    const { t, i18n } = useTranslation();
+    const {t, i18n} = useTranslation();
 
     const [nedd, setneed, lang] = useState("appplication");
 
@@ -17,7 +17,7 @@ function Portfolio(props) {
         <div className='portfolio'>
             <div className='imageheader' data-aos="zoom-in-up" data-aos-delay="50">
                 <img src='/images/projects/portfolio.svg' alt='careers'/>
-                <h2>Portfolio</h2>
+                <h2>{t('portfolio.title')}</h2>
             </div>
             <Container>
                 <div className='portfolio-btn'>
@@ -25,13 +25,13 @@ function Portfolio(props) {
                         setneed("appplication");
                         btn2.current.classList.remove("open");
                         e.target.classList.add("open")
-                    }}>Applications
+                    }}>{t('portfolio.applications')}
                     </button>
                     <button ref={btn2} onClick={(e) => {
                         setneed("websites");
                         btn1.current.classList.remove("open");
                         e.target.classList.add("open")
-                    }}>Websites
+                    }}>{t('portfolio.websites')}
                     </button>
                 </div>
 

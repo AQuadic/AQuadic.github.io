@@ -1,4 +1,15 @@
 {
+  "nav": {
+    "company": "Company",
+    "about_us": "About us",
+    "services": "Services",
+    "contact_us": "Contact us",
+    "team": "Team",
+    "career": "Career",
+    "hosting_sites": "Hosting sites",
+    "pricing_models": "Pricing models",
+    "payment_methods": "Payment methods"
+  },
   "home": {
     "heading": {
       "part1": "We help",
@@ -26,7 +37,13 @@
   "portfolio": {
     "title": "Our Latest Creative Projects",
     "see_all": "See All Portfolio",
-    "view_details": "View Details"
+    "view_details": "View Details",
+    "applications": "Applications",
+    "websites": "Websites",
+    "screens": "Screens",
+    "try_it_now": "Try it now",
+    "mobile": "Mobile",
+    "desktop": "Desktop"
   },
   "technologies": {
     "title": "Technologies"
