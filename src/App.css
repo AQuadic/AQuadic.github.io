@@ -1111,6 +1111,7 @@ html[dir="ltr"] .projects .container .head a img, html[dir="ltr"] .project_modal
     left: 50%;
     transform: translateX(-50%);
     transition: 0.5s;
+    object-fit: contain;
 }
 
 .projects .container .all-project .project:hover img,
