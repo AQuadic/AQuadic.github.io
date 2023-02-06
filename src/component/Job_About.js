@@ -84,13 +84,13 @@ function Jop_About() {
                                 <div className="pharm">
 
                                     <div className="row">
-                                        <img src="/images/pharmacy/pharmacy.png"
+                                        <img src="/images/projects/pharmacy/pharmacy.png"
                                              className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
                                              alt="Group"/>
                                         <div className="about-pharm col-lg-6 col-md-6">
                                             <div className="title">
 
-                                                <img src="/images/pharmacy/logo.svg" alt="logo icon"/>
+                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
                                                 <h1>Pharmacy</h1>
                                             </div>
                                             <p className="text">
@@ -111,13 +111,13 @@ function Jop_About() {
                                 <div className="pharm">
 
                                     <div className="row">
-                                        <img src="/images/pharmacy/pharmacy.png"
+                                        <img src="/images/projects/pharmacy/pharmacy.png"
                                              className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
                                              alt="Group"/>
                                         <div className="about-pharm col-lg-6 col-md-6">
                                             <div className="title">
 
-                                                <img src="/images/pharmacy/logo.svg" alt="logo icon"/>
+                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
                                                 <h1>Pharmacy</h1>
                                             </div>
                                             <p className="text">
@@ -138,13 +138,13 @@ function Jop_About() {
                                 <div className="pharm">
 
                                     <div className="row">
-                                        <img src="/images/pharmacy/pharmacy.png"
+                                        <img src="/images/projects/pharmacy/pharmacy.png"
                                              className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
                                              alt="Group"/>
                                         <div className="about-pharm col-lg-6 col-md-6">
                                             <div className="title">
 
-                                                <img src="/images/pharmacy/logo.svg" alt="logo icon"/>
+                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
                                                 <h1>Pharmacy</h1>
                                             </div>
                                             <p className="text">
@@ -165,13 +165,13 @@ function Jop_About() {
                                 <div className="pharm">
 
                                     <div className="row">
-                                        <img src="/images/pharmacy/pharmacy.png"
+                                        <img src="/images/projects/pharmacy/pharmacy.png"
                                              className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
                                              alt="Group"/>
                                         <div className="about-pharm col-lg-6 col-md-6">
                                             <div className="title">
 
-                                                <img src="/images/pharmacy/logo.svg" alt="logo icon"/>
+                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
                                                 <h1>Pharmacy</h1>
                                             </div>
                                             <p className="text">
