@@ -70,6 +70,7 @@ function Target_Project(props) {
     console.log(id)
     console.log(data)
     const [similar , setsimilar]= useState();
+    const [type_show , settype_show]= useState('images_mobile');
     console.log(similar)
    
     const [dataa, setdataa] = useState();
@@ -135,12 +136,14 @@ console.log("hiiii")
                             dataa[0].images_mobile? dataa[0].images_desktop? 
                             <> 
                             <button ref={btn1} className='open' onClick={(e) => {
+                                settype_show("images_mobile");
                                 btn2.current.classList.remove("open");
                                 e.target.classList.add("open")
                             }}>{t('portfolio.mobile')}
                             </button> 
                        
                            <button ref={btn2} onClick={(e) => {
+                            settype_show("images_desktop");
                                 btn1.current.classList.remove("open");
                                 e.target.classList.add("open")
                             }}>{t('portfolio.desktop')}
@@ -154,7 +157,7 @@ console.log("hiiii")
                             dataa[0].images_mobile ?
                                 <Slider {...settings}>
                                     {
-                                        dataa[0].images_mobile.map((img_url) => {
+                                        dataa[0][type_show].map((img_url) => {
                                             return (
                                                 <div key={img_url}>
                                                     <img src={img_url} alt="logo icon"/>
@@ -197,13 +200,14 @@ console.log("hiiii")
                                                 <img src='/images/overview/phone.svg' alt=''/>
                                                 <img src='/images/overview/wep.svg' alt=''/>
                                             </div>
-                                            <h4>web, IOS, Android</h4>
+                                            <h4>  {
+                                                    dataa[0].technologies.map((img)=> <span> {img.name }</span> )
+                                                }</h4>
                                             <div className='g-img f-img'>
-                                                <img src='/images/technologies/next.svg' alt='TECH'/>
-                                                <img src='/images/technologies/angularjs.svg' alt='TECH'/>
-                                                <img src='/images/technologies/js.svg' alt='TECH'/>
-                                                <img src='/images/technologies/ios.svg' alt='TECH'/>
-                                                <img src='/images/technologies/android2.svg' alt='TECH'/>
+                                                {
+                                                    dataa[0].technologies.map((img)=> <img key={img.id} src={img.logo} alt={img.name}/>)
+                                                }
+                                                
                                             </div>
                                         </div>
                                     </div>
