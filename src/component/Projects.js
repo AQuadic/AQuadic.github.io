@@ -64,7 +64,7 @@ function Projects(props) {
             </Container>
 
             <div
-                className="modal fade"
+                className="modal fade project_modal"
                 id="exampleModalLong"
                 tabIndex="-1"
                 role="dialog"

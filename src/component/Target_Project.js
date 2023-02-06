@@ -3,11 +3,13 @@ import {Container} from 'react-bootstrap';
 import Slider from "react-slick";
 import {useParams} from "react-router-dom";
 import {useTranslation} from 'react-i18next';
-
+import all_data from '../data/projects.json'
+import { Link } from 'react-router-dom';
+import data from '../data/projects.json';
 function Target_Project(props) {
     const {t, i18n} = useTranslation();
 
-    const data = props.data;
+    
     const settings = {
         className: "center",
         prevArrow:
@@ -67,7 +69,7 @@ function Target_Project(props) {
     const {id} = useParams()
     console.log(id)
     console.log(data)
-
+    const [similar , setsimilar]= useState();
     const [dataa, setdataa] = useState();
     console.log(dataa)
 
@@ -76,13 +78,20 @@ function Target_Project(props) {
         if (params !== 0) {
             const get = data.filter(item => item.id === +id);
             setdataa(get)
+            const sim = all_data.filter((data)=> data.category.id === get[0].category.id)
+            setsimilar(sim)
         }
     }
 
+
+console.log("hiiii")
     useEffect(() => {
         gettarget()
-    }, [])
 
+       
+    }, [,id])
+    const [currentProject, setCurrentProject] = useState(all_data[0])
+   
     return (
         dataa ?
             <div className='target-project'>
@@ -222,11 +231,13 @@ function Target_Project(props) {
                         <h3 className='h3-look'>Have a look on similar Projects</h3>
                         <div className='all-portfolio row'>
                             {
-                                data.map((data) => {
+                                similar.map((data) => {
                                     return (
                                         <div className="project col-lg-3 col-md-5 col-sm-5 col-12 aos-init"
                                              data-aos="fade-up" data-aos-delay="50" data-bs-toggle="modal"
-                                             data-bs-target="#exampleModalLong" key={data.id}>
+                                             data-bs-target="#exampleModalLong" key={data.id}  onClick={() => {
+                                                setCurrentProject(data);
+                                            }}>
                                             <h3>{data.name[i18n.language]}</h3>
                                             <p>{data.category.name[i18n.language]}</p>
                                             <img src={data.main_image} alt={data.name[i18n.language]}/>
@@ -237,6 +248,58 @@ function Target_Project(props) {
                         </div>
                     </div>
                 </Container>
+                <div
+                className="modal fade project_modal"
+                id="exampleModalLong"
+                tabIndex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true"
+            >
+                <div className="modal-dialog modal-dialog-centered" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <button
+                                type="button"
+                                className="close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            >
+                                <img aria-hidden="true" src="/images/icons/model_x.svg" alt="close"/>
+                            </button>
+                        </div>
+
+                        <div className="modal-body" style={{ background: currentProject.primary_color+38,}}>
+                            <div className="modal_img">
+                                <img src={currentProject.main_image} alt={currentProject.name[i18n.language]}/>
+                                <img className="back_img" src={currentProject.background_image} alt="bk_image"/>
+                            </div>
+
+                            <div className="modal_title">
+                                <h2>{currentProject.name[i18n.language]}</h2>
+                                <p>{currentProject.description[i18n.language]}</p>
+
+                                <div data-bs-dismiss="modal" className="close view">
+                                    <Link to={`/portfolio/${currentProject.id}`} onClick={()=>{}} className="view">
+                                        <p>{t("portfolio.view_details")} </p>
+                                        <img src="/images/icons/see_all.svg" alt=""/>
+                                    </ Link>
+                                </div>
+
+                                <div className="modal_app">
+                                    {
+                                        Object.keys(currentProject.links).map(function (key) {
+                                            const link = currentProject.links[key];
+                                            const img = `/images/apps/${key}.svg`;
+                                            return (link ? <a href={link}><img src={img} alt={key}/></a> : null)
+                                        })
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
             :
             <div>no data her </div>

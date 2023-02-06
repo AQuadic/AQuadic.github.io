@@ -1030,20 +1030,20 @@ html[dir=rtl] a.nav-link {
     margin-bottom: 62px;
 }
 
-.projects .container .head a, .projects .modal-body .modal_title .view, .jop-about .view {
+.projects .container .head a, .project_modal .modal-body .modal_title .view, .jop-about .view {
     display: flex;
     gap: 10px;
 }
 
-html[dir="rtl"] .projects .container .head a img,html[dir="rtl"] .projects .modal-body .modal_title .view img,html[dir="rtl"] .jop-about .view img {
+html[dir="rtl"] .projects .container .head a img,html[dir="rtl"] .project_modal .modal-body .modal_title .view img,html[dir="rtl"] .jop-about .view img {
     transform: rotate(180deg);
 }
 
-html[dir="ltr"] .projects .container .head a img, html[dir="ltr"].projects .modal-body .modal_title .view img, html[dir="ltr"].jop-about .view img {
+html[dir="ltr"] .projects .container .head a img, html[dir="ltr"] .project_modal .modal-body .modal_title .view img, html[dir="ltr"].jop-about .view img {
     transform: rotate(0deg);
 }
 
-.projects .container .head a p, .projects .modal-body .modal_title .view p, .jop-about .view p {
+.projects .container .head a p, .project_modal .modal-body .modal_title .view p, .jop-about .view p {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -2165,7 +2165,7 @@ html[dir="rtl"] .services .all-services .part img {
 
 /*end persone*/
 /*start model */
-.projects .modal .modal-header button {
+ .modal-header button {
     border: none;
     background-color: transparent;
 }
@@ -2178,19 +2178,19 @@ html[dir="rtl"] .services .all-services .part img {
     z-index: 50;
 }
 
-.projects .modal-dialog {
+.project_modal .modal-dialog {
     max-width: 98%;
     margin: 14px auto;
 }
 
-.projects .modal-content {
+.project_modal .modal-content {
     max-width: 1350px;
     margin: auto;
     background-color: transparent;
     overflow: hidden;
 }
 
-.projects .modal-content::after {
+.project_modal .modal-content::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -2202,20 +2202,20 @@ html[dir="rtl"] .services .all-services .part img {
     opacity: 40%;
 }
 
-.projects .modal-body {
+.project_modal .modal-body {
     width: 100%;
     display: flex;
     align-items: center;
     padding: 0;
 }
 
-.projects .modal-body .modal_img {
+.project_modal .modal-body .modal_img {
     width: 50%;
 
     text-align: center;
 }
 
-.projects .modal-body .modal_img .back_img {
+.project_modal .modal-body .modal_img .back_img {
     position: absolute;
     width: 118%;
     top: -86px;
@@ -2225,37 +2225,37 @@ html[dir="rtl"] .services .all-services .part img {
     z-index: -2;
 }
 
-.projects .modal-body .modal_img img {
+.project_modal .modal-body .modal_img img {
     width: 542px;
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.projects .modal-body .modal_title {
+.project_modal .modal-body .modal_title {
     padding: 196px 30px 196px 70px;
     flex: 1;
     background-color: white;
 }
 
-.projects .modal-body .modal_title .view {
+.project_modal .modal-body .modal_title .view {
     margin-bottom: 30px;
 
 }
 
-.projects .modal-body .modal_title .view p {
+.project_modal .modal-body .modal_title .view p {
     margin: 0;
 
 }
 
-.projects .modal-body .modal_title h2 {
+.project_modal .modal-body .modal_title h2 {
     position: relative;
     font-weight: 700;
     font-size: 36px;
     line-height: 47px;
 }
 
-.projects .modal-body .modal_title h2::before {
+.project_modal .modal-body .modal_title h2::before {
     position: absolute;
     content: "";
     width: 80px;
@@ -2264,24 +2264,24 @@ html[dir="rtl"] .services .all-services .part img {
     top: 100%;
 }
 
-.projects .modal-body .modal_title p {
+.project_modal .modal-body .modal_title p {
     font-weight: 500;
     font-size: 24px;
     line-height: 40px;
     margin: 44px auto 8px;
 }
 
-.projects .modal-body .modal_title .modal_app {
+.project_modal .modal-body .modal_title .modal_app {
     display: flex;
     gap: 28px;
     flex-wrap: wrap;
 }
 
-.projects .modal-body .modal_title .modal_app img {
+.project_modal .modal-body .modal_title .modal_app img {
 }
 
 @media (max-width: 1150px) {
-    .projects .modal-body .modal_img img {
+    .project_modal .modal-body .modal_img img {
         width: 96%;
         height: 264px;
         object-fit: cover;
@@ -2290,62 +2290,62 @@ html[dir="rtl"] .services .all-services .part img {
 }
 
 @media (max-width: 970px) {
-    .projects .modal-body {
+    .project_modal .modal-body {
         width: 100%;
 
         flex-direction: column;
     }
 
-    .projects .modal-body .modal_img {
+    .project_modal .modal-body .modal_img {
         width: 100%;
 
         background-color: white;
         padding: 67px 0px;
     }
 
-    .projects .modal-body .modal_img img {
+    .project_modal .modal-body .modal_img img {
         width: 80%;
         height: fit-content;
         object-fit: cover;
         border-radius: 10px;
     }
 
-    .projects .modal-body .modal_img .back_img {
+    .project_modal .modal-body .modal_img .back_img {
         display: none;
     }
 
-    .projects .modal-body .modal_title {
+    .project_modal .modal-body .modal_title {
         padding: 33px 40px;
         width: 100%;
     }
 }
 
 @media (max-width: 500px) {
-    .projects .modal-body .modal_title h2 {
+    .project_modal .modal-body .modal_title h2 {
         font-size: 32px;
     }
 
-    .projects .modal-body .modal_title p {
+    .project_modal .modal-body .modal_title p {
         font-size: 20px;
     }
 
-    .projects .modal-body .modal_title {
+    .project_modal .modal-body .modal_title {
         padding: 8px 20px;
     }
-    .projects .modal-body .modal_title .modal_app a {
+    .project_modal .modal-body .modal_title .modal_app a {
         max-width: 47%;
     }
-    .projects .modal-body .modal_title .modal_app {
+    .project_modal .modal-body .modal_title .modal_app {
         width: 100%;
         gap: 20px 0px;
         justify-content: space-between;
     }
 
-    .projects .modal-body .modal_title .modal_app img {
+    .project_modal .modal-body .modal_title .modal_app img {
         width: 100%;
     }
 
-    .projects .modal-body .modal_img img {
+    .project_modal .modal-body .modal_img img {
         width: 90%;
     }
 }
@@ -2356,7 +2356,7 @@ html[dir="rtl"] .services .all-services .part img {
     opacity: 1;
 }
 
-.model-bo.modal-body {
+.model-send .model-bo.modal-body {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -2367,7 +2367,7 @@ html[dir="rtl"] .services .all-services .part img {
     height: 400px;
 }
 
-.model-bo.modal-body::before {
+.model-send .model-bo.modal-body::before {
     content: "";
     position: absolute;
     top: 0;
@@ -2377,7 +2377,7 @@ html[dir="rtl"] .services .all-services .part img {
     background-image: url(../public/images/patterns/pattern_5.svg);
 }
 
-.model-bo.modal-body h2 {
+.model-send .model-bo.modal-body h2 {
     font-family: "Courgette";
 
     font-weight: 400;
@@ -2386,7 +2386,7 @@ html[dir="rtl"] .services .all-services .part img {
     color: #ea433a;
 }
 
-.model-bo.modal-body p {
+.model-send .model-bo.modal-body p {
     font-weight: 500;
     font-size: 24px;
     line-height: 35px;
