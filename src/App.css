@@ -2707,6 +2707,7 @@ html[dir="rtl"] .services .all-services .part img {
     display: block;
     margin: auto;
     max-width: 100%;
+    padding: 12px;
 }
 
 /*end target-project*/
