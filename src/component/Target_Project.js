@@ -70,6 +70,8 @@ function Target_Project(props) {
     console.log(id)
     console.log(data)
     const [similar , setsimilar]= useState();
+    console.log(similar)
+   
     const [dataa, setdataa] = useState();
     console.log(dataa)
 
@@ -113,7 +115,7 @@ console.log("hiiii")
                                             const link = dataa[0].links[key];
                                             const img = `/images/apps/${key}.svg`;
                                             return (
-                                                link ? <li><a href={link}><img src={img} alt={key}/></a></li> : null
+                                                link ? <li key={key} ><a href={link}><img src={img} alt={key}/></a></li> : null
                                             )
                                         })
                                     }
@@ -127,17 +129,23 @@ console.log("hiiii")
 
                     <div className='testimonials2'>
                         <h2>{t('portfolio.screens')}</h2>
+                       
                         <div className='btn-testimonials2'>
-                            <button ref={btn1} className='open' onClick={(e) => {
+                        {
+                            dataa[0].images_mobile? <button ref={btn1} className='open' onClick={(e) => {
                                 btn2.current.classList.remove("open");
                                 e.target.classList.add("open")
                             }}>{t('portfolio.mobile')}
-                            </button>
-                            <button ref={btn2} onClick={(e) => {
+                            </button> :null
+                        }
+                        {
+                            dataa[0].images_desktop ?<button ref={btn2} onClick={(e) => {
                                 btn1.current.classList.remove("open");
                                 e.target.classList.add("open")
                             }}>{t('portfolio.desktop')}
-                            </button>
+                            </button> :null
+                        }
+                            
                         </div>
 
                         {
@@ -226,12 +234,13 @@ console.log("hiiii")
                 </div>
 
                 <Container>
-                    <div className='look'>
+                    {
+                        similar.length >1 ?<div className='look'>
                         <h2>INTERESTED!</h2>
                         <h3 className='h3-look'>Have a look on similar Projects</h3>
                         <div className='all-portfolio row'>
                             {
-                                similar.map((data) => {
+                                similar.filter((item)=>{return item.id !== +id}).slice(0,3).map((data) => {
                                     return (
                                         <div className="project col-lg-3 col-md-5 col-sm-5 col-12 aos-init"
                                              data-aos="fade-up" data-aos-delay="50" data-bs-toggle="modal"
@@ -246,7 +255,9 @@ console.log("hiiii")
                                 })
                             }
                         </div>
-                    </div>
+                    </div> :null
+                    }
+                    
                 </Container>
                 <div
                 className="modal fade project_modal"
@@ -291,7 +302,7 @@ console.log("hiiii")
                                         Object.keys(currentProject.links).map(function (key) {
                                             const link = currentProject.links[key];
                                             const img = `/images/apps/${key}.svg`;
-                                            return (link ? <a href={link}><img src={img} alt={key}/></a> : null)
+                                            return (link ? <a href={link}><img src={img} alt={key} key={key}/></a> : null)
                                         })
                                     }
                                 </div>
