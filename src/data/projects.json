@@ -260,14 +260,22 @@
     ],
     "primary_color": "#FCD368",
     "logo": "https://aquadic.github.io/find-help/image/logo.svg",
-    "main_image": "https://aquadic.github.io/images/projects/findhelp/cover.png",
-    "background_image": "https://aquadic.github.io/images/projects/findhelp/cover.png",
-    "images_desktop": null,
+    "main_image": "https://aquadic.github.io/images/projects/findhelp/web_cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/findhelp/web_cover.webp",
+    "images_desktop": [
+      "https://aquadic.github.io/images/projects/findhelp/web_image1.webp",
+      "https://aquadic.github.io/images/projects/findhelp/web_image2.webp",
+      "https://aquadic.github.io/images/projects/findhelp/web_image3.webp",
+      "https://aquadic.github.io/images/projects/findhelp/web_image4.webp"
+    ],
     "images_mobile": [
-      "https://aquadic.github.io/find-help/image/iPhone13app.png",
-      "https://aquadic.github.io/find-help/image/iPhone13.png",
-      "https://aquadic.github.io/find-help/image/iPhoneadd.png",
-      "https://aquadic.github.io/find-help/image/extrem.png"
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image1.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image2.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image3.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image4.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image5.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image6.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image7.webp"
     ],
     "client_id": 5,
     "country_id": 3,
@@ -494,24 +502,93 @@
         "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
       },
       {
+        "id": 5,
+        "name": "Laravel",
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+      },
+      {
         "id": 13,
         "name": "Firebase",
         "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
       }
     ],
-    "primary_color": "#0056A2",
+    "primary_color": "#4EC3BD",
     "logo": "https://aquadic.github.io/images/projects/pharmacy/logo.svg",
-    "main_image": "https://aquadic.github.io/images/projects/pharmacy/cover.png",
-    "background_image": "https://aquadic.github.io/images/projects/pharmacy/cover.png",
+    "main_image": "https://aquadic.github.io/images/projects/pharmacy/cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/pharmacy/cover.webp",
     "images_desktop": null,
     "images_mobile": [
-      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.svg"
+      "https://aquadic.github.io/images/projects/pharmacy/image1.webp",
+      "https://aquadic.github.io/images/projects/pharmacy/image2.webp",
+      "https://aquadic.github.io/images/projects/pharmacy/image3.webp",
+      "https://aquadic.github.io/images/projects/pharmacy/image4.webp",
+      "https://aquadic.github.io/images/projects/pharmacy/image5.webp",
+      "https://aquadic.github.io/images/projects/pharmacy/image6.webp",
+      "https://aquadic.github.io/images/projects/pharmacy/image7.webp",
+      "https://aquadic.github.io/images/projects/pharmacy/image8.webp"
+    ],
+    "client_id": 3,
+    "country_id": 1,
+    "type": "appplication"
+  },
+  {
+    "id": 10,
+    "name": {
+      "ar": "موظفين الوطنية",
+      "en": "Al Watania HR"
+    },
+    "description": {
+      "en": "HR Management",
+      "ar": "موظفين الوطنية"
+    },
+    "category": {
+      "id": 5,
+      "name": {
+        "ar": "خدمات / أدارة",
+        "en": "Services / HR"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Android",
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+      },
+      {
+        "id": 2,
+        "name": "IOS",
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+      },
+      {
+        "id": 9,
+        "name": "Flutter",
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+      },
+      {
+        "id": 13,
+        "name": "Firebase",
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+      }
+    ],
+    "primary_color": "#FADED8",
+    "logo": "https://alwatania.aquadic.com/icon.png",
+    "main_image": "https://aquadic.github.io/images/projects/alwatania_hr/cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/alwatania_hr/cover.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "https://aquadic.github.io/images/projects/alwatania_hr/image1.webp",
+      "https://aquadic.github.io/images/projects/alwatania_hr/image2.webp",
+      "https://aquadic.github.io/images/projects/alwatania_hr/image3.webp",
+      "https://aquadic.github.io/images/projects/alwatania_hr/image4.webp",
+      "https://aquadic.github.io/images/projects/alwatania_hr/image5.webp"
     ],
     "client_id": 3,
     "country_id": 1,
