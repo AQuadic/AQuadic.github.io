@@ -197,9 +197,15 @@
     ],
     "primary_color": "#FFBE00",
     "logo": "https://freshfarm.ae/logo.svg",
-    "main_image": "https://aquadic.github.io/images/projects/freshfarm/cover.png",
-    "background_image": "https://aquadic.github.io/images/projects/freshfarm/cover.png",
-    "images_desktop": null,
+    "main_image": "https://aquadic.github.io/images/projects/freshfarm/web_cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/freshfarm/web_cover.webp",
+    "images_desktop": [
+      "https://aquadic.github.io/images/projects/freshfarm/web_image1.webp",
+      "https://aquadic.github.io/images/projects/freshfarm/web_image2.webp",
+      "https://aquadic.github.io/images/projects/freshfarm/web_image3.webp",
+      "https://aquadic.github.io/images/projects/freshfarm/web_image4.webp",
+      "https://aquadic.github.io/images/projects/freshfarm/web_image5.webp"
+    ],
     "images_mobile": [
       "https://freshfarm.ae/images/img_home.png",
       "https://freshfarm.ae/images/img_app1.jpg",
@@ -320,12 +326,16 @@
     ],
     "primary_color": "#7313FC",
     "logo": "https://whatsapp.aq-apps.xyz/icon.png",
-    "main_image": "https://aquadic.github.io/images/projects/cloudwa/cover.png",
-    "background_image": "https://aquadic.github.io/images/projects/cloudwa/cover.png",
+    "main_image": "https://aquadic.github.io/images/projects/cloudwa/cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/cloudwa/cover.webp",
     "images_desktop": [
-      "https://aquadic.github.io/images/projects/cloudwa/cover.png",
-      "https://aquadic.github.io/images/projects/cloudwa/cloudwa2.png",
-      "https://aquadic.github.io/images/projects/cloudwa/cloudwa3.png"
+      "https://aquadic.github.io/images/projects/cloudwa/image1.webp",
+      "https://aquadic.github.io/images/projects/cloudwa/image2.webp",
+      "https://aquadic.github.io/images/projects/cloudwa/image3.webp",
+      "https://aquadic.github.io/images/projects/cloudwa/image4.webp",
+      "https://aquadic.github.io/images/projects/cloudwa/image5.webp",
+      "https://aquadic.github.io/images/projects/cloudwa/image6.webp",
+      "https://aquadic.github.io/images/projects/cloudwa/image7.webp"
     ],
     "images_mobile": null,
     "client_id": 5,
@@ -589,6 +599,72 @@
       "https://aquadic.github.io/images/projects/alwatania_hr/image3.webp",
       "https://aquadic.github.io/images/projects/alwatania_hr/image4.webp",
       "https://aquadic.github.io/images/projects/alwatania_hr/image5.webp"
+    ],
+    "client_id": 3,
+    "country_id": 1,
+    "type": "appplication"
+  },
+  {
+    "id": 11,
+    "name": {
+      "ar": "سبيسي",
+      "en": "Spacey"
+    },
+    "description": {
+      "en": "Spacey for Co working spaces",
+      "ar": "سبيسي للمساحات المشتركة"
+    },
+    "category": {
+      "id": 5,
+      "name": {
+        "ar": "خدمات / أدارة",
+        "en": "Services / Management"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Android",
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+      },
+      {
+        "id": 2,
+        "name": "IOS",
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+      },
+      {
+        "id": 9,
+        "name": "Flutter",
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+      },
+      {
+        "id": 13,
+        "name": "Firebase",
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+      }
+    ],
+    "primary_color": "#0B0C34",
+    "logo": "https://alwatania.aquadic.com/icon.png",
+    "main_image": "https://aquadic.github.io/images/projects/spacey/cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/spacey/cover.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "https://aquadic.github.io/images/projects/spacey/image1.webp",
+      "https://aquadic.github.io/images/projects/spacey/image2.webp",
+      "https://aquadic.github.io/images/projects/spacey/image3.webp",
+      "https://aquadic.github.io/images/projects/spacey/image4.webp",
+      "https://aquadic.github.io/images/projects/spacey/image5.webp",
+      "https://aquadic.github.io/images/projects/spacey/image6.webp",
+      "https://aquadic.github.io/images/projects/spacey/image7.webp",
+      "https://aquadic.github.io/images/projects/spacey/image8.webp"
     ],
     "client_id": 3,
     "country_id": 1,
