@@ -505,13 +505,13 @@
     "background_image": "https://aquadic.github.io/images/projects/pharmacy/cover.png",
     "images_desktop": null,
     "images_mobile": [
-      "https://aquadic.github.io/images/projects/pharmacy/snap.png",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.png",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.png",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.png",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.png",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.png",
-      "https://aquadic.github.io/images/projects/pharmacy/snap.png"
+      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
+      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
+      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
+      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
+      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
+      "https://aquadic.github.io/images/projects/pharmacy/snap.svg",
+      "https://aquadic.github.io/images/projects/pharmacy/snap.svg"
     ],
     "client_id": 3,
     "country_id": 1,
