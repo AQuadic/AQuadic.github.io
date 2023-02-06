@@ -106,7 +106,7 @@ function Projects(props) {
                                         Object.keys(currentProject.links).map(function (key) {
                                             const link = currentProject.links[key];
                                             const img = `/images/apps/${key}.svg`;
-                                            return (link ? <a href={link}><img src={img} alt={key}/></a> : null)
+                                            return (link ? <a target={"_blank"} href={link}><img src={img} alt={key}/></a> : null)
                                         })
                                     }
                                 </div>

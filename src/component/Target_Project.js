@@ -103,7 +103,7 @@ console.log("hiiii")
                             <div className="about-pharm col-lg-6 col-md-6">
                                 <div className="title">
                                     <img src={dataa[0].logo} alt="logo icon" height="150px" width="150px"/>
-                                    <h1>{dataa[0].name[i18n.language]}</h1>
+                                    <h1 style={{color:dataa[0].primary_color}}>{dataa[0].name[i18n.language]}</h1>
                                 </div>
 
                                 <p className="text">{dataa[0].description[i18n.language]}</p>
@@ -115,7 +115,7 @@ console.log("hiiii")
                                             const link = dataa[0].links[key];
                                             const img = `/images/apps/${key}.svg`;
                                             return (
-                                                link ? <li key={key} ><a href={link}><img src={img} alt={key}/></a></li> : null
+                                                link ? <li key={key} ><a target={"_blank"} href={link} ><img src={img} alt={key}/></a></li> : null
                                             )
                                         })
                                     }
@@ -132,18 +132,20 @@ console.log("hiiii")
                        
                         <div className='btn-testimonials2'>
                         {
-                            dataa[0].images_mobile? <button ref={btn1} className='open' onClick={(e) => {
+                            dataa[0].images_mobile? dataa[0].images_desktop? 
+                            <> 
+                            <button ref={btn1} className='open' onClick={(e) => {
                                 btn2.current.classList.remove("open");
                                 e.target.classList.add("open")
                             }}>{t('portfolio.mobile')}
-                            </button> :null
-                        }
-                        {
-                            dataa[0].images_desktop ?<button ref={btn2} onClick={(e) => {
+                            </button> 
+                       
+                           <button ref={btn2} onClick={(e) => {
                                 btn1.current.classList.remove("open");
                                 e.target.classList.add("open")
                             }}>{t('portfolio.desktop')}
-                            </button> :null
+                            </button> 
+                            </> :<></>:<></>
                         }
                             
                         </div>
@@ -302,7 +304,7 @@ console.log("hiiii")
                                         Object.keys(currentProject.links).map(function (key) {
                                             const link = currentProject.links[key];
                                             const img = `/images/apps/${key}.svg`;
-                                            return (link ? <a href={link}><img src={img} alt={key} key={key}/></a> : null)
+                                            return (link ? <a target={"_blank"} href={link}><img src={img} alt={key} key={key}/></a> : null)
                                         })
                                     }
                                 </div>

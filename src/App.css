@@ -2229,7 +2229,7 @@ html[dir="rtl"] .services .all-services .part img {
 .project_modal .modal-body .modal_img img {
     width: 542px;
     height: 350px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
 }
 
@@ -2452,8 +2452,13 @@ html[dir="rtl"] .services .all-services .part img {
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 26px;
 }
-
+.pharm .about-pharm .title img {
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: contain;
+}
 .pharm .about-pharm .title h1 {
     font-size: 64px;
     font-weight: 700;
