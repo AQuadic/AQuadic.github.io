@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc67908e.css",
-    "main.js": "/static/js/main.4b78051a.js",
+    "main.css": "/static/css/main.2739c277.css",
+    "main.js": "/static/js/main.0434dedc.js",
     "static/js/787.a44aa9dd.chunk.js": "/static/js/787.a44aa9dd.chunk.js",
     "static/media/bink_hover.svg": "/static/media/bink_hover.156812a6ab43aff9e816.svg",
     "static/media/AgencyFB-Bold.ttf": "/static/media/AgencyFB-Bold.eaefe2f00eb5ad09946f.ttf",
@@ -20,12 +20,12 @@
     "static/media/triangle2.svg": "/static/media/triangle2.686cf90add185bb4f19c.svg",
     "static/media/model_x.svg": "/static/media/model_x.89cd0efa4d654d972714.svg",
     "static/media/card_header_left.svg": "/static/media/card_header_left.3b3464e72e82634c3392.svg",
-    "main.bc67908e.css.map": "/static/css/main.bc67908e.css.map",
-    "main.4b78051a.js.map": "/static/js/main.4b78051a.js.map",
+    "main.2739c277.css.map": "/static/css/main.2739c277.css.map",
+    "main.0434dedc.js.map": "/static/js/main.0434dedc.js.map",
     "787.a44aa9dd.chunk.js.map": "/static/js/787.a44aa9dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc67908e.css",
-    "static/js/main.4b78051a.js"
+    "static/css/main.2739c277.css",
+    "static/js/main.0434dedc.js"
   ]
 }
