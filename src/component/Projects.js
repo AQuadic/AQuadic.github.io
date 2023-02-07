@@ -39,7 +39,7 @@ function Projects(props) {
 
                 <div className="all-project row">
                     {
-                        all_data.map((data) => {
+                        all_data.slice(0,6).map((data) => {
                             return (
                                 <div
                                     key={data.id}
