@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap';
 import {Link, useParams} from 'react-router-dom';
 import Slider from "react-slick";
 import projects from '../data/projects.json'
+import services from '../data/services.json'
 function Jop_About() {
     const params = useParams();
     console.log(params)
@@ -44,13 +45,13 @@ function Jop_About() {
         
         mob_data()
         console.log(type)
-
-
+const current_services = services.filter((item)=> {return item.id === +params.id})
+console.log(current_services)
     return (
         <div className='jop-about'>
             <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
                 <img src='/images/header/header_part_5.svg' alt='careers'/>
-                <h2>Product design &<br/>UI UX</h2>
+                <h2>{current_services[0].name.en}</h2>
             </div>
             <div className='plan'>
                 <Container>
@@ -93,7 +94,8 @@ function Jop_About() {
                     </div>
                 </Container>
             </div>
-            <div className='our_creative'>
+            {
+                type.length >0 ?   <div className='our_creative'>
                 <Container>
                     <div>
                         <h2 className='header-our'> Our Creative Designs</h2>
@@ -136,7 +138,9 @@ function Jop_About() {
                     </div>
                 </Container>
 
-            </div>
+            </div> : null
+            }
+          
             <div className='jop-tech'>
                 <Container>
                     <h2>UI UX Technologies</h2>
