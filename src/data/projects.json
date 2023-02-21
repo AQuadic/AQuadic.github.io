@@ -27,13 +27,27 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#F0602B",
@@ -133,13 +147,27 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#000000",
@@ -213,13 +241,27 @@
     "technologies": [
       {
         "id": 3,
-        "name": "AngularJS",
-        "logo": "https://aquadic.github.io/images/technologies/angularjs.svg"
+        "name": {
+          "en": "AngularJS",
+          "ar": "انجولار جي اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/angularjs.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 4,
-        "name": "JS",
-        "logo": "https://aquadic.github.io/images/technologies/js.svg"
+        "name": {
+          "en": "JavaScript",
+          "ar": "جافا سكريبت"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/js.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#392713",
@@ -280,13 +322,27 @@
     "technologies": [
       {
         "id": 5,
-        "name": "Laravel",
-        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 6,
-        "name": "Whatsapp",
-        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#FFBE00",
@@ -405,23 +461,51 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 5,
-        "name": "Laravel",
-        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 6,
-        "name": "Whatsapp",
-        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#FCD368",
@@ -541,13 +625,27 @@
     "technologies": [
       {
         "id": 5,
-        "name": "Laravel",
-        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 6,
-        "name": "Whatsapp",
-        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#7313FC",
@@ -623,23 +721,51 @@
     "technologies": [
       {
         "id": 5,
-        "name": "Laravel",
-        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
-      },
-      {
-        "id": 9,
-        "name": "Flutter",
-        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 6,
-        "name": "Whatsapp",
-        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 10,
-        "name": "Adobe XD",
-        "logo": "https://aquadic.github.io/images/technologies/xd2.svg"
+        "name": {
+          "en": "Adobe XD",
+          "ar": "ادوبي اكس دي"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/xd2.svg",
+        "description": {
+          "en": "Adobe XD is a powerful and easy-to-use vector-based experience design platform that gives teams the tools they need to craft the world's best experiences collaboratively.",
+          "ar": "يعد Adobe XD نظامًا أساسيًا لتصميم التجربة قويًا وسهل الاستخدام يعتمد على المتجهات ويمنح الفرق الأدوات التي يحتاجونها لصياغة أفضل التجارب العالمية بشكل تعاوني."
+        }
       }
     ],
     "primary_color": "#0A4273",
@@ -757,23 +883,51 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 9,
-        "name": "Flutter",
-        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 13,
-        "name": "Firebase",
-        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#ECF6F6",
@@ -864,28 +1018,63 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
-      },
-      {
-        "id": 9,
-        "name": "Flutter",
-        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 5,
-        "name": "Laravel",
-        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 13,
-        "name": "Firebase",
-        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#4EC3BD",
@@ -988,23 +1177,51 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 9,
-        "name": "Flutter",
-        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 13,
-        "name": "Firebase",
-        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#FADED8",
@@ -1091,23 +1308,51 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 9,
-        "name": "Flutter",
-        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 13,
-        "name": "Firebase",
-        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#0B0C34",
@@ -1210,28 +1455,63 @@
     "technologies": [
       {
         "id": 1,
-        "name": "Android",
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 2,
-        "name": "IOS",
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 5,
-        "name": "Laravel",
-        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 6,
-        "name": "Whatsapp",
-        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       },
       {
         "id": 9,
-        "name": "Flutter",
-        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
       }
     ],
     "primary_color": "#F15921",
