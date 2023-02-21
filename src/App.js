@@ -60,7 +60,7 @@ function App() {
                                 <Route index element={<Portfolio data={data}/>}/>
                                 <Route path=':id' element={<Target_Project data={data}/>}/>
                             </Route>
-                            <Route path='job_about/:id' element={<Jop_About/>}/>
+                            <Route path='service/:id' element={<Jop_About/>}/>
                            
                            
                         </Route>

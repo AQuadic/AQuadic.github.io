@@ -22,7 +22,7 @@ let alli = "ahmed";
                     {
 services.map((service)=>{
     return (
-        <div className={service.classes} onClick={()=>{navigate(`/job_about/${service.id}`)}}> 
+        <div className={service.classes} onClick={()=>{navigate(`/service/${service.id}`)}}> 
         <img src={service.image} alt=""/>
                         <h3> {service.name[i18n.language]}</h3>
                         <p>
