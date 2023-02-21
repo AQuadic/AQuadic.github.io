@@ -2,10 +2,10 @@ import React from "react";
 import {Container} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
 import { useTranslation } from 'react-i18next';
-
+//className={ `${alli === "ahsmed" ? "yes": "no"  } gg`}
 function Services() {
     const { t, i18n } = useTranslation();
-
+let alli = "ahmed";
     const navigate = useNavigate()
     window.open = () => {
         window.scrollTo(250, 250)
@@ -15,7 +15,7 @@ function Services() {
             <Container>
                 <h2>{t("services.title")}</h2>
                 <div className="  all-services" onClick={() => {
-                    navigate('/job_about')
+                    //navigate('/job_about')
                 }}>
                     <div className=" one   part " onClick={() => {
                         navigate('/job_about')
@@ -26,7 +26,7 @@ function Services() {
                         {t("services.web.description")}
                         </p>
                     </div>
-                    <div className=" two part nocomplete" onClick={() => {
+                    <div className="two part  nocomplete" onClick={() => {
                         navigate('/job_about')
                     }}>
                         <img src="/images/services/mobile.png" alt=""/>

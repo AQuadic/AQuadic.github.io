@@ -7,11 +7,20 @@ import all_data  from '../data/projects.json'
 function Portfolio(props) {
     const {t, i18n} = useTranslation();
 
-    const [nedd, setneed, lang] = useState("appplication");
-
+    const [nedd, setneed] = useState(1);
+const type = [];
     const data = props.data;
-    const filterData = data.filter((data) => data.type === nedd)
-    console.log(filterData)
+  
+const mob_data = ()=>{  data.map((item)=>  item.services.map((id) =>{ 
+    if(id.id === nedd ){
+        type.push(item)
+
+} }) ) }
+
+    
+    mob_data()
+    console.log(type)
+  
     const btn1 = useRef();
     const btn2 = useRef();
     const [currentProject, setCurrentProject] = useState(all_data[0])
@@ -24,13 +33,13 @@ function Portfolio(props) {
             <Container>
                 <div className='portfolio-btn'>
                     <button ref={btn1} className="open" onClick={(e) => {
-                        setneed("appplication");
+                        setneed(1);
                         btn2.current.classList.remove("open");
                         e.target.classList.add("open")
                     }}>{t('portfolio.applications')}
                     </button>
                     <button ref={btn2} onClick={(e) => {
-                        setneed("websites");
+                        setneed(2);
                         btn1.current.classList.remove("open");
                         e.target.classList.add("open")
                     }}>{t('portfolio.websites')}
@@ -39,7 +48,7 @@ function Portfolio(props) {
 
                 <div className='all-portfolio row'>
                     {
-                        filterData.map((data) => {
+                        type.map((data) => {
                             return (
                                 <div
                                     key={data.id}

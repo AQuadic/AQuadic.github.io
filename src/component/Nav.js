@@ -6,12 +6,11 @@ import {useTranslation} from 'react-i18next';
 
 function Nav() {
     const {t, i18n} = useTranslation();
-    const [langg, setlangg] = useState("en");
 
     const langEn = () => {
-        i18n.changeLanguage(langg)
-        console.log(langg)
-        langg === "en" ? setlangg("ar") : setlangg("en")
+       
+     
+        i18n.language === "en" ?  i18n.changeLanguage('ar')   : i18n.changeLanguage('en')
     }
 
     const lang = i18n.language === "ar" ? "English" : "العربية";
