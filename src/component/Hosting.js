@@ -1,7 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import hosting from "../data/hosting.json";
+import { useTranslation } from 'react-i18next';
+
 function Hosting() {
+  const { t, i18n } = useTranslation();
   console.log(hosting);
   return (
     <div className="hosting">
@@ -43,8 +46,8 @@ hosting.map((item)=>{
           <div className="about_host">
             <img src={hosting[0].image} alt="" />
             <div className="info_host">
-              <h2>{hosting[0].name.en}</h2>
-              <p>{hosting[0].description.en}</p>
+              <h2>{hosting[0].name[i18n.language]}</h2>
+              <p>{hosting[0].description[i18n.language]}</p>
             </div>
           </div>
           <a target={"_blank"} href={hosting[0].url}>
