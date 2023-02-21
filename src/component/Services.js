@@ -18,7 +18,6 @@ let alli = "ahmed";
                 <div className="  all-services" onClick={() => {
                     //navigate('/job_about')
                 }}>
-                 
                     {
 services.map((service)=>{
     return (
