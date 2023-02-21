@@ -10,7 +10,7 @@
       "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
     },
     "image": "https://aquadic.github.io/images/services/web.png",
-    "style": "large"
+    "classes": "one part complete"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
     },
     "image": "https://aquadic.github.io/images/services/mobile.png",
-    "style": "small"
+    "classes": "two part nocomplete"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
     },
     "image": "https://aquadic.github.io/images/services/ui_ux.png",
-    "style": "small"
+    "classes": "three part nocomplete"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
     },
     "image": "https://aquadic.github.io/images/services/custom.png",
-    "style": "small"
+    "classes": "four part nocomplete"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
     },
     "image": "https://aquadic.github.io/images/services/ecommerce.png",
-    "style": "large"
+    "classes": "five part complete"
   },
   {
     "id": 6,
@@ -75,6 +75,6 @@
       "en": "Lower costs, faster time-to-market ratio, and better business results are among the biggest advantages of using our software outsourcing services. Think of our teams as part of your organization. Furthermore, we always select the team members according to your industry."
     },
     "image": "https://aquadic.github.io/images/services/outsource.png",
-    "style": "small"
+    "classes": "sex part nocomplete"
   }
 ]
