@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Container} from 'react-bootstrap';
 import {Link, useParams} from 'react-router-dom';
 import Slider from "react-slick";
@@ -6,6 +6,9 @@ import projects from '../data/projects.json'
 import services from '../data/services.json'
 function Jop_About() {
     const params = useParams();
+    const [tech ,settech]= useState();
+   
+    console.log(tech)
     console.log(params)
     console.log(projects)
     const settings = {
@@ -47,6 +50,13 @@ function Jop_About() {
         console.log(type)
 const current_services = services.filter((item)=> {return item.id === +params.id})
 console.log(current_services)
+ 
+
+const  tech_info = current_services[0].technologies.filter((item)=> {
+        return item.id === tech
+    })
+    console.log(tech_info) 
+
     return (
         <div className='jop-about'>
             <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
@@ -152,13 +162,13 @@ console.log(current_services)
                                 <div className='tech-img'>
                                     <ul>
 
-                                        <li><img className='ti-1' src='/images/technologies/xd1.svg' alt=''/>
+                                        <li onClick={()=>{}}><img className='ti-1' src='/images/technologies/xd1.svg' alt=''/>
                                             <img className='ti-2' src='/images/technologies/xd2.svg' alt=''/>
                                         </li>
-                                        <li><img className='ti-1' src='/images/technologies/photoshop1.svg' alt=''/>
+                                        <li onClick={()=>{}}><img className='ti-1' src='/images/technologies/photoshop1.svg' alt=''/>
                                             <img className='ti-2' src='/images/technologies/photoshop2.svg' alt=''/>
                                         </li>
-                                        <li><img className='ti-1' src='/images/technologies/ai1.svg' alt=''/>
+                                        <li onClick={()=>{}}><img className='ti-1' src='/images/technologies/ai1.svg' alt=''/>
                                             <img className='ti-2' src='/images/technologies/ai2.svg' alt=''/>
                                         </li>
                                     </ul>
@@ -168,22 +178,29 @@ console.log(current_services)
                                 <h3>Design platforms</h3>
                                 <div className='tech-img'>
                                     <ul>
-
-                                        <li><img className='ti-1' src='/images/technologies/html1.svg' alt=''/>
-                                            <img className='ti-2' src='/images/technologies/html2.svg' alt=''/>
-                                        </li>
-                                        <li><img className='ti-1' src='/images/technologies/css1.svg' alt=''/>
-                                            <img className='ti-2' src='/images/technologies/css2.svg' alt=''/>
-                                        </li>
-                                        <li><img className='ti-1' src='/images/technologies/bootstrap1.svg' alt=''/>
-                                            <img className='ti-2' src='/images/technologies/bootstrap2.svg' alt=''/>
-                                        </li>
+{
+   current_services[0].technologies.map((item)=>{
+    return (
+        <li onClick={()=>{settech(item.id)}}>
+            <img src={item.logo} alt=''/>
+        </li>
+    )
+   })
+}
+                                      
                                     </ul>
                                 </div>
                             </div>
 
                         </div>
-                        <div className='part2'>
+                        {
+                        tech_info.length >0?<div className='part2'>
+                        <img src={tech_info[0].logo} alt=''/>
+                        <div className='about-tech'>
+                            <h3>{tech_info[0].name.en}</h3>
+                            <p>{tech_info[0].description.en}</p>
+                        </div>
+                    </div> :<div className='part2'>
                             <img src='/images/technologies/xd1.svg' alt=''/>
                             <div className='about-tech'>
                                 <h3>Adobe xd</h3>
@@ -192,6 +209,8 @@ console.log(current_services)
                                     collaboratively.</p>
                             </div>
                         </div>
+                       }
+                        
                     </div>
 
                 </Container>
