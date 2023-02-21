@@ -644,13 +644,20 @@
     ],
     "primary_color": "#0A4273",
     "logo": "https://reaya-eg.com/img/logo.png",
-    "main_image": "https://aquadic.github.io/images/projects/reaya.png",
-    "background_image": "https://aquadic.github.io/images/projects/reaya.png",
+    "main_image": "https://aquadic.github.io/images/projects/reaya/mobile_cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/reaya/mobile_cover.webp",
     "images_mobile": [
-      "https://reaya-eg.com/img/screenshot/Group_2365.jpg",
-      "https://reaya-eg.com/img/screenshot/Group_2381.jpg",
-      "https://reaya-eg.com/img/screenshot/Group_2377.jpg",
-      "https://reaya-eg.com/img/screenshot/Group_23801.jpg"
+      "https://aquadic.github.io/images/projects/reaya/mobile_image1.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image2.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image3.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image4.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image5.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image6.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image7.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image8.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image9.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image10.webp",
+      "https://aquadic.github.io/images/projects/reaya/mobile_image11.webp"
     ],
     "client_id": 5,
     "country_id": 3,
@@ -1121,6 +1128,142 @@
     "client_id": 3,
     "country_id": 1,
     "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "https://aquadic.github.io/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": {
+      "ar": "إشهار",
+      "en": "Eshhaar"
+    },
+    "description": {
+      "ar": "بيع و اشتري كل اللي تحتاجه علي اشهار",
+      "en": "Sell and Buy everything you need on Eshhaar"
+    },
+    "category": {
+      "id": 4,
+      "name": {
+        "ar": "متجر / مستعمل",
+        "en": "ECommerce / Exchange"
+      }
+    },
+    "links": {
+      "website": "https://eshhaar.net",
+      "play_store": "https://play.google.com/store/apps/details?id=net.eshhaar.app",
+      "app_store": "https://apps.apple.com/kw/app/id6443860096",
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Android",
+        "logo": "https://aquadic.github.io/images/technologies/android2.svg"
+      },
+      {
+        "id": 2,
+        "name": "IOS",
+        "logo": "https://aquadic.github.io/images/technologies/ios.svg"
+      },
+      {
+        "id": 5,
+        "name": "Laravel",
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png"
+      },
+      {
+        "id": 6,
+        "name": "Whatsapp",
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png"
+      },
+      {
+        "id": 9,
+        "name": "Flutter",
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png"
+      }
+    ],
+    "primary_color": "#F15921",
+    "logo": "https://eshhaar.net/assets/images/logo/logo.png",
+    "main_image": "https://aquadic.github.io/images/projects/eshhaar/mobile_cover.webp",
+    "background_image": "https://aquadic.github.io/images/projects/eshhaar/mobile_cover.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image1.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image2.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image3.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image4.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image5.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image6.webp",
+      "https://aquadic.github.io/images/projects/findhelp/mobile_image7.webp"
+    ],
+    "client_id": 5,
+    "country_id": 3,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/web.png",
+        "style": "large"
+      },
       {
         "id": 2,
         "name": {
