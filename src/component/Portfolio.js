@@ -1,29 +1,20 @@
-import React, {useRef, useState} from 'react'
+import React, {useState} from 'react'
 import {Container} from 'react-bootstrap';
 import {useTranslation} from 'react-i18next';
-import { Link } from 'react-router-dom';
-import all_data  from '../data/projects.json'
+import {Link} from 'react-router-dom';
+import all_data from '../data/projects.json'
 
-function Portfolio(props) {
+function Portfolio() {
+    // Language.
     const {t, i18n} = useTranslation();
 
-    const [nedd, setneed] = useState(1);
-const type = [];
-    const data = props.data;
-  
-const mob_data = ()=>{  data.map((item)=>  item.services.map((id) =>{ 
-    if(id.id === nedd ){
-        type.push(item)
-
-} }) ) }
-
-    
-    mob_data()
-    console.log(type)
-  
-    const btn1 = useRef();
-    const btn2 = useRef();
+    // Active Project.
     const [currentProject, setCurrentProject] = useState(all_data[0])
+
+    // Filter Projects.
+    const [activeId, setActiveId] = useState(1);
+    let projects = all_data.filter(proj => proj.services.filter(ser => ser.id === activeId).length);
+
     return (
         <div className='portfolio'>
             <div className='imageheader' data-aos="zoom-in-up" data-aos-delay="50">
@@ -32,38 +23,30 @@ const mob_data = ()=>{  data.map((item)=>  item.services.map((id) =>{
             </div>
             <Container>
                 <div className='portfolio-btn'>
-                    <button ref={btn1} className="open" onClick={(e) => {
-                        setneed(1);
-                        btn2.current.classList.remove("open");
-                        e.target.classList.add("open")
-                    }}>{t('portfolio.applications')}
+                    <button className={activeId === 1 ? 'open' : ''} onClick={() => setActiveId(1)}>
+                        {t('portfolio.applications')}
                     </button>
-                    <button ref={btn2} onClick={(e) => {
-                        setneed(2);
-                        btn1.current.classList.remove("open");
-                        e.target.classList.add("open")
-                    }}>{t('portfolio.websites')}
+                    <button className={activeId === 2 ? 'open' : ''} onClick={() => setActiveId(2)}>
+                        {t('portfolio.websites')}
                     </button>
                 </div>
 
                 <div className='all-portfolio row'>
                     {
-                        type.map((data) => {
+                        projects.map((proj) => {
                             return (
                                 <div
-                                    key={data.id}
+                                    key={proj.id}
                                     className="project col-lg-3 col-md-5 col-sm-5 col-12"
                                     data-aos="fade-up"
                                     data-aos-delay="0"
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModalLong"
-                                    onClick={() => {
-                                        setCurrentProject(data);
-                                    }}
+                                    onClick={() => setCurrentProject(proj)}
                                 >
-                                    <h3>{data.name[i18n.language]}</h3>
-                                    <p>{data.category.name[i18n.language]}</p>
-                                    <img src={data.main_image} alt={data.name[i18n.language]}/>
+                                    <h3>{proj.name[i18n.language]}</h3>
+                                    <p>{proj.category.name[i18n.language]}</p>
+                                    <img src={proj.main_image} alt={proj.name[i18n.language]}/>
                                 </div>
                             )
                         })
@@ -91,7 +74,7 @@ const mob_data = ()=>{  data.map((item)=>  item.services.map((id) =>{
                             </button>
                         </div>
 
-                        <div className="modal-body" style={{ background: currentProject.primary_color+38,}}>
+                        <div className="modal-body" style={{background: currentProject.primary_color + 38,}}>
                             <div className="modal_img">
                                 <img src={currentProject.main_image} alt={currentProject.name[i18n.language]}/>
                                 <img className="back_img" src={currentProject.background_image} alt="bk_image"/>
@@ -113,7 +96,13 @@ const mob_data = ()=>{  data.map((item)=>  item.services.map((id) =>{
                                         Object.keys(currentProject.links).map(function (key) {
                                             const link = currentProject.links[key];
                                             const img = `/images/apps/${key}.svg`;
-                                            return (link ? <a target={"_blank"} href={link}><img src={img} alt={key}/></a> : null)
+                                            return (
+                                                link
+                                                    ? <a target={"_blank"} href={link} rel="noreferrer">
+                                                        <img src={img} alt={key}/>
+                                                    </a>
+                                                    : null
+                                            )
                                         })
                                     }
                                 </div>
