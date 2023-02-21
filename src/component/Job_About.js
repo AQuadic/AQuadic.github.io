@@ -1,9 +1,12 @@
 import React from 'react'
 import {Container} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 import Slider from "react-slick";
-
+import projects from '../data/projects.json'
 function Jop_About() {
+    const params = useParams();
+    console.log(params)
+    console.log(projects)
     const settings = {
         dots: false,
         infinite: true,
@@ -28,6 +31,21 @@ function Jop_About() {
         ]
 
     };
+
+
+    const type = [];
+
+    const mob_data = ()=>{  projects.map((item)=>  item.services.map((id) =>{ 
+        if(id.id === +params.id ){
+            type.push(id)
+    
+    } }) ) }
+    
+        
+        mob_data()
+        console.log(type)
+
+
     return (
         <div className='jop-about'>
             <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
@@ -80,115 +98,40 @@ function Jop_About() {
                     <div>
                         <h2 className='header-our'> Our Creative Designs</h2>
                         <Slider {...settings}>
-                            <div>
-                                <div className="pharm">
+                            
+{
+    type.map((item)=>{
+        return (
+            <div key={item.id}>
+        <div className="pharm" >
 
-                                    <div className="row">
-                                        <img src="/images/projects/pharmacy/pharmacy.png"
-                                             className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
-                                             alt="Group"/>
-                                        <div className="about-pharm col-lg-6 col-md-6">
-                                            <div className="title">
+        <div className="row">
+            <img src={item.image}
+                 className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
+                 alt="Group"/>
+            <div className="about-pharm col-lg-6 col-md-6">
+                <div className="title">
 
-                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
-                                                <h1>Pharmacy</h1>
-                                            </div>
-                                            <p className="text">
-                                                Pharmacy app for helping the clients and patients to get their
-                                                staff without get out of the house, all that with delivery and
-                                                shipping to their houses
-                                            </p>
-                                            <Link to="/portfolio/target-project" className='view'>
-                                                <p>View Details</p>
-                                                <img src='/images/icons/arrow.svg' alt=''/>
-                                            </Link>
-                                        </div>
-                                    </div>
+                    <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
+                    <h1>{item.name.ar}</h1>
+                </div>
+                <p className="text">
+                {item.description.en}  
+                </p>
+                <Link to="/portfolio/target-project" className='view'>
+                    <p>View Details</p>
+                    <img src='/images/icons/arrow.svg' alt=''/>
+                </Link>
+            </div>
+        </div>
 
-                                </div>
-                            </div>
-                            <div>
-                                <div className="pharm">
-
-                                    <div className="row">
-                                        <img src="/images/projects/pharmacy/pharmacy.png"
-                                             className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
-                                             alt="Group"/>
-                                        <div className="about-pharm col-lg-6 col-md-6">
-                                            <div className="title">
-
-                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
-                                                <h1>Pharmacy</h1>
-                                            </div>
-                                            <p className="text">
-                                                Pharmacy app for helping the clients and patients to get their
-                                                staff without get out of the house, all that with delivery and
-                                                shipping to their houses
-                                            </p>
-                                            <Link to="/portfolio/target-project" className='view'>
-                                                <p>View Details</p>
-                                                <img src='/images/icons/arrow.svg' alt=''/>
-                                            </Link>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-                                <div className="pharm">
-
-                                    <div className="row">
-                                        <img src="/images/projects/pharmacy/pharmacy.png"
-                                             className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
-                                             alt="Group"/>
-                                        <div className="about-pharm col-lg-6 col-md-6">
-                                            <div className="title">
-
-                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
-                                                <h1>Pharmacy</h1>
-                                            </div>
-                                            <p className="text">
-                                                Pharmacy app for helping the clients and patients to get their
-                                                staff without get out of the house, all that with delivery and
-                                                shipping to their houses
-                                            </p>
-                                            <Link to="/portfolio/target-project" className='view'>
-                                                <p>View Details</p>
-                                                <img src='/images/icons/arrow.svg' alt=''/>
-                                            </Link>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-                                <div className="pharm">
-
-                                    <div className="row">
-                                        <img src="/images/projects/pharmacy/pharmacy.png"
-                                             className="img-pharm col-lg-5 col-md-6 col-sm-9" data-aos="zoom-in"
-                                             alt="Group"/>
-                                        <div className="about-pharm col-lg-6 col-md-6">
-                                            <div className="title">
-
-                                                <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
-                                                <h1>Pharmacy</h1>
-                                            </div>
-                                            <p className="text">
-                                                Pharmacy app for helping the clients and patients to get their
-                                                staff without get out of the house, all that with delivery and
-                                                shipping to their houses
-                                            </p>
-                                            <Link to="/portfolio/target-project" className='view'>
-                                                <p>View Details</p>
-                                                <img src='/images/icons/arrow.svg' alt=''/>
-                                            </Link>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
+    </div>
+    </div>
+        )
+    })
+}
+                                
+                             
                         </Slider>
                     </div>
                 </Container>

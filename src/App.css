@@ -355,6 +355,7 @@ html[dir=rtl] a.nav-link {
 
 .counter .num .allnum .numup span {
     text-align: center;
+    height: 144px;
 }
 
 .counter .num h3 {
