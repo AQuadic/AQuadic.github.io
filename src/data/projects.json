@@ -50,7 +50,60 @@
     ],
     "client_id": 1,
     "country_id": 1,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "https://aquadic.github.io/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
   },
   {
     "id": 2,
@@ -103,7 +156,34 @@
     ],
     "client_id": 2,
     "country_id": 2,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      }
+    ]
   },
   {
     "id": 3,
@@ -156,7 +236,21 @@
     ],
     "client_id": 3,
     "country_id": 1,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/web.png",
+        "style": "large"
+      }
+    ]
   },
   {
     "id": 4,
@@ -215,7 +309,73 @@
     ],
     "client_id": 4,
     "country_id": 2,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "https://aquadic.github.io/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
   },
   {
     "id": 5,
@@ -285,7 +445,73 @@
     ],
     "client_id": 5,
     "country_id": 3,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "https://aquadic.github.io/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
   },
   {
     "id": 6,
@@ -340,7 +566,34 @@
     "images_mobile": null,
     "client_id": 5,
     "country_id": 3,
-    "type": "websites"
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      }
+    ]
   },
   {
     "id": 7,
@@ -401,7 +654,73 @@
     ],
     "client_id": 5,
     "country_id": 3,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "https://aquadic.github.io/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
   },
   {
     "id": 8,
@@ -468,7 +787,47 @@
     ],
     "client_id": 1,
     "country_id": 1,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      }
+    ]
   },
   {
     "id": 9,
@@ -539,7 +898,60 @@
     ],
     "client_id": 3,
     "country_id": 1,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "https://aquadic.github.io/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
   },
   {
     "id": 10,
@@ -602,7 +1014,47 @@
     ],
     "client_id": 3,
     "country_id": 1,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      }
+    ]
   },
   {
     "id": 11,
@@ -668,6 +1120,59 @@
     ],
     "client_id": 3,
     "country_id": 1,
-    "type": "appplication"
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "https://aquadic.github.io/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "https://aquadic.github.io/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "https://aquadic.github.io/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "https://aquadic.github.io/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
   }
 ]
