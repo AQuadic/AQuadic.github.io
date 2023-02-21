@@ -49,31 +49,7 @@
     "title": "Technologies"
   },
   "services": {
-    "title": "Our Services",
-    "web": {
-      "title": "Web & Desktop\nDevelopment",
-      "description": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
-    },
-    "mobile": {
-      "title": "Mobile Development",
-      "description": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
-    },
-    "ux": {
-      "title": "Product design\nand UX/UI",
-      "description": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
-    },
-    "custom": {
-      "title": "Custom Software\nSolutions",
-      "description": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
-    },
-    "ecommerce": {
-      "title": "E-commerce Solutions",
-      "description": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
-    },
-    "outsourcing": {
-      "title": "Support and\nOutsourcing Teams",
-      "description": "Lower costs, faster time-to-market ratio, and better business results are among the biggest advantages of using our software outsourcing services. Think of our teams as part of your organization. Furthermore, we always select the team members according to your industry."
-    }
+    "title": "Our Services"
   },
   "team": {
     "title": "Our People",
