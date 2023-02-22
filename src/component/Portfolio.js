@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {Container} from 'react-bootstrap';
 import {useTranslation} from 'react-i18next';
 import all_data from '../data/projects.json'
-import Modal from './Modal';
+import ProjectModal from './ProjectModal';
 
 function Portfolio() {
     // Language.
@@ -53,7 +53,7 @@ function Portfolio() {
                     }
                 </div>
             </Container>
-            <Modal currentProject ={currentProject}/>
+            <ProjectModal currentProject ={currentProject}/>
           
         </div>
     )

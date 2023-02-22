@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import Modal from "./Modal";
+import ProjectModal from "./ProjectModal";
 import projects from '../data/projects.json'
 function Projects() {
   const { t, i18n } = useTranslation();
@@ -44,7 +44,7 @@ function Projects() {
           })}
         </div>
       </Container>
-      <Modal currentProject={CurrentProject} />
+      <ProjectModal currentProject={CurrentProject} />
     </div>
   );
 }

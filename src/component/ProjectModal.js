@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-function Modal(props) {
+function ProjectModal(props) {
 
   // Language.
   const { t, i18n } = useTranslation();
@@ -82,4 +82,4 @@ function Modal(props) {
   );
 }
 
-export default Modal;
+export default ProjectModal;

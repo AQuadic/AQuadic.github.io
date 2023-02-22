@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import all_data from "../data/projects.json";
 import data from "../data/projects.json";
-import Modal from "./Modal";
+import ProjectModal from "./ProjectModal";
 function ProjectDetails(props) {
   const { t, i18n } = useTranslation();
 
@@ -309,7 +309,7 @@ function ProjectDetails(props) {
           </div>
         ) : null}
       </Container>
-      <Modal currentProject={currentProject} />
+      <ProjectModal currentProject={currentProject} />
     </div>
   ) : (
     <div>no data her </div>

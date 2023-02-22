@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React from "react";
 import {Container} from "react-bootstrap";
 import {HashLink} from 'react-router-hash-link';
 import {Link} from "react-router-dom";
@@ -13,11 +13,11 @@ function Nav() {
 
     const lang = i18n.language === "ar" ? "English" : "العربية";
     const langs = i18n.language === "ar" ? "EN" : "ع";
-    const ref = useRef();
+    
 
     return (
         <section className="con ">
-            <nav className="navbar  navbar-expand-lg navbar-light fixed-top" ref={ref}>
+            <nav className="navbar  navbar-expand-lg navbar-light fixed-top" >
                 <Container>
                     <Link className="navbar-brand" to="/">
                         <img src="/images/logo_vertical.svg" className="logo" alt="navbar-brand"/>
@@ -75,11 +75,7 @@ function Nav() {
                                         </Link>
                                     </li>
 
-                                    {/*<li>*/}
-                                    {/*    <Link className="dropdown-item" to="#">*/}
-                                    {/*        {t('nav.payment_methods')}*/}
-                                    {/*    </Link>*/}
-                                    {/*</li>*/}
+                                   
                                 </ul>
                             </li>
 

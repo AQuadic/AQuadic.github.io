@@ -4,10 +4,11 @@ import { useTranslation } from "react-i18next";
 
 function Footer() {
   const { t } = useTranslation();
+  var date = new Date().getFullYear() ;
   return (
     <div className="footer">
       <Container>
-        <h3>© {t("footer.aquadic")}, 2019-2022.</h3>
+        <h3>© {t("footer.aquadic")}, 2019-{date}.</h3>
         <div>
           <a
          

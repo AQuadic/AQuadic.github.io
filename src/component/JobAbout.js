@@ -6,7 +6,7 @@ import projects from "../data/projects.json";
 import services from "../data/services.json";
 import { useTranslation } from "react-i18next";
 
-function JopAbout() {
+function JobAbout() {
   // Language.
   const {  i18n } = useTranslation();
 
@@ -195,4 +195,4 @@ function JopAbout() {
   );
 }
 
-export default JopAbout;
+export default JobAbout;
