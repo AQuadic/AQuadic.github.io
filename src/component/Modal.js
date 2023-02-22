@@ -3,6 +3,11 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 function Modal(props) {
+
+  
+
+
+
   // Language.
   const { t, i18n } = useTranslation();
 
