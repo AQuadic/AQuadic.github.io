@@ -4,15 +4,14 @@ import hosting from "../data/hosting.json";
 import { useTranslation } from "react-i18next";
 
 function Hosting() {
-  const {  i18n } = useTranslation();
+  const {t , i18n } = useTranslation();
 
   return (
     <div className="hosting">
       <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
         <img src="/images/hosting/hosting.svg" alt="hosting" />
         <h2>
-          Best Web Hosting for Small Businesses Find the right service for your
-          business
+        {t("hosting.title")}
         </h2>
       </div>
       <Container>
@@ -25,7 +24,7 @@ function Hosting() {
             </div>
           </div>
           <a  target={"_blank"} rel="noreferrer" href={hosting[0].url}>
-            <button className="btn-page">Visit Site</button>
+            <button className="btn-page"> {t("hosting.btn")}</button>
           </a>
         </div>
       </Container>
