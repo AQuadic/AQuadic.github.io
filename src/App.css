@@ -342,6 +342,7 @@ html[dir=rtl] a.nav-link {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    direction: ltr;
 }
 
 .counter .num .allnum {
