@@ -11,10 +11,8 @@ import TimeModel from "./component/TimeModel";
 import Team from "./component/Team";
 import Persone from "./component/Persone";
 import Portfolio from "./component/Portfolio";
-
 import data from "./data/projects.json";
 import ProjectDetails from "./component/ProjectDetails";
-
 import ScrollToTop from "./component/ScrollToTop";
 import PoTa from "./component/PoTa";
 import HomeLay from "./component/HomeLay";

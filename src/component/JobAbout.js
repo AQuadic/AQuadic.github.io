@@ -63,7 +63,7 @@ function JobAbout() {
   const tech_info = current_services[0].technologies.filter((item) => {
     return item.id === tech;
   });
-
+console.log(current_services[0].process)
   return (
     <div className="jop-about">
       <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
@@ -85,6 +85,13 @@ function JobAbout() {
                       <span></span>
                     </div>
                     <ul>
+                    {
+                    processItem.points[i18n.language].map((item)=>{
+                      return (
+                        <li> {item}</li>
+                      )
+                    })
+                    }
                       <li> {processItem.points[i18n.language]}</li>
                     </ul>
                   </div>
