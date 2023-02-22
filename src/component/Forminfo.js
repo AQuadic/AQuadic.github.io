@@ -11,11 +11,9 @@ function Forminfo() {
                 <img className="imageback" src="/images/patterns/pattern_1.svg" alt=""/>
                 <Card>
                     <Card.Body>
-                        <h2 className=" mb-2">Can’t see a position that interests you?</h2>
+                        <h2 className=" mb-2">{t("career.positions.cant_see_position.title")}</h2>
                         <p className="">
-                            Please send your CV and write the name of the position you are
-                            interested in. We’ll get in touch with you once we open a suitable
-                            role.
+                        {t("career.positions.cant_see_position.description")}
                         </p>
                         <Form className="row">
                             <Form.Group className="col-12  col-sm-6">

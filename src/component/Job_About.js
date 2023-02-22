@@ -2,15 +2,23 @@ import React, { useState } from 'react'
 import {Container} from 'react-bootstrap';
 import {Link, useParams} from 'react-router-dom';
 import Slider from "react-slick";
-import projects from '../data/projects.json'
-import services from '../data/services.json'
+import projects from '../data/projects.json';
+import services from '../data/services.json';
+import { useTranslation } from "react-i18next";
+
 function Jop_About() {
+ // Language.
+ const { t, i18n } = useTranslation();
+
+          
+              
+
+
     const params = useParams();
+
     const [tech ,settech]= useState();
    
-    console.log(tech)
-    console.log(params)
-    console.log(projects)
+    
     const settings = {
         dots: false,
         infinite: true,
@@ -47,7 +55,9 @@ function Jop_About() {
     
         
         mob_data()
-        console.log(type)
+     
+
+
 const current_services = services.filter((item)=> {return item.id === +params.id})
 console.log(current_services)
  
@@ -55,19 +65,42 @@ console.log(current_services)
 const  tech_info = current_services[0].technologies.filter((item)=> {
         return item.id === tech
     })
-    console.log(tech_info) 
-
+    
     return (
         <div className='jop-about'>
             <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
                 <img src='/images/header/header_part_5.svg' alt='careers'/>
-                <h2>{current_services[0].name.en}</h2>
+                <h2>{current_services[0].name[i18n.language]}</h2>
             </div>
             <div className='plan'>
                 <Container>
-                    <h2>UI UX Process</h2>
+                    <h2>{current_services[0].name[i18n.language]} Process</h2>
                     <div className='parts-plan'>
-                        <div className='part-plan'>
+
+{ 
+current_services[0].process.map((processItem)=>{
+    return (
+        <div className='part-plan'>
+                            <h3>{processItem.id}</h3>
+                            <div className='plan-about'>
+                                <h4>{processItem.name[i18n.language]}</h4>
+                                <div className='plan-span'>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+                                <ul>
+                                    
+                                    <li> {processItem.points    [i18n.language]}</li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+    )
+})
+}
+
+                        {/* <div className='part-plan'>
                             <h3>01</h3>
                             <div className='plan-about'>
                                 <h4>Plan</h4>
@@ -100,7 +133,8 @@ const  tech_info = current_services[0].technologies.filter((item)=> {
                                     <li> Implementing feedback</li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
+                        
                     </div>
                 </Container>
             </div>
@@ -125,10 +159,10 @@ const  tech_info = current_services[0].technologies.filter((item)=> {
                 <div className="title">
 
                     <img src="/images/projects/pharmacy/logo.svg" alt="logo icon"/>
-                    <h1>{item.name.ar}</h1>
+                    <h1>{item.name[i18n.language]}</h1>
                 </div>
                 <p className="text">
-                {item.description.en}  
+                {item.description[i18n.language]}  
                 </p>
                 <Link to="/portfolio/target-project" className='view'>
                     <p>View Details</p>
@@ -156,24 +190,7 @@ const  tech_info = current_services[0].technologies.filter((item)=> {
                     <h2>UI UX Technologies</h2>
                     <div className='all-part'>
                         <div className='part1'>
-                            <div className='tech'>
-                                <h3>Design platforms</h3>
-
-                                <div className='tech-img'>
-                                    <ul>
-
-                                        <li onClick={()=>{}}><img className='ti-1' src='/images/technologies/xd1.svg' alt=''/>
-                                            <img className='ti-2' src='/images/technologies/xd2.svg' alt=''/>
-                                        </li>
-                                        <li onClick={()=>{}}><img className='ti-1' src='/images/technologies/photoshop1.svg' alt=''/>
-                                            <img className='ti-2' src='/images/technologies/photoshop2.svg' alt=''/>
-                                        </li>
-                                        <li onClick={()=>{}}><img className='ti-1' src='/images/technologies/ai1.svg' alt=''/>
-                                            <img className='ti-2' src='/images/technologies/ai2.svg' alt=''/>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                          
                             <div className='tech'>
                                 <h3>Design platforms</h3>
                                 <div className='tech-img'>
@@ -197,8 +214,8 @@ const  tech_info = current_services[0].technologies.filter((item)=> {
                         tech_info.length >0?<div className='part2'>
                         <img src={tech_info[0].logo} alt=''/>
                         <div className='about-tech'>
-                            <h3>{tech_info[0].name.en}</h3>
-                            <p>{tech_info[0].description.en}</p>
+                            <h3>{tech_info[0].name[i18n.language]}</h3>
+                            <p>{tech_info[0].description[i18n.language]}</p>
                         </div>
                     </div> :<div className='part2'>
                             <img src='/images/technologies/xd1.svg' alt=''/>

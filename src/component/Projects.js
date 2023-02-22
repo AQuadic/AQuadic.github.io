@@ -1,32 +1,25 @@
 import React, {useEffect, useState} from "react";
 import {Container} from "react-bootstrap";
-import {useDispatch, useSelector} from "react-redux";
 import {Link} from "react-router-dom";
-import {counteraction} from "../data/data";
 import { useTranslation } from 'react-i18next';
 import Modal from "./Modal";
 
 function Projects(props) {
     const { t, i18n } = useTranslation();
   
-    const dispatch = useDispatch();
-    const checkLang = window.document.dir;
-    const qi = useSelector((state) => state.dir.value)
-    const project = useSelector((state) => state.dir.project)
-    console.log(project)
-    useEffect(() => {
-        setLang(qi.toLowerCase())
-    }, [qi])
+    
+    
+    
+ 
 
     const all_data = props.all_data;
-    console.log(all_data)
+  
     const [currentProject, setCurrentProject] = useState(all_data[0])
 
-    const [lang, setLang] = useState()
-    const [imageProject, setImageProject] = useState("")
+ 
 
     console.log(currentProject)
-    console.log(all_data[0].name[lang])
+  
     return (
         <div className="projects">
             <Container>
