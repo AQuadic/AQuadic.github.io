@@ -2289,7 +2289,15 @@ html[dir="rtl"] .services .all-services .part img {
 
 .project_modal .modal-body .modal_title .modal_app img {
 }
-
+.project_modal .dec_modal {
+   
+    overflow: hidden;
+    text-overflow: clip;
+ 
+    line-height: 21px;
+    max-height: 240px;
+   
+}
 @media (max-width: 1150px) {
     .project_modal .modal-body .modal_img img {
         width: 96%;
@@ -2777,6 +2785,10 @@ html[dir="rtl"] .services .all-services .part img {
     transform: translate(-50%, -50%);
     z-index: -3;
 }
+html[dir=rtl] .parts-plan .part-plan:not(:last-of-type):after {
+    left: calc(0% + -60px);
+    transform: translate(-50%, -50%) rotateY(180deg);
+}
 html[dir=rtl] .parts-plan::after {
     transform: translate(-50%, -50%) rotateY(180deg);
 
@@ -3016,7 +3028,10 @@ html[dir=rtl] .jop-tech .part2::before {
         left: 28%;
         transform: rotate(90deg) translateX(-50%);
     }
-
+    html[dir=rtl] .parts-plan .part-plan:not(:last-of-type):after {
+        left: calc(50% + -30px);
+        transform: rotate(90deg) translateX(-50%);
+    }
 
 
     .jop-about .pharm .row {

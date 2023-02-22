@@ -51,7 +51,7 @@ function Modal(props) {
 
             <div className="modal_title">
               <h2>{currentProject.name[i18n.language]}</h2>
-              <p>{currentProject.description[i18n.language]}</p>
+              <p className="dec_modal">{currentProject.description[i18n.language]}</p>
 
               <div data-bs-dismiss="modal" className="close view">
                 <Link to={`/portfolio/${currentProject.id}`} className="view">
