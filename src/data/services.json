@@ -9,7 +9,7 @@
       "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
       "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
     },
-    "image": "https://aquadic.github.io/images/services/web.png",
+    "image": "/images/services/web.png",
     "classes": "one part complete",
     "process": [
       {
@@ -83,7 +83,7 @@
           "en": "Android",
           "ar": "أندرويد"
         },
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "logo": "/images/technologies/android2.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -95,7 +95,7 @@
           "en": "IOS",
           "ar": "اي او اس"
         },
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "logo": "/images/technologies/ios.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -137,7 +137,7 @@
       "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
       "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
     },
-    "image": "https://aquadic.github.io/images/services/mobile.png",
+    "image": "/images/services/mobile.png",
     "classes": "two part nocomplete",
     "process": [
       {
@@ -211,7 +211,7 @@
           "en": "Android",
           "ar": "أندرويد"
         },
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "logo": "/images/technologies/android2.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -223,7 +223,7 @@
           "en": "IOS",
           "ar": "اي او اس"
         },
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "logo": "/images/technologies/ios.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -265,7 +265,7 @@
       "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
       "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
     },
-    "image": "https://aquadic.github.io/images/services/ui_ux.png",
+    "image": "/images/services/ui_ux.png",
     "classes": "three part nocomplete",
     "process": [
       {
@@ -318,7 +318,7 @@
           "en": "Adobe XD",
           "ar": "ادوبي اكس دي"
         },
-        "logo": "https://aquadic.github.io/images/technologies/xd2.svg",
+        "logo": "/images/technologies/xd2.svg",
         "description": {
           "en": "Adobe XD is a powerful and easy-to-use vector-based experience design platform that gives teams the tools they need to craft the world's best experiences collaboratively.",
           "ar": "يعد Adobe XD نظامًا أساسيًا لتصميم التجربة قويًا وسهل الاستخدام يعتمد على المتجهات ويمنح الفرق الأدوات التي يحتاجونها لصياغة أفضل التجارب العالمية بشكل تعاوني."
@@ -348,7 +348,7 @@
       "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
       "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
     },
-    "image": "https://aquadic.github.io/images/services/custom.png",
+    "image": "/images/services/custom.png",
     "classes": "four part nocomplete",
     "process": [
       {
@@ -422,7 +422,7 @@
           "en": "Android",
           "ar": "أندرويد"
         },
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "logo": "/images/technologies/android2.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -434,7 +434,7 @@
           "en": "IOS",
           "ar": "اي او اس"
         },
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "logo": "/images/technologies/ios.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -476,7 +476,7 @@
       "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
       "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
     },
-    "image": "https://aquadic.github.io/images/services/ecommerce.png",
+    "image": "/images/services/ecommerce.png",
     "classes": "five part complete",
     "process": [
       {
@@ -550,7 +550,7 @@
           "en": "Android",
           "ar": "أندرويد"
         },
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "logo": "/images/technologies/android2.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -562,7 +562,7 @@
           "en": "IOS",
           "ar": "اي او اس"
         },
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "logo": "/images/technologies/ios.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -604,7 +604,7 @@
       "ar": "تعد التكاليف المنخفضة ، ونسبة الوقت إلى السوق الأسرع ، ونتائج الأعمال الأفضل من بين أكبر مزايا استخدام خدمات الاستعانة بمصادر خارجية للبرامج. فكر في فرقنا كجزء من مؤسستك. علاوة على ذلك ، نختار دائمًا أعضاء الفريق وفقًا لمجال عملك.",
       "en": "Lower costs, faster time-to-market ratio, and better business results are among the biggest advantages of using our software outsourcing services. Think of our teams as part of your organization. Furthermore, we always select the team members according to your industry."
     },
-    "image": "https://aquadic.github.io/images/services/outsource.png",
+    "image": "/images/services/outsource.png",
     "classes": "sex part nocomplete",
     "process": [
       {
@@ -678,7 +678,7 @@
           "en": "Android",
           "ar": "أندرويد"
         },
-        "logo": "https://aquadic.github.io/images/technologies/android2.svg",
+        "logo": "/images/technologies/android2.svg",
         "description": {
           "en": "",
           "ar": ""
@@ -690,7 +690,7 @@
           "en": "IOS",
           "ar": "اي او اس"
         },
-        "logo": "https://aquadic.github.io/images/technologies/ios.svg",
+        "logo": "/images/technologies/ios.svg",
         "description": {
           "en": "",
           "ar": ""

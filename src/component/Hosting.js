@@ -24,7 +24,7 @@ function Hosting() {
             </div>
           </div>
           <a  target={"_blank"} rel="noreferrer" href={hosting[0].url}>
-            <button className="btn-page"> {t("hosting.btn")}</button>
+            <button className="btn-page"> {t("hosting.visit")}</button>
           </a>
         </div>
       </Container>

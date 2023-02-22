@@ -14,7 +14,7 @@ function Clients() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="50" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='https://www.evastmedia.net/assets/img/logo.png' alt='evastmedia'/>
+                    <img src='http://www.evastmedia.net/assets/img/logo.png' alt='evastmedia'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="100" className='col-lg-2 col-md-3 col-sm-4 col-6'>
@@ -28,7 +28,7 @@ function Clients() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="200" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='https://freshfarm.aquadic.com/images/Frame%2079.svg' alt='clients'/>
+                    <img src='https://freshfarm.ae/images/logo.svg' alt='clients'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="250" className='col-lg-2 col-md-3 col-sm-4 col-6'>
@@ -44,7 +44,7 @@ function Clients() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="400" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='https://lokta.aquadic.com/assets/images/logo.png?v1671389618' alt='lokta'/>
+                    <img src='http://www.lokta.ae/assets-front/images/logo.png' alt='lokta'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="450" className='col-lg-2 col-md-3 col-sm-4 col-6'>
@@ -52,11 +52,11 @@ function Clients() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="500" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='https://hakammotors.ae/hakam-logo.svg?v09-09-2022' alt='hakammotors'/>
+                    <img src='https://hakammotors.ae/hakam-logo.svg' alt='hakammotors'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="550" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src='https://www.marvelousemotion.com/logo.svg?v20.05.2022' alt='marvelousemotion'/>
+                    <img src='https://www.marvelousemotion.com/logo.svg' alt='marvelousemotion'/>
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="600" className='col-lg-2 col-md-3 col-sm-4 col-6'>
