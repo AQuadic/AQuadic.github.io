@@ -1,7 +1,7 @@
 import React from 'react'
 import {Outlet} from 'react-router-dom'
 
-function Po_ta() {
+function PoTa() {
   return (
     <div>
         <Outlet/>
@@ -9,4 +9,4 @@ function Po_ta() {
   )
 }
 
-export default Po_ta
+export default PoTa

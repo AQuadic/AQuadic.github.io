@@ -31,9 +31,3 @@ function App() {
 
   return <h2>{t('Welcome to React')}</h2>;
 }
-
-// append app to dom
-const root = createRoot(document.getElementById('root'));
-root.render(
-  <App />
-);

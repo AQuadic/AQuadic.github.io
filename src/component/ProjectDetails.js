@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import all_data from "../data/projects.json";
 import data from "../data/projects.json";
 import Modal from "./Modal";
-function Target_Project(props) {
+function ProjectDetails(props) {
   const { t, i18n } = useTranslation();
 
   const settings = {
@@ -70,7 +70,7 @@ function Target_Project(props) {
   const [similar, setsimilar] = useState();
   const [type_show, settype_show] = useState("images_mobile");
   const [dataa, setdataa] = useState();
-  const [params, setparams] = useState(id ? id : 0);
+  const params=id ? id : 0;
   const gettarget = () => {
     if (params !== 0) {
       const get = data.filter((item) => item.id === +id);
@@ -85,7 +85,7 @@ function Target_Project(props) {
  
   useEffect(() => {
     gettarget();
-  }, [, id]);
+  }, [,id]);
   const [currentProject, setCurrentProject] = useState(all_data[0]);
 
   return dataa ? (
@@ -115,7 +115,7 @@ function Target_Project(props) {
                   const img = `/images/apps/${key}.svg`;
                   return link ? (
                     <li key={key}>
-                      <a target={"_blank"} href={link}>
+                      <a target={"_blank"} rel="noreferrer" href={link}>
                         <img src={img} alt={key} />
                       </a>
                     </li>
@@ -316,4 +316,4 @@ function Target_Project(props) {
   );
 }
 
-export default Target_Project;
+export default ProjectDetails;

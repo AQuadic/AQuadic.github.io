@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import Modal from "react-bootstrap/Modal";
 
 function Message() {
-  const { t, i18n } = useTranslation();
+  const { t} = useTranslation();
 
   const [show, setShow] = useState(false);
 
@@ -93,7 +93,7 @@ function Message() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://g.page/aquadic" target="_blank">
+                  <a  href="https://g.page/aquadic" rel="noreferrer" target="_blank">
                     <img src="/images/icons/map_off.svg" alt="" />
                     <h5>418 El Geish Road,Louran, Alexandria, Egypt</h5>
                   </a>

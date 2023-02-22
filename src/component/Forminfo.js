@@ -3,7 +3,7 @@ import { Button, Card, Container, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 function Forminfo() {
-  const { t, i18n } = useTranslation();
+  const { t} = useTranslation();
 
   return (
     <section className="forminfo">

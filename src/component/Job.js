@@ -3,11 +3,11 @@ import {Container} from 'react-bootstrap'
 import { useTranslation } from 'react-i18next';
 
 function Job() {
-    const { t, i18n } = useTranslation();
+    const { t} = useTranslation();
 
    
     window.scrollTo(250, 250);
-    
+
     return (
         <div className='job'>
             <Container>

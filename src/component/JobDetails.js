@@ -2,7 +2,7 @@ import React from 'react'
 import Forminfo from './Forminfo'
 import Job from './Job'
 
-function Job_details() {
+function JobDetails() {
     return (
         <>
             <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
@@ -23,4 +23,4 @@ function Job_details() {
     )
 }
 
-export default Job_details
+export default JobDetails

@@ -3,17 +3,21 @@ import { Container } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 function Footer() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="footer">
       <Container>
         <h3>© {t("footer.aquadic")}, 2019-2022.</h3>
         <div>
           <a
+         
             className="icon-soch faceboock"
+            rel="noreferrer"
             href="https://www.facebook.com/aquadicsoftware"
+           
             target="_blank"
             aria-label="a.link_social"
+          
           >
             <img src="/images/icons/facebook_off.svg" alt="" />
             <img src="/images/icons/facebook_on.svg" alt="" />
@@ -21,6 +25,7 @@ function Footer() {
 
           <a
             className="icon-soch linkedin"
+            rel="noreferrer"
             href="https://www.linkedin.com/company/aquadic"
             target="_blank"
             aria-label="a.link_social"
@@ -31,6 +36,7 @@ function Footer() {
 
           <a
             className="icon-soch behance"
+            rel="noreferrer"
             href="https://www.behance.net/aquadic"
             target="_blank"
             aria-label="a.link_social"
@@ -40,6 +46,7 @@ function Footer() {
           </a>
           <a
             className="icon-soch "
+            rel="noreferrer"
             href="https://instagram.com/aquadicsoftware"
             target="_blank"
             aria-label="a.link_social"
@@ -49,6 +56,7 @@ function Footer() {
           </a>
           <a
             className="icon-soch "
+            rel="noreferrer"
             href="https://twitter.com/AquadicSoftware"
             target="_blank"
             aria-label="a.link_social"

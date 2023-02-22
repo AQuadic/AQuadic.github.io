@@ -3,8 +3,8 @@ import { Container } from "react-bootstrap";
 import Message from "./Message";
 import { useTranslation } from "react-i18next";
 
-function Time_Model() {
-  const { t, i18n } = useTranslation();
+function TimeModel() {
+  const { t } = useTranslation();
 
   return (
     <div className="time">
@@ -15,12 +15,12 @@ function Time_Model() {
       <Container className="row">
         <div className="col-lg-3 col part_time">
           <h2> {t("time_model.part1.title")}</h2>
-          <img src="/images/Time_Model/price_model.svg" />
+          <img src="/images/Time_Model/price_model.svg" alt="time model" />
           <p>{t("time_model.part1.description")}</p>
         </div>
         <div className="col-lg-3 col part_time">
           <h2>{t("time_model.part2.title")}</h2>
-          <img src="/images/Time_Model/time_model2.svg" />
+          <img src="/images/Time_Model/time_model2.svg" alt="time model" />
           <p>
             {t("time_model.part2.description")}
             <ul>
@@ -30,7 +30,7 @@ function Time_Model() {
         </div>
         <div className="col-lg-3 col part_time">
           <h2>{t("time_model.part3.title")}</h2>
-          <img src="/images/Time_Model/team_model.svg" />
+          <img src="/images/Time_Model/team_model.svg"alt="time model" />
           <p>
             {t("time_model.part3.description")}
             <ul>
@@ -44,4 +44,4 @@ function Time_Model() {
   );
 }
 
-export default Time_Model;
+export default TimeModel;

@@ -4,7 +4,7 @@ import hosting from "../data/hosting.json";
 import { useTranslation } from "react-i18next";
 
 function Hosting() {
-  const { t, i18n } = useTranslation();
+  const {  i18n } = useTranslation();
 
   return (
     <div className="hosting">
@@ -24,7 +24,7 @@ function Hosting() {
               <p>{hosting[0].description[i18n.language]}</p>
             </div>
           </div>
-          <a target={"_blank"} href={hosting[0].url}>
+          <a  target={"_blank"} rel="noreferrer" href={hosting[0].url}>
             <button className="btn-page">Visit Site</button>
           </a>
         </div>

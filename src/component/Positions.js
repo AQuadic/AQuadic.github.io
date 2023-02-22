@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 function Positions() {
-  const { t, i18n } = useTranslation();
+  const { t} = useTranslation();
 
   const navigate = useNavigate();
 

@@ -20,6 +20,7 @@ function Services() {
           {services.map((service) => {
             return (
               <div
+              key={service.id}
                 className={service.classes}
                 onClick={() => {
                   navigate(`/service/${service.id}`);

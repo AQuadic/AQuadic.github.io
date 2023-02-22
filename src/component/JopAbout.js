@@ -6,9 +6,9 @@ import projects from "../data/projects.json";
 import services from "../data/services.json";
 import { useTranslation } from "react-i18next";
 
-function Jop_About() {
+function JopAbout() {
   // Language.
-  const { t, i18n } = useTranslation();
+  const {  i18n } = useTranslation();
 
   const params = useParams();
 
@@ -53,7 +53,6 @@ function Jop_About() {
       })
     );
   };
-
   mob_data();
 
   const current_services = services.filter((item) => {
@@ -196,4 +195,4 @@ function Jop_About() {
   );
 }
 
-export default Jop_About;
+export default JopAbout;

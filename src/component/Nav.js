@@ -7,9 +7,7 @@ import {useTranslation} from 'react-i18next';
 function Nav() {
     const {t, i18n} = useTranslation();
 
-    const langEn = () => {
-       
-     
+    const changeLang = () => {
         i18n.language === "en" ?  i18n.changeLanguage('ar')   : i18n.changeLanguage('en')
     }
 
@@ -105,7 +103,7 @@ function Nav() {
                         </ul>
                     </div>
                     <button className="lang" onClick={() => {
-                        langEn()
+                        changeLang()
                     }}>
                         <img src="/images/icons/lang.svg" alt=""/>
                         {window.innerWidth > 992 ? lang : langs}
