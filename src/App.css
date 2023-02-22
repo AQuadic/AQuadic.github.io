@@ -2470,6 +2470,7 @@ html[dir="rtl"] .services .all-services .part img {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 26px;
+    margin-bottom: 16px;
 }
 .pharm .about-pharm .title img {
     max-width: 120px;
@@ -2491,6 +2492,8 @@ html[dir="rtl"] .services .all-services .part img {
     line-height: 31px;
     color: #2E1F26;
     margin: 0px auto 25px;
+    max-height: 190px;
+    overflow: hidden;
 }
 
 .pharm .about-pharm .tryit {
@@ -4065,4 +4068,9 @@ img.img-pharm {
     max-width: 500px;
     max-height: 577px;
     object-fit: contain;
+}
+.our_creative .slick-track {
+    align-items: center;
+    display: flex !important;
+   
 }
