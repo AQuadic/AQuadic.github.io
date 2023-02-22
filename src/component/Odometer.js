@@ -2,9 +2,11 @@ import React, { useEffect, useRef } from "react";
 import { Container } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import projects from "../data/projects.json";
+
 function Odometer() {
   const { t, i18n } = useTranslation();
-  String(projects.length).slice(1);
+ 
+
   const ref = useRef();
   const ref2 = useRef();
   const ref3 = useRef();
@@ -17,7 +19,7 @@ function Odometer() {
     let newArray = [...new Set(_array)];
     return newArray;
   }
-  
+
   const num_client = String(
     getUniqueClients(pluck(projects, "client_id")).length
   ).slice(0, 1);

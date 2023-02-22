@@ -59,7 +59,7 @@ function Jop_About() {
   const current_services = services.filter((item) => {
     return item.id === +params.id;
   });
-  console.log(current_services);
+  
 
   const tech_info = current_services[0].technologies.filter((item) => {
     return item.id === tech;

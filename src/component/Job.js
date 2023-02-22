@@ -5,8 +5,9 @@ import { useTranslation } from 'react-i18next';
 function Job() {
     const { t, i18n } = useTranslation();
 
-    console.log()
+   
     window.scrollTo(250, 250);
+    
     return (
         <div className='job'>
             <Container>

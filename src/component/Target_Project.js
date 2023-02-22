@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import all_data from "../data/projects.json";
-import { Link } from "react-router-dom";
 import data from "../data/projects.json";
 import Modal from "./Modal";
 function Target_Project(props) {
@@ -68,15 +67,9 @@ function Target_Project(props) {
   const btn1 = useRef();
   const btn2 = useRef();
   const { id } = useParams();
-  console.log(id);
-  console.log(data);
   const [similar, setsimilar] = useState();
   const [type_show, settype_show] = useState("images_mobile");
-  console.log(similar);
-
   const [dataa, setdataa] = useState();
-  console.log(dataa);
-
   const [params, setparams] = useState(id ? id : 0);
   const gettarget = () => {
     if (params !== 0) {
@@ -89,7 +82,7 @@ function Target_Project(props) {
     }
   };
 
-  console.log("hiiii");
+ 
   useEffect(() => {
     gettarget();
   }, [, id]);
@@ -144,29 +137,6 @@ function Target_Project(props) {
           <h2>{t("portfolio.screens")}</h2>
 
           <div className="btn-testimonials2">
-            {/* {
-                                 dataa[0].images_mobile && dataa[0].images_desktop ?<> 
-                                 <button ref={btn1} className='open' onClick={(e) => {
-                                     settype_show("images_mobile");
-                                     btn2.current.classList.remove("open");
-                                     e.target.classList.add("open")
-                                 }}>{t('portfolio.mobile')}
-                                 </button> 
-                            
-                                <button ref={btn2} onClick={(e) => {
-                                 settype_show("images_desktop");
-                                     btn1.current.classList.remove("open");
-                                     e.target.classList.add("open")
-                                 }}>{t('portfolio.desktop')}
-                                 </button> 
-                                 </>:   dataa[0].images_mobile ?()=>{settype_show("images_mobile");
-                                 console.log(type_show)}:dataa[0].images_desktop?()=>{
-                                 settype_show("images_desktop");
-                                 console.log(type_show)
-                                  }:null
-                            }
-                             */}
-
             {dataa[0].images_mobile ? (
               dataa[0].images_desktop ? (
                 <>
@@ -339,8 +309,7 @@ function Target_Project(props) {
           </div>
         ) : null}
       </Container>
-      <Modal currentProject ={currentProject}/>
-      
+      <Modal currentProject={currentProject} />
     </div>
   ) : (
     <div>no data her </div>

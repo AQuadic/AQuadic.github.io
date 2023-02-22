@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {Container} from 'react-bootstrap';
 import {useTranslation} from 'react-i18next';
-import {Link} from 'react-router-dom';
 import all_data from '../data/projects.json'
 import Modal from './Modal';
 

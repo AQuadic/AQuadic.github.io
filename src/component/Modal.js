@@ -4,14 +4,12 @@ import { Link } from "react-router-dom";
 
 function Modal(props) {
 
-  
-
-
-
   // Language.
   const { t, i18n } = useTranslation();
 
+  //get current Project from another componant
   const { currentProject } = props;
+
   return (
     <div
       className="modal fade project_modal"
