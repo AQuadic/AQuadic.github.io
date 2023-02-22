@@ -92,7 +92,7 @@ console.log(current_services[0].process)
                       )
                     })
                     }
-                      <li> {processItem.points[i18n.language]}</li>
+                    
                     </ul>
                   </div>
                 </div>
