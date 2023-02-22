@@ -1,5 +1,4 @@
 import React from "react";
-import { createRoot } from 'react-dom/client';
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 import dataEn from './lang/en.json';
@@ -26,8 +25,4 @@ i18n
     }
   });
 
-function App() {
-  const { t } = useTranslation();
 
-  return <h2>{t('Welcome to React')}</h2>;
-}
