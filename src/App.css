@@ -2466,7 +2466,7 @@ html[dir="rtl"] .services .all-services .part img {
     align-items: center;
     justify-content: space-between;
 }
-html[dir=rtl] .pharm .row{
+html[dir=rtl] .our_creative .pharm .row{
 flex-direction: row-reverse;
 }
 html[dir=rtl] .pharm .row .about-pharm{
