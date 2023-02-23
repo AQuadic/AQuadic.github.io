@@ -56,18 +56,15 @@ function ServiceDetails() {
   };
   mob_data();
 
-  const current_services = services.filter((item) => {
-    return item.id === +params.id;
-  });
+  const current_services = services.find((item)=> item.id === +params.id)
 
-  const tech_info = current_services[0].technologies.filter((item) => {
-    return item.id === tech;
-  });
+  const tech_info = current_services.technologies.find((item) => item.id === tech);
+ 
   return (
     <div className="jop-about">
       <HelmetProvider>
         <Helmet>
-          <title>AQuadic |  {current_services[0].name[i18n.language]}</title>
+          <title>AQuadic |  {current_services.name[i18n.language]}</title>
           <link rel="canonical" href={`https://aquadic.com/service/${params.id}`} />
           <meta
             name="description"
@@ -76,16 +73,16 @@ function ServiceDetails() {
         </Helmet>
         <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
           <img src="/images/header/header_part_5.svg" alt="careers" />
-          <h2>{current_services[0].name[i18n.language]}</h2>
+          <h2>{current_services.name[i18n.language]}</h2>
         </div>
         <div className="plan">
           <Container>
             <h2>
-              {current_services[0].name[i18n.language]}{" "}
+              {current_services.name[i18n.language]}{" "}
               {t("services.page.process")}
             </h2>
             <div className="parts-plan">
-              {current_services[0].process.map((processItem) => {
+              {current_services.process.map((processItem) => {
                 return (
                   <div className="part-plan">
                     <h3>{processItem.id}</h3>
@@ -114,7 +111,7 @@ function ServiceDetails() {
                 <h2 className="header-our">
                   {" "}
                   {t("services.page.ourCreative")}{" "}
-                  {current_services[0].name[i18n.language]}
+                  {current_services.name[i18n.language]}
                 </h2>
                 <Slider {...settings}>
                   {projects_services.map((item) => {
@@ -159,29 +156,29 @@ function ServiceDetails() {
             </Container>
           </div>
         ) : null}
-        {current_services[0].technologies.length ? (
+        {current_services.technologies.length ? (
           <div className="jop-tech">
             <Container>
               <h2>
                 {" "}
-                {current_services[0].name[i18n.language] +
+                {current_services.name[i18n.language] +
                   " " +
                   t("services.page.technologies")}{" "}
               </h2>
               <div className="all-part">
                 <div className="part1">
                   <div className="tech">
-                    <h3>{current_services[0].name[i18n.language]}   {t("services.page.platforms")}</h3>
+                    <h3>{current_services.name[i18n.language]}   {t("services.page.platforms")}</h3>
                     <div className="tech-img">
                       <ul>
-                        {current_services[0].technologies.map((item) => {
+                        {current_services.technologies.map((item) => {
                           return (
                             <li
                               onClick={() => {
                                 settech(item.id);
                               }}
                             >
-                              <img src={item.logo} alt="" />
+                              <img src={item.logo} alt={item.name} />
                             </li>
                           );
                         })}
@@ -189,31 +186,31 @@ function ServiceDetails() {
                     </div>
                   </div>
                 </div>
-                {tech_info.length > 0 ? (
+                {tech_info  ? (
                   <div className="part2">
-                    <img src={tech_info[0].logo} alt="" />
+                    <img src={tech_info.logo} alt="" />
                     <div className="about-tech">
-                      <h3>{tech_info[0].name[i18n.language]}</h3>
-                      <p>{tech_info[0].description[i18n.language]}</p>
+                      <h3>{tech_info.name[i18n.language]}</h3>
+                      <p>{tech_info.description[i18n.language]}</p>
                     </div>
                   </div>
                 ) : (
                   <div className="part2">
                     <img
-                      src={current_services[0].technologies[0].logo}
+                      src={current_services.technologies[0].logo}
                       alt=""
                     />
                     <div className="about-tech">
                       <h3>
                         {
-                          current_services[0].technologies[0].name[
+                          current_services.technologies[0].name[
                             i18n.language
                           ]
                         }
                       </h3>
                       <p>
                         {
-                          current_services[0].technologies[0].description[
+                          current_services.technologies[0].description[
                             i18n.language
                           ]
                         }
