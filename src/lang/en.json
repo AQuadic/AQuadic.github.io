@@ -55,7 +55,8 @@
     "page":{
       "process":"Process",
       "ourCreative":"Our Creative",
-      "technologies":"Technologies"
+      "technologies":"Technologies",
+      "platforms":"platforms"
     }
   },
   "team": {

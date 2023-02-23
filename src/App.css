@@ -2469,6 +2469,9 @@ html[dir="rtl"] .services .all-services .part img {
 html[dir=rtl] .pharm .row{
 flex-direction: row-reverse;
 }
+html[dir=rtl] .pharm .row .about-pharm{
+   direction: rtl;
+    }
 .pharm .about-pharm .title {
     display: flex;
     align-items: center;
@@ -2778,6 +2781,10 @@ flex-direction: row-reverse;
 
 .parts-plan .part-plan {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
 }
 
 
@@ -2787,14 +2794,14 @@ flex-direction: row-reverse;
     height: 160px;
     width: 150px;
     top: 50%;
-    left: calc(100% + 100px);
+    left: 100% ;
     background-image: url('../public/images/icons/triangle3.svg');
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
     z-index: -3;
 }
 html[dir=rtl] .parts-plan .part-plan:not(:last-of-type):after {
-    left: calc(0% + -60px);
+    left: 0%;
     transform: translate(-50%, -50%) rotateY(180deg);
 }
 html[dir=rtl] .parts-plan::after {

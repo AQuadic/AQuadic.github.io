@@ -171,7 +171,7 @@ function ServiceDetails() {
               <div className="all-part">
                 <div className="part1">
                   <div className="tech">
-                    <h3>Design platforms</h3>
+                    <h3>{current_services[0].name[i18n.language]}   {t("services.page.platforms")}</h3>
                     <div className="tech-img">
                       <ul>
                         {current_services[0].technologies.map((item) => {
