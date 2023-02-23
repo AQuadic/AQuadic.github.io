@@ -2,10 +2,11 @@ import React from "react";
 import {Container} from "react-bootstrap";
 import Slider from "react-slick";
 import ReactReadMoreReadLess from "react-read-more-read-less";
-import { useTranslation } from 'react-i18next';
-import testimonials from '../data/testimonials.json'
+import {useTranslation} from 'react-i18next';
+import testimonials from '../../data/testimonials.json'
+
 function Testimonials() {
-    const { t ,i18n} = useTranslation();
+    const {t, i18n} = useTranslation();
 
     var settings = {
         className: "center",
@@ -79,32 +80,32 @@ function Testimonials() {
                 <h2> {t("home.testimonials.title")}</h2>
                 <Slider {...settings}>
                     {
-testimonials.map((item)=> 
+                        testimonials.map((item) =>
 
-    <div className="card-tes">
-    <div className="card-info">
-        <img
-            src={item.image}
-            alt={item.name[i18n.language]}/>
-        <div className="info-user">
-            <h3>{item.name[i18n.language]}</h3>
-            <h4>{item.position[i18n.language]}</h4>
-        </div>
-    </div>
-    <p>
-        <ReactReadMoreReadLess
-            charLimit={196}
-            readMoreText={"See More "}
-            readLessText={"Read less ▲"}
-        >
-           {item.description[i18n.language]}
-        </ReactReadMoreReadLess>
+                            <div className="card-tes">
+                                <div className="card-info">
+                                    <img
+                                        src={item.image}
+                                        alt={item.name[i18n.language]}/>
+                                    <div className="info-user">
+                                        <h3>{item.name[i18n.language]}</h3>
+                                        <h4>{item.position[i18n.language]}</h4>
+                                    </div>
+                                </div>
+                                <p>
+                                    <ReactReadMoreReadLess
+                                        charLimit={196}
+                                        readMoreText={"See More "}
+                                        readLessText={"Read less ▲"}
+                                    >
+                                        {item.description[i18n.language]}
+                                    </ReactReadMoreReadLess>
 
-    </p>
-</div>
-)
+                                </p>
+                            </div>
+                        )
                     }
-                  
+
                 </Slider>
             </Container>
         </div>

@@ -3,7 +3,7 @@ import {Outlet} from 'react-router-dom'
 import Footer from './Footer'
 import Nav from './Nav'
 
-function HomeLay() {
+function HomeLayout() {
     return (
         <div>
             <Nav/>
@@ -13,4 +13,4 @@ function HomeLay() {
     )
 }
 
-export default HomeLay
+export default HomeLayout

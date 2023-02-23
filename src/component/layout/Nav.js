@@ -6,18 +6,16 @@ import {useTranslation} from 'react-i18next';
 
 function Nav() {
     const {t, i18n} = useTranslation();
-
     const changeLang = () => {
-        i18n.language === "en" ?  i18n.changeLanguage('ar')   : i18n.changeLanguage('en')
+        i18n.language === "en" ? i18n.changeLanguage('ar') : i18n.changeLanguage('en')
     }
 
     const lang = i18n.language === "ar" ? "English" : "العربية";
     const langs = i18n.language === "ar" ? "EN" : "ع";
-    
 
     return (
         <section className="con ">
-            <nav className="navbar  navbar-expand-lg navbar-light fixed-top" >
+            <nav className="navbar  navbar-expand-lg navbar-light fixed-top">
                 <Container>
                     <Link className="navbar-brand" to="/">
                         <img src="/images/logo_vertical.svg" className="logo" alt="navbar-brand"/>
@@ -75,7 +73,7 @@ function Nav() {
                                         </Link>
                                     </li>
 
-                                   
+
                                 </ul>
                             </li>
 

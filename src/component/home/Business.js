@@ -1,9 +1,9 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
+import {useTranslation} from 'react-i18next'
 
-import { useTranslation } from 'react-i18next';
 function Business() {
- const { t } = useTranslation();
+    const {t} = useTranslation();
 
     return (
         <section className='business'>
@@ -13,9 +13,7 @@ function Business() {
                     <p>{t("home.heading.description")} </p>
                 </div>
             </Container>
-
         </section>
-
     )
 }
 
