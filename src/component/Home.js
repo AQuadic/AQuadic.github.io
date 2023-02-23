@@ -11,11 +11,22 @@ import Odometer from './Odometer';
 import Clients from './Clients';
 import Business from './Business';
 import Dots from './Dots';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function Home() {
 
     return (
         <>
+         <HelmetProvider>
+         <Helmet>
+        
+        <title>AQuadic Software Solutions</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+        <meta
+      name="description"
+      content="Aquadic is a design and digital product development company. We create beautiful and functional web platforms, apps, and custom software solutions. we build projects for companies in different locations, and we always open to any business relationship."
+    />
+      </Helmet>
             <Dots/>
             <Business/>
 
@@ -27,6 +38,7 @@ function Home() {
             <Clients/>
             <Testimonials/>
             <Message/>
+            </HelmetProvider>
         </>
     )
 }

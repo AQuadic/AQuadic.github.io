@@ -3,11 +3,23 @@ import { Container } from "react-bootstrap";
 import Message from "./Message";
 import { useTranslation } from "react-i18next";
 import pricing from '../data/pricing.json'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function TimeModel() {
   const { t , i18n } = useTranslation();
 
   return (
     <div className="time">
+      <HelmetProvider>
+<Helmet>
+        
+        <title>Time Model</title>
+        <link rel="canonical" href={`https://aquadic.com/time_model`}  />
+        <meta
+      name="description"
+      content="Aquadic is a design and digital product development company. We create beautiful and functional web platforms, apps, and custom software solutions. we build projects for companies in different locations, and we always open to any business relationship."
+    />
+      </Helmet>
       <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
         <img src="/images/Time_Model/Time_model.svg" alt="hosting" />
         <h2>{t("time_model.title")}</h2>
@@ -45,6 +57,7 @@ function TimeModel() {
       
       </Container>
       <Message />
+      </HelmetProvider>
     </div>
   );
 }

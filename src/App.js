@@ -9,7 +9,7 @@ import JobDetails from "./component/JobDetails";
 import Hosting from "./component/Hosting";
 import TimeModel from "./component/TimeModel";
 import Team from "./component/Team";
-import Persone from "./component/Persone";
+import Person from "./component/Person";
 import Portfolio from "./component/Portfolio";
 import data from "./data/projects.json";
 import ProjectDetails from "./component/ProjectDetails";
@@ -45,7 +45,7 @@ function App() {
             <Route path="hosting" element={<Hosting />} />
             <Route path="time_model" element={<TimeModel />} />
             <Route path="team" element={<Team />} />
-            <Route path="person" element={<Persone />} />
+            <Route path="person" element={<Person />} />
             <Route path="portfolio" element={<PoTa />}>
               <Route index element={<Portfolio data={data} />} />
               <Route path=":id" element={<ProjectDetails data={data} />} />

@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import Message from "./Message";
 import { useTranslation } from "react-i18next";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function Team() {
   const { t} = useTranslation();
@@ -10,6 +11,16 @@ function Team() {
   const navigate = useNavigate();
   return (
     <div className="team">
+     <HelmetProvider>
+<Helmet>
+        
+        <title>Team</title>
+        <link rel="canonical" href={`https://aquadic.com/team`}  />
+        <meta
+      name="description"
+      content="Aquadic is a design and digital product development company. We create beautiful and functional web platforms, apps, and custom software solutions. we build projects for companies in different locations, and we always open to any business relationship."
+    />
+      </Helmet>
       <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
         <img src="/images/team/team.svg" alt="hosting" />
         <div className="about_img_team">
@@ -117,6 +128,7 @@ function Team() {
         </div>
       </Container>
       <Message />
+    </HelmetProvider>
     </div>
   );
 }

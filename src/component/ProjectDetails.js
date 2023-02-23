@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 import all_data from "../data/projects.json";
 import data from "../data/projects.json";
 import ProjectModal from "./ProjectModal";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function ProjectDetails(props) {
   const { t, i18n } = useTranslation();
 
@@ -90,6 +92,17 @@ function ProjectDetails(props) {
 
   return dataa ? (
     <div className="target-project">
+  <HelmetProvider>
+<Helmet>
+        
+        <title>Project Details</title>
+        <link rel="canonical" href={`https://aquadic.com/portfolio/${id}`}  />
+        <meta
+      name="description"
+      content="Aquadic is a design and digital product development company. We create beautiful and functional web platforms, apps, and custom software solutions. we build projects for companies in different locations, and we always open to any business relationship."
+    />
+      </Helmet>
+
       <Container>
         <div className="pharm">
           <div className="row">
@@ -310,6 +323,7 @@ function ProjectDetails(props) {
         ) : null}
       </Container>
       <ProjectModal currentProject={currentProject} />
+     </HelmetProvider>
     </div>
   ) : (
     <div>no data her </div>
