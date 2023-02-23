@@ -14,7 +14,7 @@ function Career() {
         
          <Helmet>
         
-        <title>Career</title>
+        <title>AQuadic | Career</title>
         <link rel="canonical" href="https://aquadic.com/career"  />
         <meta
       name="description"

@@ -12,7 +12,7 @@ function Hosting() {
         <HelmetProvider>
  <Helmet>
         
-        <title>Hosting</title>
+        <title>AQuadic | Hosting</title>
         <link rel="canonical" href={`https://aquadic.com/hosting`}  />
         <meta
       name="description"

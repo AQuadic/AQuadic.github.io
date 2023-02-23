@@ -95,7 +95,7 @@ function ProjectDetails(props) {
   <HelmetProvider>
 <Helmet>
         
-        <title>Project Details</title>
+        <title> AQuadic | {dataa[0].name[i18n.language]}</title>
         <link rel="canonical" href={`https://aquadic.com/portfolio/${id}`}  />
         <meta
       name="description"

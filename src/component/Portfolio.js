@@ -21,7 +21,7 @@ function Portfolio() {
               <HelmetProvider>
 <Helmet>
         
-        <title>portfolio</title>
+        <title>AQuadic | portfolio</title>
         <link rel="canonical" href={`https://aquadic.com/portfolio`}  />
         <meta
       name="description"

@@ -9,7 +9,7 @@ function Person() {
              <HelmetProvider>
 <Helmet>
         
-        <title>person</title>
+        <title>AQuadic | person</title>
         <link rel="canonical" href={`https://aquadic.com/person`}  />
         <meta
       name="description"

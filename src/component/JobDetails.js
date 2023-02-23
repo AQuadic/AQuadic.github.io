@@ -18,7 +18,7 @@ function JobDetails() {
         <HelmetProvider>
           <Helmet>
         
-        <title>Job Details</title>
+        <title>AQuadic | Job Details</title>
         <link rel="canonical" href={`https://aquadic.com/career/${id}`}  />
         <meta
       name="description"

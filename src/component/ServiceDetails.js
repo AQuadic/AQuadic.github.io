@@ -67,7 +67,7 @@ function ServiceDetails() {
     <div className="jop-about">
       <HelmetProvider>
         <Helmet>
-          <title>Service Details</title>
+          <title>AQuadic |  {current_services[0].name[i18n.language]}</title>
           <link rel="canonical" href={`https://aquadic.com/service/${params.id}`} />
           <meta
             name="description"

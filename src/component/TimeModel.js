@@ -13,7 +13,7 @@ function TimeModel() {
       <HelmetProvider>
 <Helmet>
         
-        <title>Time Model</title>
+        <title>AQuadic | Time Model</title>
         <link rel="canonical" href={`https://aquadic.com/time_model`}  />
         <meta
       name="description"

@@ -14,7 +14,7 @@ function Team() {
      <HelmetProvider>
 <Helmet>
         
-        <title>Team</title>
+        <title>AQuadic | Team</title>
         <link rel="canonical" href={`https://aquadic.com/team`}  />
         <meta
       name="description"
