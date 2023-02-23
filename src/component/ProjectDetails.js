@@ -232,9 +232,9 @@ function ProjectDetails(props) {
                       <img src="/images/overview/wep.svg" alt="" />
                     </div>
                     <h4>
-                      {" "}
+                      
                       {dataa[0].technologies.map((img) => (
-                        <span key={img.name}> {img.name + " ,"}</span>
+                        <span key={img.id}> {img.name[i18n.language] + "," }</span>
                       ))}
                     </h4>
                     <div className="g-img f-img">
@@ -275,8 +275,8 @@ function ProjectDetails(props) {
       <Container>
         {similar.length > 1 ? (
           <div className="look">
-            <h2>INTERESTED!</h2>
-            <h3 className="h3-look">Have a look on similar Projects</h3>
+            <h2>{t("portfolio.interested")}</h2>
+            <h3 className="h3-look">{t("portfolio.similar")}</h3>
             <div className="all-portfolio row">
               {similar
                 .filter((item) => {

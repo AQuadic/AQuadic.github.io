@@ -1,23 +1,68 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 import Forminfo from './Forminfo'
-import Job from './Job'
+import { useTranslation } from 'react-i18next';
+import {Container} from 'react-bootstrap'
+import jobs from '../data/jobs.json'
 
 function JobDetails() {
+    const { t ,i18n} = useTranslation();
+
+    const {id} = useParams()
+    const job = jobs.filter((job)=> job.id === +id)
+    console.log(job)
+    window.scrollTo(250, 250);
     return (
         <>
             <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">
                 <img src='/images/career.svg' alt='careers'/>
 
                 <div className='about-job'>
-                    <h3>Junior Mobile Developer - Flutter</h3>
+                    <h3>{job[0].name[i18n.language]}</h3>
                     <div className='job_info'>
-                        <p>Full Time</p>
+                        <p>{job[0].position[i18n.language]}</p>
                         <span>|</span>
-                        <p><img src='/images/icons/map_off2.svg' alt=''/> Alexandria, Egypt.</p>
+                        <p><img src='/images/icons/map_off2.svg' alt=''/>  {job[0].location[i18n.language]}</p>
                     </div>
                 </div>
             </div>
-            <Job/>
+
+             <div className='job'>
+            <Container>
+                {
+                    job[0].description[i18n.language].length ? 
+                    <div className='part1'>
+                    <h2>{t("career.job.description")}</h2>
+                    <ul>
+                        {
+                             job[0].description[i18n.language].map((item)=>
+                                <li>{item}</li>
+                             )
+                        }
+                       
+                    </ul>
+                </div>
+                    :null
+                }
+                {
+                     job[0].requirements[i18n.language].length ? 
+                      <div className='part2'>
+                     <h2>{t("career.job.requirements")}</h2>
+                     <ul>
+                     {
+                             job[0].requirements[i18n.language].map((item)=>
+                                <li>{item}</li>
+                             )
+                        }
+                        
+                        
+                     </ul>
+                 </div> :null
+                }
+
+               
+            </Container>
+        </div>
             <Forminfo/>
         </>
     )

@@ -37,8 +37,11 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeLay />}>
             <Route index element={<Home />} />
-            <Route path="career" element={<Career />} />
-            <Route path="job" element={<JobDetails />} />
+            <Route path="career">
+            <Route index element={<Career />} />
+            <Route path=":id" element={<JobDetails />} />
+            </Route>
+         
             <Route path="hosting" element={<Hosting />} />
             <Route path="time_model" element={<TimeModel />} />
             <Route path="team" element={<Team />} />

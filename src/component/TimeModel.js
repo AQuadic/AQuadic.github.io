@@ -2,9 +2,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Message from "./Message";
 import { useTranslation } from "react-i18next";
-
+import pricing from '../data/pricing.json'
 function TimeModel() {
-  const { t } = useTranslation();
+  const { t , i18n } = useTranslation();
 
   return (
     <div className="time">
@@ -13,31 +13,36 @@ function TimeModel() {
         <h2>{t("time_model.title")}</h2>
       </div>
       <Container className="row">
-        <div className="col-lg-3 col part_time">
-          <h2> {t("time_model.part1.title")}</h2>
-          <img src="/images/Time_Model/price_model.svg" alt="time model" />
-          <p>{t("time_model.part1.description")}</p>
-        </div>
-        <div className="col-lg-3 col part_time">
-          <h2>{t("time_model.part2.title")}</h2>
-          <img src="/images/Time_Model/time_model2.svg" alt="time model" />
-          <p>
-            {t("time_model.part2.description")}
-            <ul>
-              <li>{t("time_model.part2.list")}</li>
-            </ul>
-          </p>
-        </div>
-        <div className="col-lg-3 col part_time">
-          <h2>{t("time_model.part3.title")}</h2>
-          <img src="/images/Time_Model/team_model.svg"alt="time model" />
-          <p>
-            {t("time_model.part3.description")}
-            <ul>
-              <li>{t("time_model.part3.list")}</li>
-            </ul>
-          </p>
-        </div>
+        {
+          pricing.map((item )=> {
+            return (
+              <div className="col-lg-3 col part_time">
+              <h2>{item.name[i18n.language]}</h2>
+              <img src={item.image} alt={item.name.en} />
+              <p>
+                {item.description[i18n.language]}
+                {
+                  item.features[i18n.language] ? 
+                   <ul>
+                  {
+                    item.features[i18n.language].map((features)=> {
+                      return (
+                        <li>{features}</li>
+                      )
+                    })
+                  }
+                </ul> 
+                :null
+                }
+               
+              </p>
+            </div>
+            )
+          }
+          
+          )
+        }
+      
       </Container>
       <Message />
     </div>

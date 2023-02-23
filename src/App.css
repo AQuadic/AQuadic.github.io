@@ -2281,6 +2281,7 @@ html[dir="rtl"] .services .all-services .part img {
     font-size: 24px;
     line-height: 40px;
     margin: 44px auto 8px;
+    max-height: 190px;
 }
 
 .project_modal .modal-body .modal_title .modal_app {
@@ -2465,7 +2466,9 @@ html[dir="rtl"] .services .all-services .part img {
     align-items: center;
     justify-content: space-between;
 }
-
+html[dir=rtl] .pharm .row{
+flex-direction: row-reverse;
+}
 .pharm .about-pharm .title {
     display: flex;
     align-items: center;
@@ -2494,7 +2497,7 @@ html[dir="rtl"] .services .all-services .part img {
     line-height: 31px;
     color: #2E1F26;
     margin: 0px auto 25px;
-    max-height: 190px;
+   
     overflow: hidden;
 }
 

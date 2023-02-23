@@ -43,13 +43,20 @@
     "screens": "Screens",
     "try_it_now": "Try it now",
     "mobile": "Mobile",
-    "desktop": "Desktop"
+    "desktop": "Desktop",
+    "interested":"INTERESTED!",
+    "similar":"Have a look on similar Projects"
   },
   "technologies": {
     "title": "Technologies"
   },
   "services": {
-    "title": "Our Services"
+    "title": "Our Services",
+    "page":{
+      "process":"Process",
+      "ourCreative":"Our Creative",
+      "technologies":"Technologies"
+    }
   },
   "team": {
     "title": "Our People",
@@ -88,6 +95,7 @@
     "positions": {
       "title": "Open Positions",
       "learn_more": "Learn More",
+      "no_job":"No jobs currently available",
       "cant_see_position": {
         "title": "Can’t see a position that interests you?",
         "description": "Please send your CV and write the name of the position you are interested in. We’ll get in touch with you once we open a suitable role."

@@ -83,7 +83,7 @@ function Message() {
                 <li>
                   <a href="tel:+201101782890">
                     <img src="/images/icons/phone.svg" alt="" />
-                    <h5 className="und">(+20) 110 178 2890</h5>
+                    <h5 className="und" style={{direction:"ltr"}}>(+20) 110 178 2890</h5>
                   </a>
                 </li>
                 <li>

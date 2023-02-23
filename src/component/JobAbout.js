@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 function JobAbout() {
   // Language.
-  const {  i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const params = useParams();
 
@@ -48,7 +48,7 @@ function JobAbout() {
       item.services.map((id) => {
         if (id.id === +params.id) {
           type.push(id);
-          projects_services.push(item)
+          projects_services.push(item);
         }
       })
     );
@@ -58,12 +58,11 @@ function JobAbout() {
   const current_services = services.filter((item) => {
     return item.id === +params.id;
   });
-  
 
   const tech_info = current_services[0].technologies.filter((item) => {
     return item.id === tech;
   });
-console.log(current_services[0].process)
+  console.log(projects_services);
   return (
     <div className="jop-about">
       <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
@@ -72,7 +71,10 @@ console.log(current_services[0].process)
       </div>
       <div className="plan">
         <Container>
-          <h2>{current_services[0].name[i18n.language]} Process</h2>
+          <h2>
+            {current_services[0].name[i18n.language]}{" "}
+            {t("services.page.process")}
+          </h2>
           <div className="parts-plan">
             {current_services[0].process.map((processItem) => {
               return (
@@ -85,21 +87,14 @@ console.log(current_services[0].process)
                       <span></span>
                     </div>
                     <ul>
-                    {
-                    processItem.points[i18n.language].map((item)=>{
-                      return (
-                        <li> {item}</li>
-                      )
-                    })
-                    }
-                    
+                      {processItem.points[i18n.language].map((item) => {
+                        return <li> {item}</li>;
+                      })}
                     </ul>
                   </div>
                 </div>
               );
             })}
-
-            
           </div>
         </Container>
       </div>
@@ -107,7 +102,11 @@ console.log(current_services[0].process)
         <div className="our_creative">
           <Container>
             <div>
-              <h2 className="header-our"> Our Creative {current_services[0].name[i18n.language]}</h2>
+              <h2 className="header-our">
+                {" "}
+                {t("services.page.ourCreative")}{" "}
+                {current_services[0].name[i18n.language]}
+              </h2>
               <Slider {...settings}>
                 {projects_services.map((item) => {
                   return (
@@ -122,20 +121,16 @@ console.log(current_services[0].process)
                           />
                           <div className="about-pharm col-lg-6 col-md-6">
                             <div className="title">
-                              <img
-                                src={item.logo}
-                                alt="logo icon"
-                              />
-                              <h1>{item.name[i18n.language]}</h1>
+                              <img src={item.logo} alt="logo icon" />
+                              <h1 style={{ color: item.primary_color }}>
+                                {item.name[i18n.language]}
+                              </h1>
                             </div>
-                            <p className="text">
+                            <p className="text" style={{ maxHeight: "190px" }}>
                               {item.description[i18n.language]}
                             </p>
-                            <Link
-                            to={`/portfolio/${item.id}`}
-                              className="view"
-                            >
-                              <p>View Details</p>
+                            <Link to={`/portfolio/${item.id}`} className="view">
+                              <p>{t("portfolio.view_details")}</p>
                               <img src="/images/icons/arrow.svg" alt="" />
                             </Link>
                           </div>
@@ -149,55 +144,65 @@ console.log(current_services[0].process)
           </Container>
         </div>
       ) : null}
-
-      <div className="jop-tech">
-        <Container>
-          <h2>UI UX Technologies</h2>
-          <div className="all-part">
-            <div className="part1">
-              <div className="tech">
-                <h3>Design platforms</h3>
-                <div className="tech-img">
-                  <ul>
-                    {current_services[0].technologies.map((item) => {
-                      return (
-                        <li
-                          onClick={() => {
-                            settech(item.id);
-                          }}
-                        >
-                          <img src={item.logo} alt="" />
-                        </li>
-                      );
-                    })}
-                  </ul>
+      {current_services[0].technologies.length ? (
+        <div className="jop-tech">
+          <Container>
+            <h2>
+              {" "}
+              {current_services[0].name[i18n.language] +
+                " " +
+                t("services.page.technologies")}{" "}
+            </h2>
+            <div className="all-part">
+              <div className="part1">
+                <div className="tech">
+                  <h3>Design platforms</h3>
+                  <div className="tech-img">
+                    <ul>
+                      {current_services[0].technologies.map((item) => {
+                        return (
+                          <li
+                            onClick={() => {
+                              settech(item.id);
+                            }}
+                          >
+                            <img src={item.logo} alt="" />
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
                 </div>
               </div>
+              {tech_info.length > 0 ? (
+                <div className="part2">
+                  <img src={tech_info[0].logo} alt="" />
+                  <div className="about-tech">
+                    <h3>{tech_info[0].name[i18n.language]}</h3>
+                    <p>{tech_info[0].description[i18n.language]}</p>
+                  </div>
+                </div>
+              ) : (
+                <div className="part2">
+                  <img src={current_services[0].technologies[0].logo} alt="" />
+                  <div className="about-tech">
+                    <h3>
+                      {current_services[0].technologies[0].name[i18n.language]}
+                    </h3>
+                    <p>
+                      {
+                        current_services[0].technologies[0].description[
+                          i18n.language
+                        ]
+                      }
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
-            {tech_info.length > 0 ? (
-              <div className="part2">
-                <img src={tech_info[0].logo} alt="" />
-                <div className="about-tech">
-                  <h3>{tech_info[0].name[i18n.language]}</h3>
-                  <p>{tech_info[0].description[i18n.language]}</p>
-                </div>
-              </div>
-            ) : (
-              <div className="part2">
-                <img src="/images/technologies/xd1.svg" alt="" />
-                <div className="about-tech">
-                  <h3>Adobe xd</h3>
-                  <p>
-                    Adobe XD is a powerful and easy-to-use vector-based
-                    experience design platform that gives teams the tools they
-                    need to craft the world's best experiences collaboratively.
-                  </p>
-                </div>
-              </div>
-            )}
-          </div>
-        </Container>
-      </div>
+          </Container>
+        </div>
+      ) : null}
     </div>
   );
 }
