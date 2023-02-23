@@ -41,14 +41,14 @@ function ServiceDetails() {
     ],
   };
 
-  const type = [];
+ 
   const projects_services = [];
 
   const mob_data = () => {
     projects.map((item) =>
       item.services.map((id) => {
         if (id.id === +params.id) {
-          type.push(id);
+        
           projects_services.push(item);
         }
       })
@@ -63,7 +63,6 @@ function ServiceDetails() {
   const tech_info = current_services[0].technologies.filter((item) => {
     return item.id === tech;
   });
-  console.log(projects_services);
   return (
     <div className="jop-about">
       <HelmetProvider>
@@ -108,7 +107,7 @@ function ServiceDetails() {
             </div>
           </Container>
         </div>
-        {type.length > 0 ? (
+        {projects_services.length > 0 ? (
           <div className="our_creative">
             <Container>
               <div>
