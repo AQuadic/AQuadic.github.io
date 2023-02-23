@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap'
 import { useTranslation } from 'react-i18next';
 
 function Join() {
-    const { t, i18n } = useTranslation();
+    const { t} = useTranslation();
 
     return (
         <div className='join'>

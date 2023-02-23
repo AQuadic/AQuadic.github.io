@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap'
 import { useTranslation } from 'react-i18next';
 
 function Advantages() {
-    const { t, i18n } = useTranslation();
+    const { t} = useTranslation();
 
     return (
         <Container>

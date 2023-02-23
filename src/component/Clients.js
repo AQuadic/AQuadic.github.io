@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap'
 import { useTranslation } from 'react-i18next';
 import projects from '../data/projects.json'
 function Clients() {
-    const { t, i18n } = useTranslation();
+    const { t} = useTranslation();
     return (
         <Container className='clients'>
             <h2 data-aos="fade-up" data-aos-delay="0">{t("home.clients.title")}</h2>

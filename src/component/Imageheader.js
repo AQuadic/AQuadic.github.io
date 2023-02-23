@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 
 function Imageheader() {
-    const { t, i18n } = useTranslation();
+    const { t} = useTranslation();
 
     return (
         <div className='imageheader ' data-aos="zoom-in-up" data-aos-delay="50">

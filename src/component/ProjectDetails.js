@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {  useRef, useState } from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import { useParams } from "react-router-dom";
