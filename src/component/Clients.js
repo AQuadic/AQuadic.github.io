@@ -11,8 +11,8 @@ function Clients() {
             <div className='row'>
                 {
                     projects.map((projectLogo)=>
-                    <div data-aos="fade-up" data-aos-delay="0" className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                    <img src={projectLogo.logo} alt='reaya'/>
+                    <div data-aos="fade-up" data-aos-delay={projectLogo.id * 50} className='col-lg-2 col-md-3 col-sm-4 col-6'>
+                    <img src={projectLogo.logo} alt={projectLogo.name}/>
                 </div>
                     )
                 }

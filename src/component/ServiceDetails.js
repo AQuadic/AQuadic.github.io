@@ -7,7 +7,7 @@ import services from "../data/services.json";
 import { useTranslation } from "react-i18next";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-function JobAbout() {
+function ServiceDetails() {
   // Language.
   const { t, i18n } = useTranslation();
 
@@ -68,7 +68,7 @@ function JobAbout() {
     <div className="jop-about">
       <HelmetProvider>
         <Helmet>
-          <title>Job About</title>
+          <title>Service Details</title>
           <link rel="canonical" href={`https://aquadic.com/service/${params.id}`} />
           <meta
             name="description"
@@ -231,4 +231,4 @@ function JobAbout() {
   );
 }
 
-export default JobAbout;
+export default ServiceDetails;

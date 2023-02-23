@@ -18,7 +18,7 @@ import PoTa from "./component/PoTa";
 import HomeLay from "./component/HomeLay";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import JobAbout from "./component/JobAbout";
+import ServiceDetails from "./component/ServiceDetails";
 
 function App() {
   const { i18n } = useTranslation();
@@ -50,7 +50,7 @@ function App() {
               <Route index element={<Portfolio data={data} />} />
               <Route path=":id" element={<ProjectDetails data={data} />} />
             </Route>
-            <Route path="service/:id" element={<JobAbout />} />
+            <Route path="service/:id" element={<ServiceDetails />} />
           </Route>
         </Routes>
       </BrowserRouter>
