@@ -68,7 +68,7 @@ function ProjectModal(props) {
                   const link = currentProject.links[key];
                   const img = `/images/apps/${key}.svg`;
                   return link ? (
-                    <a target={"_blank"} href={link} rel="noreferrer">
+                    <a target={"_blank"} href={link} rel="noreferrer" key={currentProject.id}>
                       <img src={img} alt={key} />
                     </a>
                   ) : null;

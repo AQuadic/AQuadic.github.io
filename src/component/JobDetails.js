@@ -10,7 +10,7 @@ function JobDetails() {
     const { t ,i18n} = useTranslation();
 
     const {id} = useParams()
-    const job = jobs.filter((job)=> job.id === +id)
+    const job = jobs.find((job)=> job.id === +id)
     console.log(job)
     window.scrollTo(250, 250);
     return (
@@ -29,11 +29,11 @@ function JobDetails() {
                 <img src='/images/career.svg' alt='careers'/>
 
                 <div className='about-job'>
-                    <h3>{job[0].name[i18n.language]}</h3>
+                    <h3>{job.name[i18n.language]}</h3>
                     <div className='job_info'>
-                        <p>{job[0].position[i18n.language]}</p>
+                        <p>{job.position[i18n.language]}</p>
                         <span>|</span>
-                        <p><img src='/images/icons/map_off2.svg' alt=''/>  {job[0].location[i18n.language]}</p>
+                        <p><img src='/images/icons/map_off2.svg' alt=''/>  {job.location[i18n.language]}</p>
                     </div>
                 </div>
             </div>
@@ -41,12 +41,12 @@ function JobDetails() {
              <div className='job'>
             <Container>
                 {
-                    job[0].description[i18n.language].length ? 
+                    job.description[i18n.language].length ? 
                     <div className='part1'>
                     <h2>{t("career.job.description")}</h2>
                     <ul>
                         {
-                             job[0].description[i18n.language].map((item)=>
+                             job.description[i18n.language].map((item)=>
                                 <li>{item}</li>
                              )
                         }
@@ -56,12 +56,12 @@ function JobDetails() {
                     :null
                 }
                 {
-                     job[0].requirements[i18n.language].length ? 
+                     job.requirements[i18n.language].length ? 
                       <div className='part2'>
                      <h2>{t("career.job.requirements")}</h2>
                      <ul>
                      {
-                             job[0].requirements[i18n.language].map((item)=>
+                             job.requirements[i18n.language].map((item)=>
                                 <li>{item}</li>
                              )
                         }

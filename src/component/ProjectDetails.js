@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import all_data from "../data/projects.json";
+
 import data from "../data/projects.json";
 import ProjectModal from "./ProjectModal";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
@@ -66,36 +66,26 @@ function ProjectDetails(props) {
       },
     ],
   };
+
   const btn1 = useRef();
   const btn2 = useRef();
   const { id } = useParams();
-  const [similar, setsimilar] = useState();
-  const [type_show, settype_show] = useState("images_mobile");
-  const [dataa, setdataa] = useState();
-  const params=id ? id : 0;
-  const gettarget = () => {
-    if (params !== 0) {
-      const get = data.filter((item) => item.id === +id);
-      setdataa(get);
-      const sim = all_data.filter(
-        (data) => data.category.id === get[0].category.id
-      );
-      setsimilar(sim);
-    }
-  };
-
  
-  useEffect(() => {
-    gettarget();
-  }, [,id]);
-  const [currentProject, setCurrentProject] = useState(all_data[0]);
+  const [type_show, settype_show] = useState("images_mobile");
 
-  return dataa ? (
+const project = data.find((project) => project.id === +id);
+
+const similarProject = data.filter((item)=> item.category.id === +project.category.id)
+
+  //when ckick on project sent data this target project to projectModal
+  const [currentProject, setCurrentProject] = useState(data[0]);
+
+  return project ? (
     <div className="target-project">
   <HelmetProvider>
 <Helmet>
         
-        <title> AQuadic | {dataa[0].name[i18n.language]}</title>
+        <title> AQuadic | {project.name[i18n.language]}</title>
         <link rel="canonical" href={`https://aquadic.com/portfolio/${id}`}  />
         <meta
       name="description"
@@ -109,22 +99,22 @@ function ProjectDetails(props) {
             <div className="about-pharm col-lg-6 col-md-6">
               <div className="title">
                 <img
-                  src={dataa[0].logo}
+                  src={project.logo}
                   alt="logo icon"
                   height="150px"
                   width="150px"
                 />
-                <h1 style={{ color: dataa[0].primary_color }}>
-                  {dataa[0].name[i18n.language]}
+                <h1 style={{ color: project.primary_color }}>
+                  {project.name[i18n.language]}
                 </h1>
               </div>
 
-              <p className="text">{dataa[0].description[i18n.language]}</p>
+              <p className="text">{project.description[i18n.language]}</p>
               <p className="tryit">{t("portfolio.try_it_now")}</p>
 
               <ul className="go-app">
-                {Object.keys(dataa[0].links).map(function (key) {
-                  const link = dataa[0].links[key];
+                {Object.keys(project.links).map(function (key) {
+                  const link = project.links[key];
                   const img = `/images/apps/${key}.svg`;
                   return link ? (
                     <li key={key}>
@@ -138,7 +128,7 @@ function ProjectDetails(props) {
             </div>
 
             <img
-              src={dataa[0].main_image}
+              src={project.main_image}
               className="img-pharm col-lg-5 col-md-6 col-sm-9"
               data-aos="zoom-in"
               alt="Group"
@@ -150,8 +140,8 @@ function ProjectDetails(props) {
           <h2>{t("portfolio.screens")}</h2>
 
           <div className="btn-testimonials2">
-            {dataa[0].images_mobile ? (
-              dataa[0].images_desktop ? (
+            {project.images_mobile ? (
+              project.images_desktop ? (
                 <>
                   <button
                     ref={btn1}
@@ -181,9 +171,9 @@ function ProjectDetails(props) {
               )
             ) : null}
           </div>
-          {dataa[0].images_mobile && dataa[0].images_desktop ? (
+          {project.images_mobile && project.images_desktop ? (
             <Slider {...settings}>
-              {dataa[0][type_show].map((img_url) => {
+              {project[type_show].map((img_url) => {
                 return (
                   <div key={img_url}>
                     <img src={img_url} alt="logo icon" />
@@ -191,9 +181,9 @@ function ProjectDetails(props) {
                 );
               })}
             </Slider>
-          ) : dataa[0].images_mobile ? (
+          ) : project.images_mobile ? (
             <Slider {...settings}>
-              {dataa[0].images_mobile.map((img_url) => {
+              {project.images_mobile.map((img_url) => {
                 return (
                   <div key={img_url}>
                     <img src={img_url} alt="logo icon" />
@@ -201,9 +191,9 @@ function ProjectDetails(props) {
                 );
               })}
             </Slider>
-          ) : dataa[0].images_desktop ? (
+          ) : project.images_desktop ? (
             <Slider {...settings}>
-              {dataa[0].images_desktop.map((img_url) => {
+              {project.images_desktop.map((img_url) => {
                 return (
                   <div key={img_url}>
                     <img src={img_url} alt="logo icon" />
@@ -246,12 +236,12 @@ function ProjectDetails(props) {
                     </div>
                     <h4>
                       
-                      {dataa[0].technologies.map((img) => (
+                      {project.technologies.map((img) => (
                         <span key={img.id}> {img.name[i18n.language] + "," }</span>
                       ))}
                     </h4>
                     <div className="g-img f-img">
-                      {dataa[0].technologies.map((img) => (
+                      {project.technologies.map((img) => (
                         <img key={img.id} src={img.logo} alt={img.name} />
                       ))}
                     </div>
@@ -286,12 +276,12 @@ function ProjectDetails(props) {
       </div>
 
       <Container>
-        {similar.length > 1 ? (
+        {similarProject.length > 1 ? (
           <div className="look">
             <h2>{t("portfolio.interested")}</h2>
             <h3 className="h3-look">{t("portfolio.similar")}</h3>
             <div className="all-portfolio row">
-              {similar
+              {similarProject
                 .filter((item) => {
                   return item.id !== +id;
                 })
