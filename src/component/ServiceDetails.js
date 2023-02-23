@@ -42,24 +42,18 @@ function ServiceDetails() {
   };
 
  
-  const projects_services = [];
-
-  const mob_data = () => {
-    projects.map((item) =>
-      item.services.map((id) => {
-        if (id.id === +params.id) {
-        
-          projects_services.push(item);
-        }
-      })
-    );
-  };
-  mob_data();
 
   const current_services = services.find((item)=> item.id === +params.id)
 
   const tech_info = current_services.technologies.find((item) => item.id === tech);
  
+
+  const projects_services = projects.filter((item)=> item.services.find((item)=> item.id === +params.id ))
+ 
+  
+  
+
+
   return (
     <div className="jop-about">
       <HelmetProvider>
