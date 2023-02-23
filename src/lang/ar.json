@@ -45,7 +45,15 @@
     "mobile": "الهاتف",
     "desktop": "الحاسوب",
     "interested":"المهتمه!",
-    "similar":"ألق نظرة على مشاريع مماثلة"
+    "similar":"ألق نظرة على مشاريع مماثلة",
+    "overview":{
+      "title":"نظره عامه",
+      "scope":"نطاق",
+      "admin":"المكتب الخلفي الإداري",
+      "technology":"التقنية",
+      "team":"فريق",
+      "duration":"مدة"
+    }
   },
   "technologies": {
     "title": "التقنيات"

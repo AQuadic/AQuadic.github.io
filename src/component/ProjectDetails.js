@@ -217,19 +217,19 @@ function ProjectDetails(props) {
 
       <div className="over">
         <div className="container">
-          <h2>OverView</h2>
+          <h2>{t("portfolio.overview.title")}</h2>
           <div className="over-about">
             <div className=" part part1">
-              <h3>Scope</h3>
+              <h3>{t("portfolio.overview.scope")}</h3>
               <div className="one ">
                 <div className="one1 page ">
                   <img src="/images/overview/phone.svg" alt="phone" />
-                  <h4>Mobile</h4>
+                  <h4>{t("portfolio.mobile")}</h4>
                   <p>our platform is mobile cuz user of the project</p>
                 </div>
                 <div className="one2 page">
                   <img src="/images/overview/wep.svg" alt="phone" />
-                  <h4>Admin Back Office</h4>
+                  <h4>{t("portfolio.overview.admin")}</h4>
                   <p>our platform is mobile cuz user of the project</p>
                 </div>
               </div>
@@ -238,7 +238,7 @@ function ProjectDetails(props) {
             <div className="part part2">
               <div className="to">
                 <div className="to1">
-                  <h3>Technology</h3>
+                  <h3>{t("portfolio.overview.technology")}</h3>
                   <div className="about-part page">
                     <div className="g-img">
                       <img src="/images/overview/phone.svg" alt="" />
@@ -259,7 +259,7 @@ function ProjectDetails(props) {
                 </div>
 
                 <div className="to2 ">
-                  <h3>Team</h3>
+                  <h3>{t("portfolio.overview.team")}</h3>
                   <div className="about-part page">
                     <div className="g-img">
                       <img src="/images/overview/team.svg" alt="" />
@@ -270,7 +270,7 @@ function ProjectDetails(props) {
                 </div>
 
                 <div className="to3 ">
-                  <h3>Duration</h3>
+                  <h3>{t("portfolio.overview.duration")}</h3>
                   <div className="about-part page">
                     <div className="g-img">
                       <img src="/images/overview/time.svg" alt="" />

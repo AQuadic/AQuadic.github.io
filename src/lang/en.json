@@ -45,7 +45,15 @@
     "mobile": "Mobile",
     "desktop": "Desktop",
     "interested":"INTERESTED!",
-    "similar":"Have a look on similar Projects"
+    "similar":"Have a look on similar Projects",
+    "overview":{
+      "title":"OverView",
+      "scope":"Scope",
+      "admin":"Admin Back Office",
+      "technology":"Technology",
+      "team":"Team",
+      "duration":"Duration"
+    }
   },
   "technologies": {
     "title": "Technologies"
