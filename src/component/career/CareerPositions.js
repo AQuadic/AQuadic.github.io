@@ -17,13 +17,13 @@ function CareerPositions() {
                         jobs.map((job) =>
                             <div className="job">
                                 <div className="about-job">
-                                    <h3>{job.name[i18n.language]}</h3>
+                                    <h3>{job.name[i18n.resolvedLanguage]}</h3>
                                     <div className="job_info">
-                                        <p>{job.position[i18n.language]}</p>
+                                        <p>{job.position[i18n.resolvedLanguage]}</p>
                                         <span>|</span>
                                         <p>
                                             <img src="/images/icons/map_off.svg" alt=""/>
-                                            {job.location[i18n.language]}
+                                            {job.location[i18n.resolvedLanguage]}
                                         </p>
                                     </div>
                                 </div>

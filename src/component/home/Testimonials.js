@@ -81,15 +81,14 @@ function Testimonials() {
                 <Slider {...settings}>
                     {
                         testimonials.map((item) =>
-
-                            <div className="card-tes">
+                            <div className="card-tes" key={item.id}>
                                 <div className="card-info">
                                     <img
                                         src={item.image}
-                                        alt={item.name[i18n.language]}/>
+                                        alt={item.name[i18n.resolvedLanguage]}/>
                                     <div className="info-user">
-                                        <h3>{item.name[i18n.language]}</h3>
-                                        <h4>{item.position[i18n.language]}</h4>
+                                        <h3>{item.name[i18n.resolvedLanguage]}</h3>
+                                        <h4>{item.position[i18n.resolvedLanguage]}</h4>
                                     </div>
                                 </div>
                                 <p>
@@ -98,9 +97,8 @@ function Testimonials() {
                                         readMoreText={"See More "}
                                         readLessText={"Read less ▲"}
                                     >
-                                        {item.description[i18n.language]}
+                                        {item.description[i18n.resolvedLanguage]}
                                     </ReactReadMoreReadLess>
-
                                 </p>
                             </div>
                         )

@@ -29,15 +29,15 @@ function Pricing() {
                         pricing.map((item) => {
                                 return (
                                     <div className="col-lg-3 col part_time">
-                                        <h2>{item.name[i18n.language]}</h2>
+                                        <h2>{item.name[i18n.resolvedLanguage]}</h2>
                                         <img src={item.image} alt={item.name.en}/>
                                         <p>
-                                            {item.description[i18n.language]}
+                                            {item.description[i18n.resolvedLanguage]}
                                             {
-                                                item.features[i18n.language] ?
+                                                item.features[i18n.resolvedLanguage] ?
                                                     <ul>
                                                         {
-                                                            item.features[i18n.language].map((features) => {
+                                                            item.features[i18n.resolvedLanguage].map((features) => {
                                                                 return (
                                                                     <li>{features}</li>
                                                                 )

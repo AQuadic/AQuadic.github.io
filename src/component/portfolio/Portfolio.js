@@ -54,9 +54,9 @@ function Portfolio() {
                                         data-bs-target="#exampleModalLong"
                                         onClick={() => setCurrentProject(proj)}
                                     >
-                                        <h3>{proj.name[i18n.language]}</h3>
-                                        <p>{proj.category.name[i18n.language]}</p>
-                                        <img src={proj.main_image} alt={proj.name[i18n.language]}/>
+                                        <h3>{proj.name[i18n.resolvedLanguage]}</h3>
+                                        <p>{proj.category.name[i18n.resolvedLanguage]}</p>
+                                        <img src={proj.main_image} alt={proj.name[i18n.resolvedLanguage]}/>
                                     </div>
                                 )
                             })

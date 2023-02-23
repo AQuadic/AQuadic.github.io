@@ -54,7 +54,7 @@ function ServiceDetails() {
         <div className="jop-about">
             <HelmetProvider>
                 <Helmet>
-                    <title>AQuadic | {current_services.name[i18n.language]}</title>
+                    <title>AQuadic | {current_services.name[i18n.resolvedLanguage]}</title>
                     <link rel="canonical" href={`https://aquadic.com/service/${params.id}`}/>
                     <meta
                         name="description"
@@ -63,12 +63,12 @@ function ServiceDetails() {
                 </Helmet>
                 <div className="imageheader " data-aos="zoom-in-up" data-aos-delay="50">
                     <img src="/images/header/header_part_5.svg" alt="careers"/>
-                    <h2>{current_services.name[i18n.language]}</h2>
+                    <h2>{current_services.name[i18n.resolvedLanguage]}</h2>
                 </div>
                 <div className="plan">
                     <Container>
                         <h2>
-                            {current_services.name[i18n.language]}{" "}
+                            {current_services.name[i18n.resolvedLanguage]}{" "}
                             {t("services.page.process")}
                         </h2>
                         <div className="parts-plan">
@@ -77,13 +77,13 @@ function ServiceDetails() {
                                     <div className="part-plan">
                                         <h3>{processItem.id}</h3>
                                         <div className="plan-about">
-                                            <h4>{processItem.name[i18n.language]}</h4>
+                                            <h4>{processItem.name[i18n.resolvedLanguage]}</h4>
                                             <div className="plan-span">
                                                 <span></span>
                                                 <span></span>
                                             </div>
                                             <ul>
-                                                {processItem.points[i18n.language].map((item) => {
+                                                {processItem.points[i18n.resolvedLanguage].map((item) => {
                                                     return <li> {item}</li>;
                                                 })}
                                             </ul>
@@ -101,7 +101,7 @@ function ServiceDetails() {
                                 <h2 className="header-our">
                                     {" "}
                                     {t("services.page.ourCreative")}{" "}
-                                    {current_services.name[i18n.language]}
+                                    {current_services.name[i18n.resolvedLanguage]}
                                 </h2>
                                 <Slider {...settings}>
                                     {projects_services.map((item) => {
@@ -119,14 +119,14 @@ function ServiceDetails() {
                                                             <div className="title">
                                                                 <img src={item.logo} alt="logo icon"/>
                                                                 <h1 style={{color: item.primary_color}}>
-                                                                    {item.name[i18n.language]}
+                                                                    {item.name[i18n.resolvedLanguage]}
                                                                 </h1>
                                                             </div>
                                                             <p
                                                                 className="text"
                                                                 style={{maxHeight: "190px"}}
                                                             >
-                                                                {item.description[i18n.language]}
+                                                                {item.description[i18n.resolvedLanguage]}
                                                             </p>
                                                             <Link
                                                                 to={`/portfolio/${item.id}`}
@@ -151,19 +151,19 @@ function ServiceDetails() {
                         <Container>
                             <h2>
                                 {" "}
-                                {current_services.name[i18n.language] +
+                                {current_services.name[i18n.resolvedLanguage] +
                                     " " +
                                     t("services.page.technologies")}{" "}
                             </h2>
                             <div className="all-part">
                                 <div className="part1">
                                     <div className="tech">
-                                        <h3>{current_services.name[i18n.language]} {t("services.page.platforms")}</h3>
+                                        <h3>{current_services.name[i18n.resolvedLanguage]} {t("services.page.platforms")}</h3>
                                         <div className="tech-img">
                                             <ul>
                                                 {current_services.technologies.map((item) => {
                                                     return (
-                                                        <li
+                                                        <li key={item.id}
                                                             onClick={() => {
                                                                 settech(item.id);
                                                             }}
@@ -180,8 +180,8 @@ function ServiceDetails() {
                                     <div className="part2">
                                         <img src={tech_info.logo} alt=""/>
                                         <div className="about-tech">
-                                            <h3>{tech_info.name[i18n.language]}</h3>
-                                            <p>{tech_info.description[i18n.language]}</p>
+                                            <h3>{tech_info.name[i18n.resolvedLanguage]}</h3>
+                                            <p>{tech_info.description[i18n.resolvedLanguage]}</p>
                                         </div>
                                     </div>
                                 ) : (
@@ -194,14 +194,14 @@ function ServiceDetails() {
                                             <h3>
                                                 {
                                                     current_services.technologies[0].name[
-                                                        i18n.language
+                                                        i18n.resolvedLanguage
                                                         ]
                                                 }
                                             </h3>
                                             <p>
                                                 {
                                                     current_services.technologies[0].description[
-                                                        i18n.language
+                                                        i18n.resolvedLanguage
                                                         ]
                                                 }
                                             </p>

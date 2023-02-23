@@ -28,8 +28,8 @@ function Services() {
                                 }}
                             >
                                 <img src={service.image} alt=""/>
-                                <h3> {service.name[i18n.language]}</h3>
-                                <p>{service.description[i18n.language]}</p>
+                                <h3> {service.name[i18n.resolvedLanguage]}</h3>
+                                <p>{service.description[i18n.resolvedLanguage]}</p>
                             </div>
                         );
                     })}

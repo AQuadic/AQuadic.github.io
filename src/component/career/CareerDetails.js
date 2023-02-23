@@ -16,7 +16,7 @@ function CareerDetails() {
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>AQuadic | {job.name[i18n.language]}</title>
+                    <title>AQuadic | {job.name[i18n.resolvedLanguage]}</title>
                     <link rel="canonical" href={`https://aquadic.com/career/${id}`}/>
                     <meta
                         name="description"
@@ -27,11 +27,11 @@ function CareerDetails() {
                 <div className='imageheader' data-aos="zoom-in-up" data-aos-delay="50">
                     <img src='/images/career.svg' alt='careers'/>
                     <div className='about-job'>
-                        <h3>{job.name[i18n.language]}</h3>
+                        <h3>{job.name[i18n.resolvedLanguage]}</h3>
                         <div className='job_info'>
-                            <p>{job.position[i18n.language]}</p>
+                            <p>{job.position[i18n.resolvedLanguage]}</p>
                             <span>|</span>
-                            <p><img src='/images/icons/map_off2.svg' alt=''/> {job.location[i18n.language]}</p>
+                            <p><img src='/images/icons/map_off2.svg' alt=''/> {job.location[i18n.resolvedLanguage]}</p>
                         </div>
                     </div>
                 </div>
@@ -39,12 +39,12 @@ function CareerDetails() {
                 <div className='job'>
                     <Container>
                         {
-                            job.description[i18n.language].length ?
+                            job.description[i18n.resolvedLanguage].length ?
                                 <div className='part1'>
                                     <h2>{t("career.job.description")}</h2>
                                     <ul>
                                         {
-                                            job.description[i18n.language].map((item) =>
+                                            job.description[i18n.resolvedLanguage].map((item) =>
                                                 <li>{item}</li>
                                             )
                                         }
@@ -54,12 +54,12 @@ function CareerDetails() {
                                 : null
                         }
                         {
-                            job.requirements[i18n.language].length ?
+                            job.requirements[i18n.resolvedLanguage].length ?
                                 <div className='part2'>
                                     <h2>{t("career.job.requirements")}</h2>
                                     <ul>
                                         {
-                                            job.requirements[i18n.language].map((item) =>
+                                            job.requirements[i18n.resolvedLanguage].map((item) =>
                                                 <li>{item}</li>
                                             )
                                         }

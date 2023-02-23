@@ -37,9 +37,9 @@ function Projects() {
                                     setCurrentProject(data);
                                 }}
                             >
-                                <h3>{data.name[i18n.language]}</h3>
-                                <p>{data.category.name[i18n.language]}</p>
-                                <img src={data.main_image} alt={data.name[i18n.language]}/>
+                                <h3>{data.name[i18n.resolvedLanguage]}</h3>
+                                <p>{data.category.name[i18n.resolvedLanguage]}</p>
+                                <img src={data.main_image} alt={data.name[i18n.resolvedLanguage]}/>
                             </div>
                         );
                     })}

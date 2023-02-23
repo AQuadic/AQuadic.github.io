@@ -85,7 +85,7 @@ function ProjectDetails(props) {
             <HelmetProvider>
                 <Helmet>
 
-                    <title> AQuadic | {project.name[i18n.language]}</title>
+                    <title> AQuadic | {project.name[i18n.resolvedLanguage]}</title>
                     <link rel="canonical" href={`https://aquadic.com/portfolio/${id}`}/>
                     <meta
                         name="description"
@@ -105,11 +105,11 @@ function ProjectDetails(props) {
                                         width="150px"
                                     />
                                     <h1 style={{color: project.primary_color}}>
-                                        {project.name[i18n.language]}
+                                        {project.name[i18n.resolvedLanguage]}
                                     </h1>
                                 </div>
 
-                                <p className="text">{project.description[i18n.language]}</p>
+                                <p className="text">{project.description[i18n.resolvedLanguage]}</p>
                                 <p className="tryit">{t("portfolio.try_it_now")}</p>
 
                                 <ul className="go-app">
@@ -237,7 +237,7 @@ function ProjectDetails(props) {
                                             <h4>
 
                                                 {project.technologies.map((img) => (
-                                                    <span key={img.id}> {img.name[i18n.language] + ","}</span>
+                                                    <span key={img.id}> {img.name[i18n.resolvedLanguage] + ","}</span>
                                                 ))}
                                             </h4>
                                             <div className="g-img f-img">
@@ -299,11 +299,11 @@ function ProjectDetails(props) {
                                                     setCurrentProject(data);
                                                 }}
                                             >
-                                                <h3>{data.name[i18n.language]}</h3>
-                                                <p>{data.category.name[i18n.language]}</p>
+                                                <h3>{data.name[i18n.resolvedLanguage]}</h3>
+                                                <p>{data.category.name[i18n.resolvedLanguage]}</p>
                                                 <img
                                                     src={data.main_image}
-                                                    alt={data.name[i18n.language]}
+                                                    alt={data.name[i18n.resolvedLanguage]}
                                                 />
                                             </div>
                                         );

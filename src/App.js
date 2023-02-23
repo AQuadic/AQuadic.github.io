@@ -22,10 +22,8 @@ import ServiceDetails from "./component/service/ServiceDetails";
 function App() {
     const {i18n} = useTranslation();
     useEffect(() => {
-        i18n.language === "ar"
-            ? (window.document.dir = "rtl")
-            : (window.document.dir = "ltr");
-    }, [i18n.language]);
+        window.document.dir = i18n.dir();
+    }, [i18n.resolvedLanguage]);
 
     AOS.init();
 

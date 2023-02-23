@@ -30,8 +30,8 @@ function Hosting() {
                         <div className="about_host">
                             <img src={hosting[0].image} alt=""/>
                             <div className="info_host">
-                                <h2>{hosting[0].name[i18n.language]}</h2>
-                                <p>{hosting[0].description[i18n.language]}</p>
+                                <h2>{hosting[0].name[i18n.resolvedLanguage]}</h2>
+                                <p>{hosting[0].description[i18n.resolvedLanguage]}</p>
                             </div>
                         </div>
                         <a target={"_blank"} rel="noreferrer" href={hosting[0].url}>

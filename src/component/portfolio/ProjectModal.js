@@ -43,7 +43,7 @@ function ProjectModal(props) {
                         <div className="modal_img">
                             <img
                                 src={currentProject.main_image}
-                                alt={currentProject.name[i18n.language]}
+                                alt={currentProject.name[i18n.resolvedLanguage]}
                             />
                             <img
                                 className="back_img"
@@ -53,8 +53,8 @@ function ProjectModal(props) {
                         </div>
 
                         <div className="modal_title">
-                            <h2>{currentProject.name[i18n.language]}</h2>
-                            <p className="dec_modal">{currentProject.description[i18n.language]}</p>
+                            <h2>{currentProject.name[i18n.resolvedLanguage]}</h2>
+                            <p className="dec_modal">{currentProject.description[i18n.resolvedLanguage]}</p>
 
                             <div data-bs-dismiss="modal" className="close view">
                                 <Link to={`/portfolio/${currentProject.id}`} className="view">

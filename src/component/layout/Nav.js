@@ -7,11 +7,11 @@ import {useTranslation} from 'react-i18next';
 function Nav() {
     const {t, i18n} = useTranslation();
     const changeLang = () => {
-        i18n.language === "en" ? i18n.changeLanguage('ar') : i18n.changeLanguage('en')
+        i18n.resolvedLanguage === "en" ? i18n.changeLanguage('ar') : i18n.changeLanguage('en')
     }
 
-    const lang = i18n.language === "ar" ? "English" : "العربية";
-    const langs = i18n.language === "ar" ? "EN" : "ع";
+    const lang = i18n.resolvedLanguage === "ar" ? "English" : "العربية";
+    const langs = i18n.resolvedLanguage === "ar" ? "EN" : "ع";
 
     return (
         <section className="con ">
