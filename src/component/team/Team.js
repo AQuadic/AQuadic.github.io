@@ -1,14 +1,21 @@
-import React from "react";
+import React,{useState} from "react";
 import {Container} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
 import Message from "../Message";
 import {useTranslation} from "react-i18next";
 import {Helmet, HelmetProvider} from 'react-helmet-async';
-
+import team from '../../data/team.json'
 function Team() {
-    const {t} = useTranslation();
+    const {t,i18n} = useTranslation();
 
     const navigate = useNavigate();
+
+     //when click on project sent data this target project to projectModal
+     const [currentProject, setCurrentProject] = useState();
+
+     const leader = team.filter((item)=> item.type === "leadership")
+     const creative = team.filter((item)=> item.type === "creative")
+ 
     return (
         <div className="team">
             <HelmetProvider>
@@ -35,33 +42,22 @@ function Team() {
                             <p>{t("team.leadership.description")}</p>
                         </div>
                         <div className="about_team ">
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img bink">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>Backend Developer</p>
-                                </div>
-                            </div>
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img blue">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>UI UX Designer</p>
-                                </div>
-                            </div>
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img orange">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>Frontend Developer</p>
-                                </div>
-                            </div>
+{
+    leader.map((item)=>
+    <div className="person " onClick={() => navigate(`${item.id}`)}>
+    <div className={`person_img  ${item.class}` }>
+        <img src={item.image} alt={item.name[i18n.language]}/>
+    </div>
+    <div className="person_name">
+        <h3>{item.name[i18n.language]}</h3>
+        <p>{item.position[i18n.language]}</p>
+    </div>
+</div>
+
+    )
+}
+
+                            
                         </div>
                     </div>
                     <div className="part  part2">
@@ -70,60 +66,22 @@ function Team() {
                             <p>{t("team.creative.description")}</p>
                         </div>
                         <div className="about_team ">
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img bink">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>Backend Developer</p>
-                                </div>
-                            </div>
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img blue">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>UI UX Designer</p>
-                                </div>
-                            </div>
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img orange">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>Frontend Developer</p>
-                                </div>
-                            </div>
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img bink">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>Frontend Developer</p>
-                                </div>
-                            </div>
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img blue">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>Frontend Developer</p>
-                                </div>
-                            </div>
-                            <div className="person " onClick={() => navigate("/person")}>
-                                <div className="person_img orange">
-                                    <img src="/images/team/person_img.svg" alt="person_img"/>
-                                </div>
-                                <div className="person_name">
-                                    <h3>Person Name</h3>
-                                    <p>Frontend Developer</p>
-                                </div>
-                            </div>
+
+{
+    creative.map((item)=>
+    <div className="person " onClick={() => navigate(`${item.id}`)}>
+    <div className={`person_img  ${item.class}` }>
+        <img src={item.image} alt={item.name[i18n.language]}/>
+    </div>
+    <div className="person_name">
+    <h3>{item.name[i18n.language]}</h3>
+        <p>{item.position[i18n.language]}</p>
+    </div>
+</div>
+    )
+}
+
+                         
                         </div>
                     </div>
                 </Container>

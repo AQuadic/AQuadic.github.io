@@ -14,7 +14,7 @@
     "heading": {
       "part1": "We help",
       "red": "Business",
-      "part2": "in their\ndesign & development journey.",
+      "part2": "in their\t\ndesign & development journey.",
       "description": "Design and digital product development company. We create beautiful and functional web platforms, apps, and custom software solutions."
     },
     "about": {
@@ -71,6 +71,7 @@
     "title": "Our People",
     "description": "This is our team, a lot of smiling happy people who work hard to empower your Project.",
     "worked_on": "Projects that have been worked on",
+   
     "leadership": {
       "title": "Our leadership team",
       "description": "With over 100 years of combined experience, we've got a well-seasoned team at the helm."

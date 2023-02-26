@@ -1,5 +1,426 @@
 [
-  "Coming Soon",
-  "type: leadership, creative",
-  "single: name,position,description,projects"
+
+  {
+    "id": 1,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Backend Developer",
+      "ar": "مطور الواجهة الخلفية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        "id": 1,
+        "name": {
+          "ar": "اوريد للكتب",
+          "en": "ORead Books"
+        },
+        "description": {
+          "en": "App that focus on romantic books and it's categories with good system of points that encourage you to read more and earn more",
+          "ar": "تطبيق خاص بالروايات الرومانسية مع نظام نفاط للتشجيع على القراءة وكسب مزيد من النقاط"
+        },
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "كتب / قراءة",
+            "en": "Books / Reading"
+          }
+        },
+        "links": {
+          "website": null,
+          "play_store": null,
+          "app_store": null,
+          "ms_store": null,
+          "presentation": null,
+          "behance": "https://www.behance.net/gallery/121040333/book-app-%28ui%29"
+        },
+     
+        "primary_color": "#F0602B",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+        "main_image": "/images/projects/oread.svg",
+        "background_image": "/images/projects/oread.svg",
+        "images_desktop": null
+      
+       
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "اوريد للكتب",
+          "en": "ORead Books"
+        },
+        "description": {
+          "en": "App that focus on romantic books and it's categories with good system of points that encourage you to read more and earn more",
+          "ar": "تطبيق خاص بالروايات الرومانسية مع نظام نفاط للتشجيع على القراءة وكسب مزيد من النقاط"
+        },
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "كتب / قراءة",
+            "en": "Books / Reading"
+          }
+        },
+        "links": {
+          "website": null,
+          "play_store": null,
+          "app_store": null,
+          "ms_store": null,
+          "presentation": null,
+          "behance": "https://www.behance.net/gallery/121040333/book-app-%28ui%29"
+        },
+     
+        "primary_color": "#F0602B",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+        "main_image": "/images/projects/oread.svg",
+        "background_image": "/images/projects/oread.svg",
+        "images_desktop": null
+      
+       
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"leadership",
+    "class":"bink"
+
+  },
+  {
+    "id": 2,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "UI UX Designer",
+      "ar": "مصمم UI UX"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        "id": 1,
+        "name": {
+          "ar": "اوريد للكتب",
+          "en": "ORead Books"
+        },
+        "description": {
+          "en": "App that focus on romantic books and it's categories with good system of points that encourage you to read more and earn more",
+          "ar": "تطبيق خاص بالروايات الرومانسية مع نظام نفاط للتشجيع على القراءة وكسب مزيد من النقاط"
+        },
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "كتب / قراءة",
+            "en": "Books / Reading"
+          }
+        },
+        "links": {
+          "website": null,
+          "play_store": null,
+          "app_store": null,
+          "ms_store": null,
+          "presentation": null,
+          "behance": "https://www.behance.net/gallery/121040333/book-app-%28ui%29"
+        },
+     
+        "primary_color": "#F0602B",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+        "main_image": "/images/projects/oread.svg",
+        "background_image": "/images/projects/oread.svg",
+        "images_desktop": null
+      
+       
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "اوريد للكتب",
+          "en": "ORead Books"
+        },
+        "description": {
+          "en": "App that focus on romantic books and it's categories with good system of points that encourage you to read more and earn more",
+          "ar": "تطبيق خاص بالروايات الرومانسية مع نظام نفاط للتشجيع على القراءة وكسب مزيد من النقاط"
+        },
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "كتب / قراءة",
+            "en": "Books / Reading"
+          }
+        },
+        "links": {
+          "website": null,
+          "play_store": null,
+          "app_store": null,
+          "ms_store": null,
+          "presentation": null,
+          "behance": "https://www.behance.net/gallery/121040333/book-app-%28ui%29"
+        },
+     
+        "primary_color": "#F0602B",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+        "main_image": "/images/projects/oread.svg",
+        "background_image": "/images/projects/oread.svg",
+        "images_desktop": null
+      
+       
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"leadership",
+    "class":"blue"
+
+  },
+  {
+    "id": 3,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Frontend Developer",
+      "ar": "مطور الواجهة الأمامية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        
+          "id": 1,
+          "name": {
+            "en": "",
+            "ar": ""
+          },
+          "image": "",
+          "description": {
+            "en": "",
+            "ar": ""
+          }
+      
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"leadership",
+    "class":"orange"
+
+  },
+  {
+    "id": 4,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Backend Developer",
+      "ar": "مطور الواجهة الخلفية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        
+          "id": 1,
+          "name": {
+            "en": "",
+            "ar": ""
+          },
+          "image": "",
+          "description": {
+            "en": "",
+            "ar": ""
+          }
+      
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"creative",
+    "class":"bink"
+
+  }, 
+  {
+    "id": 5,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Backend Developer",
+      "ar": "مطور الواجهة الخلفية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        
+          "id": 1,
+          "name": {
+            "en": "",
+            "ar": ""
+          },
+          "image": "",
+          "description": {
+            "en": "",
+            "ar": ""
+          }
+      
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"creative",
+    "class":"blue"
+
+  },
+  {
+    "id": 6,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Frontend Developer",
+      "ar": "مطور الواجهة الأمامية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        
+          "id": 1,
+          "name": {
+            "en": "",
+            "ar": ""
+          },
+          "image": "",
+          "description": {
+            "en": "",
+            "ar": ""
+          }
+      
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"creative",
+     "class":"orange"
+
+  },
+  {
+    "id": 7,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Backend Developer",
+      "ar": "مطور الواجهة الخلفية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        
+          "id": 1,
+          "name": {
+            "en": "",
+            "ar": ""
+          },
+          "image": "",
+          "description": {
+            "en": "",
+            "ar": ""
+          }
+      
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"creative",
+    "class":"bink"
+
+  }, 
+  {
+    "id": 8,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Backend Developer",
+      "ar": "مطور الواجهة الخلفية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        
+          "id": 1,
+          "name": {
+            "en": "",
+            "ar": ""
+          },
+          "image": "",
+          "description": {
+            "en": "",
+            "ar": ""
+          }
+      
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"creative",
+    "class":"blue"
+
+  },
+  {
+    "id": 9,
+    "name": {
+      "ar": "اسم الشخص",
+      "en": "Person Name"
+    },
+    "position": {
+      "en": "Frontend Developer",
+      "ar": "مطور الواجهة الأمامية"
+    },
+    "description": {
+      "ar": " لوريم إيبسوم دولور الجلوس أميت, consectetur adipiscing elit",
+      "en": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "projects":[
+      {
+        
+          "id": 1,
+          "name": {
+            "en": "",
+            "ar": ""
+          },
+          "image": "",
+          "description": {
+            "en": "",
+            "ar": ""
+          }
+      
+      }
+    ],
+    "image": "/images/team/person_img.svg",
+    "type":"creative",
+    "class":"orange"
+
+  }
 ]

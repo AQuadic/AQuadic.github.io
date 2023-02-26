@@ -40,8 +40,11 @@ function App() {
                         </Route>
                         <Route path="hosting" element={<Hosting/>}/>
                         <Route path="time_model" element={<Pricing/>}/>
-                        <Route path="team" element={<Team/>}/>
-                        <Route path="person" element={<Person/>}/>
+                        <Route path="team" >
+                        <Route index element={<Team/>}/>
+                        <Route path=":id" element={<Person/>}/>
+                        </Route>
+                   
                         <Route path="portfolio">
                             <Route index element={<Portfolio data={data}/>}/>
                             <Route path=":id" element={<ProjectDetails data={data}/>}/>

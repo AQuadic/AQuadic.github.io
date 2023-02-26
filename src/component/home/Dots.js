@@ -1,6 +1,7 @@
 import React from 'react'
-
+import ser from '../../data/services.json'
 function Dots() {
+    console.log(ser[0].name.en)
     return (
         <div className="bg">
             <div className="dotWrapper dotWrapper-1">
