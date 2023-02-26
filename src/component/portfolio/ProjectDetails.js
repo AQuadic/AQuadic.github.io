@@ -100,7 +100,7 @@ function ProjectDetails(props) {
                                 <div className="title">
                                     <img
                                         src={project.logo}
-                                        alt="logo icon"
+                                        alt= {project.name[i18n.resolvedLanguage]}
                                         height="150px"
                                         width="150px"
                                     />

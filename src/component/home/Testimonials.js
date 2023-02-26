@@ -94,8 +94,9 @@ function Testimonials() {
                                 <p>
                                     <ReactReadMoreReadLess
                                         charLimit={196}
-                                        readMoreText={"See More "}
-                                        readLessText={"Read less ▲"}
+                                        readMoreText={t("home.testimonials.SeeMore")}
+                                        readLessText={t("home.testimonials.Readless")}
+                                        
                                     >
                                         {item.description[i18n.resolvedLanguage]}
                                     </ReactReadMoreReadLess>

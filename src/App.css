@@ -1418,7 +1418,9 @@ span.react-read-more-read-less.react-read-more-read-less-more {
     font-size: 14px;
     padding: 2px 5px;
 }
-
+span.react-read-more-read-less.react-read-more-read-less-less {
+    display: inline-block;
+}
 .slick-slider .slick-arrow {
     width: 60px;
     height: 60px;

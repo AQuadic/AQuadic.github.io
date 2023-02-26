@@ -31,7 +31,9 @@
       "title": "Our Clients Are Our Partners"
     },
     "testimonials": {
-      "title": "Testimonials"
+      "title": "Testimonials",
+      "SeeMore":"See More",
+      "Readless":"Read less ▲"
     }
   },
   "portfolio": {
@@ -127,7 +129,9 @@
     "cv": "Upload your CV",
     "message": "Leave your message...",
     "send_message": "Send Message",
-    "send_application": "Send Application"
+    "send_application": "Send Application",
+    "thank":"Thank you !",
+    "thankTitle":" Thanks for contacting us, <br/> we will reply to you as soon as possible !"
   },
   "time_model": {
     "title": "Top Product Pricing Strategies & Competitive Pricing Methods"

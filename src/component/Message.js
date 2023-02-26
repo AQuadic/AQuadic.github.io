@@ -107,10 +107,9 @@ function Message() {
                 <Modal show={show} onHide={handleClose} className="model-send" centered>
                     <Modal.Header closeButton className="model-img"></Modal.Header>
                     <Modal.Body className="model-bo">
-                        <h2>Thank you !</h2>
+                        <h2>{t("contact_us.thank")}</h2>
                         <p>
-                            Thanks for contacting us, <br/>
-                            we will reply to you as soon as possible
+                        {t("contact_us.thankTitle")}
                         </p>
                     </Modal.Body>
                 </Modal>
