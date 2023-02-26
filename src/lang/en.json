@@ -123,6 +123,7 @@
     "subtitle": "Contact Info",
     "first_name": "First Name",
     "last_name": "Last Name",
+    "phone":"Enter your number",
     "email": "Email",
     "subject": "Subject",
     "position": "Position",

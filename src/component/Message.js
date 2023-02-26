@@ -1,9 +1,10 @@
-import React, {useState} from "react";
+import React, {useState,useEffect} from "react";
 import {Button, Card, Container, Form} from "react-bootstrap";
 
 import {useTranslation} from "react-i18next";
 
 import Modal from "react-bootstrap/Modal";
+import axios from "axios";
 
 function Message() {
     const {t} = useTranslation();
@@ -12,6 +13,54 @@ function Message() {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+
+const [name ,setname] = useState("");
+const [phone ,setphone] = useState("");
+const [email ,setemail] = useState("");
+const [message ,setmessage] = useState("");
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Accept-Language": "en",
+};
+
+let body = {
+    "name": "alii",
+    "email": "kdemzrrrlvcjnkamzignaxbyynyjqqiqbpbgrdiuzqkoklvinhgtquetmoxnrzzlgynycaajxblwterlmktxacmskutvxljsaobdkbdqapmzkyfjsawifurudostuskvxhcpbesuubtuhndlbfynareczmbqixycyyiduflaozdtptaob",
+    "subject": "sywrxfmpwjpvjvmpmdouofidgdifyzieirsiymelmzgynznkekxumklyvqwhczjgetzufgcmytmnkwexswsqaisiadvntscnqxfegbkumnwsyridgtpppxwubunwgxgilzntulecugbmugqmewbxucayblzqcoezuefplapmcpjycaopjyqucjdwnklzsxtujytchapomacwciysdqbrbdbxkfqcwpkpvyrbcxsgxxojk",
+    "phone": "wmmxlqiakz",
+    "message": "qnzlqogbpsfpgpphtgcsctpjkxgoaufrdorewnwqqtctkiqhqbglsbamxudhpmzxlnbhzjvisguilhfkohtcmubzeuhzidwngkuokxsgjjillszbsgrlecdbvlgygibkrerhpftwkbcvigcddnmomrcfcopzlwu"
+};
+
+
+let formdata = new  FormData()
+
+
+const SendMessage= ()=>{
+formdata.append("name", name)
+formdata.append("email", email)
+formdata.append("subject", "kdemzrrrlvcjnkamzignaxbyynyjqqiqbpbgrdiuzqkoklvinhgtquetmoxnrzzlgynycaajxblwterlmktxacmskutvxljsaobdkbdqapmzkyfjsawifurudostuskvxhcp")
+formdata.append("phone", phone)
+formdata.append("message", message)
+   axios({
+    url:"https://eshhaar.net/api/contact_us",
+    method:"POST",
+    headers:{
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Accept-Language": "en",
+    },
+    data:formdata
+   }).then((res)=>console.log(res)).catch((err)=>console.log(err))
+    
+
+}
+
+
+
+
+
 
     return (
         <section className="forminfo message" id="contact">
@@ -32,14 +81,17 @@ function Message() {
                                     type="text"
                                     required
                                     placeholder={t("contact_us.first_name")}
+                                    onChange={(e)=>{setname(e.target.value)}}
                                 />
                             </Form.Group>
                             <Form.Group className="col-12 col-sm-6">
                                 <Form.Control
-                                    id="lastname"
-                                    type="text"
+                                    id="phone"
+                                    type="number"
                                     required
-                                    placeholder={t("contact_us.last_name")}
+                                    placeholder={t("contact_us.phone")}
+                                    onChange={(e)=>{setphone(e.target.value)}}
+
                                 />
                             </Form.Group>
                             <Form.Group className="col-12 col-sm-6">
@@ -48,6 +100,8 @@ function Message() {
                                     type="email"
                                     required
                                     placeholder={t("contact_us.email")}
+                                    onChange={(e)=>{setemail(e.target.value)}}
+
                                 />
                             </Form.Group>
                             <Form.Group className="col-12 col-sm-6">
@@ -56,6 +110,8 @@ function Message() {
                                     type="text"
                                     required
                                     placeholder={t("contact_us.subject")}
+                                    
+
                                 />
                             </Form.Group>
                             <Form.Group
@@ -66,13 +122,17 @@ function Message() {
                                     as="textarea"
                                     rows={4}
                                     placeholder={t("contact_us.message")}
+                                    onChange={(e)=>{setmessage(e.target.value)}}
+
                                 />
                             </Form.Group>
 
                             <Button
                                 className=" col-12 col-sm-12 btn-log btn-page btn-send"
                                 type="submit"
-                                onClick={handleShow}
+                                onClick={(e)=>{ e.preventDefault();handleShow();
+                                   
+                                      SendMessage()}}
                             >
                                 {t("contact_us.send_message")}
                             </Button>
