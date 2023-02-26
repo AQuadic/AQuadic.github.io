@@ -12,11 +12,11 @@ function Testimonials() {
         className: "center",
         prevArrow:
             <div>
-                <img src="/images/icons/arrow_left.svg" alt=""/>
+                <img src={"/images/icons/arrow_left.svg"} alt="prevArrow"/>
             </div>,
         nextArrow:
             <div>
-                <img src="/images/icons/arrow_right.svg" alt=""/>
+                <img src={"/images/icons/arrow_right.svg"} alt="nextArrow"/>
             </div>
         ,
         dots: false,
