@@ -19,19 +19,9 @@ const [name ,setname] = useState("");
 const [phone ,setphone] = useState("");
 const [email ,setemail] = useState("");
 const [message ,setmessage] = useState("");
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-    "Accept-Language": "en",
-};
 
-let body = {
-    "name": "alii",
-    "email": "kdemzrrrlvcjnkamzignaxbyynyjqqiqbpbgrdiuzqkoklvinhgtquetmoxnrzzlgynycaajxblwterlmktxacmskutvxljsaobdkbdqapmzkyfjsawifurudostuskvxhcpbesuubtuhndlbfynareczmbqixycyyiduflaozdtptaob",
-    "subject": "sywrxfmpwjpvjvmpmdouofidgdifyzieirsiymelmzgynznkekxumklyvqwhczjgetzufgcmytmnkwexswsqaisiadvntscnqxfegbkumnwsyridgtpppxwubunwgxgilzntulecugbmugqmewbxucayblzqcoezuefplapmcpjycaopjyqucjdwnklzsxtujytchapomacwciysdqbrbdbxkfqcwpkpvyrbcxsgxxojk",
-    "phone": "wmmxlqiakz",
-    "message": "qnzlqogbpsfpgpphtgcsctpjkxgoaufrdorewnwqqtctkiqhqbglsbamxudhpmzxlnbhzjvisguilhfkohtcmubzeuhzidwngkuokxsgjjillszbsgrlecdbvlgygibkrerhpftwkbcvigcddnmomrcfcopzlwu"
-};
+
+
 
 
 let formdata = new  FormData()
