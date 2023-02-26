@@ -1558,7 +1558,8 @@ html[dir="rtl"] .slick-arrow img {
     line-height: 25px;
     color: #444444;
     border: none;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
     padding: 20px;
     background: #ffffff;
     border-radius: 20px;
@@ -1588,6 +1589,7 @@ html[dir="rtl"] .slick-arrow img {
     background: #ffffff;
     border-radius: 20px;
     border: none;
+    margin-top: 30px;
 }
 
 @media (max-width: 576px) {
