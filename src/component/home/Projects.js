@@ -19,7 +19,7 @@ function Projects() {
                     <h2>{t("portfolio.title")}</h2>
                     <Link to="/portfolio">
                         <p>{t("portfolio.see_all")}</p>
-                        <img src="/images/icons/see_all.svg" alt=""/>
+                        <img src="/images/icons/see_all.svg" alt="see_all"/>
                     </Link>
                 </div>
 

@@ -11,7 +11,7 @@ function CareerForm() {
                 <img
                     className="imageback"
                     src="/images/patterns/pattern_1.svg"
-                    alt=""
+                    alt="imageback"
                 />
                 <Card>
                     <Card.Body>

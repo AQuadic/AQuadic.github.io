@@ -99,7 +99,7 @@ function Nav() {
                     <button className="lang" onClick={() => {
                         changeLang()
                     }}>
-                        <img src="/images/icons/lang.svg" alt=""/>
+                        <img src="/images/icons/lang.svg" alt="lang"/>
                         {window.innerWidth > 992 ? lang : langs}
                     </button>
                 </Container>

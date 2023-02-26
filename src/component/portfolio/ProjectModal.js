@@ -59,7 +59,7 @@ function ProjectModal(props) {
                             <div data-bs-dismiss="modal" className="close view">
                                 <Link to={`/portfolio/${currentProject.id}`} className="view">
                                     <p>{t("portfolio.view_details")} </p>
-                                    <img src="/images/icons/see_all.svg" alt=""/>
+                                    <img src="/images/icons/see_all.svg" alt="see_all"/>
                                 </Link>
                             </div>
 

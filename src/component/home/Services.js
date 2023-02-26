@@ -27,7 +27,7 @@ function Services() {
                                     navigate(`/service/${service.id}`);
                                 }}
                             >
-                                <img src={service.image} alt=""/>
+                                <img src={service.image} alt={service.name[i18n.resolvedLanguage]}/>
                                 <h3> {service.name[i18n.resolvedLanguage]}</h3>
                                 <p>{service.description[i18n.resolvedLanguage]}</p>
                             </div>

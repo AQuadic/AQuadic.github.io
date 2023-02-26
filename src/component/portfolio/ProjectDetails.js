@@ -15,12 +15,12 @@ function ProjectDetails(props) {
         className: "center",
         prevArrow: (
             <div>
-                <img src="/images/icons/arrow_left.svg" alt=""/>
+                <img src="/images/icons/arrow_left.svg" alt="prevArrow"/>
             </div>
         ),
         nextArrow: (
             <div>
-                <img src="/images/icons/arrow_right.svg" alt=""/>
+                <img src="/images/icons/arrow_right.svg" alt="nextArrow"/>
             </div>
         ),
         dots: true,
@@ -231,8 +231,8 @@ function ProjectDetails(props) {
                                         <h3>{t("portfolio.overview.technology")}</h3>
                                         <div className="about-part page">
                                             <div className="g-img">
-                                                <img src="/images/overview/phone.svg" alt=""/>
-                                                <img src="/images/overview/wep.svg" alt=""/>
+                                                <img src="/images/overview/phone.svg" alt="phone"/>
+                                                <img src="/images/overview/wep.svg" alt="wep"/>
                                             </div>
                                             <h4>
 
@@ -252,7 +252,7 @@ function ProjectDetails(props) {
                                         <h3>{t("portfolio.overview.team")}</h3>
                                         <div className="about-part page">
                                             <div className="g-img">
-                                                <img src="/images/overview/team.svg" alt=""/>
+                                                <img src="/images/overview/team.svg" alt="team"/>
                                             </div>
                                             <h4>6 members</h4>
                                             <p>our platform is mobile cuz user of the project</p>
@@ -263,7 +263,7 @@ function ProjectDetails(props) {
                                         <h3>{t("portfolio.overview.duration")}</h3>
                                         <div className="about-part page">
                                             <div className="g-img">
-                                                <img src="/images/overview/time.svg" alt=""/>
+                                                <img src="/images/overview/time.svg" alt="time"/>
                                             </div>
                                             <h4>3 months</h4>
                                             <p>our platform is mobile cuz user of the project</p>

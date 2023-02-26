@@ -28,7 +28,7 @@ function Hosting() {
                 <Container>
                     <div className="part_host" key={hosting[0].id}>
                         <div className="about_host">
-                            <img src={hosting[0].image} alt=""/>
+                            <img src={hosting[0].image} alt={hosting[0].name[i18n.resolvedLanguage]}/>
                             <div className="info_host">
                                 <h2>{hosting[0].name[i18n.resolvedLanguage]}</h2>
                                 <p>{hosting[0].description[i18n.resolvedLanguage]}</p>

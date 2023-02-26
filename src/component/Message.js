@@ -83,7 +83,7 @@ function Message() {
         <img
           className="imageback"
           src="/images/patterns/pattern_1.svg"
-          alt=""
+          alt="pattern"
         />
         <Card>
           <Card.Body>
@@ -186,7 +186,7 @@ function Message() {
               <ul>
                 <li>
                   <a href="tel:+201101782890">
-                    <img src="/images/icons/phone.svg" alt="" />
+                    <img src="/images/icons/phone.svg" alt="phone" />
                     <h5 className="und" style={{ direction: "ltr" }}>
                       (+20) 110 178 2890
                     </h5>
@@ -194,7 +194,7 @@ function Message() {
                 </li>
                 <li>
                   <a href="mailto:hello@aquadic.com">
-                    <img src="/images/icons/mail.svg" alt="" />
+                    <img src="/images/icons/mail.svg" alt="email" />
                     <h5 className="und">hello@aquadic.com</h5>
                   </a>
                 </li>
@@ -204,7 +204,7 @@ function Message() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img src="/images/icons/map_off.svg" alt="" />
+                    <img src="/images/icons/map_off.svg" alt="map" />
                     <h5>418 El Geish Road,Louran, Alexandria, Egypt</h5>
                   </a>
                 </li>

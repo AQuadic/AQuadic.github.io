@@ -20,8 +20,8 @@ function Footer() {
                         aria-label="a.link_social"
 
                     >
-                        <img src="/images/icons/facebook_off.svg" alt=""/>
-                        <img src="/images/icons/facebook_on.svg" alt=""/>
+                        <img src="/images/icons/facebook_off.svg" alt="facebook"/>
+                        <img src="/images/icons/facebook_on.svg" alt="facebook"/>
                     </a>
 
                     <a
@@ -31,8 +31,8 @@ function Footer() {
                         target="_blank"
                         aria-label="a.link_social"
                     >
-                        <img src="/images/icons/linkedin_off.svg" alt=""/>
-                        <img src="/images/icons/linkedin_on.svg" alt=""/>
+                        <img src="/images/icons/linkedin_off.svg" alt="linkedin"/>
+                        <img src="/images/icons/linkedin_on.svg" alt="linkedin"/>
                     </a>
 
                     <a
@@ -42,8 +42,8 @@ function Footer() {
                         target="_blank"
                         aria-label="a.link_social"
                     >
-                        <img src="/images/icons/behance_off.svg" alt=""/>
-                        <img src="/images/icons/behance_on.svg" alt=""/>
+                        <img src="/images/icons/behance_off.svg" alt="behance"/>
+                        <img src="/images/icons/behance_on.svg" alt="behance"/>
                     </a>
                     <a
                         className="icon-soch "
@@ -52,8 +52,8 @@ function Footer() {
                         target="_blank"
                         aria-label="a.link_social"
                     >
-                        <img src="/images/icons/instagram_off.svg" alt=""/>
-                        <img src="/images/icons/instagram_on.svg" alt=""/>
+                        <img src="/images/icons/instagram_off.svg" alt="instagram"/>
+                        <img src="/images/icons/instagram_on.svg" alt="instagram"/>
                     </a>
                     <a
                         className="icon-soch "
@@ -62,8 +62,8 @@ function Footer() {
                         target="_blank"
                         aria-label="a.link_social"
                     >
-                        <img src="/images/icons/twitter_off.svg" alt=""/>
-                        <img src="/images/icons/twitter_on.svg" alt=""/>
+                        <img src="/images/icons/twitter_off.svg" alt="twitter"/>
+                        <img src="/images/icons/twitter_on.svg" alt="twitter"/>
                     </a>
                 </div>
                 <p>{t("footer.rights_reserved")}</p>

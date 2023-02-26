@@ -22,7 +22,7 @@ function CareerPositions() {
                                         <p>{job.position[i18n.resolvedLanguage]}</p>
                                         <span>|</span>
                                         <p>
-                                            <img src="/images/icons/map_off.svg" alt=""/>
+                                            <img src="/images/icons/map_off.svg" alt="map"/>
                                             {job.location[i18n.resolvedLanguage]}
                                         </p>
                                     </div>
