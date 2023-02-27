@@ -48,7 +48,7 @@ function Message() {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        "Accept-Language": `${i18n.resolvedLanguage}`,
+        "Accept-Language": i18n.resolvedLanguage,
       },
       data: formdata,
     })
