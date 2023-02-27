@@ -32,8 +32,6 @@ function Message() {
   const [errorSubject, setErrorSubject] = useState("");
 
   let formdata = new FormData();
-  console.log(i18n.resolvedLanguage);
-  console.log(i18n.language);
   const SendMessage = () => {
     setLoading(true);
     formdata.append("name", name);
@@ -54,7 +52,6 @@ function Message() {
     })
       .then((res) => {
         setLoading(false);
-        console.log(res);
         setShow(true);
         setName("");
         setPhone("");
@@ -69,8 +66,6 @@ function Message() {
       })
       .catch((err) => {
         setLoading(false);
-
-        console.log(err.response.data.errors);
         setValidated(true);
         err.response.data.errors.email
           ? setErrorEmail(err.response.data.errors.email)
