@@ -38,6 +38,7 @@
   },
   "portfolio": {
     "title": "Our Latest Creative Projects",
+    "noSearch":"No search results found",
     "see_all": "See All Portfolio",
     "view_details": "View Details",
     "applications": "Applications",

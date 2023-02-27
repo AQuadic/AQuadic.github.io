@@ -5,7 +5,29 @@ import all_data from '../../data/projects.json'
 import ProjectModal from './ProjectModal';
 import {Helmet, HelmetProvider} from 'react-helmet-async';
 
+import {   useLocation, useSearchParams } from 'react-router-dom';
+import { useEffect } from 'react';
+
+
 function Portfolio() {
+    const [Params ,]= useSearchParams()
+    const [valueSearch ,setValueSearch]= useState([])
+    const {search} = useLocation()
+    const SearchTechnologyId = Params.get("technology_id")
+    const SearchServiceId = Params.get("service_id")
+    const SearchClientId = Params.get("client_id")
+    const SearchCountryId = Params.get("country_id")
+  
+     
+      
+    
+    const filterSearch = ()=>{
+        SearchTechnologyId ? setValueSearch(all_data.filter(proj=>proj.technologies.find(item=> item.id === +SearchTechnologyId ))) : SearchServiceId ?     setValueSearch(all_data.filter(proj=>proj.services.find(item=> item.id === +SearchServiceId ))): SearchClientId ? setValueSearch(all_data.filter(proj=>proj.client_id === +SearchClientId )) :setValueSearch(all_data.filter(proj=>proj.country_id === +SearchCountryId ));
+      }
+
+ useEffect(()=>{search ?filterSearch():console.log("no");},[search])
+
+
     // Language.
     const {t, i18n} = useTranslation();
 
@@ -16,6 +38,10 @@ function Portfolio() {
     const [activeId, setActiveId] = useState(1);
     let projects = all_data.filter(proj => proj.services.filter(ser => ser.id === activeId).length);
 
+    // Filter Projects by SearchParams.
+    const valueByType = valueSearch.filter(proj => proj.services.filter(ser => ser.id === activeId).length);
+
+   
     return (
         <div className='portfolio'>
             <HelmetProvider>
@@ -42,7 +68,25 @@ function Portfolio() {
                     </div>
 
                     <div className='all-portfolio row'>
-                        {
+                       {
+                        search ?  valueByType.length ? valueByType.map((proj) => {
+                            return (
+                                <div
+                                    key={proj.id}
+                                    className="project col-lg-3 col-md-5 col-sm-5 col-12"
+                                    data-aos="fade-up"
+                                    data-aos-delay="0"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalLong"
+                                    onClick={() => setCurrentProject(proj)}
+                                >
+                                    <h3>{proj.name[i18n.resolvedLanguage]}</h3>
+                                    <p>{proj.category.name[i18n.resolvedLanguage]}</p>
+                                    <img src={proj.main_image} alt={proj.name[i18n.resolvedLanguage]}/>
+                                </div>
+                            )
+                        }) :<h3 className='noSearch'>{t('portfolio.noSearch')}</h3>:
+                        
                             projects.map((proj) => {
                                 return (
                                     <div
@@ -60,7 +104,8 @@ function Portfolio() {
                                     </div>
                                 )
                             })
-                        }
+                        
+                       }
                     </div>
                 </Container>
                 <ProjectModal currentProject={currentProject}/>
