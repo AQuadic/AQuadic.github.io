@@ -37,7 +37,7 @@ function CareerForm() {
       url: "https://eshhaar.net/api/contact_us",
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
+        // "Content-Type": "application/json",
         Accept: "application/json",
         "Accept-Language": i18n.resolvedLanguage,
       },
