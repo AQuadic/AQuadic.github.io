@@ -1,11 +1,12 @@
 import React from "react";
 import {Container} from "react-bootstrap";
 import {useTranslation} from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import tech from "../../data/technologies.json";
 
 function Technologies() {
     const {t} = useTranslation();
-
+const navigate = useNavigate()
     return (
         <div className="technologies">
             <Container>
@@ -19,6 +20,7 @@ function Technologies() {
                                 alt={item.name}
                                 data-aos="fade-up"
                                 data-aos-delay="0"
+                                onClick={()=>{navigate(`/portfolio?technology_id=${item.id}`)}}
                             />
                         );
                     })}
