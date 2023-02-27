@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import tech from "../../data/technologies.json";
 
 function Technologies() {
-    const {t} = useTranslation();
+    const {t,i18n} = useTranslation();
 const navigate = useNavigate()
     return (
         <div className="technologies">
@@ -17,7 +17,7 @@ const navigate = useNavigate()
                             <img
                                 key={item.id}
                                 src={item.logo}
-                                alt={item.name}
+                                alt={item.name[i18n.language]}
                                 data-aos="fade-up"
                                 data-aos-delay="0"
                                 onClick={()=>{navigate(`/portfolio?technology_id=${item.id}`)}}

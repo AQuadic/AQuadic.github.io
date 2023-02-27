@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import {Container} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
 import Message from "../Message";
@@ -10,8 +10,7 @@ function Team() {
 
     const navigate = useNavigate();
 
-     //when click on project sent data this target project to projectModal
-     const [currentProject, setCurrentProject] = useState();
+   
 
      const leader = team.filter((item)=> item.type === "leadership")
      const creative = team.filter((item)=> item.type === "creative")
