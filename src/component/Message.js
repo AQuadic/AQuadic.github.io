@@ -3,7 +3,7 @@ import { Button, Card, Container, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import Modal from "react-bootstrap/Modal";
 import axios from "axios";
-import HashLoader from "react-spinners/HashLoader";
+import BounceLoader from "react-spinners/BounceLoader";
 
 function Message() {
   const { t } = useTranslation();
@@ -94,9 +94,10 @@ function Message() {
     <Card.Body>
       <h2 className=" mb-4">{t("contact_us.title")}</h2>
       
-      <Form className="row" noValidate validated={validated}>
+      <Form className="row" noValidate validated={validated}   style={loading?{'pointer-events': "none"}:{'pointer-events': "visible"}} >
         <Form.Group className="col-12  col-sm-6">
           <Form.Control
+       
             id="fristname"
             type="text"
             required
@@ -106,7 +107,7 @@ function Message() {
             }}
             value={name}
           />
-          <Form.Control.Feedback type="invalid">
+          <Form.Control.Feedback type="invalid" >
             {errorName ? errorName : ""}
           </Form.Control.Feedback>
         </Form.Group>
@@ -174,13 +175,14 @@ function Message() {
           </Form.Control.Feedback>
         </Form.Group>
         {
-      loading ?  <HashLoader color="#f15f57"  cssOverride={{
-        height: "100px",
-        width:"180px",
+      loading ?  <div className="load">
+        <BounceLoader color="#f15f57"  size={40}  cssOverride={{
+    
        margin : "auto 0",
       display: 'block',
     
     }}/>
+      </div>
 : <Button
 className=" col-12 col-sm-12 btn-log btn-page btn-send"
 type="submit"
