@@ -15,7 +15,7 @@ function CareerPositions() {
                 {
                     jobs.length ?
                         jobs.map((job) =>
-                            <div className="job">
+                            <div className="job" key={job.id}>
                                 <div className="about-job">
                                     <h3>{job.name[i18n.resolvedLanguage]}</h3>
                                     <div className="job_info">

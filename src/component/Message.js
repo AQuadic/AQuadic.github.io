@@ -94,7 +94,7 @@ function Message() {
     <Card.Body>
       <h2 className=" mb-4">{t("contact_us.title")}</h2>
       
-      <Form className="row" noValidate validated={validated}   style={loading?{'pointer-events': "none"}:{'pointer-events': "visible"}} >
+      <Form className="row" noValidate validated={validated}   style={loading?{'pointerEvents': "none"}:{'pointerEvents': "visible"}} >
         <Form.Group className="col-12  col-sm-6">
           <Form.Control
        
