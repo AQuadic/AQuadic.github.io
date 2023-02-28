@@ -647,6 +647,7 @@ html[dir=rtl] a.nav-link {
 
 .advantages .allcard .cardd img {
     max-width: 160px;
+    height: 100%;
 }
 
 .advantages .allcard .cardd h3 {
@@ -819,6 +820,8 @@ html[dir=rtl] a.nav-link {
 
 .positions .job .about-job .job_info p:last-of-type img {
     margin: 0px 8px;
+    width: 16px;
+    height: 20px;
 }
 
 .positions .job button {
@@ -1297,6 +1300,8 @@ html[dir="ltr"] .projects .container .head a img, html[dir="ltr"] .project_modal
 }
 
 .about .container img {
+    width: 664px;
+    height: 100%;
 }
 
 .about .container .about-about {
@@ -1710,7 +1715,8 @@ html[dir="rtl"] .slick-arrow img {
 .services .all-services .part img {
     position: absolute;
     content: "";
-
+    width: 260px;
+    height: 160px;
     top: 60px;
 }
 
@@ -1921,6 +1927,10 @@ html[dir="rtl"] .services .all-services .part img {
 }
 
 .time .container .part_time img {
+    width: 100%;
+    height: 100%;
+    max-height: 290px;
+    max-width: 290px;
 }
 
 .time .container .part_time p {
@@ -2095,8 +2105,9 @@ html[dir="rtl"] .services .all-services .part img {
     opacity: 1;
 }
 
-.team .container .part .about_team .person .person_img img,
-.persone_info .container .person .person_img img {
+.team .container .part .about_team .person .person_img img, .persone_info .container .person .person_img img {
+    width: 100%;
+    height: 100%;
 }
 
 .team .container .part .about_team .person .person_name,
@@ -2533,7 +2544,7 @@ html[dir=rtl] .pharm .row .about-pharm{
     max-height: 120px;
     object-fit: contain;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .pharm .about-pharm .title h1 {
     font-size: 64px;
@@ -2574,7 +2585,7 @@ html[dir=rtl] .pharm .row .about-pharm{
 
 .pharm .about-pharm .go-app img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 @media (max-width: 992px) {
@@ -2967,7 +2978,9 @@ html[dir=rtl] .parts-plan::after {
 .jop-tech .part1 .tech ul li img {
     transition: 0.5s;
     max-width: 36px;
-    height: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .jop-tech .part1 .tech ul li .ti-1 {
@@ -4132,9 +4145,9 @@ html[dir=rtl] .jop-tech .part2::before {
 img.img-pharm {
     max-width: 500px;
     max-height: 577px;
-    width: 100%;
+   
     object-fit: contain;
-    height: auto;
+    height: 100%;
 }
 .our_creative .slick-track {
     align-items: center;
