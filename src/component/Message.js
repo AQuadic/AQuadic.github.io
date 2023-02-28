@@ -225,20 +225,20 @@ function Message() {
                 )}
               </Form>
               <div className="contact">
-                <h4>{t("contact_us.subtitle")}</h4>
+                <h3>{t("contact_us.subtitle")}</h3>
                 <ul>
                   <li>
                     <a href="tel:+201101782890">
                       <img src="/images/icons/phone.svg" alt="phone" />
-                      <h5 className="und" style={{ direction: "ltr" }}>
+                      <h4 className="und" style={{ direction: "ltr" }}>
                         (+20) 110 178 2890
-                      </h5>
+                      </h4>
                     </a>
                   </li>
                   <li>
                     <a href="mailto:hello@aquadic.com">
                       <img src="/images/icons/mail.svg" alt="email" />
-                      <h5 className="und">hello@aquadic.com</h5>
+                      <h4 className="und">hello@aquadic.com</h4>
                     </a>
                   </li>
                   <li>
@@ -248,7 +248,7 @@ function Message() {
                       target="_blank"
                     >
                       <img src="/images/icons/map_off.svg" alt="map" />
-                      <h5>418 El Geish Road,Louran, Alexandria, Egypt</h5>
+                      <h4>418 El Geish Road,Louran, Alexandria, Egypt</h4>
                     </a>
                   </li>
                 </ul>
