@@ -183,7 +183,7 @@ function ServiceDetails() {
                                 settech(item.id);
                               }}
                             >
-                              <img src={item.logo} alt={item.name} />
+                              <img src={item.logo} alt={item.name[i18n.resolvedLanguage]} />
                             </li>
                           );
                         })}
