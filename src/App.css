@@ -201,6 +201,7 @@ html[dir=rtl] a.nav-link {
 
 .logo {
     width: 132px;
+    height: auto;
 }
 
 @media (min-width: 992px) {
