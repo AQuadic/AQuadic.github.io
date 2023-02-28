@@ -8,9 +8,7 @@ import projects from '../../data/projects.json'
 function Projects() {
     const {t, i18n} = useTranslation();
 
-    const all_data = projects;
-
-    const [CurrentProject, setCurrentProject] = useState(all_data[0]);
+    const [CurrentProject, setCurrentProject] = useState(projects[0]);
 
     return (
         <div className="projects">
@@ -24,7 +22,7 @@ function Projects() {
                 </div>
 
                 <div className="all-project row">
-                    {all_data.slice(0, 6).map((data) => {
+                    {projects.slice(0, 6).map((data) => {
                         return (
                             <div
                                 key={data.id}

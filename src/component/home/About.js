@@ -11,9 +11,9 @@ function About() {
                 <img src='/images/header/about_us.png' alt=''/>
                 <div className='about-about'>
                     <h2>{t("home.about.title")}</h2>
-                    <h4>
+                    <h3>
                         {t("home.about.description")}
-                    </h4>
+                    </h3>
                 </div>
             </Container>
         </div>

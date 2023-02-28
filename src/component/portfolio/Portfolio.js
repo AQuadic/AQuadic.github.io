@@ -25,7 +25,7 @@ function Portfolio() {
         SearchTechnologyId ? setValueSearch(all_data.filter(proj=>proj.technologies.find(item=> item.id === +SearchTechnologyId ))) : SearchServiceId ?     setValueSearch(all_data.filter(proj=>proj.services.find(item=> item.id === +SearchServiceId ))): SearchClientId ? setValueSearch(all_data.filter(proj=>proj.client_id === +SearchClientId )) :setValueSearch(all_data.filter(proj=>proj.country_id === +SearchCountryId ));
       }
 
- useEffect(()=>{search ?filterSearch():console.log("no");},[search])
+ useEffect(()=>{search ?filterSearch():console.log("");},[search])
 
 
     // Language.
