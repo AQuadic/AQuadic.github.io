@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea2680ee.css",
-    "main.js": "/static/js/main.3c4ab71b.js",
+    "main.css": "/static/css/main.384ee27e.css",
+    "main.js": "/static/js/main.258cb775.js",
     "static/js/787.a44aa9dd.chunk.js": "/static/js/787.a44aa9dd.chunk.js",
     "static/media/bink_hover.svg": "/static/media/bink_hover.156812a6ab43aff9e816.svg",
     "static/media/AgencyFB-Bold.ttf": "/static/media/AgencyFB-Bold.eaefe2f00eb5ad09946f.ttf",
@@ -20,12 +20,12 @@
     "static/media/triangle2.svg": "/static/media/triangle2.2f1fb925482340a39cca.svg",
     "static/media/model_x.svg": "/static/media/model_x.082eb3604ce2c6002ebd.svg",
     "static/media/card_header_left.svg": "/static/media/card_header_left.3b3464e72e82634c3392.svg",
-    "main.ea2680ee.css.map": "/static/css/main.ea2680ee.css.map",
-    "main.3c4ab71b.js.map": "/static/js/main.3c4ab71b.js.map",
+    "main.384ee27e.css.map": "/static/css/main.384ee27e.css.map",
+    "main.258cb775.js.map": "/static/js/main.258cb775.js.map",
     "787.a44aa9dd.chunk.js.map": "/static/js/787.a44aa9dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea2680ee.css",
-    "static/js/main.3c4ab71b.js"
+    "static/css/main.384ee27e.css",
+    "static/js/main.258cb775.js"
   ]
 }
