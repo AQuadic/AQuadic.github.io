@@ -201,7 +201,7 @@ html[dir=rtl] a.nav-link {
 
 .logo {
     width: 132px;
-    height: auto;
+    height: 40px;
 }
 
 @media (min-width: 992px) {
@@ -1256,7 +1256,7 @@ html[dir="ltr"] .projects .container .head a img, html[dir="ltr"] .project_modal
 
 .technologies .container .alltechnologie img {
     width: 10%;
-    height: auto;
+    height: 10%;
 }
 
 .technologies .container h2 {
@@ -1269,7 +1269,7 @@ html[dir="ltr"] .projects .container .head a img, html[dir="ltr"] .project_modal
 @media (max-width: 768px) {
     .technologies .container .alltechnologie img {
         width: 20%;
-        height: auto;
+        height: 20%;
     }
 
     .technologies .container .alltechnologie {
