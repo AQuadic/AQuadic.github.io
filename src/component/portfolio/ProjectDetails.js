@@ -242,7 +242,7 @@ function ProjectDetails(props) {
                                             </h4>
                                             <div className="g-img f-img">
                                                 {project.technologies.map((img) => (
-                                                    <img key={img.id} src={img.logo} alt={img.name}/>
+                                                    <img key={img.id} src={img.logo} alt={img.name[i18n.resolvedLanguage]}/>
                                                 ))}
                                             </div>
                                         </div>

@@ -17,7 +17,7 @@ const navigate = useNavigate()
                             <img
                                 key={item.id}
                                 src={item.logo}
-                                alt={item.name[i18n.language]}
+                                alt={item.name[i18n.resolvedLanguage]}
                                 data-aos="fade-up"
                                 data-aos-delay="0"
                                 onClick={()=>{navigate(`/portfolio?technology_id=${item.id}`)}}

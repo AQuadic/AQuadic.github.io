@@ -29,15 +29,15 @@ const person = team.find((item)=> item.id === +id)
                     <div className="about">
                         <div className="person ">
                             <div className={`person_img  ${person.class}` }>
-                                <img src={person.image} alt={person.name[i18n.language]}/>
+                                <img src={person.image} alt={person.name[i18n.resolvedLanguage]}/>
                             </div>
                             <div className="person_name">
-                                <h3>{person.name[i18n.language]}</h3>
-                                <p>{person.position[i18n.language]}</p>
+                                <h3>{person.name[i18n.resolvedLanguage]}</h3>
+                                <p>{person.position[i18n.resolvedLanguage]}</p>
                             </div>
                         </div>
                         <h4>
-                        {person.description[i18n.language]}
+                        {person.description[i18n.resolvedLanguage]}
                         </h4>
                     </div>
                     <h2>{t("team.worked_on")}</h2>

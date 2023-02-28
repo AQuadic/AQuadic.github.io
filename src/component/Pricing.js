@@ -30,7 +30,7 @@ function Pricing() {
                                 return (
                                     <div className="col-lg-3 col part_time">
                                         <h2>{item.name[i18n.resolvedLanguage]}</h2>
-                                        <img src={item.image} alt={item.name.en}/>
+                                        <img src={item.image} alt={item.name[i18n.resolvedLanguage]}/>
                                         <p>
                                             {item.description[i18n.resolvedLanguage]}
                                             {
