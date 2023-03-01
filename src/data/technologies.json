@@ -5,7 +5,7 @@
       "en": "Android",
       "ar": "أندرويد"
     },
-    "logo": "/images/technologies/android2.svg",
+    "logo": "/images/technologies/android2.webp",
     "description": {
       "en": "",
       "ar": ""
@@ -17,7 +17,7 @@
       "en": "IOS",
       "ar": "اي او اس"
     },
-    "logo": "/images/technologies/ios.svg",
+    "logo": "/images/technologies/ios.webp",
     "description": {
       "en": "",
       "ar": ""
@@ -29,7 +29,7 @@
       "en": "AngularJS",
       "ar": "انجولار جي اس"
     },
-    "logo": "/images/technologies/angularjs.svg",
+    "logo": "/images/technologies/angularjs.webp",
     "description": {
       "en": "",
       "ar": ""
@@ -41,7 +41,7 @@
       "en": "JavaScript",
       "ar": "جافا سكريبت"
     },
-    "logo": "/images/technologies/js.svg",
+    "logo": "/images/technologies/js.webp",
     "description": {
       "en": "",
       "ar": ""
@@ -89,7 +89,7 @@
       "en": "NodeJs",
       "ar": "نود جي اس"
     },
-    "logo": "/images/technologies/nodejs.svg",
+    "logo": "/images/technologies/nodejs.webp",
     "description": {
       "en": "",
       "ar": ""
@@ -137,7 +137,7 @@
       "en": "AWS",
       "ar": "اي دابليو اس"
     },
-    "logo": "/images/technologies/aws.svg",
+    "logo": "/images/technologies/aws.webp",
     "description": {
       "en": "",
       "ar": ""
