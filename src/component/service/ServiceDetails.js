@@ -80,7 +80,7 @@ function ServiceDetails() {
             <div className="parts-plan">
               {current_services.process.map((processItem) => {
                 return (
-                  <div className="part-plan">
+                  <div className="part-plan" key={processItem.id}>
                     <h3>{processItem.id}</h3>
                     <div className="plan-about">
                       <h4>{processItem.name[i18n.resolvedLanguage]}</h4>
@@ -90,8 +90,8 @@ function ServiceDetails() {
                       </div>
                       <ul>
                         {processItem.points[i18n.resolvedLanguage].map(
-                          (item) => {
-                            return <li> {item}</li>;
+                          (item,index) => {
+                            return <li key={index}> {item}</li>;
                           }
                         )}
                       </ul>

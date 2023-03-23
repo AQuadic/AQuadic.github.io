@@ -13,7 +13,7 @@ const {id}=useParams()
 const person = team.find((item)=> item.id === +id)
 
      //when click on project sent data this target project to projectModal
-     const [currentProject, setCurrentProject] = useState(team[0].projects[0]);
+     const [currentProject] = useState(team[0].projects[0]);
     return (
         <div className="persone_info">
             <HelmetProvider>
@@ -47,7 +47,7 @@ const person = team.find((item)=> item.id === +id)
                               data-bs-target="#exampleModalLong">
                             <h3>Oread</h3>
                             <p>Reading</p>
-                            <img src='/images/projects/oread.svg' alt='Oread'/>
+                            <img src='/images/projects/oread.webp' alt='Oread'/>
                         </div>
 
                         <div className='project col-lg-3 col-md-5 col-sm-5 col-12' data-aos="fade-up"
@@ -55,7 +55,7 @@ const person = team.find((item)=> item.id === +id)
                              data-bs-target="#exampleModalLong">
                             <h3>MS Player</h3>
                             <p>Media</p>
-                            <img src='/images/projects/msplayer.svg' alt='MS Player'/>
+                            <img src='/images/projects/msplayer.webp' alt='MS Player'/>
                         </div>
 
 

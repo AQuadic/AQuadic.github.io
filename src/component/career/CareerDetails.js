@@ -44,8 +44,8 @@ function CareerDetails() {
                                     <h2>{t("career.job.description")}</h2>
                                     <ul>
                                         {
-                                            job.description[i18n.resolvedLanguage].map((item) =>
-                                                <li>{item}</li>
+                                            job.description[i18n.resolvedLanguage].map((item ,index) =>
+                                                <li key={index}>{item}</li>
                                             )
                                         }
 
@@ -59,8 +59,8 @@ function CareerDetails() {
                                     <h2>{t("career.job.requirements")}</h2>
                                     <ul>
                                         {
-                                            job.requirements[i18n.resolvedLanguage].map((item) =>
-                                                <li>{item}</li>
+                                            job.requirements[i18n.resolvedLanguage].map((item,index) =>
+                                                <li  key={index}>{item}</li>
                                             )
                                         }
                                     </ul>

@@ -64,11 +64,11 @@ function ProjectModal(props) {
                             </div>
 
                             <div className="modal_app">
-                                {Object.keys(currentProject.links).map(function (key) {
+                                {Object.keys(currentProject.links).map(function (key,index) {
                                     const link = currentProject.links[key];
                                     const img = `/images/apps/${key}.svg`;
                                     return link ? (
-                                        <a target={"_blank"} href={link} rel="noreferrer" key={currentProject.id}>
+                                        <a target={"_blank"} href={link} rel="noreferrer" key={index}>
                                             <img src={img} alt={key}/>
                                         </a>
                                     ) : null;

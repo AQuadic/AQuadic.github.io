@@ -58,6 +58,7 @@ li {
 /*start navbar*/
 /* Remove border from toggler */
 .con {
+    margin-top: 24px;
 }
 
 .navbar-nav .dropdown-menu {
@@ -1933,13 +1934,13 @@ html[dir="rtl"] .services .all-services .part img {
     max-width: 290px;
 }
 
-.time .container .part_time p {
+.time .container .part_time div {
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
 }
 
-.time .container .part_time p li {
+.time .container .part_time div li {
     list-style: disc;
 }
 

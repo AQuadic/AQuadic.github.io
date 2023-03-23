@@ -43,7 +43,7 @@ function Team() {
                         <div className="about_team ">
 {
     leader.map((item)=>
-    <div className="person " onClick={() => navigate(`${item.id}`)}>
+    <div className="person" key={item.id} onClick={() => navigate(`${item.id}`)}>
     <div className={`person_img  ${item.class}` }>
         <img src={item.image} alt={item.name[i18n.language]}/>
     </div>
@@ -68,7 +68,7 @@ function Team() {
 
 {
     creative.map((item)=>
-    <div className="person " onClick={() => navigate(`${item.id}`)}>
+    <div className="person " key={item.id} onClick={() => navigate(`${item.id}`)}>
     <div className={`person_img  ${item.class}` }>
         <img src={item.image} alt={item.name[i18n.language]}/>
     </div>

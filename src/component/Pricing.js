@@ -28,18 +28,18 @@ function Pricing() {
                     {
                         pricing.map((item) => {
                                 return (
-                                    <div className="col-lg-3 col part_time">
+                                    <div className="col-lg-3 col part_time" key={item.id}>
                                         <h2>{item.name[i18n.resolvedLanguage]}</h2>
                                         <img src={item.image} alt={item.name[i18n.resolvedLanguage]}/>
-                                        <p>
+                                        <div>
                                             {item.description[i18n.resolvedLanguage]}
                                             {
                                                 item.features[i18n.resolvedLanguage] ?
                                                     <ul>
                                                         {
-                                                            item.features[i18n.resolvedLanguage].map((features) => {
+                                                            item.features[i18n.resolvedLanguage].map((features ,index) => {
                                                                 return (
-                                                                    <li>{features}</li>
+                                                                    <li key={index}>{features}</li>
                                                                 )
                                                             })
                                                         }
@@ -47,7 +47,7 @@ function Pricing() {
                                                     : null
                                             }
 
-                                        </p>
+                                        </div>
                                     </div>
                                 )
                             }
