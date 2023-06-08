@@ -6,8 +6,8 @@
       "en": "ORead Books"
     },
     "description": {
-      "en": "App that focus on romantic books and it's categories with good system of points that encourage you to read more and earn more",
-      "ar": "تطبيق خاص بالروايات الرومانسية مع نظام نفاط للتشجيع على القراءة وكسب مزيد من النقاط"
+      "en": "App that focus on noval books expecially romantic books with good system of points that encourage you to read more and earn more",
+      "ar": "تطبيق خاص بالروايات وبالأخص الروايات الرومانسية ويشمل نظام نقاط للتشجيع على القراءة وكسب مزيد من النقاط، وايضاً العديد من المهام اليومية لخلق منافسة بين القراء وتشجيعهم علي القراءة."
     },
     "category": {
       "id": 1,
@@ -48,19 +48,38 @@
           "en": "",
           "ar": ""
         }
+      },
+      {
+        "id": 9,
+        "name": {
+        "en": "Flutter",
+        "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+        "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
       }
     ],
     "primary_color": "#F0602B",
     "logo": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
-    "main_image": "/images/projects/oread.webp",
-    "background_image": "/images/projects/oread.webp",
+    "main_image": "/images/projects/oread/Hero.webp",
+    "background_image": "/images/projects/Hero.webp",
     "images_desktop": null,
     "images_mobile": [
-      "/images/projects/oread.webp",
-      "/images/projects/oread.webp",
-      "/images/projects/oread.webp",
-      "/images/projects/oread.webp",
-      "/images/projects/oread.webp"
+      "/images/projects/oread/1.webp",
+      "/images/projects/oread/2.webp",
+      "/images/projects/oread/3.webp",
+      "/images/projects/oread/4.webp",
+      "/images/projects/oread/5.webp",
+      "/images/projects/oread/6.webp",
+      "/images/projects/oread/7.webp",
+      "/images/projects/oread/8.webp",
+      "/images/projects/oread/9.webp",
+      "/images/projects/oread/10.webp",
+      "/images/projects/oread/11.webp",
+      "/images/projects/oread/12.webp"
     ],
     "client_id": 1,
     "country_id": 1,
