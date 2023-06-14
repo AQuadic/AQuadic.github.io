@@ -1616,5 +1616,137 @@
         "style": "large"
       }
     ]
+  },
+  {
+    "id": 13,
+    "name": {
+      "ar": "ميني اتش دي",
+      "en": "Mini HD"
+    },
+    "description": {
+      "ar": "ميني اتش دي هو تطبيق لمشاهدة الأفلام والمسلسلات الجديدة",
+      "en": "Mini HD is an Application to watch new movies and series"
+    },
+    "category": {
+      "id": 2,
+      "name": {
+        "ar": "محتوي مرئي / افلام",
+        "en": "Media / Movies"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": "https://www.behance.net/gallery/125932037/MiniHD-App"
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 5,
+        "name": {
+        "en": "Laravel",
+        "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+        "en": "",
+        "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+        "en": "Flutter",
+        "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+        "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 10,
+        "name": {
+        "en": "Adobe XD",
+        "ar": "ادوبي اكس دي"
+        },
+        "logo": "/images/technologies/xd2.svg",
+        "description": {
+        "en": "Adobe XD is a powerful and easy-to-use vector-based experience design platform that gives teams the tools they need to craft the world's best experiences collaboratively.",
+        "ar": "يعد Adobe XD نظامًا أساسيًا لتصميم التجربة قويًا وسهل الاستخدام يعتمد على المتجهات ويمنح الفرق الأدوات التي يحتاجونها لصياغة أفضل التجارب العالمية بشكل تعاوني."
+        }
+      }
+    ],
+    "primary_color": "#000000",
+    "logo": "/images/projects/movie/logo.webp",
+    "main_image": "/images/projects/movie/hero.webp",
+    "background_image": "/images/projects/movie/hero.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/movie/1.webp",
+      "/images/projects/movie/2.webp",
+      "/images/projects/movie/3.webp",
+      "/images/projects/movie/4.webp",
+      "/images/projects/movie/5.webp",
+      "/images/projects/movie/6.webp",
+      "/images/projects/movie/7.webp"
+    ],
+    "client_id": 2,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      }
+    ]
   }
 ]
