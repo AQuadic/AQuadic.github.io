@@ -10,7 +10,7 @@ Frontend Made by [AQuadic](https://aquadic.com)
 
 - [AQuadic](https://aquadic.com)
 - [Live Site](https://aquadic.github.io)
-- [Firebase](tinyprogrammers-6d2a7.web.app) | [Firebase](tinyprogrammers-6d2a7.firebaseapp.com)
+- [Firebase](https://tinyprogrammers-6d2a7.web.app) | [Firebase](https://tinyprogrammers-6d2a7.firebaseapp.com)
 
 ## Installation
 
