@@ -535,7 +535,7 @@
     "primary_color": "#FCD368",
     "logo": "/images/projects/findhelp/findhelp-logo.webp",
     "main_image": "/images/projects/findhelp/web_cover.webp",
-    "background_image": "/images/projects/findhelp/web_cover.webp",
+    "background_image": "/images/projects/findhelp/.webp",
     "images_desktop": [
       "/images/projects/findhelp/web_image1.webp",
       "/images/projects/findhelp/web_image2.webp",
@@ -886,7 +886,7 @@
       "en": "Mamulaat"
     },
     "description": {
-      "en": "This app contains daily mamulaat that are very beneficial for every muslim especially for people who are related to any Khanqah or Sheikh.\n\nHere is the list of mamulaat that are included in this app\n\nRecitation:\n- Fazail of reciting different surahs after obligatory Salahs\n- Sura Yaseen\n- Sura Fatah\n- Sura Waqia\n- Sura Mulk\n- Sura Kahf\n\nDurrod o Salam and Manzil:\n- 40 Durood o Salam\n- Manzil Jadeed (For protection from Sehr and Jinnat)\n- Durood Tanjeena\n\nSupplications (Duas)\n- Munajaat e Maqbool (7 Manzils with Khutbah)\n- Khatm e Khwajgaan\n- Supplications after Salah\n- Morning & Evening supplications\n- Supplications for every step of ablution (wudu)\nSeeking Allah’s Protection:\n- Munjiyaat\n- Ayaat e Mastoor (for protection from enemies)\n- Dua e Ans\n- Dua e Hadsaat (for protection from all sort of accidents)\n\nZikr & Muraqbaat:\nThis section includes islahi Zikr and muraqibaat for cleansing and purification of Nafs, Qalb and Aqal.\n- Initial Islahi zikr\n- Zikr on lataif (sensing points)\n- Muraqbaat\n\nShajrah:\n- Shajira Iqbalia Shabbiria versified (in persian)\n- Shajira Ashrafia Shabbiria versified (in persian)\n- Shajrah Sadaat Kaka Khel versified(in pashto)\n\n\nSermons (Khutbahs):\n- Friday sermon 1\n- Friday sermon 2\n- Nikah sermon\n\n\nMiscellaneous Mamulaat:\n- Mamulaat e Mubtahi (for mashaikh)\n- Optional Salah (nafl)\n- Mujadidi and Ashrafi Sulook in Khanqah Rahmkaria Imdadia\n\nThis app has been developed under supervision of great saint of this era, Arif Billah Hazrat Syed Shabbir Ahmed Kaka Khel Sahib (Damat Barkatuhum).\n\nHadhrat Shaykh Shabbir is a renowned Sufi Shaykh who ardently follows the Qur'an & Sunnah and is known for guiding others away from bid'ah and innovations and onto the true path of Tasawwuf, which can only come through total submission to commands of the Beloved, Allah Azza WA Jal",
+      "en": "This app contains daily mamulaat that are very beneficial for every muslim especially for people who are related to any Khanqah or Sheikh.\n\nHere is the list of mamulaat that are included in this app\n\nRecitation \n\nDurrod o Salam and Manzil \n\nSupplications (Duas) \n\n Seeking Allah’s Protection \n\nZikr & Muraqbaat \n\nShajrah \n\nMiscellaneous Mamulaat \n\nThis app has been developed under supervision of great saint of this era, Arif Billah Hazrat Syed Shabbir Ahmed Kaka Khel Sahib (Damat Barkatuhum).",
       "ar": "يحتوي هذا التطبيق على مامولات يومية مفيدة جدًا لكل مسلم خاصة للأشخاص المرتبطين بأي خانقاه أو شيخ.\n\nفيما يلي قائمة mamulaat المضمنة في هذا التطبيق\n\nالتلاوة:\n- فضل تلاوة السور المختلفة بعد الصلوات الواجبة\n- سورة ياسين\n- سورة الفتح\n- سورة واقية\n- سورة الملك\n- سورة الكهف\n\nدرد وسلام ومنزل:\n- 40 درود السلام\n- منزل جديد (للحماية من سحر وجنات)\n- درود طنجينا\n\nادعية\n- مناجاة مقبول (7 منازل مع خطبة).\n- خاتم خواجان\n- أدعية بعد الصلاة\n- ادعية الصباح والمساء\n- الدعاء لكل خطوة من خطوات الوضوء.\nطلب حفظ الله:\n- منجيات\n- آيات مستور (للحماية من الأعداء)\n- دعاء أنس\n- دعاء الحدسات (للحماية من جميع أنواع الحوادث)\n\nالذكر والمرقبات:\nويشمل هذا القسم إصلاح الذكر والمراقبات لتطهير النفس وقلب وعقل.\n- الأولي الاصلاح الذكر\n- ذكر على اللطيف (نقاط الاستشعار)\n- المرقبات\n\nالشجرة:\n- Shajira Iqbalia Shabbiria Versified (باللغة الفارسية)\n- Shajira Ashrafia Shabbiria Versified (باللغة الفارسية)\n- Shajrah Sadaat Kaka Khel مؤلف (بالباشتو)\n\n\nالخطب:\n- خطبة الجمعة 1\n- خطبة الجمعة 2\n- خطبة نكاح\n\n\nمعمولات متنوعة:\n- Mamulaat e Mubtahi (للمشايخ)\n- صلاح اختياري (نافل)\n- مجددي وأشرفي سلوق في خانقاه رحمكريا الإمدادية\n\nتم تطوير هذا التطبيق تحت إشراف القديس العظيم لهذا العصر ، عارف بالله حضرة سيد شبير أحمد كاكا خيل صاحب (دمات بركاتهم).\n\nحضرة الشيخ شبير هو شيخ صوفي مشهور يتبع القرآن والسنة بحماس ويشتهر بإرشاد الآخرين بعيدًا عن البدع والابتكارات إلى طريق التصوف الحقيقي ، والذي لا يمكن أن يأتي إلا من خلال الخضوع التام لأوامر الحبيب. الله عز وجل"
     },
     "category": {
@@ -954,14 +954,12 @@
         }
       }
     ],
-    "primary_color": "#ECF6F6",
+    "primary_color": "#005760",
     "logo": "https://play-lh.googleusercontent.com/Jb6np_mCe6pDixMzg2_r9GFXacc6wQP26jIIZnZlaTKeyHo3_1jh6VOSsNPpYidWyA=w240-h480-rw",
-    "main_image": "/images/projects/mamulaat.png",
+    "main_image": "/images/projects/mamulaat/hero.webp",
     "background_image": "/images/projects/mamulaat.png",
     "images_desktop": null,
     "images_mobile": [
-      "https://play-lh.googleusercontent.com/1e4pkWMKJscx4tcTMUEvSKelqdK6KsvHcv5fpL7G2G0cuITO48-fdZBHjZXoQ3XixrI=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/DoxqG88dG61amlBj08JY4iYiXJoS7xOENZUtMpegZvu3j7KXmaG-pIdhdXswj1snCdnE=w2560-h1440-rw",
       "https://play-lh.googleusercontent.com/Jxup5c8uSAG7Xz4Zl4eN1e__XqeNBzGHr-sGmALY9xhNyRqOZm6_fiRih4DfibscXD0=w2560-h1440-rw",
       "https://play-lh.googleusercontent.com/FxoLJCGVx0RmBkusTTlOOrOkdNCHqz09Z-Y3KYIu9_SNgNGqxSLhZFyO3jXVyFTSlw=w2560-h1440-rw",
       "https://play-lh.googleusercontent.com/FeeZRYN0f1N5zQLEd1TJo2IsOsZRV0zGv85UxGvrWNc5vf-6QbHnfSouedkZBpgUQB-c=w2560-h1440-rw",
@@ -1772,9 +1770,9 @@
       }
     },
     "links": {
-      "website": "https://freshfarm.ae",
-      "play_store": "https://play.google.com/store/apps/details?id=ferma.app.freshfarm",
-      "app_store": "https://apps.apple.com/ae/app/id1546330067",
+      "website": "https://justmeat.ae",
+      "play_store": "https://play.google.com/store/apps/details?id=ae.justmeat.app",
+      "app_store": "https://apps.apple.com/ae/app/id6446104956",
       "ms_store": null,
       "presentation": null,
       "behance": null
@@ -1805,18 +1803,18 @@
         }
       }
     ],
-    "primary_color": "#FFBE00",
-    "logo": "/images/projects/just meat/hero.webp",
+    "primary_color": "#FF9F2F",
+    "logo": "/images/projects/just meat/logo_jm.webp",
     "main_image": "/images/projects/just meat/hero.webp",
-    "background_image": "/images/projects/freshfarm/mobile/hero.webp",
+    "background_image": "/images/projects/just meat/hero.webp",
     "images_mobile": [
-      "/images/projects/just meat/1.webp",
-      "/images/projects/just meat/2.webp",
       "/images/projects/just meat/3.webp",
-      "/images/projects/just meat/4.webp",
       "/images/projects/just meat/5.webp",
       "/images/projects/just meat/6.webp",
       "/images/projects/just meat/7.webp",
+      "/images/projects/just meat/2.webp",
+      "/images/projects/just meat/1.webp",  
+      "/images/projects/just meat/4.webp",
       "/images/projects/just meat/8.webp",
       "/images/projects/just meat/9.webp",
       "/images/projects/just meat/10.webp",
@@ -1828,6 +1826,144 @@
       "/images/projects/just meat/16.webp",
       "/images/projects/just meat/17.webp",
       "/images/projects/just meat/18.webp"
+    ],
+    "client_id": 4,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": {
+      "ar": "منزلي",
+      "en": "Manzely"
+    },
+    "description": {
+      "ar": "التطبيق الأول من نوعه في المنطقة والذي يقدم خدمة توصيل اللحوم بأنواعها للمنازل .. بالإضافة إلى تشكيله كبيرة ومتعدد من منتجات اللحوم بطرق تقطيع وتغليف مختلفة تناسب جميع العائلات والمناسبات والعزائم",
+      "en": "The first application of its kind in the region, which provides the service of delivering meat of all kinds to homes .. in addition to fresh farm products, live birds and fresh eggs"
+    },
+    "category": {
+      "id": 4,
+      "name": {
+        "ar": "متجر / طعام",
+        "en": "ECommerce / Food"
+      }
+    },
+    "links": {
+      "website": "https://justmeat.ae",
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      }
+    ],
+    "primary_color": "#6699CC",
+    "logo": "/images/projects/manzly/logo.webp",
+    "main_image": "/images/projects/manzly/hero.webp",
+    "background_image": "/images/projects/manzly/hero.webp",
+    "images_mobile": [
+      "/images/projects/manzly/3.webp",
+      "/images/projects/manzly/6.webp",
+      "/images/projects/manzly/5.webp",
+      "/images/projects/manzly/7.webp",
+      "/images/projects/manzly/2.webp",
+      "/images/projects/manzly/1.webp",  
+      "/images/projects/manzly/4.webp",
+      "/images/projects/manzly/8.webp",
+      "/images/projects/manzly/9.webp",
+      "/images/projects/manzly/10.webp",
+      "/images/projects/manzly/11.webp"
     ],
     "client_id": 4,
     "country_id": 2,
