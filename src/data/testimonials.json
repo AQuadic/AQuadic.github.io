@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": {
+        "ar": "بدر",
+        "en": "Bader"
+      },
+      "position": {
+        "en": "CEO | Coifast",
+        "ar": "CEO | Coifast"
+      },
+      "description": {
+        "ar": "قدمت AQuadic خدمة رائعة لتطوير التطبيق. متجاوب للغاية ويقدم ملاحظات رائعة. 100 ٪ يوصي به ، محترف جدا!",
+        "en": " AQuadic provided a great service for the app development. Very responsive and providing great feedback. 100% recommend him, very professional!"
+      },
+      "image": "/images/testimonials/user.svg"
+     
+    },
+    {
+        "id": 2,
+        "name": {
+          "ar": "جينو فورسي",
+          "en": "Gino Furcy"
+        },
+        "position": {
+          "en": "Business Developer | Tikado",
+          "ar": "مطور أعمال | تيكادو"
+        },
+        "description": {
+          "ar": "لقد عملت مع شركة AQuadic في مشروع تطبيقات الهاتف المحمول الخاص بنا وبصراحة فهو موهوب جدا في مجال عمله. إنه مطور جوال خبير يستخدم الرفرفة ويعرف طريقه حول Firebase جيدا. يقبل التحديات بسهولة ويظهر بسرعة أنه على مستوى المهمة. رشيق جدا ، يتكيف مع التغييرات في نطاق المشروع بشكل جيد. لديه وقت استجابة سريع للغاية ويسعده مشاركة خبرته ومعرفته مع عملائه. معه في فريقي ،أنا متأكد من أن المشروع سيكتمل بنجاح.",
+          "en": "I worked with AQuadic company on our mobile application project and honestly he is very talented in his field of work. He is an expert mobile developer using flutter and knows his way around firebase very well. He accepts challenges easily and quickly shows that he is up to the task. Very agile, he copes with changes in project scope quite well. He has a Very quick turnaround time and is Happy to share his experience and knowledge with his customers. With him on my team, I’m assured that the project will be completed successfully."
+        },
+        "image": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/a2a487586c61ba3ee34eb753f0616440-1619433591788/3cc93c37-650f-444f-afef-2f3733d32d55.jfif"
+       
+    },
+    {
+        "id": 3,
+        "name": {
+          "ar": "سبيشال مان",
+          "en": "Specialman"
+        },
+        "position": {
+            "en": "CEO Company",
+            "ar": "الرئيس التنفيذي للشركة"
+          },
+        "description": {
+          "ar": "عمل جميل ، سوف تعمل معه دائما",
+          "en": "Nice work, will always work with him"
+        },
+        "image": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/ff2b4d69f72bbe9fb684950120230caf-1658659897675/24baef5a-3404-429e-90c3-57ba81c4f91f.jpg"
+       
+    }, 
+    {
+        "id": 4,
+        "name": {
+          "ar": "ويتني ماكليندو",
+          "en": "Whitney Mcclendo"
+        },
+        "position": {
+            "en": "CEO Company",
+            "ar": "الرئيس التنفيذي للشركة"
+          },
+        "description": {
+          "ar": "أكمل عملنا قبل 3 أيام !! هذه هي المرة الثالثة التي نعمل فيها مع AQuadic ، لكنها بالتأكيد ليست الأخيرة. إنه متواصل ممتاز وهو حقا جزء أساسي من نقل وظيفتك إلى المستوى التالي. كان من دواعي سروري العمل معه! لم يفوت أي إيقاع. شكرا جزيلا.",
+          "en": " He completed our work 3 days early!! This is the third time we have worked with AQuadic, but it's definitely not the last. He is an excellent communicator and really is an essential part of taking your job to the next level. It was a pleasure to work with him! He never missed a beat. Thank so so much."
+        },
+        "image": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/1d7273faeb9c7c9398706bad9b5b60ba-891545111593544541.4100041/0C1497CF-E72D-490C-9C59-5E3E6EFB827B"
+       
+    },
+    {
+        "id": 5,
+        "name": {
+          "ar": "احمد محمود",
+          "en": "Ahmed Muhammed"
+        },
+        "position": {
+            "en": "CEO Company",
+            "ar": "الرئيس التنفيذي للشركة"
+          },
+        "description": {
+          "ar": "لقد تأثرت بأن AQuadic فهم مشكلتي على الفور ولهذا السبب وافقت على العمل معه. وافق أيضا على مساعدتي في بعض المهام الصغيرة أثناء تطوير التطبيق في flutter. مهاراته واتصالاته هي الأفضل. أنا راض جدا وأتطلع إلى العمل معه في المستقبل.",
+          "en": " I was impressed that AQuadic understood my problem immediately and that's why I agreed to work with him. He also agreed to help me with some little tasks during the app development in flutter. His skills and communications are THE BEST. I am very satisfied and looking forward to work with him in the future."
+        },
+        "image": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/050370886c3ff7344f51676dd479a9da-1530970129204/e7140f76-6c9b-4bda-829b-d8a5b6f729a2.jpg"
+       
+    }
+  ]

@@ -1,0 +1,725 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ar": "تطوير الويب وسطح المكتب",
+      "en": "Web & Desktop\nDevelopment"
+    },
+    "description": {
+      "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+      "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+    },
+    "image": "/images/services/web.webp",
+    "classes": "one part complete",
+    "process": [
+      {
+        "id": "01",
+        "name": {
+          "en": "Plan",
+          "ar": "التخطيط"
+        },
+        "points": {
+          "en": [
+            "Business analysis",
+            "Documenting specifications",
+            "Preparing wireframes",
+            "Getting client approval"
+          ],
+          "ar": [
+            "تحليل المشروع",
+            "توثيق المواصفات",
+            "تحضير الإطارات الرئيسية",
+            "الحصول على موافقة العميل"
+          ]
+        }
+      },
+      {
+        "id": "02",
+        "name": {
+          "en": "Design",
+          "ar": "التصميم"
+        },
+        "points": {
+          "en": [
+            "Crafting app prototype",
+            "Making changes",
+            "Getting client approval",
+            "Implementing feedback"
+          ],
+          "ar": [
+            "صياغة نموذج أولي للتطبيق",
+            "إجراء التغييرات",
+            "الحصول على موافقة العميل",
+            "تنفيذ الملاحظات"
+          ]
+        }
+      },
+      {
+        "id": "03",
+        "name": {
+          "en": "Development",
+          "ar": "التطوير"
+        },
+        "points": {
+          "en": [
+            "Development strategy",
+            "Testing strategy",
+            "Product development",
+            "Product release"
+          ],
+          "ar": [
+            "استراتيجية التطوير",
+            "استراتيجية الاختبار",
+            "تطوير المنتج",
+            "إطلاق المنتج"
+          ]
+        }
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": {
+      "ar": "تطوير تطبيقات الجوال",
+      "en": "Mobile Development"
+    },
+    "description": {
+      "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+      "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+    },
+    "image": "/images/services/mobile.webp",
+    "classes": "two part nocomplete",
+    "process": [
+      {
+        "id": "01",
+        "name": {
+          "en": "Plan",
+          "ar": "التخطيط"
+        },
+        "points": {
+          "en": [
+            "Business analysis",
+            "Documenting specifications",
+            "Preparing wireframes",
+            "Getting client approval"
+          ],
+          "ar": [
+            "تحليل المشروع",
+            "توثيق المواصفات",
+            "تحضير الإطارات الرئيسية",
+            "الحصول على موافقة العميل"
+          ]
+        }
+      },
+      {
+        "id": "02",
+        "name": {
+          "en": "Design",
+          "ar": "التصميم"
+        },
+        "points": {
+          "en": [
+            "Crafting app prototype",
+            "Making changes",
+            "Getting client approval",
+            "Implementing feedback"
+          ],
+          "ar": [
+            "صياغة نموذج أولي للتطبيق",
+            "إجراء التغييرات",
+            "الحصول على موافقة العميل",
+            "تنفيذ الملاحظات"
+          ]
+        }
+      },
+      {
+        "id": "03",
+        "name": {
+          "en": "Development",
+          "ar": "التطوير"
+        },
+        "points": {
+          "en": [
+            "Development strategy",
+            "Testing strategy",
+            "Product development",
+            "Product release"
+          ],
+          "ar": [
+            "استراتيجية التطوير",
+            "استراتيجية الاختبار",
+            "تطوير المنتج",
+            "إطلاق المنتج"
+          ]
+        }
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": {
+      "ar": "تصميم المنتج و تجربة المستخدم",
+      "en": "Product design\nand UX/UI"
+    },
+    "description": {
+      "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+      "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+    },
+    "image": "/images/services/ui_ux.webp",
+    "classes": "three part nocomplete",
+    "process": [
+      {
+        "id": "01",
+        "name": {
+          "en": "Plan",
+          "ar": "التخطيط"
+        },
+        "points": {
+          "en": [
+            "Business analysis",
+            "Documenting specifications",
+            "Preparing wireframes",
+            "Getting client approval"
+          ],
+          "ar": [
+            "تحليل المشروع",
+            "توثيق المواصفات",
+            "تحضير الإطارات الرئيسية",
+            "الحصول على موافقة العميل"
+          ]
+        }
+      },
+      {
+        "id": "02",
+        "name": {
+          "en": "Design",
+          "ar": "التصميم"
+        },
+        "points": {
+          "en": [
+            "Crafting app prototype",
+            "Making changes",
+            "Getting client approval",
+            "Implementing feedback"
+          ],
+          "ar": [
+            "صياغة نموذج أولي للتطبيق",
+            "إجراء التغييرات",
+            "الحصول على موافقة العميل",
+            "تنفيذ الملاحظات"
+          ]
+        }
+      }
+    ],
+    "technologies": [
+      {
+        "id": 10,
+        "name": {
+          "en": "Adobe XD",
+          "ar": "ادوبي اكس دي"
+        },
+        "logo": "/images/technologies/xd2.svg",
+        "description": {
+          "en": "Adobe XD is a powerful and easy-to-use vector-based experience design platform that gives teams the tools they need to craft the world's best experiences collaboratively.",
+          "ar": "يعد Adobe XD نظامًا أساسيًا لتصميم التجربة قويًا وسهل الاستخدام يعتمد على المتجهات ويمنح الفرق الأدوات التي يحتاجونها لصياغة أفضل التجارب العالمية بشكل تعاوني."
+        }
+      },
+      {
+        "id": 11,
+        "name": {
+          "en": "Figma",
+          "ar": "فيجما"
+        },
+        "logo": "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&h=670&q=75&fit=max&auto=format",
+        "description": {
+          "en": "Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows.",
+          "ar": "Figma هو تطبيق ويب تعاوني لتصميم الواجهة ، مع ميزات إضافية غير متصلة بالإنترنت تم تمكينها بواسطة تطبيقات سطح المكتب لنظامي التشغيل macOS و Windows."
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": {
+      "ar": "حلول البرمجيات المخصصة",
+      "en": "Custom Software\nSolutions"
+    },
+    "description": {
+      "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+      "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+    },
+    "image": "/images/services/custom.webp",
+    "classes": "four part nocomplete",
+    "process": [
+      {
+        "id": "01",
+        "name": {
+          "en": "Plan",
+          "ar": "التخطيط"
+        },
+        "points": {
+          "en": [
+            "Business analysis",
+            "Documenting specifications",
+            "Preparing wireframes",
+            "Getting client approval"
+          ],
+          "ar": [
+            "تحليل المشروع",
+            "توثيق المواصفات",
+            "تحضير الإطارات الرئيسية",
+            "الحصول على موافقة العميل"
+          ]
+        }
+      },
+      {
+        "id": "02",
+        "name": {
+          "en": "Design",
+          "ar": "التصميم"
+        },
+        "points": {
+          "en": [
+            "Crafting app prototype",
+            "Making changes",
+            "Getting client approval",
+            "Implementing feedback"
+          ],
+          "ar": [
+            "صياغة نموذج أولي للتطبيق",
+            "إجراء التغييرات",
+            "الحصول على موافقة العميل",
+            "تنفيذ الملاحظات"
+          ]
+        }
+      },
+      {
+        "id": "03",
+        "name": {
+          "en": "Development",
+          "ar": "التطوير"
+        },
+        "points": {
+          "en": [
+            "Development strategy",
+            "Testing strategy",
+            "Product development",
+            "Product release"
+          ],
+          "ar": [
+            "استراتيجية التطوير",
+            "استراتيجية الاختبار",
+            "تطوير المنتج",
+            "إطلاق المنتج"
+          ]
+        }
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": {
+      "ar": "حلول التجارة الإلكترونية",
+      "en": "E-commerce Solutions"
+    },
+    "description": {
+      "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+      "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+    },
+    "image": "/images/services/ecommerce.webp",
+    "classes": "five part complete",
+    "process": [
+      {
+        "id": "01",
+        "name": {
+          "en": "Plan",
+          "ar": "التخطيط"
+        },
+        "points": {
+          "en": [
+            "Business analysis",
+            "Documenting specifications",
+            "Preparing wireframes",
+            "Getting client approval"
+          ],
+          "ar": [
+            "تحليل المشروع",
+            "توثيق المواصفات",
+            "تحضير الإطارات الرئيسية",
+            "الحصول على موافقة العميل"
+          ]
+        }
+      },
+      {
+        "id": "02",
+        "name": {
+          "en": "Design",
+          "ar": "التصميم"
+        },
+        "points": {
+          "en": [
+            "Crafting app prototype",
+            "Making changes",
+            "Getting client approval",
+            "Implementing feedback"
+          ],
+          "ar": [
+            "صياغة نموذج أولي للتطبيق",
+            "إجراء التغييرات",
+            "الحصول على موافقة العميل",
+            "تنفيذ الملاحظات"
+          ]
+        }
+      },
+      {
+        "id": "03",
+        "name": {
+          "en": "Development",
+          "ar": "التطوير"
+        },
+        "points": {
+          "en": [
+            "Development strategy",
+            "Testing strategy",
+            "Product development",
+            "Product release"
+          ],
+          "ar": [
+            "استراتيجية التطوير",
+            "استراتيجية الاختبار",
+            "تطوير المنتج",
+            "إطلاق المنتج"
+          ]
+        }
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": {
+      "ar": "فرق الدعم والاستعانة بمصادر خارجية",
+      "en": "Support and\nOutsourcing Teams"
+    },
+    "description": {
+      "ar": "تعد التكاليف المنخفضة ، ونسبة الوقت إلى السوق الأسرع ، ونتائج الأعمال الأفضل من بين أكبر مزايا استخدام خدمات الاستعانة بمصادر خارجية للبرامج. فكر في فرقنا كجزء من مؤسستك. علاوة على ذلك ، نختار دائمًا أعضاء الفريق وفقًا لمجال عملك.",
+      "en": "Lower costs, faster time-to-market ratio, and better business results are among the biggest advantages of using our software outsourcing services. Think of our teams as part of your organization. Furthermore, we always select the team members according to your industry."
+    },
+    "image": "/images/services/outsource.webp",
+    "classes": "sex part nocomplete",
+    "process": [
+      {
+        "id": "01",
+        "name": {
+          "en": "Plan",
+          "ar": "التخطيط"
+        },
+        "points": {
+          "en": [
+            "Business analysis",
+            "Documenting specifications",
+            "Preparing wireframes",
+            "Getting client approval"
+          ],
+          "ar": [
+            "تحليل المشروع",
+            "توثيق المواصفات",
+            "تحضير الإطارات الرئيسية",
+            "الحصول على موافقة العميل"
+          ]
+        }
+      },
+      {
+        "id": "02",
+        "name": {
+          "en": "Design",
+          "ar": "التصميم"
+        },
+        "points": {
+          "en": [
+            "Crafting app prototype",
+            "Making changes",
+            "Getting client approval",
+            "Implementing feedback"
+          ],
+          "ar": [
+            "صياغة نموذج أولي للتطبيق",
+            "إجراء التغييرات",
+            "الحصول على موافقة العميل",
+            "تنفيذ الملاحظات"
+          ]
+        }
+      },
+      {
+        "id": "03",
+        "name": {
+          "en": "Development",
+          "ar": "التطوير"
+        },
+        "points": {
+          "en": [
+            "Development strategy",
+            "Testing strategy",
+            "Product development",
+            "Product release"
+          ],
+          "ar": [
+            "استراتيجية التطوير",
+            "استراتيجية الاختبار",
+            "تطوير المنتج",
+            "إطلاق المنتج"
+          ]
+        }
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  }
+]

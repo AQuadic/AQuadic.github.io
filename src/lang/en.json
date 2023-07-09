@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "company": "Company",
+    "about_us": "About us",
+    "services": "Services",
+    "contact_us": "Contact us",
+    "team": "Team",
+    "career": "Career",
+    "hosting_sites": "Hosting sites",
+    "pricing_models": "Pricing models",
+    "payment_methods": "Payment methods"
+  },
+  "home": {
+    "heading": {
+      "part1": "We help",
+      "red": "Business",
+      "part2": "in their   \ndesign & development journey.",
+      "description": "Design and digital product development company. We create beautiful and functional web platforms, apps, and custom software solutions."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Software solution company established to help startups with technology and passion to start their journey in the market."
+    },
+    "numbers": {
+      "title": "AQuadic In Numbers",
+      "projects": "PROJECTS",
+      "clients": "CLIENTS",
+      "countries": "COUNTRIES"
+    },
+    "clients": {
+      "title": "Our Clients Are Our Partners"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "SeeMore":"See More",
+      "Readless":"Read less ▲"
+    }
+  },
+  "portfolio": {
+    "title": "Our Latest Creative Projects",
+    "noSearch":"No search results found",
+    "see_all": "See All Portfolio",
+    "view_details": "View Details",
+    "applications": "Applications",
+    "websites": "Websites",
+    "screens": "Screens",
+    "try_it_now": "Try it now",
+    "mobile": "Mobile",
+    "desktop": "Desktop",
+    "interested":"INTERESTED!",
+    "similar":"Have a look on similar Projects",
+    "overview":{
+      "title":"OverView",
+      "scope":"Scope",
+      "admin":"Admin Back Office",
+      "technology":"Technology",
+      "team":"Team",
+      "duration":"Duration"
+    }
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "services": {
+    "title": "Our Services",
+    "page":{
+      "process":"Process",
+      "ourCreative":"Our Creative",
+      "technologies":"Technologies",
+      "platforms":"platforms"
+    }
+  },
+  "team": {
+    "title": "Our People",
+    "description": "This is our team, a lot of smiling happy people who work hard to empower your Project.",
+    "worked_on": "Projects that have been worked on",
+   
+    "leadership": {
+      "title": "Our leadership team",
+      "description": "With over 100 years of combined experience, we've got a well-seasoned team at the helm."
+    },
+    "creative": {
+      "title": "Our Creative team",
+      "description": "These are the people that make the magic happen."
+    }
+  },
+  "career": {
+    "title": "Advance Your Career with AQuadic",
+    "join": {
+      "title": "Join Our Team",
+      "description": "We believe that people are the key to success and we feel proud every time when someone new is joining.We are driven by our mission to provide an informative and interactive environment to our employees that bring out the best in them."
+    },
+    "advantages": {
+      "title": "Benefits & Advantages",
+      "environment": {
+        "title": "Relaxed Environment",
+        "description": "Have a relaxed working environment, cool offices, and an open-minded community"
+      },
+      "opportunities": {
+        "title": "Learning opportunities",
+        "description": "Continuously learn, help others and improve personally and professionally"
+      },
+      "technologies": {
+        "title": "Latest Technologies",
+        "description": "Collaborate on challenging projects Working with the latest technologies"
+      }
+    },
+    "positions": {
+      "title": "Open Positions",
+      "learn_more": "Learn More",
+      "no_job":"No jobs currently available",
+      "cant_see_position": {
+        "title": "Can’t see a position that interests you?",
+        "description": "Please send your CV and write the name of the position you are interested in. We’ll get in touch with you once we open a suitable role."
+      }
+    },
+    "job": {
+      "description": "Job Description",
+      "requirements": "Requirements"
+    }
+  },
+  "contact_us": {
+    "title": "Get In Touch",
+    "subtitle": "Contact Info",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "t_pohne":"Phone",
+    "phone":"Enter your number",
+    "email": "Email",
+    "subject": "Subject",
+    "position": "Position",
+    "cv": "Upload your CV",
+    "message": "Leave your message...",
+    "send_message": "Send Message",
+    "send_application": "Send Application",
+    "thank":"Thank you !",
+    "thankTitle":" Thanks for contacting us, we will reply to you as soon as possible !"
+  },
+  "time_model": {
+    "title": "Top Product Pricing Strategies & Competitive Pricing Methods"
+  },
+  "hosting": {
+    "title": "Best Web Hosting for Small Businesses Find the right service for your business",
+    "visit": "Visit Site"
+  },
+  "footer": {
+    "rights_reserved": "All rights reserved.",
+    "aquadic": "AQuadic Software"
+  }
+}

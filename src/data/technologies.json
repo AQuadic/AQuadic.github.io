@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Android",
+      "ar": "أندرويد"
+    },
+    "logo": "/images/technologies/android2.webp",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "IOS",
+      "ar": "اي او اس"
+    },
+    "logo": "/images/technologies/ios.webp",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "AngularJS",
+      "ar": "انجولار جي اس"
+    },
+    "logo": "/images/technologies/angularjs.webp",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "JavaScript",
+      "ar": "جافا سكريبت"
+    },
+    "logo": "/images/technologies/js.webp",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Laravel",
+      "ar": "لاريفيل"
+    },
+    "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "en": "Whatsapp",
+      "ar": "واتساب"
+    },
+    "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+    "description": {
+      "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+      "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "en": "React",
+      "ar": "ريأكت"
+    },
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "NodeJs",
+      "ar": "نود جي اس"
+    },
+    "logo": "/images/technologies/nodejs.webp",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "en": "Flutter",
+      "ar": "فلاتر"
+    },
+    "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+    "description": {
+      "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+      "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "en": "Adobe XD",
+      "ar": "ادوبي اكس دي"
+    },
+    "logo": "/images/technologies/xd2.svg",
+    "description": {
+      "en": "Adobe XD is a powerful and easy-to-use vector-based experience design platform that gives teams the tools they need to craft the world's best experiences collaboratively.",
+      "ar": "يعد Adobe XD نظامًا أساسيًا لتصميم التجربة قويًا وسهل الاستخدام يعتمد على المتجهات ويمنح الفرق الأدوات التي يحتاجونها لصياغة أفضل التجارب العالمية بشكل تعاوني."
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "en": "Figma",
+      "ar": "فيجما"
+    },
+    "logo": "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&h=670&q=75&fit=max&auto=format",
+    "description": {
+      "en": "Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows.",
+      "ar": "Figma هو تطبيق ويب تعاوني لتصميم الواجهة ، مع ميزات إضافية غير متصلة بالإنترنت تم تمكينها بواسطة تطبيقات سطح المكتب لنظامي التشغيل macOS و Windows."
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "en": "AWS",
+      "ar": "اي دابليو اس"
+    },
+    "logo": "/images/technologies/aws.webp",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Firebase",
+      "ar": "فايربيز"
+    },
+    "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+    "description": {
+      "en": "",
+      "ar": ""
+    }
+  }
+]

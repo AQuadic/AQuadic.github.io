@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Junior Mobile Developer - Flutter",
+      "ar": "مطور برمجيات مبدئي - فلاتر"
+    },
+    "position": {
+      "en": "Full Time",
+      "ar": "عمل بدوام كلي"
+    },
+    "location": {
+      "en": "Alexandria - Egypt",
+      "ar": "الاسكندرية - مصر"
+    },
+    "description": {
+      "en": [
+        "Build mobile applications following industry best practices.",
+        "Build multi-platform apps for iOS and Android using Google’s Flutter development framework.",
+        "Design and develop high-volume, low-latency applications and deliver high availability and performance.",
+        "Build reusable code and libraries for future use.",
+        "Write well designed, scalable, robust, testable, efficient, and easily maintainable code",
+        "Participate in all phases of the development life-cycle",
+        "Assist in the preparation and deployment of releases of software components",
+        "Ensure designs are in compliance with specifications",
+        "Troubleshooting and debugging to optimize performance.",
+        "Work in an Agile environment of fast and efficient delivery without compromising product quality"
+      ],
+      "ar": [
+        "بناء تطبيقات الهاتف المحمول باتباع أفضل ممارسات الصناعة.",
+        "أنشئ تطبيقات متعددة الأنظمة الأساسية لنظامي التشغيل iOS و Android باستخدام إطار عمل تطوير Flutter من Google.",
+        "تصميم وتطوير تطبيقات كبيرة الحجم وذات زمن انتقال منخفض وتقديم أداء وأداء عاليين.",
+        "بناء رموز ومكتبات قابلة لإعادة الاستخدام لاستخدامها في المستقبل.",
+        "اكتب رمزًا جيدًا التصميم وقابل للتطوير وقوي وقابل للاختبار وفعال ويمكن صيانته بسهولة",
+        "المشاركة في جميع مراحل دورة حياة التطوير",
+        "المساعدة في إعداد ونشر إصدارات مكونات البرامج",
+        "تأكد من أن التصاميم مطابقة للمواصفات",
+        "استكشاف الأخطاء وإصلاحها وتصحيح الأخطاء لتحسين الأداء.",
+        "العمل في بيئة رشيقة من التسليم السريع والفعال دون المساس بجودة المنتج"
+      ]
+    },
+    "requirements": {
+      "en": [
+        "Bachelor’s degree in Computer Science, Engineering, or a related discipline.",
+        "+1 year Experience as flutter developer.",
+        "write reusable code.",
+        "Have experience with Flutter for both iOS and Android.",
+        "Familiar with state management tools such as provider or bloc.",
+        "Experience with RESTFUL APIs",
+        "Firebase (real-time database).",
+        "Maps (tracking &get location).",
+        "Familiarity with code versioning tools."
+      ],
+      "ar": [
+        "درجة البكالوريوس في علوم الكمبيوتر أو الهندسة أو تخصص ذي صلة.",
+        "+1 سنة خبرة كمطور فلاتر.",
+        "كتابة رمز قابل لإعادة الاستخدام.",
+        "تمتع بتجربة Flutter لكل من iOS و Android.",
+        "على دراية بأدوات إدارة الدولة مثل المزود أو الكتلة.",
+        "تجربة مع RESTFUL APIs",
+        "Firebase (قاعدة بيانات في الوقت الفعلي).",
+        "الخرائط (التتبع والحصول على الموقع).",
+        "الإلمام بأدوات إصدار التعليمات البرمجية."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Software Analyst/Tester (Fresh)",
+      "ar": "محلل برمجيات / مختبر (جديد)"
+    },
+    "position": {
+      "en": "Part Time",
+      "ar": "عمل بدوام جزئي"
+    },
+    "location": {
+      "en": "Alexandria - Egypt",
+      "ar": "الاسكندرية - مصر"
+    },
+    "description": {
+      "en": [
+        "Discuss project features and  requirements with clients",
+        "Design prototypes and map user experience",
+        "Convert requirements into detailed tasks for development",
+        "Communicate with the development team to discuss tasks from business and functional perspectives",
+        "Estimate, prioritize, plan, and coordinate tasks",
+        "Monitor project development closely and solve any problems related to execution that come up during development.",
+        "Creates test plans, tests scenarios, and tests cases from business and functional requirements",
+        "Executes tests",
+        "Communicates defects to the development team",
+        "Analyze and monitor system performance",
+        "Suggests product enhancements to improve user experience",
+        "Retest resolved bugs and perform regression tests"
+      ],
+      "ar": [
+        "ناقش ميزات المشروع ومتطلباته مع العملاء",
+        "تصميم النماذج الأولية وتخطيط تجربة المستخدم",
+        "تحويل المتطلبات إلى مهام مفصلة للتطوير",
+        "تواصل مع فريق التطوير لمناقشة المهام من منظور الأعمال والوظيفة",
+        "تقدير المهام وتحديد أولوياتها وتخطيطها وتنسيقها",
+        "مراقبة تطوير المشروع عن كثب وحل أي مشاكل تتعلق بالتنفيذ والتي تظهر أثناء التطوير.",
+        "يقوم بإنشاء خطط الاختبار ، وسيناريوهات الاختبارات ، وحالات الاختبارات من متطلبات العمل والمتطلبات الوظيفية",
+        "ينفذ الاختبارات",
+        "ينقل العيوب إلى فريق التطوير",
+        "تحليل ومراقبة أداء النظام",
+        "يقترح تحسينات المنتج لتحسين تجربة المستخدم",
+        "أعد اختبار الأخطاء التي تم حلها وقم بإجراء اختبارات الانحدار"
+      ]
+    },
+    "requirements": {
+      "en": [
+        "Gender: Female [Veiled]",
+        "No Experience is Required",
+        "Job Type: Full Time-Office Based",
+        "Weekend: Saturday-Sunday",
+        "Job Location: Alexandria, Tharwat"
+      ],
+      "ar": [
+        "الجنس: انثى [محجبات]",
+        "لا يشترط وجود خبرة",
+        "نوع الوظيفة: دوام كامل في المكتب",
+        "عطلة نهاية الأسبوع: من السبت إلى الأحد",
+        "مكان الوظيفة: الإسكندرية، ثروت"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Customer Service Specialist / Dispatcher",
+      "ar": "اخصائي خدمة العملاء / المرسل"
+    },
+    "position": {
+      "en": "Remotely",
+      "ar": "العمل من المنزل"
+    },
+    "location": {
+      "en": "Anywhere - Egypt",
+      "ar": "اي مكان - مصر"
+    },
+    "description": {
+      "en": [
+        "We are a US based company that focuses on the TOWING industry. We support service in 7 different cities in the US and we are growing rapidly! Our dispatching team is located in Cairo, Egypt supporting our main office in the US.",
+        "We are a rapidly growing company based out of Seattle WA with great potential.",
+        "All work is remotely and there are two shifts. The hours will be according to the Eastern (EST) and Pacific (PST) time zones",
+        "We are looking for driver dispatchers that have a strong background in sales. Previous experience in dispatching will be highly recommended but not required as we provide full end to end training.",
+        "Compensation will be a fixed salary with potential of adding bonuses and commissions."
+      ],
+      "ar": [
+        "نحن شركة مقرها الولايات المتحدة وتركز على صناعة TOWING. نحن ندعم الخدمة في 7 مدن مختلفة في الولايات المتحدة وننمو بسرعة! يقع فريق الإرسال لدينا في القاهرة ، مصر لدعم مكتبنا الرئيسي في الولايات المتحدة.",
+        "نحن شركة سريعة النمو مقرها سياتل واشنطن ولدينا إمكانات كبيرة.",
+        "كل العمل عن بعد وهناك نوبتان. ستكون الساعات وفقًا للمنطقة الزمنية الشرقية (EST) والمحيط الهادئ (PST)",
+        "نحن نبحث عن مرسلين للسائقين يتمتعون بخلفية قوية في المبيعات. الخبرة السابقة في الإرسال ستكون موصى بها بشدة ولكنها ليست مطلوبة لأننا نقدم تدريبًا كاملاً من البداية إلى النهاية.",
+        "سيكون التعويض راتبًا ثابتًا مع إمكانية إضافة علاوات وعمولات."
+      ]
+    },
+    "requirements": {
+      "en": [
+        "Identify prospects with all incoming customer calls and evaluate their position in the sales cycle; able to quickly analyze and pursue sales opportunities.",
+        "Identify service improvements or new ways of doing business by remaining current on industry trends, market activities, and competitors.",
+        "Prepare and sending quotes and proposals.",
+        "Manage the sales process through specific software programs.",
+        "Meet daily, weekly, and monthly sales targets.",
+        "Participating in sales team meetings.",
+        "Strong ability to turn an inquiry call to a sale",
+        "Negotiate/close deals, maintain customer satisfaction. and handle complaints or objections",
+        "Maintain quality service by establishing and enforcing organization standards.",
+        "Collaborate with team members to achieve better service results",
+        "Gather feedback from customers or prospects and share with internal teams",
+        "Effectively follow up with customers and providers to maintain excellent customer and account retention.",
+        "Professionally communicate and coordinate with drivers using relevant dispatch information and instructions.",
+        "Clearly log all information related to a dispatch call to dispatching system in a prompt and timely manner.",
+        "Able to work in a fast pace high performing call center/sales environment"
+      ],
+      "ar": [
+        "تحديد الآفاق مع جميع مكالمات العملاء الواردة وتقييم موقفهم في دورة المبيعات ؛ القدرة على تحليل فرص المبيعات ومتابعتها بسرعة.",
+        "حدد تحسينات الخدمة أو الطرق الجديدة لممارسة الأعمال التجارية من خلال مواكبة اتجاهات الصناعة وأنشطة السوق والمنافسين.",
+        "تحضير وإرسال عروض الأسعار والاقتراحات.",
+        "إدارة عملية البيع من خلال برامج محددة.",
+        "تلبية أهداف المبيعات اليومية والأسبوعية والشهرية.",
+        "المشاركة في اجتماعات فريق المبيعات.",
+        "قدرة قوية على تحويل مكالمة الاستفسار إلى بيع",
+        "التفاوض / إغلاق الصفقات ، والحفاظ على رضا العملاء. والتعامل مع الشكاوى أو الاعتراضات",
+        "الحفاظ على جودة الخدمة من خلال وضع وتطبيق معايير المنظمة.",
+        "تعاون مع أعضاء الفريق لتحقيق نتائج خدمة أفضل",
+        "اجمع التعليقات من العملاء أو العملاء المحتملين وشاركها مع الفرق الداخلية",
+        "المتابعة الفعالة مع العملاء والمقدمين للحفاظ على العملاء الممتازين والاحتفاظ بالحسابات.",
+        "التواصل والتنسيق بشكل احترافي مع السائقين باستخدام معلومات وإرشادات الإرسال ذات الصلة.",
+        "سجل بوضوح جميع المعلومات المتعلقة بمكالمة الإرسال إلى نظام الإرسال بطريقة سريعة وفي الوقت المناسب.",
+        "قادر على العمل في بيئة مبيعات / مركز اتصال عالية الأداء"
+      ]
+    }
+  }
+]

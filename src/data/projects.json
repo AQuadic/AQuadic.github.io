@@ -1,0 +1,2039 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ar": "اوريد للكتب",
+      "en": "ORead Books"
+    },
+    "description": {
+      "en": "App that focus on noval books expecially romantic books with good system of points that encourage you to read more and earn more",
+      "ar": "تطبيق خاص بالروايات وبالأخص الروايات الرومانسية ويشمل نظام نقاط للتشجيع على القراءة وكسب مزيد من النقاط، وايضاً العديد من المهام اليومية لخلق منافسة بين القراء وتشجيعهم علي القراءة."
+    },
+    "category": {
+      "id": 1,
+      "name": {
+        "ar": "كتب / قراءة",
+        "en": "Books / Reading"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": "https://www.behance.net/gallery/121040333/book-app-%28ui%29"
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+        "en": "Flutter",
+        "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+        "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      }
+    ],
+    "primary_color": "#F0602B",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+    "main_image": "/images/projects/oread/Hero.webp",
+    "background_image": "/images/projects/Hero.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/oread/1.webp",
+      "/images/projects/oread/2.webp",
+      "/images/projects/oread/3.webp",
+      "/images/projects/oread/4.webp",
+      "/images/projects/oread/5.webp",
+      "/images/projects/oread/6.webp",
+      "/images/projects/oread/7.webp",
+      "/images/projects/oread/8.webp",
+      "/images/projects/oread/9.webp",
+      "/images/projects/oread/10.webp",
+      "/images/projects/oread/11.webp",
+      "/images/projects/oread/12.webp"
+    ],
+    "client_id": 1,
+    "country_id": 1,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": {
+      "ar": "ام اس بلاير",
+      "en": "MS Player"
+    },
+    "description": {
+      "ar": "ام اس بلاير تطبيق لمشاهدة الأفلام والمسلسلات الجديدة",
+      "en": "MS Player is an Application to watch new movies and series"
+    },
+    "category": {
+      "id": 2,
+      "name": {
+        "ar": "محتوي مرئي / افلام",
+        "en": "Media / Movies"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ],
+    "primary_color": "#000000",
+    "logo": "https://sg-res.9appsdownloading.com/sg/res/jpg/c4/a0/18a180cb6ab3627b3942f3734dd2-944.jpg?x-oss-process=style/mq200",
+    "main_image": "/images/projects/msplayer.webp",
+    "background_image": "/images/projects/msplayer.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/msplayer.webp",
+      "/images/projects/msplayer.webp",
+      "/images/projects/msplayer.webp",
+      "/images/projects/msplayer.webp",
+      "/images/projects/msplayer.webp"
+    ],
+    "client_id": 2,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": {
+      "ar": "اوبتيما ليمو",
+      "en": "Optimalimo"
+    },
+    "description": {
+      "ar": "تطبيق لطلب وتأجير سيارات الليموزين",
+      "en": "Application to request or rent a limo"
+    },
+    "category": {
+      "id": 3,
+      "name": {
+        "ar": "مواصلات / ليموزين",
+        "en": "Transportation / Limo"
+      }
+    },
+    "links": {
+      "website": "https://optimalimos.com",
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 3,
+        "name": {
+          "en": "AngularJS",
+          "ar": "انجولار جي اس"
+        },
+        "logo": "/images/technologies/angularjs.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 4,
+        "name": {
+          "en": "JavaScript",
+          "ar": "جافا سكريبت"
+        },
+        "logo": "/images/technologies/js.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ],
+    "primary_color": "#392713",
+    "logo": "https://optimalimos.com/wp-content/uploads/2019/03/optima.png",
+    "main_image": "/images/projects/optimalimo.webp",
+    "background_image": "/images/projects/optimalimo.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/optimalimo.webp",
+      "/images/projects/optimalimo.webp",
+      "/images/projects/optimalimo.webp",
+      "/images/projects/optimalimo.webp",
+      "/images/projects/optimalimo.webp"
+    ],
+    "client_id": 3,
+    "country_id": 1,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": {
+      "ar": "فريش فارم",
+      "en": "Fresh Farm"
+    },
+    "description": {
+      "ar": "التطبيق الأول من نوعه في المنطقة والذي يقدم خدمة توصيل اللحوم بأنواعها للمنازل .. بالإضافة إلى المنتجات الزراعية الطازجة والطيور الحية والبيض الطازج",
+      "en": "The first application of its kind in the region, which provides the service of delivering meat of all kinds to homes .. in addition to fresh farm products, live birds and fresh eggs"
+    },
+    "category": {
+      "id": 4,
+      "name": {
+        "ar": "متجر / طعام",
+        "en": "ECommerce / Food"
+      }
+    },
+    "links": {
+      "website": "https://freshfarm.ae",
+      "play_store": "https://play.google.com/store/apps/details?id=ferma.app.freshfarm",
+      "app_store": "https://apps.apple.com/ae/app/id1546330067",
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      }
+    ],
+    "primary_color": "#FFBE00",
+    "logo": "https://freshfarm.ae/logo.svg",
+    "main_image": "/images/projects/freshfarm/mobile/hero.webp",
+    "background_image": "/images/projects/freshfarm/mobile/hero.webp",
+    "images_desktop": [
+      "/images/projects/freshfarm/web/web_image1.webp",
+      "/images/projects/freshfarm/web/web_image2.webp",
+      "/images/projects/freshfarm/web/web_image3.webp",
+      "/images/projects/freshfarm/web/web_image4.webp",
+      "/images/projects/freshfarm/web/web_image5.webp"
+    ],
+    "images_mobile": [
+      "/images/projects/freshfarm/mobile/1.webp",
+      "/images/projects/freshfarm/mobile/2.webp",
+      "/images/projects/freshfarm/mobile/3.webp",
+      "/images/projects/freshfarm/mobile/4.webp",
+      "/images/projects/freshfarm/mobile/5.webp",
+      "/images/projects/freshfarm/mobile/6.webp",
+      "/images/projects/freshfarm/mobile/7.webp",
+      "/images/projects/freshfarm/mobile/8.webp",
+      "/images/projects/freshfarm/mobile/9.webp",
+      "/images/projects/freshfarm/mobile/10.webp"
+    ],
+    "client_id": 4,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": {
+      "ar": "فايند هيلب",
+      "en": "Find Help"
+    },
+    "description": {
+      "ar": "ستجد كل الخدمات علي تطبيق فايند هيلب",
+      "en": "Find All The Services You Need In Find Help App"
+    },
+    "category": {
+      "id": 5,
+      "name": {
+        "ar": "خدمات",
+        "en": "Services"
+      }
+    },
+    "links": {
+      "website": "/find-help",
+      "play_store": "https://play.google.com/store/apps/details?id=com.findhelp.app",
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      }
+    ],
+    "primary_color": "#FCD368",
+    "logo": "/images/projects/findhelp/findhelp-logo.webp",
+    "main_image": "/images/projects/findhelp/web_cover.webp",
+    "background_image": "/images/projects/findhelp/.webp",
+    "images_desktop": [
+      "/images/projects/findhelp/web_image1.webp",
+      "/images/projects/findhelp/web_image2.webp",
+      "/images/projects/findhelp/web_image3.webp",
+      "/images/projects/findhelp/web_image4.webp"
+    ],
+    "images_mobile": [
+      "/images/projects/findhelp/mobile_image1.webp",
+      "/images/projects/findhelp/mobile_image2.webp",
+      "/images/projects/findhelp/mobile_image3.webp",
+      "/images/projects/findhelp/mobile_image4.webp",
+      "/images/projects/findhelp/mobile_image5.webp",
+      "/images/projects/findhelp/mobile_image6.webp",
+      "/images/projects/findhelp/mobile_image7.webp"
+    ],
+    "client_id": 5,
+    "country_id": 3,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": {
+      "ar": "كلاودا",
+      "en": "Cloudwa"
+    },
+    "description": {
+      "ar": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+      "en": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+    },
+    "category": {
+      "id": 5,
+      "name": {
+        "ar": "خدمات",
+        "en": "Services"
+      }
+    },
+    "links": {
+      "website": "https://whatsapp.aq-apps.xyz",
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      }
+    ],
+    "primary_color": "#7313FC",
+    "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+    "main_image": "/images/projects/cloudwa/cover.webp",
+    "background_image": "/images/projects/cloudwa/cover.webp",
+    "images_desktop": [
+      "/images/projects/cloudwa/image1.webp",
+      "/images/projects/cloudwa/image2.webp",
+      "/images/projects/cloudwa/image3.webp",
+      "/images/projects/cloudwa/image4.webp",
+      "/images/projects/cloudwa/image5.webp",
+      "/images/projects/cloudwa/image6.webp",
+      "/images/projects/cloudwa/image7.webp"
+    ],
+    "images_mobile": null,
+    "client_id": 5,
+    "country_id": 3,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": {
+      "ar": "رعاية",
+      "en": "Reaya"
+    },
+    "description": {
+      "ar": "يعد تطبيق رعاية تطبيقًا موثوقًا يوصلك بأفضل المؤسسات الطبية لحجز وحدة العناية المركزة الخاصة بك",
+      "en": "Reaya is a reliable app that will connect you with the best medical establishments to book your intensive care unit"
+    },
+    "category": {
+      "id": 6,
+      "name": {
+        "ar": "طبي",
+        "en": "Medical"
+      }
+    },
+    "links": {
+      "website": "https://reaya-eg.com",
+      "play_store": "https://play.google.com/store/apps/details?id=com.reayaeg.reaya",
+      "app_store": "https://apps.apple.com/eg/app/id1555018580",
+      "ms_store": null,
+      "presentation": null,
+      "behance": "https://www.behance.net/gallery/120118877/Reaya-Mobile-app"
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 10,
+        "name": {
+          "en": "Adobe XD",
+          "ar": "ادوبي اكس دي"
+        },
+        "logo": "/images/technologies/xd2.svg",
+        "description": {
+          "en": "Adobe XD is a powerful and easy-to-use vector-based experience design platform that gives teams the tools they need to craft the world's best experiences collaboratively.",
+          "ar": "يعد Adobe XD نظامًا أساسيًا لتصميم التجربة قويًا وسهل الاستخدام يعتمد على المتجهات ويمنح الفرق الأدوات التي يحتاجونها لصياغة أفضل التجارب العالمية بشكل تعاوني."
+        }
+      }
+    ],
+    "primary_color": "#0A4273",
+    "logo": "https://reaya-eg.com/img/logo.png",
+    "main_image": "/images/projects/reaya/mobile_cover.webp",
+    "background_image": "/images/projects/reaya/mobile_cover.webp",
+    "images_mobile": [
+      "/images/projects/reaya/mobile_image1.webp",
+      "/images/projects/reaya/mobile_image2.webp",
+      "/images/projects/reaya/mobile_image3.webp",
+      "/images/projects/reaya/mobile_image4.webp",
+      "/images/projects/reaya/mobile_image5.webp",
+      "/images/projects/reaya/mobile_image6.webp",
+      "/images/projects/reaya/mobile_image7.webp",
+      "/images/projects/reaya/mobile_image8.webp",
+      "/images/projects/reaya/mobile_image9.webp",
+      "/images/projects/reaya/mobile_image10.webp",
+      "/images/projects/reaya/mobile_image11.webp"
+    ],
+    "client_id": 5,
+    "country_id": 3,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": {
+      "ar": "معمولات السالكين",
+      "en": "Mamulaat"
+    },
+    "description": {
+      "en": "This app contains daily mamulaat that are very beneficial for every muslim especially for people who are related to any Khanqah or Sheikh.\n\nHere is the list of mamulaat that are included in this app\n\nRecitation \n\nDurrod o Salam and Manzil \n\nSupplications (Duas) \n\n Seeking Allah’s Protection \n\nZikr & Muraqbaat \n\nShajrah \n\nMiscellaneous Mamulaat \n\nThis app has been developed under supervision of great saint of this era, Arif Billah Hazrat Syed Shabbir Ahmed Kaka Khel Sahib (Damat Barkatuhum).",
+      "ar": "يحتوي هذا التطبيق على مامولات يومية مفيدة جدًا لكل مسلم خاصة للأشخاص المرتبطين بأي خانقاه أو شيخ.\n\nفيما يلي قائمة mamulaat المضمنة في هذا التطبيق\n\nالتلاوة:\n- فضل تلاوة السور المختلفة بعد الصلوات الواجبة\n- سورة ياسين\n- سورة الفتح\n- سورة واقية\n- سورة الملك\n- سورة الكهف\n\nدرد وسلام ومنزل:\n- 40 درود السلام\n- منزل جديد (للحماية من سحر وجنات)\n- درود طنجينا\n\nادعية\n- مناجاة مقبول (7 منازل مع خطبة).\n- خاتم خواجان\n- أدعية بعد الصلاة\n- ادعية الصباح والمساء\n- الدعاء لكل خطوة من خطوات الوضوء.\nطلب حفظ الله:\n- منجيات\n- آيات مستور (للحماية من الأعداء)\n- دعاء أنس\n- دعاء الحدسات (للحماية من جميع أنواع الحوادث)\n\nالذكر والمرقبات:\nويشمل هذا القسم إصلاح الذكر والمراقبات لتطهير النفس وقلب وعقل.\n- الأولي الاصلاح الذكر\n- ذكر على اللطيف (نقاط الاستشعار)\n- المرقبات\n\nالشجرة:\n- Shajira Iqbalia Shabbiria Versified (باللغة الفارسية)\n- Shajira Ashrafia Shabbiria Versified (باللغة الفارسية)\n- Shajrah Sadaat Kaka Khel مؤلف (بالباشتو)\n\n\nالخطب:\n- خطبة الجمعة 1\n- خطبة الجمعة 2\n- خطبة نكاح\n\n\nمعمولات متنوعة:\n- Mamulaat e Mubtahi (للمشايخ)\n- صلاح اختياري (نافل)\n- مجددي وأشرفي سلوق في خانقاه رحمكريا الإمدادية\n\nتم تطوير هذا التطبيق تحت إشراف القديس العظيم لهذا العصر ، عارف بالله حضرة سيد شبير أحمد كاكا خيل صاحب (دمات بركاتهم).\n\nحضرة الشيخ شبير هو شيخ صوفي مشهور يتبع القرآن والسنة بحماس ويشتهر بإرشاد الآخرين بعيدًا عن البدع والابتكارات إلى طريق التصوف الحقيقي ، والذي لا يمكن أن يأتي إلا من خلال الخضوع التام لأوامر الحبيب. الله عز وجل"
+    },
+    "category": {
+      "id": 1,
+      "name": {
+        "ar": "كتب / قراءة",
+        "en": "Books / Reading"
+      }
+    },
+    "links": {
+      "website": "https://tazkia.org",
+      "play_store": "https://play.google.com/store/apps/details?id=com.tazkia.mamulaat",
+      "app_store": "https://apps.apple.com/us/app/mamulaat/id1483535627",
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ],
+    "primary_color": "#005760",
+    "logo": "https://play-lh.googleusercontent.com/Jb6np_mCe6pDixMzg2_r9GFXacc6wQP26jIIZnZlaTKeyHo3_1jh6VOSsNPpYidWyA=w240-h480-rw",
+    "main_image": "/images/projects/mamulaat/hero.webp",
+    "background_image": "/images/projects/mamulaat.png",
+    "images_desktop": null,
+    "images_mobile": [
+      "https://play-lh.googleusercontent.com/Jxup5c8uSAG7Xz4Zl4eN1e__XqeNBzGHr-sGmALY9xhNyRqOZm6_fiRih4DfibscXD0=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/FxoLJCGVx0RmBkusTTlOOrOkdNCHqz09Z-Y3KYIu9_SNgNGqxSLhZFyO3jXVyFTSlw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/FeeZRYN0f1N5zQLEd1TJo2IsOsZRV0zGv85UxGvrWNc5vf-6QbHnfSouedkZBpgUQB-c=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/ygpm9w_ZQTe4dEvR6-wnJ-oCmU96G6nU_rhN2s-_gLe4810dqrORZd0HXd77LnPX1ykz=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/s9T3Tlo35DnmR3eLn5cBlBIu9BNtZB3qHRvqKirivAtbuGXs5egvtvXX1oly6o9CLJw=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/157aJbSKkBX8kUYY9_T5V3KX9ya5WGis5x6KC3OpThkmw2LBtJFEcA4S0nRdSOZ88Z8=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/IbK1IVo2TTgZBmg3i27TPfsVYbaq4y8qVykoCrkapNylNeRSTLEEFo1Tbz3ep0zMLw=w2560-h1440-rw"
+    ],
+    "client_id": 1,
+    "country_id": 1,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": {
+      "ar": "صيدلية",
+      "en": "Pharmacy"
+    },
+    "description": {
+      "en": "Pharmacy app for helping the clients and patients to get their staff without get out of the house, all that with delivery and shipping to their houses",
+      "ar": "تطبيق الصيدلة لمساعدة العملاء والمرضى على إيصال موظفيهم دون الخروج من المنزل ، كل ذلك بالتسليم والشحن إلى منازلهم"
+    },
+    "category": {
+      "id": 1,
+      "name": {
+        "ar": "متجر / طبي",
+        "en": "Ecommerce / Medical"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": "https://www.behance.net/gallery/116416769/pharmacy-app"
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ],
+    "primary_color": "#4EC3BD",
+    "logo": "/images/projects/pharmacy/logo.svg",
+    "main_image": "/images/projects/pharmacy/cover.webp",
+    "background_image": "/images/projects/pharmacy/cover.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/pharmacy/image1.webp",
+      "/images/projects/pharmacy/image2.webp",
+      "/images/projects/pharmacy/image3.webp",
+      "/images/projects/pharmacy/image4.webp",
+      "/images/projects/pharmacy/image5.webp",
+      "/images/projects/pharmacy/image6.webp",
+      "/images/projects/pharmacy/image7.webp",
+      "/images/projects/pharmacy/image8.webp"
+    ],
+    "client_id": 3,
+    "country_id": 1,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": {
+      "ar": "موظفين الوطنية",
+      "en": "Al Watania HR"
+    },
+    "description": {
+      "en": "HR Management",
+      "ar": "موظفين الوطنية"
+    },
+    "category": {
+      "id": 5,
+      "name": {
+        "ar": "خدمات / أدارة",
+        "en": "Services / HR"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ],
+    "primary_color": "#FADED8",
+    "logo": "https://alwatania.aquadic.com/icon.png",
+    "main_image": "/images/projects/alwatania_hr/cover.webp",
+    "background_image": "/images/projects/alwatania_hr/cover.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/alwatania_hr/image1.webp",
+      "/images/projects/alwatania_hr/image2.webp",
+      "/images/projects/alwatania_hr/image3.webp",
+      "/images/projects/alwatania_hr/image4.webp",
+      "/images/projects/alwatania_hr/image5.webp"
+    ],
+    "client_id": 3,
+    "country_id": 1,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": {
+      "ar": "سبيسي",
+      "en": "Spacey"
+    },
+    "description": {
+      "en": "Spacey for Co working spaces",
+      "ar": "سبيسي للمساحات المشتركة"
+    },
+    "category": {
+      "id": 5,
+      "name": {
+        "ar": "خدمات / أدارة",
+        "en": "Services / Management"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 13,
+        "name": {
+          "en": "Firebase",
+          "ar": "فايربيز"
+        },
+        "logo": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ],
+    "primary_color": "#0B0C34",
+    "logo": "https://alwatania.aquadic.com/icon.png",
+    "main_image": "/images/projects/spacey/cover.webp",
+    "background_image": "/images/projects/spacey/cover.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/spacey/image1.webp",
+      "/images/projects/spacey/image2.webp",
+      "/images/projects/spacey/image3.webp",
+      "/images/projects/spacey/image4.webp",
+      "/images/projects/spacey/image5.webp",
+      "/images/projects/spacey/image6.webp",
+      "/images/projects/spacey/image7.webp",
+      "/images/projects/spacey/image8.webp"
+    ],
+    "client_id": 3,
+    "country_id": 1,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": {
+      "ar": "إشهار",
+      "en": "Eshhaar"
+    },
+    "description": {
+      "ar": "بيع و اشتري كل اللي تحتاجه علي اشهار",
+      "en": "Sell and Buy everything you need on Eshhaar"
+    },
+    "category": {
+      "id": 4,
+      "name": {
+        "ar": "متجر / مستعمل",
+        "en": "ECommerce / Exchange"
+      }
+    },
+    "links": {
+      "website": "https://eshhaar.net",
+      "play_store": "https://play.google.com/store/apps/details?id=net.eshhaar.app",
+      "app_store": "https://apps.apple.com/kw/app/id6443860096",
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+          "en": "Flutter",
+          "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+          "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+          "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      }
+    ],
+    "primary_color": "#F15921",
+    "logo": "https://eshhaar.net/assets/images/logo/logo.png",
+    "main_image": "/images/projects/eshhaar/mobile_cover.webp",
+    "background_image": "/images/projects/eshhaar/mobile_cover.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/eshhaar/mobile_image1.webp",
+      "/images/projects/eshhaar/mobile_image2.webp",
+      "/images/projects/eshhaar/mobile_image3.webp",
+      "/images/projects/eshhaar/mobile_image4.webp",
+      "/images/projects/eshhaar/mobile_image5.webp",
+      "/images/projects/eshhaar/mobile_image6.webp",
+      "/images/projects/eshhaar/mobile_image7.webp"
+    ],
+    "client_id": 5,
+    "country_id": 3,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": {
+      "ar": "ميني اتش دي",
+      "en": "Mini HD"
+    },
+    "description": {
+      "ar": "ميني اتش دي هو تطبيق لمشاهدة الأفلام والمسلسلات الجديدة",
+      "en": "Mini HD is an Application to watch new movies and series"
+    },
+    "category": {
+      "id": 2,
+      "name": {
+        "ar": "محتوي مرئي / افلام",
+        "en": "Media / Movies"
+      }
+    },
+    "links": {
+      "website": null,
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": "https://www.behance.net/gallery/125932037/MiniHD-App"
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": {
+          "en": "Android",
+          "ar": "أندرويد"
+        },
+        "logo": "/images/technologies/android2.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": {
+          "en": "IOS",
+          "ar": "اي او اس"
+        },
+        "logo": "/images/technologies/ios.svg",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 5,
+        "name": {
+        "en": "Laravel",
+        "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+        "en": "",
+        "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "name": {
+        "en": "Flutter",
+        "ar": "فلاتر"
+        },
+        "logo": "https://assets.website-files.com/60d251a34163cf29e1220806/626accd8eefaec54f23310ba_flutter%20developer%20logo.png",
+        "description": {
+        "en": "Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. First described in 2015, Flutter was released in May 2017.",
+        "ar": "Flutter عبارة عن مجموعة أدوات تطوير برامج واجهة مستخدم مفتوحة المصدر تم إنشاؤها بواسطة Google. يتم استخدامه لتطوير تطبيقات عبر الأنظمة الأساسية لأنظمة Android و iOS و Linux و macOS و Windows و Google Fuchsia والويب من قاعدة بيانات واحدة. تم وصف Flutter لأول مرة في عام 2015 ، وتم إصداره في مايو 2017."
+        }
+      },
+      {
+        "id": 10,
+        "name": {
+        "en": "Adobe XD",
+        "ar": "ادوبي اكس دي"
+        },
+        "logo": "/images/technologies/xd2.svg",
+        "description": {
+        "en": "Adobe XD is a powerful and easy-to-use vector-based experience design platform that gives teams the tools they need to craft the world's best experiences collaboratively.",
+        "ar": "يعد Adobe XD نظامًا أساسيًا لتصميم التجربة قويًا وسهل الاستخدام يعتمد على المتجهات ويمنح الفرق الأدوات التي يحتاجونها لصياغة أفضل التجارب العالمية بشكل تعاوني."
+        }
+      }
+    ],
+    "primary_color": "#000000",
+    "logo": "/images/projects/movie/logo.webp",
+    "main_image": "/images/projects/movie/hero.webp",
+    "background_image": "/images/projects/movie/hero.webp",
+    "images_desktop": null,
+    "images_mobile": [
+      "/images/projects/movie/1.webp",
+      "/images/projects/movie/2.webp",
+      "/images/projects/movie/3.webp",
+      "/images/projects/movie/4.webp",
+      "/images/projects/movie/5.webp",
+      "/images/projects/movie/6.webp",
+      "/images/projects/movie/7.webp"
+    ],
+    "client_id": 2,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": {
+      "ar": "جست ميت",
+      "en": "Just Meat"
+    },
+    "description": {
+      "ar": "التطبيق الأول من نوعه في المنطقة والذي يقدم خدمة توصيل اللحوم بأنواعها للمنازل .. بالإضافة إلى تشكيله كبيرة ومتعدد من منتجات اللحوم بطرق تقطيع وتغليف مختلفة تناسب جميع العائلات والمناسبات والعزائم",
+      "en": "The first application of its kind in the region, which provides the service of delivering meat of all kinds to homes .. in addition to fresh farm products, live birds and fresh eggs"
+    },
+    "category": {
+      "id": 4,
+      "name": {
+        "ar": "متجر / طعام",
+        "en": "ECommerce / Food"
+      }
+    },
+    "links": {
+      "website": "https://justmeat.ae",
+      "play_store": "https://play.google.com/store/apps/details?id=ae.justmeat.app",
+      "app_store": "https://apps.apple.com/ae/app/id6446104956",
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      }
+    ],
+    "primary_color": "#FF9F2F",
+    "logo": "/images/projects/just meat/logo_jm.webp",
+    "main_image": "/images/projects/just meat/hero.webp",
+    "background_image": "/images/projects/just meat/hero.webp",
+    "images_mobile": [
+      "/images/projects/just meat/3.webp",
+      "/images/projects/just meat/5.webp",
+      "/images/projects/just meat/6.webp",
+      "/images/projects/just meat/7.webp",
+      "/images/projects/just meat/2.webp",
+      "/images/projects/just meat/1.webp",  
+      "/images/projects/just meat/4.webp",
+      "/images/projects/just meat/8.webp",
+      "/images/projects/just meat/9.webp",
+      "/images/projects/just meat/10.webp",
+      "/images/projects/just meat/11.webp",
+      "/images/projects/just meat/12.webp",
+      "/images/projects/just meat/13.webp",
+      "/images/projects/just meat/14.webp",
+      "/images/projects/just meat/15.webp",
+      "/images/projects/just meat/16.webp",
+      "/images/projects/just meat/17.webp",
+      "/images/projects/just meat/18.webp"
+    ],
+    "client_id": 4,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": {
+      "ar": "منزلي",
+      "en": "Manzely"
+    },
+    "description": {
+      "ar": "التطبيق الأول من نوعه في المنطقة والذي يقدم خدمة توصيل اللحوم بأنواعها للمنازل .. بالإضافة إلى تشكيله كبيرة ومتعدد من منتجات اللحوم بطرق تقطيع وتغليف مختلفة تناسب جميع العائلات والمناسبات والعزائم",
+      "en": "The first application of its kind in the region, which provides the service of delivering meat of all kinds to homes .. in addition to fresh farm products, live birds and fresh eggs"
+    },
+    "category": {
+      "id": 4,
+      "name": {
+        "ar": "متجر / طعام",
+        "en": "ECommerce / Food"
+      }
+    },
+    "links": {
+      "website": "https://justmeat.ae",
+      "play_store": null,
+      "app_store": null,
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      }
+    ],
+    "primary_color": "#6699CC",
+    "logo": "/images/projects/manzly/logo.webp",
+    "main_image": "/images/projects/manzly/hero.webp",
+    "background_image": "/images/projects/manzly/hero.webp",
+    "images_mobile": [
+      "/images/projects/manzly/3.webp",
+      "/images/projects/manzly/6.webp",
+      "/images/projects/manzly/5.webp",
+      "/images/projects/manzly/7.webp",
+      "/images/projects/manzly/2.webp",
+      "/images/projects/manzly/1.webp",  
+      "/images/projects/manzly/4.webp",
+      "/images/projects/manzly/8.webp",
+      "/images/projects/manzly/9.webp",
+      "/images/projects/manzly/10.webp",
+      "/images/projects/manzly/11.webp"
+    ],
+    "client_id": 4,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
+  }
+  
+]
