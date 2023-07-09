@@ -366,21 +366,26 @@
     ],
     "primary_color": "#FFBE00",
     "logo": "https://freshfarm.ae/logo.svg",
-    "main_image": "/images/projects/freshfarm/web_cover.webp",
-    "background_image": "/images/projects/freshfarm/web_cover.webp",
+    "main_image": "/images/projects/freshfarm/mobile/hero.webp",
+    "background_image": "/images/projects/freshfarm/mobile/hero.webp",
     "images_desktop": [
-      "/images/projects/freshfarm/web_image1.webp",
-      "/images/projects/freshfarm/web_image2.webp",
-      "/images/projects/freshfarm/web_image3.webp",
-      "/images/projects/freshfarm/web_image4.webp",
-      "/images/projects/freshfarm/web_image5.webp"
+      "/images/projects/freshfarm/web/web_image1.webp",
+      "/images/projects/freshfarm/web/web_image2.webp",
+      "/images/projects/freshfarm/web/web_image3.webp",
+      "/images/projects/freshfarm/web/web_image4.webp",
+      "/images/projects/freshfarm/web/web_image5.webp"
     ],
     "images_mobile": [
-      "https://freshfarm.ae/images/img_home.png",
-      "https://freshfarm.ae/images/img_app1.jpg",
-      "https://freshfarm.ae/images/img_app2.jpg",
-      "https://freshfarm.ae/images/img_app3.svg",
-      "https://freshfarm.ae/images/img_app4.svg"
+      "/images/projects/freshfarm/mobile/1.webp",
+      "/images/projects/freshfarm/mobile/2.webp",
+      "/images/projects/freshfarm/mobile/3.webp",
+      "/images/projects/freshfarm/mobile/4.webp",
+      "/images/projects/freshfarm/mobile/5.webp",
+      "/images/projects/freshfarm/mobile/6.webp",
+      "/images/projects/freshfarm/mobile/7.webp",
+      "/images/projects/freshfarm/mobile/8.webp",
+      "/images/projects/freshfarm/mobile/9.webp",
+      "/images/projects/freshfarm/mobile/10.webp"
     ],
     "client_id": 4,
     "country_id": 2,
@@ -528,7 +533,7 @@
       }
     ],
     "primary_color": "#FCD368",
-    "logo": "/find-help/image/logo.svg",
+    "logo": "/images/projects/findhelp/findhelp-logo.webp",
     "main_image": "/images/projects/findhelp/web_cover.webp",
     "background_image": "/images/projects/findhelp/web_cover.webp",
     "images_desktop": [
@@ -1748,5 +1753,151 @@
         "style": "small"
       }
     ]
+  },
+  {
+    "id": 14,
+    "name": {
+      "ar": "جست ميت",
+      "en": "Just Meat"
+    },
+    "description": {
+      "ar": "التطبيق الأول من نوعه في المنطقة والذي يقدم خدمة توصيل اللحوم بأنواعها للمنازل .. بالإضافة إلى تشكيله كبيرة ومتعدد من منتجات اللحوم بطرق تقطيع وتغليف مختلفة تناسب جميع العائلات والمناسبات والعزائم",
+      "en": "The first application of its kind in the region, which provides the service of delivering meat of all kinds to homes .. in addition to fresh farm products, live birds and fresh eggs"
+    },
+    "category": {
+      "id": 4,
+      "name": {
+        "ar": "متجر / طعام",
+        "en": "ECommerce / Food"
+      }
+    },
+    "links": {
+      "website": "https://freshfarm.ae",
+      "play_store": "https://play.google.com/store/apps/details?id=ferma.app.freshfarm",
+      "app_store": "https://apps.apple.com/ae/app/id1546330067",
+      "ms_store": null,
+      "presentation": null,
+      "behance": null
+    },
+    "technologies": [
+      {
+        "id": 5,
+        "name": {
+          "en": "Laravel",
+          "ar": "لاريفيل"
+        },
+        "logo": "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+        "description": {
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": {
+          "en": "Whatsapp",
+          "ar": "واتساب"
+        },
+        "logo": "https://whatsapp.aq-apps.xyz/icon.png",
+        "description": {
+          "en": "\nجاهز للاعلان عن\nشركتك مع AQ Whatsapp?\nقم على الفور بإخطار عملائك وزملائك في العمل بالحجوزات الجديدة والتحديثات والرسائل الإخبارية.طريقة أسرع وأرخص وموثوقة للتحقق من عملائك عبر whatsapp OTP.قم بجدولة آلاف الرسائل ليتم إرسالها تلقائيًا مع التركيز على عملك.",
+          "ar": "Ready To Promote Your New\nBusiness With AQ Whatsapp?\nInstantly notify your customers, co-workers with new reservations, updates and newsletters.Faster, Cheaper and Reliable way to verify your customers via whatsapp OTP.Schedule thousands of messages to be sent automatically while focusing on your business."
+        }
+      }
+    ],
+    "primary_color": "#FFBE00",
+    "logo": "/images/projects/just meat/hero.webp",
+    "main_image": "/images/projects/just meat/hero.webp",
+    "background_image": "/images/projects/freshfarm/mobile/hero.webp",
+    "images_mobile": [
+      "/images/projects/just meat/1.webp",
+      "/images/projects/just meat/2.webp",
+      "/images/projects/just meat/3.webp",
+      "/images/projects/just meat/4.webp",
+      "/images/projects/just meat/5.webp",
+      "/images/projects/just meat/6.webp",
+      "/images/projects/just meat/7.webp",
+      "/images/projects/just meat/8.webp",
+      "/images/projects/just meat/9.webp",
+      "/images/projects/just meat/10.webp",
+      "/images/projects/just meat/11.webp",
+      "/images/projects/just meat/12.webp",
+      "/images/projects/just meat/13.webp",
+      "/images/projects/just meat/14.webp",
+      "/images/projects/just meat/15.webp",
+      "/images/projects/just meat/16.webp",
+      "/images/projects/just meat/17.webp",
+      "/images/projects/just meat/18.webp"
+    ],
+    "client_id": 4,
+    "country_id": 2,
+    "services": [
+      {
+        "id": 1,
+        "name": {
+          "ar": "تطوير الويب وسطح المكتب",
+          "en": "Web & Desktop\nDevelopment"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create web that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/web.png",
+        "style": "large"
+      },
+      {
+        "id": 2,
+        "name": {
+          "ar": "تطوير تطبيقات الجوال",
+          "en": "Mobile Development"
+        },
+        "description": {
+          "ar": "نحن نصمم وننشئ الويب الذي يساعد في الوصول إلى أهداف العمل وإبهار العملاء وحل مشكلات المستخدم. سنوجهك خلال عملية تطوير البرامج وتصميم الجرافيك بالكامل وسنساعدك في مزيد من تطوير التطبيقات ، سواء من الناحية التقنية أو من ناحية الأعمال.",
+          "en": "We design and create apps that help reach business goals, amaze customers and solve user problems. We will guide you through the whole software development and graphic design process and help you with further app development, both technology and business-wise."
+        },
+        "image": "/images/services/mobile.png",
+        "style": "small"
+      },
+      {
+        "id": 3,
+        "name": {
+          "ar": "تصميم المنتج و تجربة المستخدم",
+          "en": "Product design\nand UX/UI"
+        },
+        "description": {
+          "ar": "لا يبدو التصميم الرائع جيدًا فحسب ، بل إنه أيضًا نقطة رئيسية للابتكار للشركات الحديثة ، حيث تعد سهولة الاستخدام وسهولة الخدمات من المزايا التجارية التنافسية الرئيسية. هذا هو السبب في أننا نتعامل مع تصميم المنتج و UX / UI على نفس القدر من الأهمية.",
+          "en": "Great design not only looks good, but It’s also a key point of innovation for modern companies, where user-friendliness and ease of services are major competitive business advantages. This is why we treat product design and UX/UI as equally important."
+        },
+        "image": "/images/services/ui_ux.png",
+        "style": "small"
+      },
+      {
+        "id": 4,
+        "name": {
+          "ar": "حلول البرمجيات المخصصة",
+          "en": "Custom Software\nSolutions"
+        },
+        "description": {
+          "ar": "بينما يمكن تلبية بعض احتياجات البرامج من خلال المنتجات الجاهزة المعدلة ، يتطلب البعض الآخر حلًا برمجيًا مخصصًا مبنيًا من الألف إلى الياء. بغض النظر عن الطريقة المناسبة لعملك ، فهي لا تحتاج فقط إلى تلبية احتياجاتك بل التكيف معها أثناء نموك.",
+          "en": "While some software needs can be met with modified off-the-shelf products, others require a custom software solution built from the ground up. Regardless of which method works for your business, it needs to not only fit your needs but adapt to them as you grow."
+        },
+        "image": "/images/services/custom.png",
+        "style": "small"
+      },
+      {
+        "id": 5,
+        "name": {
+          "ar": "حلول التجارة الإلكترونية",
+          "en": "E-commerce Solutions"
+        },
+        "description": {
+          "ar": "ستتمكن من الاختيار من بين مجموعة كاملة من حزم التجارة الإلكترونية والبرامج وأنظمة سلة التسوق التي تتراوح من تطبيقات الجوال ومواقع الويب وأنظمة تخطيط موارد المؤسسات وأنظمة الموارد البشرية التي توفر لك أفضل قيمة لاستثمارك.",
+          "en": "You’ll get to select from an entire range of E-commerce packages, software, and shopping cart systems ranging from mobile apps, websites, ERP, and Hr systems that provide you with the best value for your investment."
+        },
+        "image": "/images/services/ecommerce.png",
+        "style": "large"
+      }
+    ]
   }
+  
 ]
